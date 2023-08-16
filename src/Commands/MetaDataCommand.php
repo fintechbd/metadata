@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Fintech\MetaData\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MetaDataCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'metadata';
 
     public $description = 'My command';
 

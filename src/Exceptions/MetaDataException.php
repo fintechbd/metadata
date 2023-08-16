@@ -1,14 +1,14 @@
 <?php
 
-namespace VendorName\Skeleton\Exceptions;
+namespace Fintech\MetaData\Exceptions;
 
 use Exception;
 use Throwable;
 
 /**
- * Class SkeletonException
+ * Class MetaDataException
  */
-class SkeletonException extends Exception
+class MetaDataException extends Exception
 {
     /**
      * CoreException constructor.
