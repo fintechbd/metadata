@@ -2,9 +2,9 @@
 
 namespace Fintech\MetaData\Tests;
 
+use Fintech\MetaData\MetaDataServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Fintech\MetaData\MetaDataServiceProvider;
 
 class TestCase extends Orchestra
 {

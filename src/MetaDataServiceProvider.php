@@ -2,9 +2,9 @@
 
 namespace Fintech\MetaData;
 
-use Illuminate\Support\ServiceProvider;
 use Fintech\MetaData\Commands\InstallCommand;
 use Fintech\MetaData\Commands\MetaDataCommand;
+use Illuminate\Support\ServiceProvider;
 
 class MetaDataServiceProvider extends ServiceProvider
 {
