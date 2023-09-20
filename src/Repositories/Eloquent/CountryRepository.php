@@ -2,9 +2,13 @@
 
 namespace Fintech\MetaData\Repositories\Eloquent;
 
-use Fintech\MetaData\Exceptions\Eloquent\CountryRepository;
+use Fintech\MetaData\Exceptions\CountryRepositoryException;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
 /**
@@ -20,13 +24,13 @@ class CountryRepository implements InterfacesCountryRepository
 
     public function __construct()
     {
-       $model = app()->make(config('metadata.country_model', \App\Models\Country::class));
+        $model = app()->make(config('metadata.country_model', \Fintech\MetaData\Models\Country::class));
 
-       if (!$model instanceof Model) {
-           throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-       }
+        if (!$model instanceof Model) {
+            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
+        }
 
-       $this->model = $model;
+        $this->model = $model;
     }
 
     /**
@@ -146,7 +150,7 @@ class CountryRepository implements InterfacesCountryRepository
      * @return bool|null
      * @throws CountryRepositoryException
      */
-    public function delete(int|string $id)
+    public function delete(int|string $id): ?bool
     {
         try {
 
@@ -176,7 +180,7 @@ class CountryRepository implements InterfacesCountryRepository
      * @return bool|null
      * @throws CountryRepositoryException
      */
-    public function restore(int|string $id)
+    public function restore(int|string $id):?bool
     {
         if (!method_exists($this->model, 'restore')) {
             throw new InvalidArgumentException('This model does not have `Illuminate\Database\Eloquent\SoftDeletes` trait to perform restoration.');

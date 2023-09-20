@@ -3,6 +3,8 @@
 namespace Fintech\MetaData;
 
 use Fintech\MetaData\Interfaces\CountryRepository;
+use Fintech\MetaData\Repositories\Eloquent\CountryRepository as EloquentCountryRepository;
+use Fintech\MetaData\Repositories\Mongodb\CountryRepository as MongodbCountryRepository;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 
@@ -15,8 +17,8 @@ class RepositoryServiceProvider extends ServiceProvider implements DeferrablePro
     {
         $this->app->bind(CountryRepository::class, function () {
             return match(config('database.default')){
-                'mongodb' => new \Fintech\MetaData\Repositories\Mongodb\CountryRepository(),
-                default => new \Fintech\MetaData\Repositories\Eloquent\CountryRepository()
+                'mongodb' => new MongodbCountryRepository(),
+                default => new EloquentCountryRepository()
             };
         });
     }

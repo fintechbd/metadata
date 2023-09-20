@@ -2,7 +2,7 @@
 
 namespace Fintech\MetaData;
 
-use Fintech\MetaData\Services\V1\CountryService;
+use Fintech\MetaData\Services\CountryService;
 use Illuminate\Contracts\Container\BindingResolutionException;
 
 class MetaData
