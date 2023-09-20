@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('v1')->group(function () {
     Route::prefix('metadata')->group(function () {
+        Route::apiResource('countries', \Fintech\MetaData\Http\Controllers\V1\CountryController::class);
 
     });
 });
