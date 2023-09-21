@@ -9,6 +9,7 @@ class MetaData
 {
     /**
      * @return CountryService
+     *
      * @throws BindingResolutionException
      */
     public function country()

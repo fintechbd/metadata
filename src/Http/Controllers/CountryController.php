@@ -2,32 +2,30 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\CountryResource;
-use Fintech\MetaData\Http\Resources\CountryCollection;
 use Fintech\MetaData\Http\Requests\ImportCountryRequest;
+use Fintech\MetaData\Http\Requests\IndexCountryRequest;
 use Fintech\MetaData\Http\Requests\StoreCountryRequest;
 use Fintech\MetaData\Http\Requests\UpdateCountryRequest;
-use Fintech\MetaData\Http\Requests\IndexCountryRequest;
+use Fintech\MetaData\Http\Resources\CountryCollection;
+use Fintech\MetaData\Http\Resources\CountryResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
 /**
  * Class CountryController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to country
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class CountryController extends Controller
 {
     use ApiResponseTrait;
@@ -45,10 +43,8 @@ class CountryController extends Controller
      * Return a listing of the country resource as collection.
      *
      * ** ```paginate=false``` returns all resource as list not pagination **
-     * @lrd:end
      *
-     * @param IndexCountryRequest $request
-     * @return CountryCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexCountryRequest $request): CountryCollection|JsonResponse
     {
@@ -68,10 +64,9 @@ class CountryController extends Controller
     /**
      * @lrd:start
      * Create a new country resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreCountryRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreCountryRequest $request): JsonResponse
@@ -81,14 +76,14 @@ class CountryController extends Controller
 
             $country = \MetaData::country()->create($inputs);
 
-            if (!$country) {
+            if (! $country) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('metadata::messages.resource.created', ['model' => 'Country']),
-                'id' => $country->id
-             ]);
+                'id' => $country->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -99,10 +94,9 @@ class CountryController extends Controller
     /**
      * @lrd:start
      * Return a specified country resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return CountryResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): CountryResource|JsonResponse
@@ -111,7 +105,7 @@ class CountryController extends Controller
 
             $country = \MetaData::country()->read($id);
 
-            if (!$country) {
+            if (! $country) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Country', 'id' => strval($id)]));
             }
 
@@ -130,11 +124,9 @@ class CountryController extends Controller
     /**
      * @lrd:start
      * Update a specified country resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateCountryRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -144,13 +136,13 @@ class CountryController extends Controller
 
             $country = \MetaData::country()->read($id);
 
-            if (!$country) {
+            if (! $country) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Country', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::country()->update($id, $inputs)) {
+            if (! \MetaData::country()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -170,10 +162,11 @@ class CountryController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified country resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -183,11 +176,11 @@ class CountryController extends Controller
 
             $country = \MetaData::country()->read($id);
 
-            if (!$country) {
+            if (! $country) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Country', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::country()->destroy($id)) {
+            if (! \MetaData::country()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -208,9 +201,9 @@ class CountryController extends Controller
      * @lrd:start
      * Restore the specified country resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -219,11 +212,11 @@ class CountryController extends Controller
 
             $country = \MetaData::country()->read($id, true);
 
-            if (!$country) {
+            if (! $country) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Country', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::country()->restore($id)) {
+            if (! \MetaData::country()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -246,9 +239,6 @@ class CountryController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexCountryRequest $request
-     * @return JsonResponse
      */
     public function export(IndexCountryRequest $request): JsonResponse
     {
@@ -272,7 +262,6 @@ class CountryController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportCountryRequest $request
      * @return CountryCollection|JsonResponse
      */
     public function import(ImportCountryRequest $request): JsonResponse

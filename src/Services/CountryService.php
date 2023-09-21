@@ -2,12 +2,10 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\CountryRepository;
 
 /**
  * Class CountryService
- * @package Fintech\MetaData\Services
  *
  * @property-read CountryRepository $countryRepository
  */
@@ -15,7 +13,6 @@ class CountryService
 {
     /**
      * CountryService constructor.
-     * @param CountryRepository $countryRepository
      */
     public function __construct(CountryRepository $countryRepository)
     {
@@ -23,7 +20,6 @@ class CountryService
     }
 
     /**
-     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])

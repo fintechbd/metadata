@@ -16,7 +16,7 @@ class RepositoryServiceProvider extends ServiceProvider implements DeferrablePro
     public function register(): void
     {
         $this->app->bind(CountryRepository::class, function () {
-            return match(config('database.default')){
+            return match (config('database.default')) {
                 'mongodb' => new MongodbCountryRepository(),
                 default => new EloquentCountryRepository()
             };
