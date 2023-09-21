@@ -16,7 +16,7 @@ class MetaDataServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/metadata.php', 'metadata'
+            __DIR__.'/../config/metadata.php', 'fintech.metadata'
         );
 
         $this->app->register(RouteServiceProvider::class);
@@ -30,7 +30,7 @@ class MetaDataServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__.'/../config/metadata.php' => config_path('metadata.php'),
+            __DIR__.'/../config/metadata.php' => config_path('fintech/metadata.php'),
         ]);
 
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
