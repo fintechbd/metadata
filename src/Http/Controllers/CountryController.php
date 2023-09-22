@@ -8,6 +8,7 @@ use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
+use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Requests\ImportCountryRequest;
 use Fintech\MetaData\Http\Requests\IndexCountryRequest;
 use Fintech\MetaData\Http\Requests\StoreCountryRequest;
@@ -51,7 +52,7 @@ class CountryController extends Controller
         try {
             $inputs = $request->validated();
 
-            $countryPaginate = \MetaData::country()->list($inputs);
+            $countryPaginate = MetaData::country()->list($inputs);
 
             return new CountryCollection($countryPaginate);
 

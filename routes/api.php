@@ -16,7 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('v1')->group(function () {
     Route::prefix('metadata')->group(function () {
         Route::apiResource('countries', \Fintech\MetaData\Http\Controllers\CountryController::class);
-
+//        Route::apiResource('states', \Fintech\MetaData\Http\Controllers\StateController::class);
+//        Route::apiResource('cities', \Fintech\MetaData\Http\Controllers\CityController::class);
+//        Route::apiResource('banks', \Fintech\MetaData\Http\Controllers\BankController::class);
+//        Route::apiResource('bank-branches', \Fintech\MetaData\Http\Controllers\BankBranchController::class);
+//        Route::apiResource('fund-sources', \Fintech\MetaData\Http\Controllers\FundSourceController::class);
+//        Route::apiResource('occupations', \Fintech\MetaData\Http\Controllers\OccupationController::class);
+//        Route::apiResource('remittance-purposes', \Fintech\MetaData\Http\Controllers\RemittancePurposeController::class);
+//        Route::apiResource('remittance-purposes', \Fintech\MetaData\Http\Controllers\RemittancePurposeController::class);
     });
 });
 
