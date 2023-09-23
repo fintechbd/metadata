@@ -8,7 +8,6 @@ use Fintech\MetaData\Interfaces\RegionRepository;
 /**
  * Class RegionService
  * @package Fintech\MetaData\Services
- * @method bool create(array $inputs)
  * @property-read RegionRepository $regionRepository
  */
 class RegionService
@@ -17,7 +16,10 @@ class RegionService
      * RegionService constructor.
      * @param RegionRepository $regionRepository
      */
-    public function __construct(private RegionRepository $regionRepository) { }
+    public function __construct(RegionRepository $regionRepository)
+    {
+        $this->regionRepository = $regionRepository;
+    }
 
     /**
      * @param array $filters

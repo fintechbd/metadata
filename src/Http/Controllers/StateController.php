@@ -44,7 +44,7 @@ class StateController extends Controller
      * @lrd:start
      * Return a listing of the state resource as collection.
      *
-     * ** ```paginate=false``` returns all resource as list not pagination **
+     * *```paginate=false``` returns all resource as list not pagination*
      * @lrd:end
      *
      * @param IndexStateRequest $request

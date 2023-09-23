@@ -4,8 +4,10 @@ namespace Fintech\MetaData\Repositories\Mongodb;
 
 use Fintech\MetaData\Exceptions\StateRepositoryException;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Fintech\MetaData\Models\State;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use InvalidArgumentException;
+use Throwable;
 
 /**
  * Class StateRepository
@@ -20,13 +22,13 @@ class StateRepository implements InterfacesCountryRepository
 
     public function __construct()
     {
-        $model = app()->make(config('fintech.metadata.state_model', \Fintech\MetaData\Models\State::class));
+        $model = app()->make(config('fintech.metadata.state_model', State::class));
 
-       if (!$model instanceof Model) {
-           throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-       }
+        if (!$model instanceof Model) {
+            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
+        }
 
-       $this->model = $model;
+        $this->model = $model;
     }
 
     /**
@@ -60,13 +62,14 @@ class StateRepository implements InterfacesCountryRepository
     public function create(array $attributes = [])
     {
         try {
-            if ($this->model->saveOrFail($attributes)) {
+            $this->model->fill($attributes);
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 
                 return $this->model;
             }
-        } catch (\Throwable $e) {
+        } catch (Throwable $e) {
 
             throw new StateRepositoryException($e->getMessage(), 0, $e);
         }
@@ -88,7 +91,7 @@ class StateRepository implements InterfacesCountryRepository
 
             $this->model = $this->model->findOrFail($id);
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
         }
@@ -100,7 +103,7 @@ class StateRepository implements InterfacesCountryRepository
 
                 return $this->model;
             }
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new StateRepositoryException($exception->getMessage(), 0, $exception);
         }
@@ -122,7 +125,7 @@ class StateRepository implements InterfacesCountryRepository
 
             $this->model = $this->model->findOrFail($id);
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
         }
@@ -131,7 +134,7 @@ class StateRepository implements InterfacesCountryRepository
 
             return $this->model->deleteOrFail();
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new StateRepositoryException($exception->getMessage(), 0, $exception);
         }
@@ -152,7 +155,7 @@ class StateRepository implements InterfacesCountryRepository
 
             $this->model = $this->model->findOrFail($id);
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
         }
@@ -161,7 +164,7 @@ class StateRepository implements InterfacesCountryRepository
 
             return $this->model->deleteOrFail();
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new StateRepositoryException($exception->getMessage(), 0, $exception);
         }
@@ -186,7 +189,7 @@ class StateRepository implements InterfacesCountryRepository
 
             $this->model = $this->model->onlyTrashed()->findOrFail($id);
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
         }
@@ -195,7 +198,7 @@ class StateRepository implements InterfacesCountryRepository
 
             return $this->model->deleteOrFail();
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new StateRepositoryException($exception->getMessage(), 0, $exception);
         }

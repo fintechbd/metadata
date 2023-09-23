@@ -3,9 +3,9 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\MetaData\Exceptions\RegionRepositoryException;
-use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
-use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Fintech\MetaData\Interfaces\RegionRepository as InterfacesRegionRepository;
 use Illuminate\Contracts\Database\Eloquent\Builder;
+use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
@@ -15,7 +15,7 @@ use InvalidArgumentException;
  * Class RegionRepository
  * @package Fintech\MetaData\Repositories\Eloquent
  */
-class RegionRepository implements InterfacesCountryRepository
+class RegionRepository implements InterfacesRegionRepository
 {
     /**
      * @var $model Model
@@ -24,13 +24,13 @@ class RegionRepository implements InterfacesCountryRepository
 
     public function __construct()
     {
-       $model = app()->make(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
+        $model = app()->make(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
 
-       if (!$model instanceof Model) {
-           throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-       }
+        if (!$model instanceof Model) {
+            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
+        }
 
-       $this->model = $model;
+        $this->model = $model;
     }
 
     /**
@@ -64,7 +64,9 @@ class RegionRepository implements InterfacesCountryRepository
     public function create(array $attributes = [])
     {
         try {
-            if ($this->model->saveOrFail($attributes)) {
+            $this->model->fill($attributes);
+
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 

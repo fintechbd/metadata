@@ -3,7 +3,7 @@
 namespace Fintech\MetaData\Repositories\Mongodb;
 
 use Fintech\MetaData\Exceptions\RegionRepositoryException;
-use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Fintech\MetaData\Interfaces\RegionRepository as InterfacesRegionRepository;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use InvalidArgumentException;
 
@@ -11,7 +11,7 @@ use InvalidArgumentException;
  * Class RegionRepository
  * @package Fintech\MetaData\Repositories\Mongodb
  */
-class RegionRepository implements InterfacesCountryRepository
+class RegionRepository implements InterfacesRegionRepository
 {
     /**
      * @var $model Model
@@ -22,11 +22,11 @@ class RegionRepository implements InterfacesCountryRepository
     {
         $model = app()->make(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
 
-       if (!$model instanceof Model) {
-           throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-       }
+        if (!$model instanceof Model) {
+            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
+        }
 
-       $this->model = $model;
+        $this->model = $model;
     }
 
     /**
@@ -60,7 +60,8 @@ class RegionRepository implements InterfacesCountryRepository
     public function create(array $attributes = [])
     {
         try {
-            if ($this->model->saveOrFail($attributes)) {
+            $this->model->fill($attributes);
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 

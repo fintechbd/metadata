@@ -44,7 +44,7 @@ class BankBranchController extends Controller
      * @lrd:start
      * Return a listing of the bankBranch resource as collection.
      *
-     * ** ```paginate=false``` returns all resource as list not pagination **
+     * *```paginate=false``` returns all resource as list not pagination*
      * @lrd:end
      *
      * @param IndexBankBranchRequest $request

@@ -44,7 +44,7 @@ class RemittancePurposeController extends Controller
      * @lrd:start
      * Return a listing of the remittancePurpose resource as collection.
      *
-     * ** ```paginate=false``` returns all resource as list not pagination **
+     * *```paginate=false``` returns all resource as list not pagination*
      * @lrd:end
      *
      * @param IndexRemittancePurposeRequest $request

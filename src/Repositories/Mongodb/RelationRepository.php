@@ -60,7 +60,8 @@ class RelationRepository implements InterfacesCountryRepository
     public function create(array $attributes = [])
     {
         try {
-            if ($this->model->saveOrFail($attributes)) {
+            $this->model->fill($attributes);
+if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 
