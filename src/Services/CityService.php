@@ -2,12 +2,10 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\CityRepository;
 
 /**
  * Class CityService
- * @package Fintech\MetaData\Services
  *
  * @property-read CityRepository $cityRepository
  */
@@ -15,12 +13,12 @@ class CityService
 {
     /**
      * CityService constructor.
-     * @param CityRepository $cityRepository
      */
-    public function __construct(private CityRepository $cityRepository) { }
+    public function __construct(private CityRepository $cityRepository)
+    {
+    }
 
     /**
-     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])

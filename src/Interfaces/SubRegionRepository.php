@@ -11,7 +11,6 @@ use MongoDB\Laravel\Eloquent\Model as MongodbModel;
 
 /**
  * Interface SubRegionRepository
- * @package Fintech\MetaData\Interfaces
  */
 interface SubRegionRepository
 {
@@ -19,7 +18,6 @@ interface SubRegionRepository
      * return a list or pagination of items from
      * filtered options
      *
-     * @param array $filters
      * @return LengthAwarePaginator|Builder[]|Collection
      */
     public function list(array $filters = []);
@@ -27,8 +25,8 @@ interface SubRegionRepository
     /**
      * Create a new entry resource
      *
-     * @param array $attributes
      * @return EloquentModel|MongodbModel|null
+     *
      * @throws SubRegionRepositoryException
      */
     public function create(array $attributes = []);
@@ -36,9 +34,8 @@ interface SubRegionRepository
     /**
      * find and update a resource attributes
      *
-     * @param int|string $id
-     * @param array $attributes
      * @return EloquentModel|MongodbModel|null
+     *
      * @throws SubRegionRepositoryException
      */
     public function update(int|string $id, array $attributes = []);
@@ -46,9 +43,9 @@ interface SubRegionRepository
     /**
      * find and delete a entry from records
      *
-     * @param string|int $id
-     * @param bool $onlyTrashed
+     * @param  bool  $onlyTrashed
      * @return EloquentModel|MongodbModel|null
+     *
      * @throws SubRegionRepositoryException
      */
     public function read(int|string $id, $onlyTrashed = false);
@@ -56,8 +53,8 @@ interface SubRegionRepository
     /**
      * find and delete a entry from records
      *
-     * @param string|int $id
      * @return bool|null
+     *
      * @throws SubRegionRepositoryException
      */
     public function delete(int|string $id);
@@ -65,8 +62,8 @@ interface SubRegionRepository
     /**
      * find and restore a entry from records
      *
-     * @param string|int $id
      * @return bool|null
+     *
      * @throws \InvalidArgumentException
      * @throws SubRegionRepositoryException
      */

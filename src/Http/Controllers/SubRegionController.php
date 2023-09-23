@@ -2,32 +2,30 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\SubRegionResource;
-use Fintech\MetaData\Http\Resources\SubRegionCollection;
 use Fintech\MetaData\Http\Requests\ImportSubRegionRequest;
+use Fintech\MetaData\Http\Requests\IndexSubRegionRequest;
 use Fintech\MetaData\Http\Requests\StoreSubRegionRequest;
 use Fintech\MetaData\Http\Requests\UpdateSubRegionRequest;
-use Fintech\MetaData\Http\Requests\IndexSubRegionRequest;
+use Fintech\MetaData\Http\Resources\SubRegionCollection;
+use Fintech\MetaData\Http\Resources\SubRegionResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
 /**
  * Class SubRegionController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to subRegion
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class SubRegionController extends Controller
 {
     use ApiResponseTrait;
@@ -45,10 +43,8 @@ class SubRegionController extends Controller
      * Return a listing of the subRegion resource as collection.
      *
      * ** ```paginate=false``` returns all resource as list not pagination **
-     * @lrd:end
      *
-     * @param IndexSubRegionRequest $request
-     * @return SubRegionCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexSubRegionRequest $request): SubRegionCollection|JsonResponse
     {
@@ -68,10 +64,9 @@ class SubRegionController extends Controller
     /**
      * @lrd:start
      * Create a new subRegion resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreSubRegionRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreSubRegionRequest $request): JsonResponse
@@ -81,14 +76,14 @@ class SubRegionController extends Controller
 
             $subRegion = \MetaData::subRegion()->create($inputs);
 
-            if (!$subRegion) {
+            if (! $subRegion) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('metadata::messages.resource.created', ['model' => 'SubRegion']),
-                'id' => $subRegion->id
-             ]);
+                'id' => $subRegion->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -99,10 +94,9 @@ class SubRegionController extends Controller
     /**
      * @lrd:start
      * Return a specified subRegion resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return SubRegionResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): SubRegionResource|JsonResponse
@@ -111,7 +105,7 @@ class SubRegionController extends Controller
 
             $subRegion = \MetaData::subRegion()->read($id);
 
-            if (!$subRegion) {
+            if (! $subRegion) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'SubRegion', 'id' => strval($id)]));
             }
 
@@ -130,11 +124,9 @@ class SubRegionController extends Controller
     /**
      * @lrd:start
      * Update a specified subRegion resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateSubRegionRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -144,13 +136,13 @@ class SubRegionController extends Controller
 
             $subRegion = \MetaData::subRegion()->read($id);
 
-            if (!$subRegion) {
+            if (! $subRegion) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'SubRegion', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::subRegion()->update($id, $inputs)) {
+            if (! \MetaData::subRegion()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -170,10 +162,11 @@ class SubRegionController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified subRegion resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -183,11 +176,11 @@ class SubRegionController extends Controller
 
             $subRegion = \MetaData::subRegion()->read($id);
 
-            if (!$subRegion) {
+            if (! $subRegion) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'SubRegion', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::subRegion()->destroy($id)) {
+            if (! \MetaData::subRegion()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -208,9 +201,9 @@ class SubRegionController extends Controller
      * @lrd:start
      * Restore the specified subRegion resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -219,11 +212,11 @@ class SubRegionController extends Controller
 
             $subRegion = \MetaData::subRegion()->read($id, true);
 
-            if (!$subRegion) {
+            if (! $subRegion) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'SubRegion', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::subRegion()->restore($id)) {
+            if (! \MetaData::subRegion()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -246,9 +239,6 @@ class SubRegionController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexSubRegionRequest $request
-     * @return JsonResponse
      */
     public function export(IndexSubRegionRequest $request): JsonResponse
     {
@@ -272,7 +262,6 @@ class SubRegionController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportSubRegionRequest $request
      * @return SubRegionCollection|JsonResponse
      */
     public function import(ImportSubRegionRequest $request): JsonResponse

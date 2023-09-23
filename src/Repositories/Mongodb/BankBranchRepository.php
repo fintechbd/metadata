@@ -13,12 +13,11 @@ use MongoDB\Laravel\Eloquent\Model;
 
 /**
  * Class BankBranchRepository
- * @package Fintech\MetaData\Repositories\Mongodb
  */
 class BankBranchRepository implements InterfacesCountryRepository
 {
     /**
-     * @var $model Model
+     * @var Model
      */
     private Model $model;
 
@@ -26,18 +25,17 @@ class BankBranchRepository implements InterfacesCountryRepository
     {
         $model = app()->make(config('fintech.metadata.bank_branch_model', \Fintech\MetaData\Models\BankBranch::class));
 
-       if (!$model instanceof Model) {
-           throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-       }
+        if (! $model instanceof Model) {
+            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
+        }
 
-       $this->model = $model;
+        $this->model = $model;
     }
 
     /**
      * return a list or pagination of items from
      * filtered options
      *
-     * @param array $filters
      * @return LengthAwarePaginator|Builder[]|Collection
      */
     public function list(array $filters = [])
@@ -57,8 +55,8 @@ class BankBranchRepository implements InterfacesCountryRepository
     /**
      * Create a new entry resource
      *
-     * @param array $attributes
      * @return Model|null
+     *
      * @throws BankBranchRepositoryException
      */
     public function create(array $attributes = [])
@@ -81,9 +79,8 @@ class BankBranchRepository implements InterfacesCountryRepository
     /**
      * find and update a resource attributes
      *
-     * @param int|string $id
-     * @param array $attributes
      * @return Model|null
+     *
      * @throws BankBranchRepositoryException
      */
     public function update(int|string $id, array $attributes = [])
@@ -115,9 +112,9 @@ class BankBranchRepository implements InterfacesCountryRepository
     /**
      * find and delete a entry from records
      *
-     * @param string|int $id
-     * @param bool $onlyTrashed
+     * @param  bool  $onlyTrashed
      * @return bool|null
+     *
      * @throws BankBranchRepositoryException
      */
     public function read(int|string $id, $onlyTrashed = false)
@@ -146,8 +143,8 @@ class BankBranchRepository implements InterfacesCountryRepository
     /**
      * find and delete a entry from records
      *
-     * @param string|int $id
      * @return bool|null
+     *
      * @throws BankBranchRepositoryException
      */
     public function delete(int|string $id)
@@ -176,13 +173,13 @@ class BankBranchRepository implements InterfacesCountryRepository
     /**
      * find and restore a entry from records
      *
-     * @param string|int $id
      * @return bool|null
+     *
      * @throws BankBranchRepositoryException
      */
     public function restore(int|string $id)
     {
-        if (!method_exists($this->model, 'restore')) {
+        if (! method_exists($this->model, 'restore')) {
             throw new InvalidArgumentException('This model does not have `Illuminate\Database\Eloquent\SoftDeletes` trait to perform restoration.');
         }
 

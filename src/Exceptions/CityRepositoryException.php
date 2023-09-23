@@ -4,7 +4,6 @@ namespace Fintech\MetaData\Exceptions;
 
 /**
  * Class CityRepositoryException
- * @package Fintech\MetaData\Exceptions
  */
 class CityRepositoryException extends \Exception
 {

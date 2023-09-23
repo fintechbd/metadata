@@ -2,12 +2,10 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\OccupationRepository;
 
 /**
  * Class OccupationService
- * @package Fintech\MetaData\Services
  *
  * @property-read OccupationRepository $occupationRepository
  */
@@ -15,12 +13,12 @@ class OccupationService
 {
     /**
      * OccupationService constructor.
-     * @param OccupationRepository $occupationRepository
      */
-    public function __construct(private OccupationRepository $occupationRepository) { }
+    public function __construct(private OccupationRepository $occupationRepository)
+    {
+    }
 
     /**
-     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])

@@ -2,12 +2,10 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\SubRegionRepository;
 
 /**
  * Class SubRegionService
- * @package Fintech\MetaData\Services
  *
  * @property-read SubRegionRepository $subRegionRepository
  */
@@ -15,12 +13,12 @@ class SubRegionService
 {
     /**
      * SubRegionService constructor.
-     * @param SubRegionRepository $subRegionRepository
      */
-    public function __construct(private SubRegionRepository $subRegionRepository) { }
+    public function __construct(private SubRegionRepository $subRegionRepository)
+    {
+    }
 
     /**
-     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])

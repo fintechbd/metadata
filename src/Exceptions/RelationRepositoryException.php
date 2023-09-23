@@ -4,7 +4,6 @@ namespace Fintech\MetaData\Exceptions;
 
 /**
  * Class RelationRepositoryException
- * @package Fintech\MetaData\Exceptions
  */
 class RelationRepositoryException extends \Exception
 {

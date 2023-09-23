@@ -2,32 +2,30 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\OccupationResource;
-use Fintech\MetaData\Http\Resources\OccupationCollection;
 use Fintech\MetaData\Http\Requests\ImportOccupationRequest;
+use Fintech\MetaData\Http\Requests\IndexOccupationRequest;
 use Fintech\MetaData\Http\Requests\StoreOccupationRequest;
 use Fintech\MetaData\Http\Requests\UpdateOccupationRequest;
-use Fintech\MetaData\Http\Requests\IndexOccupationRequest;
+use Fintech\MetaData\Http\Resources\OccupationCollection;
+use Fintech\MetaData\Http\Resources\OccupationResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
 /**
  * Class OccupationController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to occupation
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class OccupationController extends Controller
 {
     use ApiResponseTrait;
@@ -45,10 +43,8 @@ class OccupationController extends Controller
      * Return a listing of the occupation resource as collection.
      *
      * ** ```paginate=false``` returns all resource as list not pagination **
-     * @lrd:end
      *
-     * @param IndexOccupationRequest $request
-     * @return OccupationCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexOccupationRequest $request): OccupationCollection|JsonResponse
     {
@@ -68,10 +64,9 @@ class OccupationController extends Controller
     /**
      * @lrd:start
      * Create a new occupation resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreOccupationRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreOccupationRequest $request): JsonResponse
@@ -81,14 +76,14 @@ class OccupationController extends Controller
 
             $occupation = \MetaData::occupation()->create($inputs);
 
-            if (!$occupation) {
+            if (! $occupation) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('metadata::messages.resource.created', ['model' => 'Occupation']),
-                'id' => $occupation->id
-             ]);
+                'id' => $occupation->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -99,10 +94,9 @@ class OccupationController extends Controller
     /**
      * @lrd:start
      * Return a specified occupation resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return OccupationResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): OccupationResource|JsonResponse
@@ -111,7 +105,7 @@ class OccupationController extends Controller
 
             $occupation = \MetaData::occupation()->read($id);
 
-            if (!$occupation) {
+            if (! $occupation) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
             }
 
@@ -130,11 +124,9 @@ class OccupationController extends Controller
     /**
      * @lrd:start
      * Update a specified occupation resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateOccupationRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -144,13 +136,13 @@ class OccupationController extends Controller
 
             $occupation = \MetaData::occupation()->read($id);
 
-            if (!$occupation) {
+            if (! $occupation) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::occupation()->update($id, $inputs)) {
+            if (! \MetaData::occupation()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -170,10 +162,11 @@ class OccupationController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified occupation resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -183,11 +176,11 @@ class OccupationController extends Controller
 
             $occupation = \MetaData::occupation()->read($id);
 
-            if (!$occupation) {
+            if (! $occupation) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::occupation()->destroy($id)) {
+            if (! \MetaData::occupation()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -208,9 +201,9 @@ class OccupationController extends Controller
      * @lrd:start
      * Restore the specified occupation resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -219,11 +212,11 @@ class OccupationController extends Controller
 
             $occupation = \MetaData::occupation()->read($id, true);
 
-            if (!$occupation) {
+            if (! $occupation) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::occupation()->restore($id)) {
+            if (! \MetaData::occupation()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -246,9 +239,6 @@ class OccupationController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexOccupationRequest $request
-     * @return JsonResponse
      */
     public function export(IndexOccupationRequest $request): JsonResponse
     {
@@ -272,7 +262,6 @@ class OccupationController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportOccupationRequest $request
      * @return OccupationCollection|JsonResponse
      */
     public function import(ImportOccupationRequest $request): JsonResponse

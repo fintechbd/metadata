@@ -2,12 +2,10 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\BankRepository;
 
 /**
  * Class BankService
- * @package Fintech\MetaData\Services
  *
  * @property-read BankRepository $bankRepository
  */
@@ -15,12 +13,12 @@ class BankService
 {
     /**
      * BankService constructor.
-     * @param BankRepository $bankRepository
      */
-    public function __construct(private BankRepository $bankRepository) { }
+    public function __construct(private BankRepository $bankRepository)
+    {
+    }
 
     /**
-     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])

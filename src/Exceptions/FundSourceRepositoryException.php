@@ -4,7 +4,6 @@ namespace Fintech\MetaData\Exceptions;
 
 /**
  * Class FundSourceRepositoryException
- * @package Fintech\MetaData\Exceptions
  */
 class FundSourceRepositoryException extends \Exception
 {

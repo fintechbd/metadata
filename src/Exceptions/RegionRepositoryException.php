@@ -4,7 +4,6 @@ namespace Fintech\MetaData\Exceptions;
 
 /**
  * Class RegionRepositoryException
- * @package Fintech\MetaData\Exceptions
  */
 class RegionRepositoryException extends \Exception
 {

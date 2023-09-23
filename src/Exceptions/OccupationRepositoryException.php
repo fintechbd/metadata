@@ -4,7 +4,6 @@ namespace Fintech\MetaData\Exceptions;
 
 /**
  * Class OccupationRepositoryException
- * @package Fintech\MetaData\Exceptions
  */
 class OccupationRepositoryException extends \Exception
 {

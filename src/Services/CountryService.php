@@ -13,7 +13,6 @@ class CountryService
 {
     /**
      * CountryService constructor.
-     * @param CountryRepository $countryRepository
      */
     public function __construct(CountryRepository $countryRepository)
     {

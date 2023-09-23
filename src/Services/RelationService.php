@@ -2,12 +2,10 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\RelationRepository;
 
 /**
  * Class RelationService
- * @package Fintech\MetaData\Services
  *
  * @property-read RelationRepository $relationRepository
  */
@@ -15,12 +13,12 @@ class RelationService
 {
     /**
      * RelationService constructor.
-     * @param RelationRepository $relationRepository
      */
-    public function __construct(private RelationRepository $relationRepository) { }
+    public function __construct(private RelationRepository $relationRepository)
+    {
+    }
 
     /**
-     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])

@@ -2,12 +2,10 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\RemittancePurposeRepository;
 
 /**
  * Class RemittancePurposeService
- * @package Fintech\MetaData\Services
  *
  * @property-read RemittancePurposeRepository $remittancePurposeRepository
  */
@@ -15,12 +13,12 @@ class RemittancePurposeService
 {
     /**
      * RemittancePurposeService constructor.
-     * @param RemittancePurposeRepository $remittancePurposeRepository
      */
-    public function __construct(private RemittancePurposeRepository $remittancePurposeRepository) { }
+    public function __construct(private RemittancePurposeRepository $remittancePurposeRepository)
+    {
+    }
 
     /**
-     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])
