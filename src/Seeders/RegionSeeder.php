@@ -19,8 +19,8 @@ class RegionSeeder extends Seeder
 
     private function data()
     {
-        return array(
-            array(
+        return [
+            [
                 'id' => '1',
                 'region_name' => 'Africa',
                 'region_translations' => '{"kr":"아프리카","pt-BR":"África","pt":"África","nl":"Afrika","hr":"Afrika","fa":"آفریقا","de":"Afrika","es":"África","fr":"Afrique","ja":"アフリカ","it":"Africa","cn":"非洲","tr":"Afrika"}',
@@ -28,9 +28,9 @@ class RegionSeeder extends Seeder
                 'editor_id' => null,
                 'destroyer_id' => null,
                 'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03'
-            ),
-            array(
+                'updated_at' => '2023-08-14 13:11:03',
+            ],
+            [
                 'id' => '2',
                 'region_name' => 'Americas',
                 'region_translations' => '{"kr":"아메리카","pt-BR":"América","pt":"América","nl":"Amerika","hr":"Amerika","fa":"قاره آمریکا","de":"Amerika","es":"América","fr":"Amérique","ja":"アメリカ州","it":"America","cn":"美洲","tr":"Amerika"}',
@@ -38,9 +38,9 @@ class RegionSeeder extends Seeder
                 'editor_id' => null,
                 'destroyer_id' => null,
                 'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03'
-            ),
-            array(
+                'updated_at' => '2023-08-14 13:11:03',
+            ],
+            [
                 'id' => '3',
                 'region_name' => 'Asia',
                 'region_translations' => '{"kr":"아시아","pt-BR":"Ásia","pt":"Ásia","nl":"Azië","hr":"Ázsia","fa":"آسیا","de":"Asien","es":"Asia","fr":"Asie","ja":"アジア","it":"Asia","cn":"亚洲","tr":"Asya"}',
@@ -48,9 +48,9 @@ class RegionSeeder extends Seeder
                 'editor_id' => null,
                 'destroyer_id' => null,
                 'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03'
-            ),
-            array(
+                'updated_at' => '2023-08-14 13:11:03',
+            ],
+            [
                 'id' => '4',
                 'region_name' => 'Europe',
                 'region_translations' => '{"kr":"유럽","pt-BR":"Europa","pt":"Europa","nl":"Europa","hr":"Európa","fa":"اروپا","de":"Europa","es":"Europa","fr":"Europe","ja":"ヨーロッパ","it":"Europa","cn":"欧洲","tr":"Avrupa"}',
@@ -58,9 +58,9 @@ class RegionSeeder extends Seeder
                 'editor_id' => null,
                 'destroyer_id' => null,
                 'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03'
-            ),
-            array(
+                'updated_at' => '2023-08-14 13:11:03',
+            ],
+            [
                 'id' => '5',
                 'region_name' => 'Oceania',
                 'region_translations' => '{"kr":"오세아니아","pt-BR":"Oceania","pt":"Oceania","nl":"Oceanië en Australië","hr":"Óceánia és Ausztrália","fa":"اقیانوسیه","de":"Ozeanien und Australien","es":"Oceanía","fr":"Océanie","ja":"オセアニア","it":"Oceania","cn":"大洋洲","tr":"Okyanusya"}',
@@ -68,9 +68,9 @@ class RegionSeeder extends Seeder
                 'editor_id' => null,
                 'destroyer_id' => null,
                 'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03'
-            ),
-            array(
+                'updated_at' => '2023-08-14 13:11:03',
+            ],
+            [
                 'id' => '6',
                 'region_name' => 'Polar',
                 'region_translations' => '{"kr":"남극","pt-BR":"Antártida","pt":"Antártida","nl":"Antarctica","hr":"Antarktika","fa":"جنوبگان","de":"Antarktika","es":"Antártida","fr":"Antarctique","ja":"南極大陸","it":"Antartide","cn":"南極洲","tr":"Antarktika"}',
@@ -78,8 +78,8 @@ class RegionSeeder extends Seeder
                 'editor_id' => null,
                 'destroyer_id' => null,
                 'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03'
-            )
-        );
+                'updated_at' => '2023-08-14 13:11:03',
+            ],
+        ];
     }
 }

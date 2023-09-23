@@ -43,7 +43,7 @@ interface CountryRepository
     /**
      * find and delete a entry from records
      *
-     * @param bool $onlyTrashed
+     * @param  bool  $onlyTrashed
      * @return EloquentModel|MongodbModel|null
      *
      * @throws CountryRepositoryException

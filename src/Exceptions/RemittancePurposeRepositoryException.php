@@ -4,7 +4,6 @@ namespace Fintech\MetaData\Exceptions;
 
 /**
  * Class RemittancePurposeRepositoryException
- * @package Fintech\MetaData\Exceptions
  */
 class RemittancePurposeRepositoryException extends \Exception
 {

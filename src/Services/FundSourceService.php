@@ -2,12 +2,10 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\FundSourceRepository;
 
 /**
  * Class FundSourceService
- * @package Fintech\MetaData\Services
  *
  * @property-read FundSourceRepository $fundSourceRepository
  */
@@ -15,12 +13,12 @@ class FundSourceService
 {
     /**
      * FundSourceService constructor.
-     * @param FundSourceRepository $fundSourceRepository
      */
-    public function __construct(private FundSourceRepository $fundSourceRepository) { }
+    public function __construct(private FundSourceRepository $fundSourceRepository)
+    {
+    }
 
     /**
-     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])

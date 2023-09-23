@@ -4,7 +4,6 @@ namespace Fintech\MetaData\Exceptions;
 
 /**
  * Class SubRegionRepositoryException
- * @package Fintech\MetaData\Exceptions
  */
 class SubRegionRepositoryException extends \Exception
 {
