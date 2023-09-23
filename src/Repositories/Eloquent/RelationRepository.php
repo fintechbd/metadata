@@ -2,9 +2,13 @@
 
 namespace Fintech\MetaData\Repositories\Eloquent;
 
-use Fintech\MetaData\Exceptions\Eloquent\RelationRepository;
+use Fintech\MetaData\Exceptions\RelationRepositoryException;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Illuminate\Contracts\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
 /**
@@ -20,7 +24,7 @@ class RelationRepository implements InterfacesCountryRepository
 
     public function __construct()
     {
-       $model = app()->make(config('metadata.country_model', \App\Models\Country::class));
+       $model = app()->make(config('fintech.metadata.relation_model', \Fintech\MetaData\Models\Relation::class));
 
        if (!$model instanceof Model) {
            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

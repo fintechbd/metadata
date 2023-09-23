@@ -9,6 +9,10 @@ use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Contracts\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
 /**
@@ -23,7 +27,7 @@ class CountryRepository implements InterfacesCountryRepository
 
     public function __construct()
     {
-        $model = app()->make(config('metadata.country_model', \Fintech\MetaData\Models\Country::class));
+        $model = app()->make(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
 
         if (! $model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

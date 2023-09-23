@@ -2,7 +2,7 @@
 
 namespace Fintech\MetaData\Repositories\Mongodb;
 
-use Fintech\MetaData\Exceptions\Mongodb\BankRepository;
+use Fintech\MetaData\Exceptions\BankRepositoryException;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use InvalidArgumentException;
@@ -20,7 +20,7 @@ class BankRepository implements InterfacesCountryRepository
 
     public function __construct()
     {
-       $model = app()->make(config('metadata.country_model', \App\Models\Country::class));
+       $model = app()->make(config('fintech.metadata.bank_model', \Fintech\MetaData\Models\Bank::class));
 
        if (!$model instanceof Model) {
            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

@@ -2,12 +2,12 @@
 
 namespace Fintech\MetaData\Interfaces;
 
+use Fintech\MetaData\Exceptions\BankRepositoryException;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use MongoDB\Laravel\Eloquent\Model as MongodbModel;
-use Fintech\MetaData\Exceptions\BankRepositoryException;
 
 /**
  * Interface BankRepository
@@ -60,7 +60,7 @@ interface BankRepository
      * @return bool|null
      * @throws BankRepositoryException
      */
-    public function delete(int|string $id):?bool;
+    public function delete(int|string $id);
 
     /**
      * find and restore a entry from records
@@ -70,5 +70,5 @@ interface BankRepository
      * @throws \InvalidArgumentException
      * @throws BankRepositoryException
      */
-    public function restore(int|string $id):?bool;
+    public function restore(int|string $id);
 }

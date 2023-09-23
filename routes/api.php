@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('v1')->group(function () {
     Route::prefix('metadata')->group(function () {
+        Route::apiResource('regions', \Fintech\MetaData\Http\Controllers\RegionController::class);
+        Route::apiResource('subregions', \Fintech\MetaData\Http\Controllers\SubRegionController::class);
         Route::apiResource('countries', \Fintech\MetaData\Http\Controllers\CountryController::class);
 //        Route::apiResource('states', \Fintech\MetaData\Http\Controllers\StateController::class);
 //        Route::apiResource('cities', \Fintech\MetaData\Http\Controllers\CityController::class);

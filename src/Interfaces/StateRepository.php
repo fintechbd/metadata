@@ -2,12 +2,12 @@
 
 namespace Fintech\MetaData\Interfaces;
 
+use Fintech\MetaData\Exceptions\StateRepositoryException;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use MongoDB\Laravel\Eloquent\Model as MongodbModel;
-use Fintech\MetaData\Exceptions\StateRepositoryException;
 
 /**
  * Interface StateRepository
@@ -60,7 +60,7 @@ interface StateRepository
      * @return bool|null
      * @throws StateRepositoryException
      */
-    public function delete(int|string $id):?bool;
+    public function delete(int|string $id);
 
     /**
      * find and restore a entry from records
@@ -70,5 +70,5 @@ interface StateRepository
      * @throws \InvalidArgumentException
      * @throws StateRepositoryException
      */
-    public function restore(int|string $id):?bool;
+    public function restore(int|string $id);
 }

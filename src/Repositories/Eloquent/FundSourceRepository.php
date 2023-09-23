@@ -2,9 +2,13 @@
 
 namespace Fintech\MetaData\Repositories\Eloquent;
 
-use Fintech\MetaData\Exceptions\Eloquent\FundSourceRepository;
+use Fintech\MetaData\Exceptions\FundSourceRepositoryException;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Illuminate\Contracts\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
 /**
@@ -20,7 +24,7 @@ class FundSourceRepository implements InterfacesCountryRepository
 
     public function __construct()
     {
-       $model = app()->make(config('metadata.country_model', \App\Models\Country::class));
+       $model = app()->make(config('fintech.metadata.fund_source_model', \Fintech\MetaData\Models\FundSource::class));
 
        if (!$model instanceof Model) {
            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

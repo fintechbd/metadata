@@ -2,10 +2,14 @@
 
 namespace Fintech\MetaData\Repositories\Mongodb;
 
-use Fintech\MetaData\Exceptions\Mongodb\BankBranchRepository;
+use Fintech\MetaData\Exceptions\BankBranchRepositoryException;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
+use MongoDB\Laravel\Collection;
+use MongoDB\Laravel\Eloquent\Builder;
+use MongoDB\Laravel\Eloquent\Model;
 
 /**
  * Class BankBranchRepository
@@ -20,7 +24,7 @@ class BankBranchRepository implements InterfacesCountryRepository
 
     public function __construct()
     {
-       $model = app()->make(config('metadata.country_model', \App\Models\Country::class));
+        $model = app()->make(config('fintech.metadata.bank_branch_model', \Fintech\MetaData\Models\BankBranch::class));
 
        if (!$model instanceof Model) {
            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

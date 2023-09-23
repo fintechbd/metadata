@@ -43,7 +43,7 @@ interface CountryRepository
     /**
      * find and delete a entry from records
      *
-     * @param  bool  $onlyTrashed
+     * @param bool $onlyTrashed
      * @return EloquentModel|MongodbModel|null
      *
      * @throws CountryRepositoryException
@@ -55,7 +55,7 @@ interface CountryRepository
      *
      * @throws CountryRepositoryException
      */
-    public function delete(int|string $id): ?bool;
+    public function delete(int|string $id);
 
     /**
      * find and restore a entry from records
@@ -63,5 +63,5 @@ interface CountryRepository
      * @throws \InvalidArgumentException
      * @throws CountryRepositoryException
      */
-    public function restore(int|string $id): ?bool;
+    public function restore(int|string $id);
 }
