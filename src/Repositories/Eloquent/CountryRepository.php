@@ -20,9 +20,6 @@ use InvalidArgumentException;
  */
 class CountryRepository implements InterfacesCountryRepository
 {
-    /**
-     * @var Model
-     */
     private Model $model;
 
     public function __construct()
