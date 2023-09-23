@@ -2,32 +2,30 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\BankBranchResource;
-use Fintech\MetaData\Http\Resources\BankBranchCollection;
 use Fintech\MetaData\Http\Requests\ImportBankBranchRequest;
+use Fintech\MetaData\Http\Requests\IndexBankBranchRequest;
 use Fintech\MetaData\Http\Requests\StoreBankBranchRequest;
 use Fintech\MetaData\Http\Requests\UpdateBankBranchRequest;
-use Fintech\MetaData\Http\Requests\IndexBankBranchRequest;
+use Fintech\MetaData\Http\Resources\BankBranchCollection;
+use Fintech\MetaData\Http\Resources\BankBranchResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
 /**
  * Class BankBranchController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to bankBranch
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class BankBranchController extends Controller
 {
     use ApiResponseTrait;
@@ -45,10 +43,8 @@ class BankBranchController extends Controller
      * Return a listing of the bankBranch resource as collection.
      *
      * *```paginate=false``` returns all resource as list not pagination*
-     * @lrd:end
      *
-     * @param IndexBankBranchRequest $request
-     * @return BankBranchCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexBankBranchRequest $request): BankBranchCollection|JsonResponse
     {
@@ -68,10 +64,9 @@ class BankBranchController extends Controller
     /**
      * @lrd:start
      * Create a new bankBranch resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreBankBranchRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreBankBranchRequest $request): JsonResponse
@@ -81,14 +76,14 @@ class BankBranchController extends Controller
 
             $bankBranch = \MetaData::bankBranch()->create($inputs);
 
-            if (!$bankBranch) {
+            if (! $bankBranch) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('metadata::messages.resource.created', ['model' => 'BankBranch']),
-                'id' => $bankBranch->id
-             ]);
+                'id' => $bankBranch->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -99,10 +94,9 @@ class BankBranchController extends Controller
     /**
      * @lrd:start
      * Return a specified bankBranch resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return BankBranchResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): BankBranchResource|JsonResponse
@@ -111,7 +105,7 @@ class BankBranchController extends Controller
 
             $bankBranch = \MetaData::bankBranch()->read($id);
 
-            if (!$bankBranch) {
+            if (! $bankBranch) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'BankBranch', 'id' => strval($id)]));
             }
 
@@ -130,11 +124,9 @@ class BankBranchController extends Controller
     /**
      * @lrd:start
      * Update a specified bankBranch resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateBankBranchRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -144,13 +136,13 @@ class BankBranchController extends Controller
 
             $bankBranch = \MetaData::bankBranch()->read($id);
 
-            if (!$bankBranch) {
+            if (! $bankBranch) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'BankBranch', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::bankBranch()->update($id, $inputs)) {
+            if (! \MetaData::bankBranch()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -170,10 +162,11 @@ class BankBranchController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified bankBranch resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -183,11 +176,11 @@ class BankBranchController extends Controller
 
             $bankBranch = \MetaData::bankBranch()->read($id);
 
-            if (!$bankBranch) {
+            if (! $bankBranch) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'BankBranch', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::bankBranch()->destroy($id)) {
+            if (! \MetaData::bankBranch()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -208,9 +201,9 @@ class BankBranchController extends Controller
      * @lrd:start
      * Restore the specified bankBranch resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -219,11 +212,11 @@ class BankBranchController extends Controller
 
             $bankBranch = \MetaData::bankBranch()->read($id, true);
 
-            if (!$bankBranch) {
+            if (! $bankBranch) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'BankBranch', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::bankBranch()->restore($id)) {
+            if (! \MetaData::bankBranch()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -246,9 +239,6 @@ class BankBranchController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexBankBranchRequest $request
-     * @return JsonResponse
      */
     public function export(IndexBankBranchRequest $request): JsonResponse
     {
@@ -272,7 +262,6 @@ class BankBranchController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportBankBranchRequest $request
      * @return BankBranchCollection|JsonResponse
      */
     public function import(ImportBankBranchRequest $request): JsonResponse

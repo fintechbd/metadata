@@ -2,32 +2,30 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\RegionResource;
-use Fintech\MetaData\Http\Resources\RegionCollection;
 use Fintech\MetaData\Http\Requests\ImportRegionRequest;
+use Fintech\MetaData\Http\Requests\IndexRegionRequest;
 use Fintech\MetaData\Http\Requests\StoreRegionRequest;
 use Fintech\MetaData\Http\Requests\UpdateRegionRequest;
-use Fintech\MetaData\Http\Requests\IndexRegionRequest;
+use Fintech\MetaData\Http\Resources\RegionCollection;
+use Fintech\MetaData\Http\Resources\RegionResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
 /**
  * Class RegionController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to region
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class RegionController extends Controller
 {
     use ApiResponseTrait;
@@ -37,10 +35,8 @@ class RegionController extends Controller
      * Return a listing of the region resource as collection.
      *
      * *```paginate=false``` returns all resource as list not pagination*
-     * @lrd:end
      *
-     * @param IndexRegionRequest $request
-     * @return RegionCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexRegionRequest $request): RegionCollection|JsonResponse
     {
@@ -60,10 +56,9 @@ class RegionController extends Controller
     /**
      * @lrd:start
      * Create a new region resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreRegionRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreRegionRequest $request): JsonResponse
@@ -73,14 +68,14 @@ class RegionController extends Controller
 
             $region = \MetaData::region()->create($inputs);
 
-            if (!$region) {
+            if (! $region) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('metadata::messages.resource.created', ['model' => 'Region']),
-                'id' => $region->id
-             ]);
+                'id' => $region->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -91,10 +86,9 @@ class RegionController extends Controller
     /**
      * @lrd:start
      * Return a specified region resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return RegionResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): RegionResource|JsonResponse
@@ -103,7 +97,7 @@ class RegionController extends Controller
 
             $region = \MetaData::region()->read($id);
 
-            if (!$region) {
+            if (! $region) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
             }
 
@@ -122,11 +116,9 @@ class RegionController extends Controller
     /**
      * @lrd:start
      * Update a specified region resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateRegionRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -136,13 +128,13 @@ class RegionController extends Controller
 
             $region = \MetaData::region()->read($id);
 
-            if (!$region) {
+            if (! $region) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::region()->update($id, $inputs)) {
+            if (! \MetaData::region()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -162,10 +154,11 @@ class RegionController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified region resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -175,11 +168,11 @@ class RegionController extends Controller
 
             $region = \MetaData::region()->read($id);
 
-            if (!$region) {
+            if (! $region) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::region()->destroy($id)) {
+            if (! \MetaData::region()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -200,9 +193,9 @@ class RegionController extends Controller
      * @lrd:start
      * Restore the specified region resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -211,11 +204,11 @@ class RegionController extends Controller
 
             $region = \MetaData::region()->read($id, true);
 
-            if (!$region) {
+            if (! $region) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::region()->restore($id)) {
+            if (! \MetaData::region()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -238,9 +231,6 @@ class RegionController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexRegionRequest $request
-     * @return JsonResponse
      */
     public function export(IndexRegionRequest $request): JsonResponse
     {
@@ -264,7 +254,6 @@ class RegionController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportRegionRequest $request
      * @return RegionCollection|JsonResponse
      */
     public function import(ImportRegionRequest $request): JsonResponse

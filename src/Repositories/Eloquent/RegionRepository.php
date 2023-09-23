@@ -13,12 +13,11 @@ use InvalidArgumentException;
 
 /**
  * Class RegionRepository
- * @package Fintech\MetaData\Repositories\Eloquent
  */
 class RegionRepository implements InterfacesRegionRepository
 {
     /**
-     * @var $model Model
+     * @var Model
      */
     private Model $model;
 
@@ -26,7 +25,7 @@ class RegionRepository implements InterfacesRegionRepository
     {
         $model = app()->make(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
 
-        if (!$model instanceof Model) {
+        if (! $model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -37,7 +36,6 @@ class RegionRepository implements InterfacesRegionRepository
      * return a list or pagination of items from
      * filtered options
      *
-     * @param array $filters
      * @return LengthAwarePaginator|Builder[]|Collection
      */
     public function list(array $filters = [])
@@ -57,8 +55,8 @@ class RegionRepository implements InterfacesRegionRepository
     /**
      * Create a new entry resource
      *
-     * @param array $attributes
      * @return Model|null
+     *
      * @throws RegionRepositoryException
      */
     public function create(array $attributes = [])
@@ -83,9 +81,8 @@ class RegionRepository implements InterfacesRegionRepository
     /**
      * find and update a resource attributes
      *
-     * @param int|string $id
-     * @param array $attributes
      * @return Model|null
+     *
      * @throws RegionRepositoryException
      */
     public function update(int|string $id, array $attributes = [])
@@ -117,9 +114,9 @@ class RegionRepository implements InterfacesRegionRepository
     /**
      * find and delete a entry from records
      *
-     * @param string|int $id
-     * @param bool $onlyTrashed
+     * @param  bool  $onlyTrashed
      * @return bool|null
+     *
      * @throws RegionRepositoryException
      */
     public function read(int|string $id, $onlyTrashed = false)
@@ -148,8 +145,8 @@ class RegionRepository implements InterfacesRegionRepository
     /**
      * find and delete a entry from records
      *
-     * @param string|int $id
      * @return bool|null
+     *
      * @throws RegionRepositoryException
      */
     public function delete(int|string $id)
@@ -178,13 +175,13 @@ class RegionRepository implements InterfacesRegionRepository
     /**
      * find and restore a entry from records
      *
-     * @param string|int $id
      * @return bool|null
+     *
      * @throws RegionRepositoryException
      */
     public function restore(int|string $id)
     {
-        if (!method_exists($this->model, 'restore')) {
+        if (! method_exists($this->model, 'restore')) {
             throw new InvalidArgumentException('This model does not have `Illuminate\Database\Eloquent\SoftDeletes` trait to perform restoration.');
         }
 

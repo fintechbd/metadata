@@ -17,5 +17,5 @@ return [
         'deleted' => ':model deleted successfully.',
         'restored' => ':model restored successfully.',
         'exported' => ':model exported successfully.',
-    ]
+    ],
 ];

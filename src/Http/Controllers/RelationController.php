@@ -2,32 +2,30 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\RelationResource;
-use Fintech\MetaData\Http\Resources\RelationCollection;
 use Fintech\MetaData\Http\Requests\ImportRelationRequest;
+use Fintech\MetaData\Http\Requests\IndexRelationRequest;
 use Fintech\MetaData\Http\Requests\StoreRelationRequest;
 use Fintech\MetaData\Http\Requests\UpdateRelationRequest;
-use Fintech\MetaData\Http\Requests\IndexRelationRequest;
+use Fintech\MetaData\Http\Resources\RelationCollection;
+use Fintech\MetaData\Http\Resources\RelationResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
 /**
  * Class RelationController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to relation
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class RelationController extends Controller
 {
     use ApiResponseTrait;
@@ -45,10 +43,8 @@ class RelationController extends Controller
      * Return a listing of the relation resource as collection.
      *
      * *```paginate=false``` returns all resource as list not pagination*
-     * @lrd:end
      *
-     * @param IndexRelationRequest $request
-     * @return RelationCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexRelationRequest $request): RelationCollection|JsonResponse
     {
@@ -68,10 +64,9 @@ class RelationController extends Controller
     /**
      * @lrd:start
      * Create a new relation resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreRelationRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreRelationRequest $request): JsonResponse
@@ -81,14 +76,14 @@ class RelationController extends Controller
 
             $relation = \MetaData::relation()->create($inputs);
 
-            if (!$relation) {
+            if (! $relation) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('metadata::messages.resource.created', ['model' => 'Relation']),
-                'id' => $relation->id
-             ]);
+                'id' => $relation->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -99,10 +94,9 @@ class RelationController extends Controller
     /**
      * @lrd:start
      * Return a specified relation resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return RelationResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): RelationResource|JsonResponse
@@ -111,7 +105,7 @@ class RelationController extends Controller
 
             $relation = \MetaData::relation()->read($id);
 
-            if (!$relation) {
+            if (! $relation) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Relation', 'id' => strval($id)]));
             }
 
@@ -130,11 +124,9 @@ class RelationController extends Controller
     /**
      * @lrd:start
      * Update a specified relation resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateRelationRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -144,13 +136,13 @@ class RelationController extends Controller
 
             $relation = \MetaData::relation()->read($id);
 
-            if (!$relation) {
+            if (! $relation) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Relation', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::relation()->update($id, $inputs)) {
+            if (! \MetaData::relation()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -170,10 +162,11 @@ class RelationController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified relation resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -183,11 +176,11 @@ class RelationController extends Controller
 
             $relation = \MetaData::relation()->read($id);
 
-            if (!$relation) {
+            if (! $relation) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Relation', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::relation()->destroy($id)) {
+            if (! \MetaData::relation()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -208,9 +201,9 @@ class RelationController extends Controller
      * @lrd:start
      * Restore the specified relation resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -219,11 +212,11 @@ class RelationController extends Controller
 
             $relation = \MetaData::relation()->read($id, true);
 
-            if (!$relation) {
+            if (! $relation) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Relation', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::relation()->restore($id)) {
+            if (! \MetaData::relation()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -246,9 +239,6 @@ class RelationController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexRelationRequest $request
-     * @return JsonResponse
      */
     public function export(IndexRelationRequest $request): JsonResponse
     {
@@ -272,7 +262,6 @@ class RelationController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportRelationRequest $request
      * @return RelationCollection|JsonResponse
      */
     public function import(ImportRelationRequest $request): JsonResponse

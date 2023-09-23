@@ -2,32 +2,30 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\FundSourceResource;
-use Fintech\MetaData\Http\Resources\FundSourceCollection;
 use Fintech\MetaData\Http\Requests\ImportFundSourceRequest;
+use Fintech\MetaData\Http\Requests\IndexFundSourceRequest;
 use Fintech\MetaData\Http\Requests\StoreFundSourceRequest;
 use Fintech\MetaData\Http\Requests\UpdateFundSourceRequest;
-use Fintech\MetaData\Http\Requests\IndexFundSourceRequest;
+use Fintech\MetaData\Http\Resources\FundSourceCollection;
+use Fintech\MetaData\Http\Resources\FundSourceResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
 /**
  * Class FundSourceController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to fundSource
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class FundSourceController extends Controller
 {
     use ApiResponseTrait;
@@ -45,10 +43,8 @@ class FundSourceController extends Controller
      * Return a listing of the fundSource resource as collection.
      *
      * *```paginate=false``` returns all resource as list not pagination*
-     * @lrd:end
      *
-     * @param IndexFundSourceRequest $request
-     * @return FundSourceCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexFundSourceRequest $request): FundSourceCollection|JsonResponse
     {
@@ -68,10 +64,9 @@ class FundSourceController extends Controller
     /**
      * @lrd:start
      * Create a new fundSource resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreFundSourceRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreFundSourceRequest $request): JsonResponse
@@ -81,14 +76,14 @@ class FundSourceController extends Controller
 
             $fundSource = \MetaData::fundSource()->create($inputs);
 
-            if (!$fundSource) {
+            if (! $fundSource) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('metadata::messages.resource.created', ['model' => 'FundSource']),
-                'id' => $fundSource->id
-             ]);
+                'id' => $fundSource->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -99,10 +94,9 @@ class FundSourceController extends Controller
     /**
      * @lrd:start
      * Return a specified fundSource resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return FundSourceResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): FundSourceResource|JsonResponse
@@ -111,7 +105,7 @@ class FundSourceController extends Controller
 
             $fundSource = \MetaData::fundSource()->read($id);
 
-            if (!$fundSource) {
+            if (! $fundSource) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'FundSource', 'id' => strval($id)]));
             }
 
@@ -130,11 +124,9 @@ class FundSourceController extends Controller
     /**
      * @lrd:start
      * Update a specified fundSource resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateFundSourceRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -144,13 +136,13 @@ class FundSourceController extends Controller
 
             $fundSource = \MetaData::fundSource()->read($id);
 
-            if (!$fundSource) {
+            if (! $fundSource) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'FundSource', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::fundSource()->update($id, $inputs)) {
+            if (! \MetaData::fundSource()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -170,10 +162,11 @@ class FundSourceController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified fundSource resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -183,11 +176,11 @@ class FundSourceController extends Controller
 
             $fundSource = \MetaData::fundSource()->read($id);
 
-            if (!$fundSource) {
+            if (! $fundSource) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'FundSource', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::fundSource()->destroy($id)) {
+            if (! \MetaData::fundSource()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -208,9 +201,9 @@ class FundSourceController extends Controller
      * @lrd:start
      * Restore the specified fundSource resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -219,11 +212,11 @@ class FundSourceController extends Controller
 
             $fundSource = \MetaData::fundSource()->read($id, true);
 
-            if (!$fundSource) {
+            if (! $fundSource) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'FundSource', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::fundSource()->restore($id)) {
+            if (! \MetaData::fundSource()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -246,9 +239,6 @@ class FundSourceController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexFundSourceRequest $request
-     * @return JsonResponse
      */
     public function export(IndexFundSourceRequest $request): JsonResponse
     {
@@ -272,7 +262,6 @@ class FundSourceController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportFundSourceRequest $request
      * @return FundSourceCollection|JsonResponse
      */
     public function import(ImportFundSourceRequest $request): JsonResponse

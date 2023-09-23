@@ -2,32 +2,30 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\RemittancePurposeResource;
-use Fintech\MetaData\Http\Resources\RemittancePurposeCollection;
 use Fintech\MetaData\Http\Requests\ImportRemittancePurposeRequest;
+use Fintech\MetaData\Http\Requests\IndexRemittancePurposeRequest;
 use Fintech\MetaData\Http\Requests\StoreRemittancePurposeRequest;
 use Fintech\MetaData\Http\Requests\UpdateRemittancePurposeRequest;
-use Fintech\MetaData\Http\Requests\IndexRemittancePurposeRequest;
+use Fintech\MetaData\Http\Resources\RemittancePurposeCollection;
+use Fintech\MetaData\Http\Resources\RemittancePurposeResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
 /**
  * Class RemittancePurposeController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to remittancePurpose
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class RemittancePurposeController extends Controller
 {
     use ApiResponseTrait;
@@ -45,10 +43,8 @@ class RemittancePurposeController extends Controller
      * Return a listing of the remittancePurpose resource as collection.
      *
      * *```paginate=false``` returns all resource as list not pagination*
-     * @lrd:end
      *
-     * @param IndexRemittancePurposeRequest $request
-     * @return RemittancePurposeCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexRemittancePurposeRequest $request): RemittancePurposeCollection|JsonResponse
     {
@@ -68,10 +64,9 @@ class RemittancePurposeController extends Controller
     /**
      * @lrd:start
      * Create a new remittancePurpose resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreRemittancePurposeRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreRemittancePurposeRequest $request): JsonResponse
@@ -81,14 +76,14 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = \MetaData::remittancePurpose()->create($inputs);
 
-            if (!$remittancePurpose) {
+            if (! $remittancePurpose) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('metadata::messages.resource.created', ['model' => 'RemittancePurpose']),
-                'id' => $remittancePurpose->id
-             ]);
+                'id' => $remittancePurpose->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -99,10 +94,9 @@ class RemittancePurposeController extends Controller
     /**
      * @lrd:start
      * Return a specified remittancePurpose resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return RemittancePurposeResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): RemittancePurposeResource|JsonResponse
@@ -111,7 +105,7 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = \MetaData::remittancePurpose()->read($id);
 
-            if (!$remittancePurpose) {
+            if (! $remittancePurpose) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
             }
 
@@ -130,11 +124,9 @@ class RemittancePurposeController extends Controller
     /**
      * @lrd:start
      * Update a specified remittancePurpose resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateRemittancePurposeRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -144,13 +136,13 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = \MetaData::remittancePurpose()->read($id);
 
-            if (!$remittancePurpose) {
+            if (! $remittancePurpose) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::remittancePurpose()->update($id, $inputs)) {
+            if (! \MetaData::remittancePurpose()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -170,10 +162,11 @@ class RemittancePurposeController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified remittancePurpose resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -183,11 +176,11 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = \MetaData::remittancePurpose()->read($id);
 
-            if (!$remittancePurpose) {
+            if (! $remittancePurpose) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::remittancePurpose()->destroy($id)) {
+            if (! \MetaData::remittancePurpose()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -208,9 +201,9 @@ class RemittancePurposeController extends Controller
      * @lrd:start
      * Restore the specified remittancePurpose resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -219,11 +212,11 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = \MetaData::remittancePurpose()->read($id, true);
 
-            if (!$remittancePurpose) {
+            if (! $remittancePurpose) {
                 throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::remittancePurpose()->restore($id)) {
+            if (! \MetaData::remittancePurpose()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -246,9 +239,6 @@ class RemittancePurposeController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexRemittancePurposeRequest $request
-     * @return JsonResponse
      */
     public function export(IndexRemittancePurposeRequest $request): JsonResponse
     {
@@ -272,7 +262,6 @@ class RemittancePurposeController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportRemittancePurposeRequest $request
      * @return RemittancePurposeCollection|JsonResponse
      */
     public function import(ImportRemittancePurposeRequest $request): JsonResponse

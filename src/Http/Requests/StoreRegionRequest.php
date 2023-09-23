@@ -6,7 +6,6 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class StoreRegionRequest extends FormRequest
 {
-
     /**
      * Determine if the user is authorized to make this request.
      */
@@ -25,7 +24,7 @@ class StoreRegionRequest extends FormRequest
         return [
             'region_name' => ['required', 'string', 'min:2', 'max:255'],
             'region_translations' => ['nullable', 'array'],
-            'region_data' => ['nullable', 'array']
+            'region_data' => ['nullable', 'array'],
         ];
     }
 

@@ -2,19 +2,17 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\RegionRepository;
 
 /**
  * Class RegionService
- * @package Fintech\MetaData\Services
+ *
  * @property-read RegionRepository $regionRepository
  */
 class RegionService
 {
     /**
      * RegionService constructor.
-     * @param RegionRepository $regionRepository
      */
     public function __construct(RegionRepository $regionRepository)
     {
@@ -22,7 +20,6 @@ class RegionService
     }
 
     /**
-     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])
