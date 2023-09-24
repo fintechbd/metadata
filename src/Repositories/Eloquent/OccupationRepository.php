@@ -3,7 +3,7 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\MetaData\Exceptions\OccupationRepositoryException;
-use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Fintech\MetaData\Interfaces\OccupationRepository as InterfacesOccupationRepository;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
@@ -14,7 +14,7 @@ use InvalidArgumentException;
 /**
  * Class OccupationRepository
  */
-class OccupationRepository implements InterfacesCountryRepository
+class OccupationRepository implements InterfacesOccupationRepository
 {
     /**
      * @var Model

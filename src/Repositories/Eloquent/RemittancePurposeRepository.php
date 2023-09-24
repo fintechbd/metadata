@@ -3,7 +3,7 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\MetaData\Exceptions\RemittancePurposeRepositoryException;
-use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Fintech\MetaData\Interfaces\RemittancePurposeRepository as InterfacesRemittancePurposeRepository;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
@@ -14,7 +14,7 @@ use InvalidArgumentException;
 /**
  * Class RemittancePurposeRepository
  */
-class RemittancePurposeRepository implements InterfacesCountryRepository
+class RemittancePurposeRepository implements InterfacesRemittancePurposeRepository
 {
     /**
      * @var Model

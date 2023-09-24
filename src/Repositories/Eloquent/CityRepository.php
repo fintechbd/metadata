@@ -3,7 +3,7 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\MetaData\Exceptions\CityRepositoryException;
-use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Fintech\MetaData\Interfaces\CityRepository as InterfacesCityRepository;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
@@ -14,7 +14,7 @@ use InvalidArgumentException;
 /**
  * Class CityRepository
  */
-class CityRepository implements InterfacesCountryRepository
+class CityRepository implements InterfacesCityRepository
 {
     /**
      * @var Model
@@ -25,7 +25,7 @@ class CityRepository implements InterfacesCountryRepository
     {
         $model = app()->make(config('fintech.metadata.city_model', \Fintech\MetaData\Models\City::class));
 
-        if (! $model instanceof Model) {
+        if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -63,7 +63,8 @@ class CityRepository implements InterfacesCountryRepository
     {
         try {
             $this->model->fill($attributes);
-if ($this->model->saveOrFail()) {
+
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 
@@ -113,7 +114,7 @@ if ($this->model->saveOrFail()) {
     /**
      * find and delete a entry from records
      *
-     * @param  bool  $onlyTrashed
+     * @param bool $onlyTrashed
      * @return bool|null
      *
      * @throws CityRepositoryException
@@ -124,18 +125,11 @@ if ($this->model->saveOrFail()) {
 
             $this->model = $this->model->findOrFail($id);
 
+            return $this->model;
+
         } catch (\Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
-        }
-
-        try {
-
-            return $this->model->deleteOrFail();
-
-        } catch (\Throwable $exception) {
-
-            throw new CityRepositoryException($exception->getMessage(), 0, $exception);
         }
 
         return null;
@@ -180,7 +174,7 @@ if ($this->model->saveOrFail()) {
      */
     public function restore(int|string $id)
     {
-        if (! method_exists($this->model, 'restore')) {
+        if (!method_exists($this->model, 'restore')) {
             throw new InvalidArgumentException('This model does not have `Illuminate\Database\Eloquent\SoftDeletes` trait to perform restoration.');
         }
 

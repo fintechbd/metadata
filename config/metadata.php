@@ -30,7 +30,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'subregion_model' => \Fintech\MetaData\Models\SubRegion::class,
+    'subregion_model' => \Fintech\MetaData\Models\Subregion::class,
 
     /*
     |--------------------------------------------------------------------------

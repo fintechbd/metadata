@@ -33,14 +33,6 @@ class CityController extends Controller
     use ApiResponseTrait;
 
     /**
-     * CityController constructor.
-     */
-    public function __construct()
-    {
-
-    }
-
-    /**
      * @lrd:start
      * Return a listing of the city resource as collection.
      *

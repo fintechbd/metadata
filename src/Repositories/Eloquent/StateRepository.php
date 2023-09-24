@@ -3,7 +3,7 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\MetaData\Exceptions\StateRepositoryException;
-use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Fintech\MetaData\Interfaces\StateRepository as InterfacesStateRepository;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
@@ -14,7 +14,7 @@ use InvalidArgumentException;
 /**
  * Class StateRepository
  */
-class StateRepository implements InterfacesCountryRepository
+class StateRepository implements InterfacesStateRepository
 {
     /**
      * @var Model

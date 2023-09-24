@@ -3,7 +3,7 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\MetaData\Exceptions\FundSourceRepositoryException;
-use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Fintech\MetaData\Interfaces\FundSourceRepository as InterfacesFundSourceRepository;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
@@ -14,7 +14,7 @@ use InvalidArgumentException;
 /**
  * Class FundSourceRepository
  */
-class FundSourceRepository implements InterfacesCountryRepository
+class FundSourceRepository implements InterfacesFundSourceRepository
 {
     /**
      * @var Model

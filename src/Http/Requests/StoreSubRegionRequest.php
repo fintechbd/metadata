@@ -22,7 +22,10 @@ class StoreSubRegionRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'region_id' => ['integer', 'nullable'],
+            'subregion_name' => ['string', 'nullable'],
+            'subregion_translations' => ['string', 'nullable'],
+            'subregion_data' => ['string', 'nullable'],
         ];
     }
 

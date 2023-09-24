@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use OwenIt\Auditing\Contracts\Auditable;
 
-class SubRegion extends Model implements Auditable
+class Subregion extends Model implements Auditable
 {
     use BlameableTrait;
     use \OwenIt\Auditing\Auditable;

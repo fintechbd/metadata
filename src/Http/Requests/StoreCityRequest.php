@@ -22,7 +22,17 @@ class StoreCityRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'city_name' => ['string', 'nullable'],
+            'city_iso2' => ['string', 'nullable'],
+            'city_iso3' => ['string', 'nullable'],
+            'city_num_code' => ['string', 'nullable'],
+            'city_type' => ['string', 'nullable'],
+            'city_status' => ['string', 'nullable'],
+            'city_timezones' => ['string', 'nullable'],
+            'city_translations' => ['string', 'nullable'],
+            'city_data' => ['string', 'nullable'],
+            'state_id' => ['integer', 'nullable'],
+            'country_id' => ['integer', 'nullable'],
         ];
     }
 

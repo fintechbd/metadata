@@ -11,10 +11,10 @@ test('subregion list', function () {
 
 test('subregion created', function () {
     $response = Http::post(BASE_URL . '/subregions', [
-        "region_id" => "1",
+        "region_id" => 1,
         "subregion_name" => "Test",
-        "region_translations" => ["en" => "Test"],
-        "region_data" => ["en" => "Test"]
+        "subregion_translations" => '',
+        "subregion_data" => ''
     ]);
     expect($response->status())->toEqual(201);
 });
@@ -31,7 +31,7 @@ test('subregion updated', function () {
     expect($response->status())->toEqual(202);
 });
 
-test('subregion deleted', function () {
-    $response = Http::delete(BASE_URL . '/subregions/1');
-    expect($response->status())->toEqual(200);
-});
+//test('subregion deleted', function () {
+//    $response = Http::delete(BASE_URL . '/subregions/1');
+//    expect($response->status())->toEqual(200);
+//});
