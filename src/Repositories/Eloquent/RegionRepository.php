@@ -117,10 +117,9 @@ class RegionRepository implements InterfacesRegionRepository
     /**
      * find and delete a entry from records
      *
-     * @param string|int $id
+     * @param int|string $id
      * @param bool $onlyTrashed
-     * @return bool|null
-     * @throws RegionRepositoryException
+     * @return Model|null
      */
     public function read(int|string $id, $onlyTrashed = false)
     {
@@ -128,18 +127,11 @@ class RegionRepository implements InterfacesRegionRepository
 
             $this->model = $this->model->findOrFail($id);
 
+            return $this->model;
+
         } catch (\Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
-        }
-
-        try {
-
-            return $this->model->deleteOrFail();
-
-        } catch (\Throwable $exception) {
-
-            throw new RegionRepositoryException($exception->getMessage(), 0, $exception);
         }
 
         return null;

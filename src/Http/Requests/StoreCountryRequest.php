@@ -22,7 +22,21 @@ class StoreCountryRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'country_name' => ['string', 'nullable'],
+            'country_iso2' => ['string', 'nullable'],
+            'country_iso3' => ['string', 'nullable'],
+            'country_num_code' => ['string', 'nullable'],
+            'country_phone_code' => ['string', 'nullable'],
+            'country_capital' => ['string', 'nullable'],
+            'country_currency' => ['string', 'nullable'],
+            'country_region' => ['string', 'nullable'],
+            'country_subregion' => ['string', 'nullable'],
+            'country_currency_symbol' => ['string', 'nullable'],
+            'country_language' => ['string', 'nullable'],
+            'country_logo' => ['string', 'nullable'],
+            'country_status' => ['string', 'nullable'],
+            'country_timezones' => ['string', 'nullable'],
+            'country_translations' => ['string', 'nullable'],
         ];
     }
 

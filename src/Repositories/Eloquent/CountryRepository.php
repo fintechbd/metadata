@@ -5,13 +5,9 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 use Fintech\MetaData\Exceptions\CountryRepositoryException;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
 use Illuminate\Contracts\Database\Eloquent\Builder;
-use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
@@ -26,7 +22,7 @@ class CountryRepository implements InterfacesCountryRepository
     {
         $model = app()->make(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
 
-        if (! $model instanceof Model) {
+        if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -64,7 +60,8 @@ class CountryRepository implements InterfacesCountryRepository
     {
         try {
             $this->model->fill($attributes);
-if ($this->model->saveOrFail()) {
+
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 
@@ -114,8 +111,8 @@ if ($this->model->saveOrFail()) {
     /**
      * find and delete a entry from records
      *
-     * @param  bool  $onlyTrashed
-     * @return bool|null
+     * @param bool $onlyTrashed
+     * @return Model|null
      *
      * @throws CountryRepositoryException
      */
@@ -125,18 +122,11 @@ if ($this->model->saveOrFail()) {
 
             $this->model = $this->model->findOrFail($id);
 
+            return $this->model;
+
         } catch (\Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
-        }
-
-        try {
-
-            return $this->model->deleteOrFail();
-
-        } catch (\Throwable $exception) {
-
-            throw new CountryRepositoryException($exception->getMessage(), 0, $exception);
         }
 
         return null;
@@ -177,7 +167,7 @@ if ($this->model->saveOrFail()) {
      */
     public function restore(int|string $id): ?bool
     {
-        if (! method_exists($this->model, 'restore')) {
+        if (!method_exists($this->model, 'restore')) {
             throw new InvalidArgumentException('This model does not have `Illuminate\Database\Eloquent\SoftDeletes` trait to perform restoration.');
         }
 

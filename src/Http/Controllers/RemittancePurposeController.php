@@ -2,18 +2,18 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\RemittancePurposeResource;
-use Fintech\MetaData\Http\Resources\RemittancePurposeCollection;
 use Fintech\MetaData\Http\Requests\ImportRemittancePurposeRequest;
+use Fintech\MetaData\Http\Requests\IndexRemittancePurposeRequest;
 use Fintech\MetaData\Http\Requests\StoreRemittancePurposeRequest;
 use Fintech\MetaData\Http\Requests\UpdateRemittancePurposeRequest;
-use Fintech\MetaData\Http\Requests\IndexRemittancePurposeRequest;
+use Fintech\MetaData\Http\Resources\RemittancePurposeCollection;
+use Fintech\MetaData\Http\Resources\RemittancePurposeResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -86,7 +86,7 @@ class RemittancePurposeController extends Controller
             }
 
             return $this->created([
-                'message' => __('metadata::messages.resource.created', ['model' => 'RemittancePurpose']),
+                'message' => __('core::messages.resource.created', ['model' => 'RemittancePurpose']),
                 'id' => $remittancePurpose->id
              ]);
 
@@ -112,7 +112,7 @@ class RemittancePurposeController extends Controller
             $remittancePurpose = \MetaData::remittancePurpose()->read($id);
 
             if (!$remittancePurpose) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
             }
 
             return new RemittancePurposeResource($remittancePurpose);
@@ -145,7 +145,7 @@ class RemittancePurposeController extends Controller
             $remittancePurpose = \MetaData::remittancePurpose()->read($id);
 
             if (!$remittancePurpose) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
@@ -155,7 +155,7 @@ class RemittancePurposeController extends Controller
                 throw new UpdateOperationException();
             }
 
-            return $this->updated(__('metadata::messages.resource.updated', ['model' => 'RemittancePurpose']));
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'RemittancePurpose']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -184,7 +184,7 @@ class RemittancePurposeController extends Controller
             $remittancePurpose = \MetaData::remittancePurpose()->read($id);
 
             if (!$remittancePurpose) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
             }
 
             if (!\MetaData::remittancePurpose()->destroy($id)) {
@@ -192,7 +192,7 @@ class RemittancePurposeController extends Controller
                 throw new DeleteOperationException();
             }
 
-            return $this->deleted(__('metadata::messages.resource.deleted', ['model' => 'RemittancePurpose']));
+            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'RemittancePurpose']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -220,7 +220,7 @@ class RemittancePurposeController extends Controller
             $remittancePurpose = \MetaData::remittancePurpose()->read($id, true);
 
             if (!$remittancePurpose) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
             }
 
             if (!\MetaData::remittancePurpose()->restore($id)) {
@@ -228,7 +228,7 @@ class RemittancePurposeController extends Controller
                 throw new RestoreOperationException();
             }
 
-            return $this->restored(__('metadata::messages.resource.restored', ['model' => 'RemittancePurpose']));
+            return $this->restored(__('core::messages.resource.restored', ['model' => 'RemittancePurpose']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -257,7 +257,7 @@ class RemittancePurposeController extends Controller
 
             $remittancePurposePaginate = \MetaData::remittancePurpose()->export($inputs);
 
-            return $this->exported(__('metadata::messages.resource.exported', ['model' => 'RemittancePurpose']));
+            return $this->exported(__('core::messages.resource.exported', ['model' => 'RemittancePurpose']));
 
         } catch (\Exception $exception) {
 

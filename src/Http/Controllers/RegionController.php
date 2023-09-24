@@ -2,18 +2,18 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\RegionResource;
-use Fintech\MetaData\Http\Resources\RegionCollection;
 use Fintech\MetaData\Http\Requests\ImportRegionRequest;
+use Fintech\MetaData\Http\Requests\IndexRegionRequest;
 use Fintech\MetaData\Http\Requests\StoreRegionRequest;
 use Fintech\MetaData\Http\Requests\UpdateRegionRequest;
-use Fintech\MetaData\Http\Requests\IndexRegionRequest;
+use Fintech\MetaData\Http\Resources\RegionCollection;
+use Fintech\MetaData\Http\Resources\RegionResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -78,7 +78,7 @@ class RegionController extends Controller
             }
 
             return $this->created([
-                'message' => __('metadata::messages.resource.created', ['model' => 'Region']),
+                'message' => __('core::messages.resource.created', ['model' => 'Region']),
                 'id' => $region->id
              ]);
 
@@ -104,7 +104,7 @@ class RegionController extends Controller
             $region = \MetaData::region()->read($id);
 
             if (!$region) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
             }
 
             return new RegionResource($region);
@@ -137,7 +137,7 @@ class RegionController extends Controller
             $region = \MetaData::region()->read($id);
 
             if (!$region) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
@@ -147,7 +147,7 @@ class RegionController extends Controller
                 throw new UpdateOperationException();
             }
 
-            return $this->updated(__('metadata::messages.resource.updated', ['model' => 'Region']));
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Region']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -176,7 +176,7 @@ class RegionController extends Controller
             $region = \MetaData::region()->read($id);
 
             if (!$region) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
             }
 
             if (!\MetaData::region()->destroy($id)) {
@@ -184,7 +184,7 @@ class RegionController extends Controller
                 throw new DeleteOperationException();
             }
 
-            return $this->deleted(__('metadata::messages.resource.deleted', ['model' => 'Region']));
+            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Region']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -212,7 +212,7 @@ class RegionController extends Controller
             $region = \MetaData::region()->read($id, true);
 
             if (!$region) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Region', 'id' => strval($id)]));
             }
 
             if (!\MetaData::region()->restore($id)) {
@@ -220,7 +220,7 @@ class RegionController extends Controller
                 throw new RestoreOperationException();
             }
 
-            return $this->restored(__('metadata::messages.resource.restored', ['model' => 'Region']));
+            return $this->restored(__('core::messages.resource.restored', ['model' => 'Region']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -249,7 +249,7 @@ class RegionController extends Controller
 
             $regionPaginate = \MetaData::region()->export($inputs);
 
-            return $this->exported(__('metadata::messages.resource.exported', ['model' => 'Region']));
+            return $this->exported(__('core::messages.resource.exported', ['model' => 'Region']));
 
         } catch (\Exception $exception) {
 

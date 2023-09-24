@@ -2,18 +2,18 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\OccupationResource;
-use Fintech\MetaData\Http\Resources\OccupationCollection;
 use Fintech\MetaData\Http\Requests\ImportOccupationRequest;
+use Fintech\MetaData\Http\Requests\IndexOccupationRequest;
 use Fintech\MetaData\Http\Requests\StoreOccupationRequest;
 use Fintech\MetaData\Http\Requests\UpdateOccupationRequest;
-use Fintech\MetaData\Http\Requests\IndexOccupationRequest;
+use Fintech\MetaData\Http\Resources\OccupationCollection;
+use Fintech\MetaData\Http\Resources\OccupationResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -86,7 +86,7 @@ class OccupationController extends Controller
             }
 
             return $this->created([
-                'message' => __('metadata::messages.resource.created', ['model' => 'Occupation']),
+                'message' => __('core::messages.resource.created', ['model' => 'Occupation']),
                 'id' => $occupation->id
              ]);
 
@@ -112,7 +112,7 @@ class OccupationController extends Controller
             $occupation = \MetaData::occupation()->read($id);
 
             if (!$occupation) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
             }
 
             return new OccupationResource($occupation);
@@ -145,7 +145,7 @@ class OccupationController extends Controller
             $occupation = \MetaData::occupation()->read($id);
 
             if (!$occupation) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
@@ -155,7 +155,7 @@ class OccupationController extends Controller
                 throw new UpdateOperationException();
             }
 
-            return $this->updated(__('metadata::messages.resource.updated', ['model' => 'Occupation']));
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Occupation']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -184,7 +184,7 @@ class OccupationController extends Controller
             $occupation = \MetaData::occupation()->read($id);
 
             if (!$occupation) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
             }
 
             if (!\MetaData::occupation()->destroy($id)) {
@@ -192,7 +192,7 @@ class OccupationController extends Controller
                 throw new DeleteOperationException();
             }
 
-            return $this->deleted(__('metadata::messages.resource.deleted', ['model' => 'Occupation']));
+            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Occupation']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -220,7 +220,7 @@ class OccupationController extends Controller
             $occupation = \MetaData::occupation()->read($id, true);
 
             if (!$occupation) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
             }
 
             if (!\MetaData::occupation()->restore($id)) {
@@ -228,7 +228,7 @@ class OccupationController extends Controller
                 throw new RestoreOperationException();
             }
 
-            return $this->restored(__('metadata::messages.resource.restored', ['model' => 'Occupation']));
+            return $this->restored(__('core::messages.resource.restored', ['model' => 'Occupation']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -257,7 +257,7 @@ class OccupationController extends Controller
 
             $occupationPaginate = \MetaData::occupation()->export($inputs);
 
-            return $this->exported(__('metadata::messages.resource.exported', ['model' => 'Occupation']));
+            return $this->exported(__('core::messages.resource.exported', ['model' => 'Occupation']));
 
         } catch (\Exception $exception) {
 

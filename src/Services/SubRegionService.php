@@ -11,11 +11,14 @@ use Fintech\MetaData\Interfaces\SubRegionRepository;
  */
 class SubRegionService
 {
+    private $subRegionRepository;
     /**
      * SubRegionService constructor.
+     * @param SubRegionRepository $subRegionRepository
      */
-    public function __construct(private SubRegionRepository $subRegionRepository)
+    public function __construct(SubRegionRepository $subRegionRepository)
     {
+        $this->subRegionRepository = $subRegionRepository;
     }
 
     /**
@@ -23,11 +26,11 @@ class SubRegionService
      */
     public function list(array $filters = [])
     {
-        $countryList = $this->subRegionRepository->list($filters);
+        $subRegionList = $this->subRegionRepository->list($filters);
 
         //Do Business Stuff
 
-        return $countryList;
+        return $subRegionList;
 
     }
 

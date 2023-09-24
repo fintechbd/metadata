@@ -25,7 +25,7 @@ class StateRepository implements InterfacesCountryRepository
     {
         $model = app()->make(config('fintech.metadata.state_model', \Fintech\MetaData\Models\State::class));
 
-        if (! $model instanceof Model) {
+        if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -63,7 +63,8 @@ class StateRepository implements InterfacesCountryRepository
     {
         try {
             $this->model->fill($attributes);
-if ($this->model->saveOrFail()) {
+
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 
@@ -113,8 +114,8 @@ if ($this->model->saveOrFail()) {
     /**
      * find and delete a entry from records
      *
-     * @param  bool  $onlyTrashed
-     * @return bool|null
+     * @param bool $onlyTrashed
+     * @return Model|null
      *
      * @throws StateRepositoryException
      */
@@ -124,18 +125,11 @@ if ($this->model->saveOrFail()) {
 
             $this->model = $this->model->findOrFail($id);
 
+            return $this->model;
+
         } catch (\Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
-        }
-
-        try {
-
-            return $this->model->deleteOrFail();
-
-        } catch (\Throwable $exception) {
-
-            throw new StateRepositoryException($exception->getMessage(), 0, $exception);
         }
 
         return null;
@@ -180,7 +174,7 @@ if ($this->model->saveOrFail()) {
      */
     public function restore(int|string $id)
     {
-        if (! method_exists($this->model, 'restore')) {
+        if (!method_exists($this->model, 'restore')) {
             throw new InvalidArgumentException('This model does not have `Illuminate\Database\Eloquent\SoftDeletes` trait to perform restoration.');
         }
 

@@ -10,12 +10,4 @@
 |
 */
 return [
-    'resource' => [
-        'created' => ':model created successfully.',
-        'notfound' => 'No :model found with ID :id.',
-        'updated' => ':model updated successfully.',
-        'deleted' => ':model deleted successfully.',
-        'restored' => ':model restored successfully.',
-        'exported' => ':model exported successfully.',
-    ]
 ];

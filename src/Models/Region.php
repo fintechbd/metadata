@@ -22,7 +22,7 @@ class Region extends Model implements Auditable
     protected $primaryKey = 'id';
     protected $fillable = ['region_name', 'region_translations', 'region_data'];
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'creator_type', 'editor_type', 'destroyer_type', 'restorer_type', 'restorer_id', 'deleted_at'];
-//    protected $casts = ['region_translations' => 'json', 'region_data' => 'json'];
+    protected $casts = ['region_translations' => 'json', 'region_data' => 'json'];
 
     /*
     |--------------------------------------------------------------------------

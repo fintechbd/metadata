@@ -2,18 +2,18 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Exceptions\DeleteOperationException;
+use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
-use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
-use Fintech\MetaData\Http\Resources\BankResource;
-use Fintech\MetaData\Http\Resources\BankCollection;
 use Fintech\MetaData\Http\Requests\ImportBankRequest;
+use Fintech\MetaData\Http\Requests\IndexBankRequest;
 use Fintech\MetaData\Http\Requests\StoreBankRequest;
 use Fintech\MetaData\Http\Requests\UpdateBankRequest;
-use Fintech\MetaData\Http\Requests\IndexBankRequest;
+use Fintech\MetaData\Http\Resources\BankCollection;
+use Fintech\MetaData\Http\Resources\BankResource;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -86,7 +86,7 @@ class BankController extends Controller
             }
 
             return $this->created([
-                'message' => __('metadata::messages.resource.created', ['model' => 'Bank']),
+                'message' => __('core::messages.resource.created', ['model' => 'Bank']),
                 'id' => $bank->id
              ]);
 
@@ -112,7 +112,7 @@ class BankController extends Controller
             $bank = \MetaData::bank()->read($id);
 
             if (!$bank) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
             }
 
             return new BankResource($bank);
@@ -145,7 +145,7 @@ class BankController extends Controller
             $bank = \MetaData::bank()->read($id);
 
             if (!$bank) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
@@ -155,7 +155,7 @@ class BankController extends Controller
                 throw new UpdateOperationException();
             }
 
-            return $this->updated(__('metadata::messages.resource.updated', ['model' => 'Bank']));
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Bank']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -184,7 +184,7 @@ class BankController extends Controller
             $bank = \MetaData::bank()->read($id);
 
             if (!$bank) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
             }
 
             if (!\MetaData::bank()->destroy($id)) {
@@ -192,7 +192,7 @@ class BankController extends Controller
                 throw new DeleteOperationException();
             }
 
-            return $this->deleted(__('metadata::messages.resource.deleted', ['model' => 'Bank']));
+            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Bank']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -220,7 +220,7 @@ class BankController extends Controller
             $bank = \MetaData::bank()->read($id, true);
 
             if (!$bank) {
-                throw new ResourceNotFoundException(__('metadata::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
+                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
             }
 
             if (!\MetaData::bank()->restore($id)) {
@@ -228,7 +228,7 @@ class BankController extends Controller
                 throw new RestoreOperationException();
             }
 
-            return $this->restored(__('metadata::messages.resource.restored', ['model' => 'Bank']));
+            return $this->restored(__('core::messages.resource.restored', ['model' => 'Bank']));
 
         } catch (ResourceNotFoundException $exception) {
 
@@ -257,7 +257,7 @@ class BankController extends Controller
 
             $bankPaginate = \MetaData::bank()->export($inputs);
 
-            return $this->exported(__('metadata::messages.resource.exported', ['model' => 'Bank']));
+            return $this->exported(__('core::messages.resource.exported', ['model' => 'Bank']));
 
         } catch (\Exception $exception) {
 

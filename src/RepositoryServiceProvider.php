@@ -93,22 +93,21 @@ class RepositoryServiceProvider extends ServiceProvider
     public function register(): void
     {
         foreach ($this->repositories as $interface => $bindings) {
-            $this->app->bind($interface, function () use ($bindings) {
-                return match(config('database.default')){
-                'mongodb' => new $bindings['mongodb'](),
-                default => new $bindings['default'](),
-            };
-        }, true);
+            $this->app->bind($interface, function ($app) use ($bindings) {
+                return (config('database.default') == 'mongodb')
+                    ? $app->make($bindings['mongodb'])
+                    : $app->make($bindings['default']);
+            });
         }
     }
 
-//    /**
-//     * Get the services provided by the provider.
-//     *
-//     * @return array<int, string>
-//     */
-//    public function provides(): array
-//    {
-//        return array_keys($this->repositories);
-//    }
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array<int, string>
+     */
+    public function provides(): array
+    {
+        return array_keys($this->repositories);
+    }
 }
