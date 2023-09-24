@@ -19,15 +19,13 @@ use Illuminate\Routing\Controller;
 
 /**
  * Class BankController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to bank
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class BankController extends Controller
 {
     use ApiResponseTrait;
@@ -45,10 +43,8 @@ class BankController extends Controller
      * Return a listing of the bank resource as collection.
      *
      * *```paginate=false``` returns all resource as list not pagination*
-     * @lrd:end
      *
-     * @param IndexBankRequest $request
-     * @return BankCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexBankRequest $request): BankCollection|JsonResponse
     {
@@ -68,10 +64,9 @@ class BankController extends Controller
     /**
      * @lrd:start
      * Create a new bank resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreBankRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreBankRequest $request): JsonResponse
@@ -81,14 +76,14 @@ class BankController extends Controller
 
             $bank = \MetaData::bank()->create($inputs);
 
-            if (!$bank) {
+            if (! $bank) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Bank']),
-                'id' => $bank->id
-             ]);
+                'id' => $bank->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -99,10 +94,9 @@ class BankController extends Controller
     /**
      * @lrd:start
      * Return a specified bank resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return BankResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): BankResource|JsonResponse
@@ -111,7 +105,7 @@ class BankController extends Controller
 
             $bank = \MetaData::bank()->read($id);
 
-            if (!$bank) {
+            if (! $bank) {
                 throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
             }
 
@@ -130,11 +124,9 @@ class BankController extends Controller
     /**
      * @lrd:start
      * Update a specified bank resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateBankRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -144,13 +136,13 @@ class BankController extends Controller
 
             $bank = \MetaData::bank()->read($id);
 
-            if (!$bank) {
+            if (! $bank) {
                 throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::bank()->update($id, $inputs)) {
+            if (! \MetaData::bank()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -170,10 +162,11 @@ class BankController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified bank resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -183,11 +176,11 @@ class BankController extends Controller
 
             $bank = \MetaData::bank()->read($id);
 
-            if (!$bank) {
+            if (! $bank) {
                 throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::bank()->destroy($id)) {
+            if (! \MetaData::bank()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -208,9 +201,9 @@ class BankController extends Controller
      * @lrd:start
      * Restore the specified bank resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -219,11 +212,11 @@ class BankController extends Controller
 
             $bank = \MetaData::bank()->read($id, true);
 
-            if (!$bank) {
+            if (! $bank) {
                 throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::bank()->restore($id)) {
+            if (! \MetaData::bank()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -246,9 +239,6 @@ class BankController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexBankRequest $request
-     * @return JsonResponse
      */
     public function export(IndexBankRequest $request): JsonResponse
     {
@@ -272,7 +262,6 @@ class BankController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportBankRequest $request
      * @return BankCollection|JsonResponse
      */
     public function import(ImportBankRequest $request): JsonResponse

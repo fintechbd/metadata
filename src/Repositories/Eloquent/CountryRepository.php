@@ -22,7 +22,7 @@ class CountryRepository implements InterfacesCountryRepository
     {
         $model = app()->make(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
 
-        if (!$model instanceof Model) {
+        if (! $model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -111,7 +111,7 @@ class CountryRepository implements InterfacesCountryRepository
     /**
      * find and delete a entry from records
      *
-     * @param bool $onlyTrashed
+     * @param  bool  $onlyTrashed
      * @return Model|null
      *
      * @throws CountryRepositoryException
@@ -167,7 +167,7 @@ class CountryRepository implements InterfacesCountryRepository
      */
     public function restore(int|string $id): ?bool
     {
-        if (!method_exists($this->model, 'restore')) {
+        if (! method_exists($this->model, 'restore')) {
             throw new InvalidArgumentException('This model does not have `Illuminate\Database\Eloquent\SoftDeletes` trait to perform restoration.');
         }
 

@@ -24,7 +24,7 @@ Route::prefix('v1')->group(function () {
         //        Route::apiResource('bank-branches', \Fintech\MetaData\Http\Controllers\BankBranchController::class);
         //        Route::apiResource('fund-sources', \Fintech\MetaData\Http\Controllers\FundSourceController::class);
         //        Route::apiResource('occupations', \Fintech\MetaData\Http\Controllers\OccupationController::class);
-//                Route::apiResource('relations', \Fintech\MetaData\Http\Controllers\RelationController::class);
+        //                Route::apiResource('relations', \Fintech\MetaData\Http\Controllers\RelationController::class);
         //        Route::apiResource('remittance-purposes', \Fintech\MetaData\Http\Controllers\RemittancePurposeController::class);
     });
 });

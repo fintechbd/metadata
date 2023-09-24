@@ -16,16 +16,13 @@ use InvalidArgumentException;
  */
 class SubRegionRepository implements InterfacesSubRegionRepository
 {
-    /**
-     * @var Model
-     */
     private Model $model;
 
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\Subregion::class));
 
-        if (!$model instanceof Model) {
+        if (! $model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -114,7 +111,7 @@ class SubRegionRepository implements InterfacesSubRegionRepository
     /**
      * find and delete a entry from records
      *
-     * @param bool $onlyTrashed
+     * @param  bool  $onlyTrashed
      * @return Model|null
      *
      * @throws SubRegionRepositoryException
@@ -125,7 +122,7 @@ class SubRegionRepository implements InterfacesSubRegionRepository
 
             $this->model = $this->model->findOrFail($id);
 
-            return  $this->model;
+            return $this->model;
 
         } catch (\Throwable $exception) {
 
@@ -174,7 +171,7 @@ class SubRegionRepository implements InterfacesSubRegionRepository
      */
     public function restore(int|string $id)
     {
-        if (!method_exists($this->model, 'restore')) {
+        if (! method_exists($this->model, 'restore')) {
             throw new InvalidArgumentException('This model does not have `Illuminate\Database\Eloquent\SoftDeletes` trait to perform restoration.');
         }
 

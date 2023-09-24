@@ -98,7 +98,6 @@ class CountryController extends Controller
 
             $country = \MetaData::country()->read($id);
 
-
             if (! $country) {
                 throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Country', 'id' => strval($id)]));
             }

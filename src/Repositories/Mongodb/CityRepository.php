@@ -14,9 +14,6 @@ use Throwable;
  */
 class CityRepository implements InterfacesCountryRepository
 {
-    /**
-     * @var Model
-     */
     private Model $model;
 
     public function __construct()

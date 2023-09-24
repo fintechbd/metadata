@@ -12,9 +12,9 @@ use Fintech\MetaData\Interfaces\SubRegionRepository;
 class SubRegionService
 {
     private $subRegionRepository;
+
     /**
      * SubRegionService constructor.
-     * @param SubRegionRepository $subRegionRepository
      */
     public function __construct(SubRegionRepository $subRegionRepository)
     {

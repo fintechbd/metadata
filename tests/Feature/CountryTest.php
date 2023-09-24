@@ -5,12 +5,12 @@ use Illuminate\Support\Facades\Http;
 define('BASE_URL', 'http://devstarter.test/api/v1/metadata');
 
 test('country list', function () {
-    $response = Http::get(BASE_URL . '/countries');
+    $response = Http::get(BASE_URL.'/countries');
     expect($response->status())->toEqual(200);
 });
 
 test('country created', function () {
-    $response = Http::post(BASE_URL . '/countries', [
+    $response = Http::post(BASE_URL.'/countries', [
         'country_name' => 'Test',
         'country_iso2' => 'test',
         'country_iso3' => 'test',
@@ -22,18 +22,18 @@ test('country created', function () {
         'country_subregion' => 'South',
         'country_currency_symbol' => '$',
         'country_language' => 'bn',
-        'country_status' => 'ACTIVE'
+        'country_status' => 'ACTIVE',
     ]);
     expect($response->status())->toEqual(201);
 });
 
 test('country detail', function () {
-    $response = Http::get(BASE_URL . '/countries/1');
+    $response = Http::get(BASE_URL.'/countries/1');
     expect($response->status())->toEqual(200);
 });
 
 test('country updated', function () {
-    $response = Http::put(BASE_URL . '/countries/1', [
+    $response = Http::put(BASE_URL.'/countries/1', [
         'country_name' => 'Test v2',
         'country_iso2' => 'test',
         'country_iso3' => 'test',
@@ -45,7 +45,7 @@ test('country updated', function () {
         'country_subregion' => 'South',
         'country_currency_symbol' => '$',
         'country_language' => 'bn',
-        'country_status' => 'ACTIVE'
+        'country_status' => 'ACTIVE',
     ]);
     expect($response->status())->toEqual(202);
 });

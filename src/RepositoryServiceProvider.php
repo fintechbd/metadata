@@ -35,7 +35,6 @@ use Fintech\MetaData\Repositories\Mongodb\RelationRepository as MongodbRelationR
 use Fintech\MetaData\Repositories\Mongodb\RemittancePurposeRepository as MongodbRemittancePurposeRepository;
 use Fintech\MetaData\Repositories\Mongodb\StateRepository as MongodbStateRepository;
 use Fintech\MetaData\Repositories\Mongodb\SubRegionRepository as MongodbSubRegionRepository;
-use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 
 class RepositoryServiceProvider extends ServiceProvider
@@ -43,48 +42,48 @@ class RepositoryServiceProvider extends ServiceProvider
     public array $repositories = [
         BankBranchRepository::class => [
             'default' => EloquentBankBranchRepository::class,
-            'mongodb' => MongodbBankBranchRepository::class
+            'mongodb' => MongodbBankBranchRepository::class,
         ],
         BankRepository::class => [
             'default' => EloquentBankRepository::class,
-            'mongodb' => MongodbBankRepository::class
+            'mongodb' => MongodbBankRepository::class,
         ],
         CityRepository::class => [
             'default' => EloquentCityRepository::class,
-            'mongodb' => MongodbCityRepository::class
+            'mongodb' => MongodbCityRepository::class,
         ],
         CountryRepository::class => [
             'default' => EloquentCountryRepository::class,
-            'mongodb' => MongodbCountryRepository::class
+            'mongodb' => MongodbCountryRepository::class,
         ],
         FundSourceRepository::class => [
             'default' => EloquentFundSourceRepository::class,
-            'mongodb' => MongodbFundSourceRepository::class
+            'mongodb' => MongodbFundSourceRepository::class,
         ],
         OccupationRepository::class => [
             'default' => EloquentOccupationRepository::class,
-            'mongodb' => MongodbOccupationRepository::class
+            'mongodb' => MongodbOccupationRepository::class,
         ],
         RegionRepository::class => [
             'default' => EloquentRegionRepository::class,
-            'mongodb' => MongodbRegionRepository::class
+            'mongodb' => MongodbRegionRepository::class,
         ],
         RelationRepository::class => [
             'default' => EloquentRelationRepository::class,
-            'mongodb' => MongodbRelationRepository::class
+            'mongodb' => MongodbRelationRepository::class,
         ],
         RemittancePurposeRepository::class => [
             'default' => EloquentRemittancePurposeRepository::class,
-            'mongodb' => MongodbRemittancePurposeRepository::class
+            'mongodb' => MongodbRemittancePurposeRepository::class,
         ],
         StateRepository::class => [
             'default' => EloquentStateRepository::class,
-            'mongodb' => MongodbStateRepository::class
+            'mongodb' => MongodbStateRepository::class,
         ],
         SubRegionRepository::class => [
             'default' => EloquentSubRegionRepository::class,
-            'mongodb' => MongodbSubRegionRepository::class
-        ]
+            'mongodb' => MongodbSubRegionRepository::class,
+        ],
     ];
 
     /**

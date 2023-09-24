@@ -19,15 +19,13 @@ use Illuminate\Routing\Controller;
 
 /**
  * Class StateController
- * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
  * operation related to state
- * @lrd:end
  *
+ * @lrd:end
  */
-
 class StateController extends Controller
 {
     use ApiResponseTrait;
@@ -45,10 +43,8 @@ class StateController extends Controller
      * Return a listing of the state resource as collection.
      *
      * *```paginate=false``` returns all resource as list not pagination*
-     * @lrd:end
      *
-     * @param IndexStateRequest $request
-     * @return StateCollection|JsonResponse
+     * @lrd:end
      */
     public function index(IndexStateRequest $request): StateCollection|JsonResponse
     {
@@ -68,10 +64,9 @@ class StateController extends Controller
     /**
      * @lrd:start
      * Create a new state resource in storage.
+     *
      * @lrd:end
      *
-     * @param StoreStateRequest $request
-     * @return JsonResponse
      * @throws StoreOperationException
      */
     public function store(StoreStateRequest $request): JsonResponse
@@ -81,14 +76,14 @@ class StateController extends Controller
 
             $state = \MetaData::state()->create($inputs);
 
-            if (!$state) {
+            if (! $state) {
                 throw new StoreOperationException();
             }
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'State']),
-                'id' => $state->id
-             ]);
+                'id' => $state->id,
+            ]);
 
         } catch (\Exception $exception) {
 
@@ -99,10 +94,9 @@ class StateController extends Controller
     /**
      * @lrd:start
      * Return a specified state resource found by id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return StateResource|JsonResponse
      * @throws ResourceNotFoundException
      */
     public function show(string|int $id): StateResource|JsonResponse
@@ -111,7 +105,7 @@ class StateController extends Controller
 
             $state = \MetaData::state()->read($id);
 
-            if (!$state) {
+            if (! $state) {
                 throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'State', 'id' => strval($id)]));
             }
 
@@ -130,11 +124,9 @@ class StateController extends Controller
     /**
      * @lrd:start
      * Update a specified state resource using id.
+     *
      * @lrd:end
      *
-     * @param UpdateStateRequest $request
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ResourceNotFoundException
      * @throws UpdateOperationException
      */
@@ -144,13 +136,13 @@ class StateController extends Controller
 
             $state = \MetaData::state()->read($id);
 
-            if (!$state) {
+            if (! $state) {
                 throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'State', 'id' => strval($id)]));
             }
 
             $inputs = $request->validated();
 
-            if (!\MetaData::state()->update($id, $inputs)) {
+            if (! \MetaData::state()->update($id, $inputs)) {
 
                 throw new UpdateOperationException();
             }
@@ -170,10 +162,11 @@ class StateController extends Controller
     /**
      * @lrd:start
      * Soft delete a specified state resource using id.
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
+     *
      * @throws ResourceNotFoundException
      * @throws DeleteOperationException
      */
@@ -183,11 +176,11 @@ class StateController extends Controller
 
             $state = \MetaData::state()->read($id);
 
-            if (!$state) {
+            if (! $state) {
                 throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'State', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::state()->destroy($id)) {
+            if (! \MetaData::state()->destroy($id)) {
 
                 throw new DeleteOperationException();
             }
@@ -208,9 +201,9 @@ class StateController extends Controller
      * @lrd:start
      * Restore the specified state resource from trash.
      * ** ```Soft Delete``` needs to enabled to use this feature**
+     *
      * @lrd:end
      *
-     * @param string|int $id
      * @return JsonResponse
      */
     public function restore(string|int $id)
@@ -219,11 +212,11 @@ class StateController extends Controller
 
             $state = \MetaData::state()->read($id, true);
 
-            if (!$state) {
+            if (! $state) {
                 throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'State', 'id' => strval($id)]));
             }
 
-            if (!\MetaData::state()->restore($id)) {
+            if (! \MetaData::state()->restore($id)) {
 
                 throw new RestoreOperationException();
             }
@@ -246,9 +239,6 @@ class StateController extends Controller
      * After export job is done system will fire  export completed event
      *
      * @lrd:end
-     *
-     * @param IndexStateRequest $request
-     * @return JsonResponse
      */
     public function export(IndexStateRequest $request): JsonResponse
     {
@@ -272,7 +262,6 @@ class StateController extends Controller
      *
      * @lrd:end
      *
-     * @param ImportStateRequest $request
      * @return StateCollection|JsonResponse
      */
     public function import(ImportStateRequest $request): JsonResponse

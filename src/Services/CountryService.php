@@ -11,8 +11,8 @@ use Fintech\MetaData\Interfaces\CountryRepository;
  */
 class CountryService
 {
-
     public $countryRepository;
+
     /**
      * CountryService constructor.
      */
