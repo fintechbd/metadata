@@ -12,9 +12,6 @@ use InvalidArgumentException;
  */
 class OccupationRepository implements InterfacesCountryRepository
 {
-    /**
-     * @var Model
-     */
     private Model $model;
 
     public function __construct()
@@ -59,7 +56,7 @@ class OccupationRepository implements InterfacesCountryRepository
     {
         try {
             $this->model->fill($attributes);
-if ($this->model->saveOrFail()) {
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 

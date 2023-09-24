@@ -16,9 +16,6 @@ use InvalidArgumentException;
  */
 class BankBranchRepository implements InterfacesBankBranchRepository
 {
-    /**
-     * @var Model
-     */
     private Model $model;
 
     public function __construct()
@@ -63,7 +60,7 @@ class BankBranchRepository implements InterfacesBankBranchRepository
     {
         try {
             $this->model->fill($attributes);
-if ($this->model->saveOrFail()) {
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 

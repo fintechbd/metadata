@@ -16,9 +16,6 @@ use InvalidArgumentException;
  */
 class RemittancePurposeRepository implements InterfacesRemittancePurposeRepository
 {
-    /**
-     * @var Model
-     */
     private Model $model;
 
     public function __construct()
@@ -63,7 +60,7 @@ class RemittancePurposeRepository implements InterfacesRemittancePurposeReposito
     {
         try {
             $this->model->fill($attributes);
-if ($this->model->saveOrFail()) {
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 

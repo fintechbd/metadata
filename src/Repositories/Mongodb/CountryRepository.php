@@ -56,7 +56,7 @@ class CountryRepository implements InterfacesCountryRepository
     {
         try {
             $this->model->fill($attributes);
-if ($this->model->saveOrFail()) {
+            if ($this->model->saveOrFail()) {
 
                 $this->model->refresh();
 
