@@ -11,9 +11,9 @@ use Spatie\Translatable\HasTranslations;
 class Subregion extends Model implements Auditable
 {
     use BlameableTrait;
+    use HasTranslations;
     use \OwenIt\Auditing\Auditable;
     use SoftDeletes;
-    use HasTranslations;
 
     /*
     |--------------------------------------------------------------------------

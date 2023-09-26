@@ -16,9 +16,6 @@ use InvalidArgumentException;
  */
 class RegionRepository implements InterfacesRegionRepository
 {
-    /**
-     * @var Model
-     */
     private Model $model;
 
     public function __construct()
