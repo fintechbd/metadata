@@ -13,14 +13,15 @@ return new class extends Migration
     {
         Schema::create('regions', function (Blueprint $table) {
             $table->id();
-            $table->string('region_name');
-            $table->json('region_translations')->nullable();
+            $table->json('name')->nullable();
             $table->json('region_data')->nullable();
-            $table->unsignedBigInteger('creator_id')->index()->nullable();
-            $table->unsignedBigInteger('editor_id')->index()->nullable();
-            $table->unsignedBigInteger('destroyer_id')->index()->nullable();
+            $table->foreignId('creator_id')->nullable();
+            $table->foreignId('editor_id')->nullable();
+            $table->foreignId('destroyer_id')->nullable();
+            $table->foreignId('restorer_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
+            $table->timestamp('restored_at')->nullable();
         });
     }
 

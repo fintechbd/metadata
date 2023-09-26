@@ -13,15 +13,16 @@ return new class extends Migration
     {
         Schema::create('subregions', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('region_id');
-            $table->string('subregion_name');
-            $table->json('subregion_translations')->nullable();
+            $table->json('name')->nullable();
             $table->json('subregion_data')->nullable();
-            $table->unsignedBigInteger('creator_id')->index()->nullable();
-            $table->unsignedBigInteger('editor_id')->index()->nullable();
-            $table->unsignedBigInteger('destroyer_id')->index()->nullable();
+            $table->foreignId('region_id')->nullable();
+            $table->foreignId('creator_id')->nullable();
+            $table->foreignId('editor_id')->nullable();
+            $table->foreignId('destroyer_id')->nullable();
+            $table->foreignId('restorer_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
+            $table->timestamp('restored_at')->nullable();
         });
     }
 

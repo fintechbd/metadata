@@ -13,27 +13,32 @@ return new class extends Migration
     {
         Schema::create('countries', function (Blueprint $table) {
             $table->id();
-            $table->string('country_name');
-            $table->string('country_iso2')->nullable();
-            $table->string('country_iso3')->nullable();
-            $table->string('country_num_code')->nullable();
-            $table->string('country_phone_code')->nullable();
-            $table->string('country_capital')->nullable();
-            $table->string('country_currency')->nullable();
-            $table->string('country_region')->nullable();
-            $table->string('country_subregion')->nullable();
-            $table->string('country_currency_symbol')->nullable();
-            $table->string('country_language')->nullable();
-            $table->string('country_logo')->nullable();
-            $table->string('country_status')->nullable();
-            $table->json('country_timezones')->nullable();
-            $table->json('country_translations')->nullable();
+            $table->json('name')->nullable();
+            $table->string('iso3')->nullable();
+            $table->string('iso2')->nullable();
+            $table->string('phone_code')->nullable();
+            $table->string('capital')->nullable();
+            $table->string('currency')->nullable();
+            $table->string('currency_name')->nullable();
+            $table->string('currency_symbol')->nullable();
+            $table->string('nationality')->nullable();
+            $table->json('timezones')->nullable();
             $table->json('country_data')->nullable();
-            $table->unsignedBigInteger('creator_id')->index()->nullable();
-            $table->unsignedBigInteger('editor_id')->index()->nullable();
-            $table->unsignedBigInteger('destroyer_id')->index()->nullable();
+            $table->double('latitude', 11, 8)->nullable();
+            $table->double('longitude', 11, 8)->nullable();
+            $table->string('emoji')->nullable();
+            $table->boolean('enabled')->nullable();
+            $table->string('logo')->nullable();
+            $table->string('language')->nullable();
+            $table->foreignId('region_id')->nullable();
+            $table->foreignId('subregion_id')->nullable();
+            $table->foreignId('creator_id')->nullable();
+            $table->foreignId('editor_id')->nullable();
+            $table->foreignId('destroyer_id')->nullable();
+            $table->foreignId('restorer_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
+            $table->timestamp('restored_at')->nullable();
         });
     }
 
