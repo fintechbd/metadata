@@ -4,8 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      */
@@ -13,21 +12,20 @@ return new class extends Migration
     {
         Schema::create('states', function (Blueprint $table) {
             $table->id();
-            $table->string('state_name');
-            $table->string('state_iso2')->nullable();
-            $table->string('state_iso3')->nullable();
-            $table->string('state_num_code')->nullable();
-            $table->string('state_type')->nullable();
-            $table->string('state_status')->nullable();
-            $table->json('state_timezones')->nullable();
-            $table->json('state_translations')->nullable();
+            $table->string('name');
+            $table->string('type')->nullable();
+            $table->double('latitude', 11, 8)->nullable();
+            $table->double('longitude', 11, 8)->nullable();
+            $table->boolean('enabled')->nullable();
             $table->json('state_data')->nullable();
-            $table->unsignedBigInteger('country_id')->index()->nullable();
-            $table->unsignedBigInteger('creator_id')->index()->nullable();
-            $table->unsignedBigInteger('editor_id')->index()->nullable();
-            $table->unsignedBigInteger('destroyer_id')->index()->nullable();
+            $table->foreignId('country_id')->nullable();
+            $table->foreignId('creator_id')->nullable();
+            $table->foreignId('editor_id')->nullable();
+            $table->foreignId('destroyer_id')->nullable();
+            $table->foreignId('restorer_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
+            $table->timestamp('restored_at')->nullable();
         });
     }
 
