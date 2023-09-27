@@ -10,6 +10,7 @@ use OwenIt\Auditing\Contracts\Auditable;
 class Subregion extends Model implements Auditable
 {
     use BlameableTrait;
+    use HasTranslations;
     use \OwenIt\Auditing\Auditable;
     use SoftDeletes;
 
