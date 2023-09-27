@@ -13,8 +13,6 @@ class Country extends Model implements Auditable
     use BlameableTrait;
     use \OwenIt\Auditing\Auditable;
     use SoftDeletes;
-    use HasTranslations;
-
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
@@ -25,11 +23,9 @@ class Country extends Model implements Auditable
 
     protected $guarded = ['id'];
 
-    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id',  'restorer_id', 'deleted_at'];
+    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id', 'deleted_at'];
 
-    protected $casts = [];
-
-    protected $translatable = ['name'];
+    protected $casts = ['timezones' => 'json', 'country_data' => 'json', ];
 
     /*
     |--------------------------------------------------------------------------

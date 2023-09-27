@@ -13,22 +13,20 @@ return new class extends Migration
     {
         Schema::create('cities', function (Blueprint $table) {
             $table->id();
-            $table->string('city_name');
-            $table->string('city_iso2')->nullable();
-            $table->string('city_iso3')->nullable();
-            $table->string('city_num_code')->nullable();
-            $table->string('city_type')->nullable();
-            $table->string('city_status')->nullable();
-            $table->json('city_timezones')->nullable();
-            $table->json('city_translations')->nullable();
+            $table->string('name');
+            $table->double('latitude', 11, 8)->nullable();
+            $table->double('longitude', 11, 8)->nullable();
+            $table->boolean('enabled')->nullable();
             $table->json('city_data')->nullable();
-            $table->unsignedBigInteger('state_id')->index()->nullable();
-            $table->unsignedBigInteger('country_id')->index()->nullable();
-            $table->unsignedBigInteger('creator_id')->index()->nullable();
-            $table->unsignedBigInteger('editor_id')->index()->nullable();
-            $table->unsignedBigInteger('destroyer_id')->index()->nullable();
+            $table->foreignId('state_id')->nullable();
+            $table->foreignId('country_id')->nullable();
+            $table->foreignId('creator_id')->nullable();
+            $table->foreignId('editor_id')->nullable();
+            $table->foreignId('destroyer_id')->nullable();
+            $table->foreignId('restorer_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
+            $table->timestamp('restored_at')->nullable();
         });
     }
 

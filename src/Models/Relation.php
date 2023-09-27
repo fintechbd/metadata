@@ -21,13 +21,11 @@ class Relation extends Model implements Auditable
 
     protected $primaryKey = 'id';
 
-    protected $fillable = [];
-
     protected $guarded = ['id'];
 
-    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id',  'restorer_id', 'deleted_at'];
+    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id', 'deleted_at'];
 
-    protected $casts = [];
+    protected $casts = ['relation_data' => 'json'];
 
     /*
     |--------------------------------------------------------------------------

@@ -35,9 +35,10 @@ use Fintech\MetaData\Repositories\Mongodb\RelationRepository as MongodbRelationR
 use Fintech\MetaData\Repositories\Mongodb\RemittancePurposeRepository as MongodbRemittancePurposeRepository;
 use Fintech\MetaData\Repositories\Mongodb\StateRepository as MongodbStateRepository;
 use Fintech\MetaData\Repositories\Mongodb\SubRegionRepository as MongodbSubRegionRepository;
+use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 
-class RepositoryServiceProvider extends ServiceProvider
+class RepositoryServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     public array $repositories = [
         BankBranchRepository::class => [

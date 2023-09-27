@@ -6,14 +6,12 @@ use Fintech\Core\Traits\BlameableTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use OwenIt\Auditing\Contracts\Auditable;
-use Spatie\Translatable\HasTranslations;
 
 class Subregion extends Model implements Auditable
 {
     use BlameableTrait;
     use \OwenIt\Auditing\Auditable;
     use SoftDeletes;
-    use HasTranslations;
 
     /*
     |--------------------------------------------------------------------------
@@ -25,11 +23,9 @@ class Subregion extends Model implements Auditable
 
     protected $guarded = ['id'];
 
-    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id',  'restorer_id', 'deleted_at'];
+    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id', 'deleted_at'];
 
-    protected $casts = [];
-
-    protected $translatable = ['name'];
+    protected $casts = ['subregion_data' => 'json'];
 
     /*
     |--------------------------------------------------------------------------

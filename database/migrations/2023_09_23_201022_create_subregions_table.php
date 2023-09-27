@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('subregions', function (Blueprint $table) {
             $table->id();
-            $table->json('name')->nullable();
+            $table->string('name')->nullable();
             $table->json('subregion_data')->nullable();
             $table->foreignId('region_id')->nullable();
             $table->foreignId('creator_id')->nullable();
