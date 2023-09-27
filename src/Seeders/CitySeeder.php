@@ -25,6 +25,6 @@ class CitySeeder extends Seeder
 
     public function data()
     {
-        return include __DIR__ . '/cities.dat';
+        return include __DIR__.'/cities.dat';
     }
 }

@@ -22,7 +22,7 @@ class RegionSeeder extends Seeder
         return [
             [
                 'id' => '1',
-                'name' => "Africa",
+                'name' => 'Africa',
                 'region_data' => [],
                 'creator_id' => null,
                 'editor_id' => null,
@@ -32,7 +32,7 @@ class RegionSeeder extends Seeder
             ],
             [
                 'id' => '2',
-                'name' => "Americas",
+                'name' => 'Americas',
                 'region_data' => [],
                 'creator_id' => null,
                 'editor_id' => null,
@@ -42,7 +42,7 @@ class RegionSeeder extends Seeder
             ],
             [
                 'id' => '3',
-                'name' => "Asia",
+                'name' => 'Asia',
                 'region_data' => [],
                 'creator_id' => null,
                 'editor_id' => null,
@@ -52,7 +52,7 @@ class RegionSeeder extends Seeder
             ],
             [
                 'id' => '4',
-                'name' => "Europe",
+                'name' => 'Europe',
                 'region_data' => [],
                 'creator_id' => null,
                 'editor_id' => null,
@@ -62,7 +62,7 @@ class RegionSeeder extends Seeder
             ],
             [
                 'id' => '5',
-                'name' => "Oceania",
+                'name' => 'Oceania',
                 'region_data' => [],
                 'creator_id' => null,
                 'editor_id' => null,
@@ -72,7 +72,7 @@ class RegionSeeder extends Seeder
             ],
             [
                 'id' => '6',
-                'name' => "Polar",
+                'name' => 'Polar',
                 'region_data' => [],
                 'creator_id' => null,
                 'editor_id' => null,
