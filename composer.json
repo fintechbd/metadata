@@ -20,7 +20,6 @@
         "fintech/core": "^0.0.1",
         "illuminate/contracts": "^10.0",
         "owen-it/laravel-auditing": "^13.5",
-        "spatie/laravel-package-tools": "^1.14.0"
     },
     "require-dev": {
         "guzzlehttp/guzzle": "^7.8",
