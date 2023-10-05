@@ -5,7 +5,7 @@ namespace Fintech\MetaData\Repositories\Mongodb;
 use Fintech\MetaData\Exceptions\BankRepositoryException;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
 use Fintech\MetaData\Models\Bank;
-use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Illuminate\Contracts\Pagination\Paginator;
 use InvalidArgumentException;
 use Throwable;
 
@@ -14,7 +14,7 @@ use Throwable;
  */
 class BankRepository implements InterfacesCountryRepository
 {
-    private Model $model;
+
 
     public function __construct()
     {
@@ -31,7 +31,7 @@ class BankRepository implements InterfacesCountryRepository
      * return a list or pagination of items from
      * filtered options
      *
-     * @return LengthAwarePaginator|Builder[]|Collection
+     * @return Paginator|Collection
      */
     public function list(array $filters = [])
     {
@@ -42,7 +42,7 @@ class BankRepository implements InterfacesCountryRepository
 
         //Prepare Output
         return (isset($filters['paginate']) && $filters['paginate'] == true)
-            ? $query->paginate(($filters['per_page'] ?? 20))
+            ? $query->simplePaginate(($filters['per_page'] ?? 20))
             : $query->get();
 
     }
