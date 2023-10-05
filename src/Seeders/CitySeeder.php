@@ -14,7 +14,7 @@ class CitySeeder extends Seeder
     {
         $data = $this->data();
 
-        foreach (array_chunk($data, 500) as $block) {
+        foreach (array_chunk($data, 200) as $block) {
             set_time_limit(2100);
             foreach ($block as $city) {
                 MetaData::city()->create($city);
