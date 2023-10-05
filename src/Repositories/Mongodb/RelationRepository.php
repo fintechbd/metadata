@@ -12,8 +12,6 @@ use InvalidArgumentException;
  */
 class RelationRepository implements InterfacesCountryRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.relation_model', \Fintech\MetaData\Models\Relation::class));

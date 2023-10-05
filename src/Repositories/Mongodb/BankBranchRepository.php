@@ -8,7 +8,6 @@ use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 use MongoDB\Laravel\Collection;
-use MongoDB\Laravel\Eloquent\Builder;
 use MongoDB\Laravel\Eloquent\Model;
 
 /**
@@ -16,8 +15,6 @@ use MongoDB\Laravel\Eloquent\Model;
  */
 class BankBranchRepository implements InterfacesCountryRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.bank_branch_model', \Fintech\MetaData\Models\BankBranch::class));

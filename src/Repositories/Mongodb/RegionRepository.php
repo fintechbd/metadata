@@ -12,8 +12,6 @@ use InvalidArgumentException;
  */
 class RegionRepository implements InterfacesRegionRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));

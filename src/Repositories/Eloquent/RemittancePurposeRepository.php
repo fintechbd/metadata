@@ -3,13 +3,10 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
-use Fintech\MetaData\Exceptions\RemittancePurposeRepositoryException;
 use Fintech\MetaData\Interfaces\RemittancePurposeRepository as InterfacesRemittancePurposeRepository;
-use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
 /**
@@ -17,7 +14,6 @@ use InvalidArgumentException;
  */
 class RemittancePurposeRepository extends EloquentRepository implements InterfacesRemittancePurposeRepository
 {
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.remittance_purpose_model', \Fintech\MetaData\Models\RemittancePurpose::class));

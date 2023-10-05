@@ -12,8 +12,6 @@ use InvalidArgumentException;
  */
 class RemittancePurposeRepository implements InterfacesCountryRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.remittance_purpose_model', \Fintech\MetaData\Models\RemittancePurpose::class));

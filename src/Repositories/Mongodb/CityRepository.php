@@ -14,8 +14,6 @@ use Throwable;
  */
 class CityRepository implements InterfacesCountryRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.city_model', City::class));

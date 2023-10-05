@@ -14,8 +14,6 @@ use Throwable;
  */
 class StateRepository implements InterfacesCountryRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.state_model', State::class));

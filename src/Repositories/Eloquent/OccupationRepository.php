@@ -3,14 +3,10 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
-use Fintech\MetaData\Exceptions\OccupationRepositoryException;
 use Fintech\MetaData\Interfaces\OccupationRepository as InterfacesOccupationRepository;
-use Illuminate\Contracts\Database\Eloquent\Builder;
-use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
 /**
@@ -18,7 +14,6 @@ use InvalidArgumentException;
  */
 class OccupationRepository extends EloquentRepository implements InterfacesOccupationRepository
 {
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.occupation_model', \Fintech\MetaData\Models\Occupation::class));
@@ -34,7 +29,6 @@ class OccupationRepository extends EloquentRepository implements InterfacesOccup
      * return a list or pagination of items from
      * filtered options
      *
-     * @param array $filters
      * @return Paginator|Collection
      */
     public function list(array $filters = [])

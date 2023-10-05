@@ -3,13 +3,10 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
-use Fintech\MetaData\Exceptions\StateRepositoryException;
 use Fintech\MetaData\Interfaces\StateRepository as InterfacesStateRepository;
-use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
 /**

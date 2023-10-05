@@ -3,13 +3,10 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
-use Fintech\MetaData\Exceptions\FundSourceRepositoryException;
 use Fintech\MetaData\Interfaces\FundSourceRepository as InterfacesFundSourceRepository;
-use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
 /**
@@ -17,8 +14,6 @@ use InvalidArgumentException;
  */
 class FundSourceRepository extends EloquentRepository implements InterfacesFundSourceRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.fund_source_model', \Fintech\MetaData\Models\FundSource::class));

@@ -12,8 +12,6 @@ use InvalidArgumentException;
  */
 class SubRegionRepository implements InterfacesCountryRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\Subregion::class));

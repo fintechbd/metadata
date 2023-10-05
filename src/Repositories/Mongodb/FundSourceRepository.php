@@ -12,8 +12,6 @@ use InvalidArgumentException;
  */
 class FundSourceRepository implements InterfacesCountryRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.fund_source_model', \Fintech\MetaData\Models\FundSource::class));

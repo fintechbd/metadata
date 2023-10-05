@@ -4,7 +4,6 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\BankRepository as InterfacesBankRepository;
-use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
@@ -15,7 +14,6 @@ use InvalidArgumentException;
  */
 class BankRepository extends EloquentRepository implements InterfacesBankRepository
 {
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.bank_model', \Fintech\MetaData\Models\Bank::class));
@@ -50,5 +48,4 @@ class BankRepository extends EloquentRepository implements InterfacesBankReposit
             : $query->get();
 
     }
-
 }

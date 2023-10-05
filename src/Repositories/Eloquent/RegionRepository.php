@@ -3,13 +3,10 @@
 namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
-use Fintech\MetaData\Exceptions\RegionRepositoryException;
 use Fintech\MetaData\Interfaces\RegionRepository as InterfacesRegionRepository;
-use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 
 /**
@@ -17,8 +14,6 @@ use InvalidArgumentException;
  */
 class RegionRepository extends EloquentRepository implements InterfacesRegionRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));

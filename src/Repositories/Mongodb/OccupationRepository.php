@@ -12,8 +12,6 @@ use InvalidArgumentException;
  */
 class OccupationRepository implements InterfacesCountryRepository
 {
-
-
     public function __construct()
     {
         $model = app()->make(config('fintech.metadata.occupation_model', \Fintech\MetaData\Models\Occupation::class));
