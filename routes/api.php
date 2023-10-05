@@ -26,4 +26,3 @@ Route::prefix('metadata')->name('metadata.')->group(function () {
     Route::apiResource('relations', \Fintech\MetaData\Http\Controllers\RelationController::class);
     Route::apiResource('remittance-purposes', \Fintech\MetaData\Http\Controllers\RemittancePurposeController::class);
 });
-
