@@ -19,7 +19,6 @@ class StateSeeder extends Seeder
             foreach ($block as $state) {
                 MetaData::state()->create($state);
             }
-            break;
         }
     }
 

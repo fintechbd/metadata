@@ -19,7 +19,6 @@ class CitySeeder extends Seeder
             foreach ($block as $city) {
                 MetaData::city()->create($city);
             }
-            break;
         }
     }
 
