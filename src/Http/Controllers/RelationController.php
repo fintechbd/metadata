@@ -2,18 +2,20 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Exception;
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
+use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Requests\ImportRelationRequest;
 use Fintech\MetaData\Http\Requests\IndexRelationRequest;
 use Fintech\MetaData\Http\Requests\StoreRelationRequest;
 use Fintech\MetaData\Http\Requests\UpdateRelationRequest;
 use Fintech\MetaData\Http\Resources\RelationCollection;
 use Fintech\MetaData\Http\Resources\RelationResource;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -31,14 +33,6 @@ class RelationController extends Controller
     use ApiResponseTrait;
 
     /**
-     * RelationController constructor.
-     */
-    public function __construct()
-    {
-
-    }
-
-    /**
      * @lrd:start
      * Return a listing of the relation resource as collection.
      *
@@ -51,11 +45,11 @@ class RelationController extends Controller
         try {
             $inputs = $request->validated();
 
-            $relationPaginate = \MetaData::relation()->list($inputs);
+            $relationPaginate = MetaData::relation()->list($inputs);
 
             return new RelationCollection($relationPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -74,10 +68,10 @@ class RelationController extends Controller
         try {
             $inputs = $request->validated();
 
-            $relation = \MetaData::relation()->create($inputs);
+            $relation = MetaData::relation()->create($inputs);
 
-            if (! $relation) {
-                throw new StoreOperationException();
+            if (!$relation) {
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.relation_model'));
             }
 
             return $this->created([
@@ -85,7 +79,7 @@ class RelationController extends Controller
                 'id' => $relation->id,
             ]);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -97,25 +91,25 @@ class RelationController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): RelationResource|JsonResponse
     {
         try {
 
-            $relation = \MetaData::relation()->read($id);
+            $relation = MetaData::relation()->find($id);
 
-            if (! $relation) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Relation', 'id' => strval($id)]));
+            if (!$relation) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             return new RelationResource($relation);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -127,33 +121,33 @@ class RelationController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateRelationRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $relation = \MetaData::relation()->read($id);
+            $relation = MetaData::relation()->find($id);
 
-            if (! $relation) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Relation', 'id' => strval($id)]));
+            if (!$relation) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::relation()->update($id, $inputs)) {
+            if (!MetaData::relation()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Relation']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -167,31 +161,31 @@ class RelationController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $relation = \MetaData::relation()->read($id);
+            $relation = MetaData::relation()->find($id);
 
-            if (! $relation) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Relation', 'id' => strval($id)]));
+            if (!$relation) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
-            if (! \MetaData::relation()->destroy($id)) {
+            if (!MetaData::relation()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Relation']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -210,24 +204,24 @@ class RelationController extends Controller
     {
         try {
 
-            $relation = \MetaData::relation()->read($id, true);
+            $relation = MetaData::relation()->find($id, true);
 
-            if (! $relation) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Relation', 'id' => strval($id)]));
+            if (!$relation) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
-            if (! \MetaData::relation()->restore($id)) {
+            if (!MetaData::relation()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Relation']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -245,11 +239,11 @@ class RelationController extends Controller
         try {
             $inputs = $request->validated();
 
-            $relationPaginate = \MetaData::relation()->export($inputs);
+            $relationPaginate = MetaData::relation()->export($inputs);
 
             return $this->exported(__('core::messages.resource.exported', ['model' => 'Relation']));
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -269,11 +263,11 @@ class RelationController extends Controller
         try {
             $inputs = $request->validated();
 
-            $relationPaginate = \MetaData::relation()->list($inputs);
+            $relationPaginate = MetaData::relation()->list($inputs);
 
             return new RelationCollection($relationPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }

@@ -3,7 +3,8 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\MetaData\Facades\MetaData;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
@@ -31,14 +32,6 @@ class FundSourceController extends Controller
     use ApiResponseTrait;
 
     /**
-     * FundSourceController constructor.
-     */
-    public function __construct()
-    {
-
-    }
-
-    /**
      * @lrd:start
      * Return a listing of the fundSource resource as collection.
      *
@@ -51,7 +44,7 @@ class FundSourceController extends Controller
         try {
             $inputs = $request->validated();
 
-            $fundSourcePaginate = \MetaData::fundSource()->list($inputs);
+            $fundSourcePaginate = MetaData::fundSource()->list($inputs);
 
             return new FundSourceCollection($fundSourcePaginate);
 
@@ -74,14 +67,14 @@ class FundSourceController extends Controller
         try {
             $inputs = $request->validated();
 
-            $fundSource = \MetaData::fundSource()->create($inputs);
+            $fundSource = MetaData::fundSource()->create($inputs);
 
             if (! $fundSource) {
-                throw new StoreOperationException();
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.fund_source_model'));
             }
 
             return $this->created([
-                'message' => __('core::messages.resource.created', ['model' => 'FundSource']),
+                'message' => __('core::messages.resource.created', ['model' => 'Source of Fund']),
                 'id' => $fundSource->id,
             ]);
 
@@ -97,21 +90,21 @@ class FundSourceController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): FundSourceResource|JsonResponse
     {
         try {
 
-            $fundSource = \MetaData::fundSource()->read($id);
+            $fundSource = MetaData::fundSource()->find($id);
 
             if (! $fundSource) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'FundSource', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             return new FundSourceResource($fundSource);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -127,29 +120,29 @@ class FundSourceController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateFundSourceRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $fundSource = \MetaData::fundSource()->read($id);
+            $fundSource = MetaData::fundSource()->find($id);
 
             if (! $fundSource) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'FundSource', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::fundSource()->update($id, $inputs)) {
+            if (! MetaData::fundSource()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
-            return $this->updated(__('core::messages.resource.updated', ['model' => 'FundSource']));
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Source of Fund']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -167,27 +160,27 @@ class FundSourceController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $fundSource = \MetaData::fundSource()->read($id);
+            $fundSource = MetaData::fundSource()->find($id);
 
             if (! $fundSource) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'FundSource', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
-            if (! \MetaData::fundSource()->destroy($id)) {
+            if (! MetaData::fundSource()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
-            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'FundSource']));
+            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Source of Fund']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -210,20 +203,20 @@ class FundSourceController extends Controller
     {
         try {
 
-            $fundSource = \MetaData::fundSource()->read($id, true);
+            $fundSource = MetaData::fundSource()->find($id, true);
 
             if (! $fundSource) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'FundSource', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
-            if (! \MetaData::fundSource()->restore($id)) {
+            if (! MetaData::fundSource()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
-            return $this->restored(__('core::messages.resource.restored', ['model' => 'FundSource']));
+            return $this->restored(__('core::messages.resource.restored', ['model' => 'Source of Fund']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -245,9 +238,9 @@ class FundSourceController extends Controller
         try {
             $inputs = $request->validated();
 
-            $fundSourcePaginate = \MetaData::fundSource()->export($inputs);
+            $fundSourcePaginate = MetaData::fundSource()->export($inputs);
 
-            return $this->exported(__('core::messages.resource.exported', ['model' => 'FundSource']));
+            return $this->exported(__('core::messages.resource.exported', ['model' => 'Source of Fund']));
 
         } catch (\Exception $exception) {
 
@@ -269,7 +262,7 @@ class FundSourceController extends Controller
         try {
             $inputs = $request->validated();
 
-            $fundSourcePaginate = \MetaData::fundSource()->list($inputs);
+            $fundSourcePaginate = MetaData::fundSource()->list($inputs);
 
             return new FundSourceCollection($fundSourcePaginate);
 

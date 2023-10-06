@@ -36,9 +36,9 @@ class RelationService
         return $this->relationRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->relationRepository->read($id);
+        return $this->relationRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

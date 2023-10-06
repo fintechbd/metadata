@@ -36,9 +36,9 @@ class RemittancePurposeService
         return $this->remittancePurposeRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->remittancePurposeRepository->read($id);
+        return $this->remittancePurposeRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

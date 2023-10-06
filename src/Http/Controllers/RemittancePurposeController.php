@@ -3,7 +3,8 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\MetaData\Facades\MetaData;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
@@ -31,14 +32,6 @@ class RemittancePurposeController extends Controller
     use ApiResponseTrait;
 
     /**
-     * RemittancePurposeController constructor.
-     */
-    public function __construct()
-    {
-
-    }
-
-    /**
      * @lrd:start
      * Return a listing of the remittancePurpose resource as collection.
      *
@@ -51,7 +44,7 @@ class RemittancePurposeController extends Controller
         try {
             $inputs = $request->validated();
 
-            $remittancePurposePaginate = \MetaData::remittancePurpose()->list($inputs);
+            $remittancePurposePaginate = MetaData::remittancePurpose()->list($inputs);
 
             return new RemittancePurposeCollection($remittancePurposePaginate);
 
@@ -74,14 +67,14 @@ class RemittancePurposeController extends Controller
         try {
             $inputs = $request->validated();
 
-            $remittancePurpose = \MetaData::remittancePurpose()->create($inputs);
+            $remittancePurpose = MetaData::remittancePurpose()->create($inputs);
 
             if (! $remittancePurpose) {
-                throw new StoreOperationException();
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.remittance_purpose_model'));
             }
 
             return $this->created([
-                'message' => __('core::messages.resource.created', ['model' => 'RemittancePurpose']),
+                'message' => __('core::messages.resource.created', ['model' => 'Purpose of Remittance']),
                 'id' => $remittancePurpose->id,
             ]);
 
@@ -97,21 +90,21 @@ class RemittancePurposeController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): RemittancePurposeResource|JsonResponse
     {
         try {
 
-            $remittancePurpose = \MetaData::remittancePurpose()->read($id);
+            $remittancePurpose = MetaData::remittancePurpose()->find($id);
 
             if (! $remittancePurpose) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
             return new RemittancePurposeResource($remittancePurpose);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -127,29 +120,29 @@ class RemittancePurposeController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateRemittancePurposeRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $remittancePurpose = \MetaData::remittancePurpose()->read($id);
+            $remittancePurpose = MetaData::remittancePurpose()->find($id);
 
             if (! $remittancePurpose) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::remittancePurpose()->update($id, $inputs)) {
+            if (! MetaData::remittancePurpose()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
-            return $this->updated(__('core::messages.resource.updated', ['model' => 'RemittancePurpose']));
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Purpose of Remittance']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -167,27 +160,27 @@ class RemittancePurposeController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $remittancePurpose = \MetaData::remittancePurpose()->read($id);
+            $remittancePurpose = MetaData::remittancePurpose()->find($id);
 
             if (! $remittancePurpose) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
-            if (! \MetaData::remittancePurpose()->destroy($id)) {
+            if (! MetaData::remittancePurpose()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
-            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'RemittancePurpose']));
+            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Purpose of Remittance']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -210,20 +203,20 @@ class RemittancePurposeController extends Controller
     {
         try {
 
-            $remittancePurpose = \MetaData::remittancePurpose()->read($id, true);
+            $remittancePurpose = MetaData::remittancePurpose()->find($id, true);
 
             if (! $remittancePurpose) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'RemittancePurpose', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
-            if (! \MetaData::remittancePurpose()->restore($id)) {
+            if (! MetaData::remittancePurpose()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
-            return $this->restored(__('core::messages.resource.restored', ['model' => 'RemittancePurpose']));
+            return $this->restored(__('core::messages.resource.restored', ['model' => 'Purpose of Remittance']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -245,9 +238,9 @@ class RemittancePurposeController extends Controller
         try {
             $inputs = $request->validated();
 
-            $remittancePurposePaginate = \MetaData::remittancePurpose()->export($inputs);
+            $remittancePurposePaginate = MetaData::remittancePurpose()->export($inputs);
 
-            return $this->exported(__('core::messages.resource.exported', ['model' => 'RemittancePurpose']));
+            return $this->exported(__('core::messages.resource.exported', ['model' => 'Purpose of Remittance']));
 
         } catch (\Exception $exception) {
 
@@ -269,7 +262,7 @@ class RemittancePurposeController extends Controller
         try {
             $inputs = $request->validated();
 
-            $remittancePurposePaginate = \MetaData::remittancePurpose()->list($inputs);
+            $remittancePurposePaginate = MetaData::remittancePurpose()->list($inputs);
 
             return new RemittancePurposeCollection($remittancePurposePaginate);
 

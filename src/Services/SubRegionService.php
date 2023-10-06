@@ -39,9 +39,9 @@ class SubRegionService
         return $this->subRegionRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->subRegionRepository->read($id);
+        return $this->subRegionRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

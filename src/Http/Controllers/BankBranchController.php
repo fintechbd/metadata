@@ -3,7 +3,8 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\MetaData\Facades\MetaData;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
@@ -31,14 +32,6 @@ class BankBranchController extends Controller
     use ApiResponseTrait;
 
     /**
-     * BankBranchController constructor.
-     */
-    public function __construct()
-    {
-
-    }
-
-    /**
      * @lrd:start
      * Return a listing of the bankBranch resource as collection.
      *
@@ -51,7 +44,7 @@ class BankBranchController extends Controller
         try {
             $inputs = $request->validated();
 
-            $bankBranchPaginate = \MetaData::bankBranch()->list($inputs);
+            $bankBranchPaginate = MetaData::bankBranch()->list($inputs);
 
             return new BankBranchCollection($bankBranchPaginate);
 
@@ -67,21 +60,20 @@ class BankBranchController extends Controller
      *
      * @lrd:end
      *
-     * @throws StoreOperationException
      */
     public function store(StoreBankBranchRequest $request): JsonResponse
     {
         try {
             $inputs = $request->validated();
 
-            $bankBranch = \MetaData::bankBranch()->create($inputs);
+            $bankBranch = MetaData::bankBranch()->create($inputs);
 
             if (! $bankBranch) {
-                throw new StoreOperationException();
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.bank_branch_model'));
             }
 
             return $this->created([
-                'message' => __('core::messages.resource.created', ['model' => 'BankBranch']),
+                'message' => __('core::messages.resource.created', ['model' => 'Bank Branch']),
                 'id' => $bankBranch->id,
             ]);
 
@@ -97,21 +89,21 @@ class BankBranchController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): BankBranchResource|JsonResponse
     {
         try {
 
-            $bankBranch = \MetaData::bankBranch()->read($id);
+            $bankBranch = MetaData::bankBranch()->find($id);
 
             if (! $bankBranch) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'BankBranch', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
             return new BankBranchResource($bankBranch);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -127,29 +119,29 @@ class BankBranchController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateBankBranchRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $bankBranch = \MetaData::bankBranch()->read($id);
+            $bankBranch = MetaData::bankBranch()->find($id);
 
             if (! $bankBranch) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'BankBranch', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::bankBranch()->update($id, $inputs)) {
+            if (! MetaData::bankBranch()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
-            return $this->updated(__('core::messages.resource.updated', ['model' => 'BankBranch']));
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Bank Branch']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -167,27 +159,27 @@ class BankBranchController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $bankBranch = \MetaData::bankBranch()->read($id);
+            $bankBranch = MetaData::bankBranch()->find($id);
 
             if (! $bankBranch) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'BankBranch', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
-            if (! \MetaData::bankBranch()->destroy($id)) {
+            if (! MetaData::bankBranch()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
-            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'BankBranch']));
+            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Bank Branch']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -210,20 +202,20 @@ class BankBranchController extends Controller
     {
         try {
 
-            $bankBranch = \MetaData::bankBranch()->read($id, true);
+            $bankBranch = MetaData::bankBranch()->find($id, true);
 
             if (! $bankBranch) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'BankBranch', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
-            if (! \MetaData::bankBranch()->restore($id)) {
+            if (! MetaData::bankBranch()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
-            return $this->restored(__('core::messages.resource.restored', ['model' => 'BankBranch']));
+            return $this->restored(__('core::messages.resource.restored', ['model' => 'Bank Branch']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -245,9 +237,9 @@ class BankBranchController extends Controller
         try {
             $inputs = $request->validated();
 
-            $bankBranchPaginate = \MetaData::bankBranch()->export($inputs);
+            $bankBranchPaginate = MetaData::bankBranch()->export($inputs);
 
-            return $this->exported(__('core::messages.resource.exported', ['model' => 'BankBranch']));
+            return $this->exported(__('core::messages.resource.exported', ['model' => 'Bank Branch']));
 
         } catch (\Exception $exception) {
 
@@ -269,7 +261,7 @@ class BankBranchController extends Controller
         try {
             $inputs = $request->validated();
 
-            $bankBranchPaginate = \MetaData::bankBranch()->list($inputs);
+            $bankBranchPaginate = MetaData::bankBranch()->list($inputs);
 
             return new BankBranchCollection($bankBranchPaginate);
 

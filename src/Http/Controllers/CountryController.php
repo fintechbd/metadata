@@ -2,8 +2,8 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Exception;
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
@@ -15,6 +15,7 @@ use Fintech\MetaData\Http\Requests\StoreCountryRequest;
 use Fintech\MetaData\Http\Requests\UpdateCountryRequest;
 use Fintech\MetaData\Http\Resources\CountryCollection;
 use Fintech\MetaData\Http\Resources\CountryResource;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -48,7 +49,7 @@ class CountryController extends Controller
 
             return new CountryCollection($countryPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -67,10 +68,10 @@ class CountryController extends Controller
         try {
             $inputs = $request->validated();
 
-            $country = \MetaData::country()->create($inputs);
+            $country = MetaData::country()->create($inputs);
 
-            if (! $country) {
-                throw new StoreOperationException();
+            if (!$country) {
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.country_model'));
             }
 
             return $this->created([
@@ -78,7 +79,7 @@ class CountryController extends Controller
                 'id' => $country->id,
             ]);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -90,25 +91,25 @@ class CountryController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): CountryResource|JsonResponse
     {
         try {
 
-            $country = \MetaData::country()->read($id);
+            $country = MetaData::country()->find($id);
 
-            if (! $country) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Country', 'id' => strval($id)]));
+            if (!$country) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             return new CountryResource($country);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -120,33 +121,33 @@ class CountryController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateCountryRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $country = \MetaData::country()->read($id);
+            $country = MetaData::country()->find($id);
 
-            if (! $country) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Country', 'id' => strval($id)]));
+            if (!$country) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::country()->update($id, $inputs)) {
+            if (!MetaData::country()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Country']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -160,31 +161,31 @@ class CountryController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $country = \MetaData::country()->read($id);
+            $country = MetaData::country()->find($id);
 
-            if (! $country) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Country', 'id' => strval($id)]));
+            if (!$country) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.country_model'), $id);
             }
 
-            if (! \MetaData::country()->destroy($id)) {
+            if (!MetaData::country()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Country']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -203,24 +204,24 @@ class CountryController extends Controller
     {
         try {
 
-            $country = \MetaData::country()->read($id, true);
+            $country = MetaData::country()->find($id, true);
 
-            if (! $country) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Country', 'id' => strval($id)]));
+            if (!$country) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.country_model'), $id);
             }
 
-            if (! \MetaData::country()->restore($id)) {
+            if (!MetaData::country()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Country']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -238,11 +239,11 @@ class CountryController extends Controller
         try {
             $inputs = $request->validated();
 
-            $countryPaginate = \MetaData::country()->export($inputs);
+            $countryPaginate = MetaData::country()->export($inputs);
 
             return $this->exported(__('core::messages.resource.exported', ['model' => 'Country']));
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -262,11 +263,11 @@ class CountryController extends Controller
         try {
             $inputs = $request->validated();
 
-            $countryPaginate = \MetaData::country()->list($inputs);
+            $countryPaginate = MetaData::country()->list($inputs);
 
             return new CountryCollection($countryPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }

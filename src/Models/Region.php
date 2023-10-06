@@ -23,9 +23,11 @@ class Region extends Model implements Auditable
 
     protected $guarded = ['id'];
 
-    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id', 'deleted_at'];
+    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id', 'deleted_at', 'restored_at'];
 
     protected $casts = ['region_data' => 'json'];
+
+    protected $appends = ['links'];
 
     /*
     |--------------------------------------------------------------------------
@@ -50,7 +52,30 @@ class Region extends Model implements Auditable
     | ACCESSORS
     |--------------------------------------------------------------------------
     */
+    /**
+     * return all resource link for this object
+     *
+     * @return array[]
+     */
+    public function getLinksAttribute()
+    {
+        $primaryKey = $this->getKey();
 
+        $links = [
+            'show' => action_link(route('metadata.regions.show', $primaryKey), __('core::messages.action.show'), 'get'),
+            'update' => action_link(route('metadata.regions.update', $primaryKey), __('core::messages.action.update'), 'put'),
+            'destroy' => action_link(route('metadata.regions.destroy', $primaryKey), __('core::messages.action.destroy'), 'delete'),
+            'restore' => action_link(route('metadata.regions.restore', $primaryKey), __('core::messages.action.restore'), 'post'),
+        ];
+
+        if ($this->getAttribute('deleted_at') == null) {
+            unset($links['restore']);
+        } else {
+            unset($links['destroy']);
+        }
+
+        return $links;
+    }
     /*
     |--------------------------------------------------------------------------
     | MUTATORS

@@ -36,9 +36,9 @@ class OccupationService
         return $this->occupationRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->occupationRepository->read($id);
+        return $this->occupationRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

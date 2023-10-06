@@ -3,7 +3,8 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Fintech\MetaData\Facades\MetaData;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
@@ -31,14 +32,6 @@ class OccupationController extends Controller
     use ApiResponseTrait;
 
     /**
-     * OccupationController constructor.
-     */
-    public function __construct()
-    {
-
-    }
-
-    /**
      * @lrd:start
      * Return a listing of the occupation resource as collection.
      *
@@ -51,7 +44,7 @@ class OccupationController extends Controller
         try {
             $inputs = $request->validated();
 
-            $occupationPaginate = \MetaData::occupation()->list($inputs);
+            $occupationPaginate = MetaData::occupation()->list($inputs);
 
             return new OccupationCollection($occupationPaginate);
 
@@ -74,10 +67,10 @@ class OccupationController extends Controller
         try {
             $inputs = $request->validated();
 
-            $occupation = \MetaData::occupation()->create($inputs);
+            $occupation = MetaData::occupation()->create($inputs);
 
             if (! $occupation) {
-                throw new StoreOperationException();
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.occupation_model'));
             }
 
             return $this->created([
@@ -97,21 +90,21 @@ class OccupationController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): OccupationResource|JsonResponse
     {
         try {
 
-            $occupation = \MetaData::occupation()->read($id);
+            $occupation = MetaData::occupation()->find($id);
 
             if (! $occupation) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
             return new OccupationResource($occupation);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -127,29 +120,29 @@ class OccupationController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateOccupationRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $occupation = \MetaData::occupation()->read($id);
+            $occupation = MetaData::occupation()->find($id);
 
             if (! $occupation) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::occupation()->update($id, $inputs)) {
+            if (! MetaData::occupation()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Occupation']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -167,27 +160,27 @@ class OccupationController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $occupation = \MetaData::occupation()->read($id);
+            $occupation = MetaData::occupation()->find($id);
 
             if (! $occupation) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
-            if (! \MetaData::occupation()->destroy($id)) {
+            if (! MetaData::occupation()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Occupation']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -210,20 +203,20 @@ class OccupationController extends Controller
     {
         try {
 
-            $occupation = \MetaData::occupation()->read($id, true);
+            $occupation = MetaData::occupation()->find($id, true);
 
             if (! $occupation) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Occupation', 'id' => strval($id)]));
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
-            if (! \MetaData::occupation()->restore($id)) {
+            if (! MetaData::occupation()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Occupation']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -245,7 +238,7 @@ class OccupationController extends Controller
         try {
             $inputs = $request->validated();
 
-            $occupationPaginate = \MetaData::occupation()->export($inputs);
+            $occupationPaginate = MetaData::occupation()->export($inputs);
 
             return $this->exported(__('core::messages.resource.exported', ['model' => 'Occupation']));
 
@@ -269,7 +262,7 @@ class OccupationController extends Controller
         try {
             $inputs = $request->validated();
 
-            $occupationPaginate = \MetaData::occupation()->list($inputs);
+            $occupationPaginate = MetaData::occupation()->list($inputs);
 
             return new OccupationCollection($occupationPaginate);
 

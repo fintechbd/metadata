@@ -2,18 +2,20 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Exception;
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
+use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Requests\ImportCityRequest;
 use Fintech\MetaData\Http\Requests\IndexCityRequest;
 use Fintech\MetaData\Http\Requests\StoreCityRequest;
 use Fintech\MetaData\Http\Requests\UpdateCityRequest;
 use Fintech\MetaData\Http\Resources\CityCollection;
 use Fintech\MetaData\Http\Resources\CityResource;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -43,11 +45,11 @@ class CityController extends Controller
         try {
             $inputs = $request->validated();
 
-            $cityPaginate = \MetaData::city()->list($inputs);
+            $cityPaginate = MetaData::city()->list($inputs);
 
             return new CityCollection($cityPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -66,10 +68,10 @@ class CityController extends Controller
         try {
             $inputs = $request->validated();
 
-            $city = \MetaData::city()->create($inputs);
+            $city = MetaData::city()->create($inputs);
 
-            if (! $city) {
-                throw new StoreOperationException();
+            if (!$city) {
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.city_model'));
             }
 
             return $this->created([
@@ -77,7 +79,7 @@ class CityController extends Controller
                 'id' => $city->id,
             ]);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -89,25 +91,25 @@ class CityController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): CityResource|JsonResponse
     {
         try {
 
-            $city = \MetaData::city()->read($id);
+            $city = MetaData::city()->find($id);
 
-            if (! $city) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'City', 'id' => strval($id)]));
+            if (!$city) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.city_model'), $id);
             }
 
             return new CityResource($city);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -119,33 +121,33 @@ class CityController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateCityRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $city = \MetaData::city()->read($id);
+            $city = MetaData::city()->find($id);
 
-            if (! $city) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'City', 'id' => strval($id)]));
+            if (!$city) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.city_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::city()->update($id, $inputs)) {
+            if (!MetaData::city()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.city_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'City']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -159,31 +161,31 @@ class CityController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $city = \MetaData::city()->read($id);
+            $city = MetaData::city()->find($id);
 
-            if (! $city) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'City', 'id' => strval($id)]));
+            if (!$city) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.city_model'), $id);
             }
 
-            if (! \MetaData::city()->destroy($id)) {
+            if (!MetaData::city()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.city_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'City']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -202,24 +204,24 @@ class CityController extends Controller
     {
         try {
 
-            $city = \MetaData::city()->read($id, true);
+            $city = MetaData::city()->find($id, true);
 
-            if (! $city) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'City', 'id' => strval($id)]));
+            if (!$city) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.city_model'), $id);
             }
 
-            if (! \MetaData::city()->restore($id)) {
+            if (!MetaData::city()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.city_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'City']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -237,11 +239,11 @@ class CityController extends Controller
         try {
             $inputs = $request->validated();
 
-            $cityPaginate = \MetaData::city()->export($inputs);
+            $cityPaginate = MetaData::city()->export($inputs);
 
             return $this->exported(__('core::messages.resource.exported', ['model' => 'City']));
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -261,11 +263,11 @@ class CityController extends Controller
         try {
             $inputs = $request->validated();
 
-            $cityPaginate = \MetaData::city()->list($inputs);
+            $cityPaginate = MetaData::city()->list($inputs);
 
             return new CityCollection($cityPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }

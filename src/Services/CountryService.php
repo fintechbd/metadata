@@ -39,9 +39,9 @@ class CountryService
         return $this->countryRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->countryRepository->read($id);
+        return $this->countryRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

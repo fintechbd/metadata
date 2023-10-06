@@ -2,18 +2,20 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Exception;
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
+use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Requests\ImportStateRequest;
 use Fintech\MetaData\Http\Requests\IndexStateRequest;
 use Fintech\MetaData\Http\Requests\StoreStateRequest;
 use Fintech\MetaData\Http\Requests\UpdateStateRequest;
 use Fintech\MetaData\Http\Resources\StateCollection;
 use Fintech\MetaData\Http\Resources\StateResource;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -31,14 +33,6 @@ class StateController extends Controller
     use ApiResponseTrait;
 
     /**
-     * StateController constructor.
-     */
-    public function __construct()
-    {
-
-    }
-
-    /**
      * @lrd:start
      * Return a listing of the state resource as collection.
      *
@@ -51,11 +45,11 @@ class StateController extends Controller
         try {
             $inputs = $request->validated();
 
-            $statePaginate = \MetaData::state()->list($inputs);
+            $statePaginate = MetaData::state()->list($inputs);
 
             return new StateCollection($statePaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -74,10 +68,10 @@ class StateController extends Controller
         try {
             $inputs = $request->validated();
 
-            $state = \MetaData::state()->create($inputs);
+            $state = MetaData::state()->create($inputs);
 
-            if (! $state) {
-                throw new StoreOperationException();
+            if (!$state) {
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.state_model'));
             }
 
             return $this->created([
@@ -85,7 +79,7 @@ class StateController extends Controller
                 'id' => $state->id,
             ]);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -97,25 +91,25 @@ class StateController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): StateResource|JsonResponse
     {
         try {
 
-            $state = \MetaData::state()->read($id);
+            $state = MetaData::state()->find($id);
 
-            if (! $state) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'State', 'id' => strval($id)]));
+            if (!$state) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.state_model'), $id);
             }
 
             return new StateResource($state);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -127,33 +121,33 @@ class StateController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateStateRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $state = \MetaData::state()->read($id);
+            $state = MetaData::state()->find($id);
 
-            if (! $state) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'State', 'id' => strval($id)]));
+            if (!$state) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.state_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::state()->update($id, $inputs)) {
+            if (!MetaData::state()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.state_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'State']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -167,31 +161,31 @@ class StateController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $state = \MetaData::state()->read($id);
+            $state = MetaData::state()->find($id);
 
-            if (! $state) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'State', 'id' => strval($id)]));
+            if (!$state) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.state_model'), $id);
             }
 
-            if (! \MetaData::state()->destroy($id)) {
+            if (!MetaData::state()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.state_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'State']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -210,24 +204,24 @@ class StateController extends Controller
     {
         try {
 
-            $state = \MetaData::state()->read($id, true);
+            $state = MetaData::state()->find($id, true);
 
-            if (! $state) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'State', 'id' => strval($id)]));
+            if (!$state) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.state_model'), $id);
             }
 
-            if (! \MetaData::state()->restore($id)) {
+            if (!MetaData::state()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.state_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'State']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -245,11 +239,11 @@ class StateController extends Controller
         try {
             $inputs = $request->validated();
 
-            $statePaginate = \MetaData::state()->export($inputs);
+            $statePaginate = MetaData::state()->export($inputs);
 
             return $this->exported(__('core::messages.resource.exported', ['model' => 'State']));
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -269,11 +263,11 @@ class StateController extends Controller
         try {
             $inputs = $request->validated();
 
-            $statePaginate = \MetaData::state()->list($inputs);
+            $statePaginate = MetaData::state()->list($inputs);
 
             return new StateCollection($statePaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }

@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Http\Requests;
 
+use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class StoreRegionRequest extends FormRequest
@@ -22,8 +23,7 @@ class StoreRegionRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'region_name' => ['required', 'string', 'min:2', 'max:255'],
-            'region_translations' => ['nullable', 'array'],
+            'name' => ['required', 'string', 'min:2', 'max:255'],
             'region_data' => ['nullable', 'array'],
         ];
     }

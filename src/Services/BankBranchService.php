@@ -36,9 +36,9 @@ class BankBranchService
         return $this->bankBranchRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->bankBranchRepository->read($id);
+        return $this->bankBranchRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

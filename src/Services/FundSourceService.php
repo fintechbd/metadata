@@ -36,9 +36,9 @@ class FundSourceService
         return $this->fundSourceRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->fundSourceRepository->read($id);
+        return $this->fundSourceRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

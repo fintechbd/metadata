@@ -37,9 +37,9 @@ class RegionService
         return $this->regionRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->regionRepository->read($id);
+        return $this->regionRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

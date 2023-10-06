@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Http\Resources;
 
+use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 class FundSourceResource extends JsonResource
@@ -9,7 +10,7 @@ class FundSourceResource extends JsonResource
     /**
      * Transform the resource into an array.
      *
-     * @param  \Illuminate\Http\Request
+     * @param Request
      * @return array
      */
     public function toArray($request)

@@ -23,9 +23,11 @@ class BankBranch extends Model implements Auditable
 
     protected $guarded = ['id'];
 
-    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id', 'deleted_at'];
+    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id', 'deleted_at', 'restored_at'];
 
     protected $casts = ['bank_branch_data' => 'json'];
+
+    protected $appends = ['links'];
 
     /*
     |--------------------------------------------------------------------------
@@ -50,6 +52,31 @@ class BankBranch extends Model implements Auditable
     | ACCESSORS
     |--------------------------------------------------------------------------
     */
+
+    /**
+     * return all resource link for this object
+     *
+     * @return array[]
+     */
+    public function getLinksAttribute()
+    {
+        $primaryKey = $this->getKey();
+
+        $links = [
+            'show' => action_link(route('metadata.bank-branches.show', $primaryKey), __('core::messages.action.show'), 'get'),
+            'update' => action_link(route('metadata.bank-branches.update', $primaryKey), __('core::messages.action.update'), 'put'),
+            'destroy' => action_link(route('metadata.bank-branches.destroy', $primaryKey), __('core::messages.action.destroy'), 'delete'),
+            'restore' => action_link(route('metadata.bank-branches.restore', $primaryKey), __('core::messages.action.restore'), 'post'),
+        ];
+
+        if ($this->getAttribute('deleted_at') == null) {
+            unset($links['restore']);
+        } else {
+            unset($links['destroy']);
+        }
+
+        return $links;
+    }
 
     /*
     |--------------------------------------------------------------------------

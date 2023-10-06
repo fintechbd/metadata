@@ -39,9 +39,9 @@ class CityService
         return $this->cityRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->cityRepository->read($id);
+        return $this->cityRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

@@ -3,7 +3,7 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
@@ -67,14 +67,14 @@ class SubRegionController extends Controller
         try {
             $inputs = $request->validated();
 
-            $subRegion = \MetaData::subregion()->create($inputs);
+            $subRegion = MetaData::subregion()->create($inputs);
 
-            if (! $subRegion) {
-                throw new StoreOperationException();
+            if (!$subRegion) {
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.subregion_model'));
             }
 
             return $this->created([
-                'message' => __('core::messages.resource.created', ['model' => 'SubRegion']),
+                'message' => __('core::messages.resource.created', ['model' => 'Sub-Region']),
                 'id' => $subRegion->id,
             ]);
 
@@ -90,21 +90,21 @@ class SubRegionController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): SubRegionResource|JsonResponse
     {
         try {
 
-            $subRegion = \MetaData::subregion()->read($id);
+            $subRegion = MetaData::subregion()->find($id);
 
-            if (! $subRegion) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'SubRegion', 'id' => strval($id)]));
+            if (!$subRegion) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
             return new SubRegionResource($subRegion);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -120,29 +120,29 @@ class SubRegionController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateSubRegionRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $subRegion = \MetaData::subregion()->read($id);
+            $subRegion = MetaData::subregion()->find($id);
 
-            if (! $subRegion) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'SubRegion', 'id' => strval($id)]));
+            if (!$subRegion) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::subregion()->update($id, $inputs)) {
+            if (!MetaData::subregion()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
-            return $this->updated(__('core::messages.resource.updated', ['model' => 'SubRegion']));
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Sub-Region']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -160,27 +160,27 @@ class SubRegionController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $subRegion = \MetaData::subregion()->read($id);
+            $subRegion = MetaData::subregion()->find($id);
 
-            if (! $subRegion) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'SubRegion', 'id' => strval($id)]));
+            if (!$subRegion) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
-            if (! \MetaData::subregion()->destroy($id)) {
+            if (!MetaData::subregion()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
-            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'SubRegion']));
+            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Sub-Region']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -203,20 +203,20 @@ class SubRegionController extends Controller
     {
         try {
 
-            $subRegion = \MetaData::subregion()->read($id, true);
+            $subRegion = MetaData::subregion()->find($id, true);
 
-            if (! $subRegion) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'SubRegion', 'id' => strval($id)]));
+            if (!$subRegion) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
-            if (! \MetaData::subregion()->restore($id)) {
+            if (!MetaData::subregion()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
-            return $this->restored(__('core::messages.resource.restored', ['model' => 'SubRegion']));
+            return $this->restored(__('core::messages.resource.restored', ['model' => 'Sub-Region']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
@@ -238,9 +238,9 @@ class SubRegionController extends Controller
         try {
             $inputs = $request->validated();
 
-            $subRegionPaginate = \MetaData::subregion()->export($inputs);
+            $subRegionPaginate = MetaData::subregion()->export($inputs);
 
-            return $this->exported(__('core::messages.resource.exported', ['model' => 'SubRegion']));
+            return $this->exported(__('core::messages.resource.exported', ['model' => 'Sub-Region']));
 
         } catch (\Exception $exception) {
 
@@ -262,7 +262,7 @@ class SubRegionController extends Controller
         try {
             $inputs = $request->validated();
 
-            $subRegionPaginate = \MetaData::subregion()->list($inputs);
+            $subRegionPaginate = MetaData::subregion()->list($inputs);
 
             return new SubRegionCollection($subRegionPaginate);
 

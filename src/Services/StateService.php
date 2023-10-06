@@ -39,9 +39,9 @@ class StateService
         return $this->stateRepository->create($inputs);
     }
 
-    public function read($id)
+    public function find($id)
     {
-        return $this->stateRepository->read($id);
+        return $this->stateRepository->find($id);
     }
 
     public function update($id, array $inputs = [])

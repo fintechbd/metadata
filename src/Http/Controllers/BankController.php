@@ -2,18 +2,20 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Exception;
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Fintech\Core\Exceptions\ResourceNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
 use Fintech\Core\Traits\ApiResponseTrait;
+use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Requests\ImportBankRequest;
 use Fintech\MetaData\Http\Requests\IndexBankRequest;
 use Fintech\MetaData\Http\Requests\StoreBankRequest;
 use Fintech\MetaData\Http\Requests\UpdateBankRequest;
 use Fintech\MetaData\Http\Resources\BankCollection;
 use Fintech\MetaData\Http\Resources\BankResource;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -31,14 +33,6 @@ class BankController extends Controller
     use ApiResponseTrait;
 
     /**
-     * BankController constructor.
-     */
-    public function __construct()
-    {
-
-    }
-
-    /**
      * @lrd:start
      * Return a listing of the bank resource as collection.
      *
@@ -51,11 +45,11 @@ class BankController extends Controller
         try {
             $inputs = $request->validated();
 
-            $bankPaginate = \MetaData::bank()->list($inputs);
+            $bankPaginate = MetaData::bank()->list($inputs);
 
             return new BankCollection($bankPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -74,10 +68,10 @@ class BankController extends Controller
         try {
             $inputs = $request->validated();
 
-            $bank = \MetaData::bank()->create($inputs);
+            $bank = MetaData::bank()->create($inputs);
 
-            if (! $bank) {
-                throw new StoreOperationException();
+            if (!$bank) {
+                throw (new StoreOperationException)->setModel(config('fintech.metadata.bank_model'));
             }
 
             return $this->created([
@@ -85,7 +79,7 @@ class BankController extends Controller
                 'id' => $bank->id,
             ]);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -97,25 +91,25 @@ class BankController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      */
     public function show(string|int $id): BankResource|JsonResponse
     {
         try {
 
-            $bank = \MetaData::bank()->read($id);
+            $bank = MetaData::bank()->find($id);
 
-            if (! $bank) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
+            if (!$bank) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             return new BankResource($bank);
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -127,33 +121,33 @@ class BankController extends Controller
      *
      * @lrd:end
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws UpdateOperationException
      */
     public function update(UpdateBankRequest $request, string|int $id): JsonResponse
     {
         try {
 
-            $bank = \MetaData::bank()->read($id);
+            $bank = MetaData::bank()->find($id);
 
-            if (! $bank) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
+            if (!$bank) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! \MetaData::bank()->update($id, $inputs)) {
+            if (!MetaData::bank()->update($id, $inputs)) {
 
-                throw new UpdateOperationException();
+                throw (new UpdateOperationException)->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Bank']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -167,31 +161,31 @@ class BankController extends Controller
      *
      * @return JsonResponse
      *
-     * @throws ResourceNotFoundException
+     * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
         try {
 
-            $bank = \MetaData::bank()->read($id);
+            $bank = MetaData::bank()->find($id);
 
-            if (! $bank) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
+            if (!$bank) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
-            if (! \MetaData::bank()->destroy($id)) {
+            if (!MetaData::bank()->destroy($id)) {
 
-                throw new DeleteOperationException();
+                throw (new DeleteOperationException)->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Bank']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -210,24 +204,24 @@ class BankController extends Controller
     {
         try {
 
-            $bank = \MetaData::bank()->read($id, true);
+            $bank = MetaData::bank()->find($id, true);
 
-            if (! $bank) {
-                throw new ResourceNotFoundException(__('core::messages.resource.notfound', ['model' => 'Bank', 'id' => strval($id)]));
+            if (!$bank) {
+                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
-            if (! \MetaData::bank()->restore($id)) {
+            if (!MetaData::bank()->restore($id)) {
 
-                throw new RestoreOperationException();
+                throw (new RestoreOperationException)->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Bank']));
 
-        } catch (ResourceNotFoundException $exception) {
+        } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -245,11 +239,11 @@ class BankController extends Controller
         try {
             $inputs = $request->validated();
 
-            $bankPaginate = \MetaData::bank()->export($inputs);
+            $bankPaginate = MetaData::bank()->export($inputs);
 
             return $this->exported(__('core::messages.resource.exported', ['model' => 'Bank']));
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -269,11 +263,11 @@ class BankController extends Controller
         try {
             $inputs = $request->validated();
 
-            $bankPaginate = \MetaData::bank()->list($inputs);
+            $bankPaginate = MetaData::bank()->list($inputs);
 
             return new BankCollection($bankPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
