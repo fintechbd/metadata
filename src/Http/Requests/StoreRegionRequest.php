@@ -2,8 +2,8 @@
 
 namespace Fintech\MetaData\Http\Requests;
 
-use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class StoreRegionRequest extends FormRequest
 {
@@ -22,9 +22,12 @@ class StoreRegionRequest extends FormRequest
      */
     public function rules(): array
     {
+        $uniqueRule = 'unique:'.config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class).',name';
+
         return [
-            'name' => ['required', 'string', 'min:2', 'max:255'],
-            'region_data' => ['nullable', 'array'],
+            'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
+            'country_id' => ['nullable', 'integer'],
+            'region_data' => ['nullable', 'array']
         ];
     }
 

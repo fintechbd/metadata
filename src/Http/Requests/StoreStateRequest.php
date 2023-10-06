@@ -23,15 +23,12 @@ class StoreStateRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'state_name' => ['string', 'nullable'],
-            'state_iso2' => ['string', 'nullable'],
-            'state_iso3' => ['string', 'nullable'],
-            'state_num_code' => ['string', 'nullable'],
-            'state_type' => ['string', 'nullable'],
-            'state_status' => ['string', 'nullable'],
-            'state_timezones' => ['string', 'nullable'],
-            'state_translations' => ['string', 'nullable'],
-            'state_data' => ['string', 'nullable'],
+            'name' => ['string', 'nullable'],
+            'type' => ['string', 'nullable'],
+            'latitude' => ['numeric', 'nullable'],
+            'longitude' => ['numeric', 'nullable'],
+            'enabled' => ['bool', 'nullable'],
+            'state_data' => ['array', 'nullable'],
             'country_id' => ['string', 'nullable'],
         ];
     }

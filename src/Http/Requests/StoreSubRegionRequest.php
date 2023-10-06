@@ -24,9 +24,8 @@ class StoreSubRegionRequest extends FormRequest
     {
         return [
             'region_id' => ['integer', 'nullable'],
-            'subregion_name' => ['string', 'nullable'],
-            'subregion_translations' => ['string', 'nullable'],
-            'subregion_data' => ['string', 'nullable'],
+            'name' => ['string', 'nullable'],
+            'subregion_data' => ['array', 'nullable'],
         ];
     }
 
