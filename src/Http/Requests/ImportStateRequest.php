@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Http\Requests;
 
-use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class ImportStateRequest extends FormRequest

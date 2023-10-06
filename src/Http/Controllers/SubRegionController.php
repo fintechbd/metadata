@@ -70,7 +70,7 @@ class SubRegionController extends Controller
             $subRegion = MetaData::subregion()->create($inputs);
 
             if (!$subRegion) {
-                throw (new StoreOperationException)->setModel(config('fintech.metadata.subregion_model'));
+                throw (new StoreOperationException())->setModel(config('fintech.metadata.subregion_model'));
             }
 
             return $this->created([
@@ -99,7 +99,7 @@ class SubRegionController extends Controller
             $subRegion = MetaData::subregion()->find($id);
 
             if (!$subRegion) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.subregion_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
             return new SubRegionResource($subRegion);
@@ -130,14 +130,14 @@ class SubRegionController extends Controller
             $subRegion = MetaData::subregion()->find($id);
 
             if (!$subRegion) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.subregion_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
             $inputs = $request->validated();
 
             if (!MetaData::subregion()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException)->setModel(config('fintech.metadata.subregion_model'), $id);
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Sub-Region']));
@@ -170,12 +170,12 @@ class SubRegionController extends Controller
             $subRegion = MetaData::subregion()->find($id);
 
             if (!$subRegion) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.subregion_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
             if (!MetaData::subregion()->destroy($id)) {
 
-                throw (new DeleteOperationException)->setModel(config('fintech.metadata.subregion_model'), $id);
+                throw (new DeleteOperationException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Sub-Region']));
@@ -206,12 +206,12 @@ class SubRegionController extends Controller
             $subRegion = MetaData::subregion()->find($id, true);
 
             if (!$subRegion) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.subregion_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
             if (!MetaData::subregion()->restore($id)) {
 
-                throw (new RestoreOperationException)->setModel(config('fintech.metadata.subregion_model'), $id);
+                throw (new RestoreOperationException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Sub-Region']));

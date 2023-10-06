@@ -71,7 +71,7 @@ class RelationController extends Controller
             $relation = MetaData::relation()->create($inputs);
 
             if (!$relation) {
-                throw (new StoreOperationException)->setModel(config('fintech.metadata.relation_model'));
+                throw (new StoreOperationException())->setModel(config('fintech.metadata.relation_model'));
             }
 
             return $this->created([
@@ -100,7 +100,7 @@ class RelationController extends Controller
             $relation = MetaData::relation()->find($id);
 
             if (!$relation) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.relation_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             return new RelationResource($relation);
@@ -131,14 +131,14 @@ class RelationController extends Controller
             $relation = MetaData::relation()->find($id);
 
             if (!$relation) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.relation_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             $inputs = $request->validated();
 
             if (!MetaData::relation()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException)->setModel(config('fintech.metadata.relation_model'), $id);
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Relation']));
@@ -171,12 +171,12 @@ class RelationController extends Controller
             $relation = MetaData::relation()->find($id);
 
             if (!$relation) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.relation_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             if (!MetaData::relation()->destroy($id)) {
 
-                throw (new DeleteOperationException)->setModel(config('fintech.metadata.relation_model'), $id);
+                throw (new DeleteOperationException())->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Relation']));
@@ -207,12 +207,12 @@ class RelationController extends Controller
             $relation = MetaData::relation()->find($id, true);
 
             if (!$relation) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.relation_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             if (!MetaData::relation()->restore($id)) {
 
-                throw (new RestoreOperationException)->setModel(config('fintech.metadata.relation_model'), $id);
+                throw (new RestoreOperationException())->setModel(config('fintech.metadata.relation_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Relation']));
