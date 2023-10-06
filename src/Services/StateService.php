@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\StateRepository;
 /**
  * Class StateService
  *
- * @property-read StateRepository $stateRepository
  */
 class StateService
 {
@@ -39,9 +38,9 @@ class StateService
         return $this->stateRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->stateRepository->find($id);
+        return $this->stateRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

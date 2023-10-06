@@ -7,15 +7,16 @@ use Fintech\MetaData\Interfaces\RemittancePurposeRepository;
 /**
  * Class RemittancePurposeService
  *
- * @property-read RemittancePurposeRepository $remittancePurposeRepository
  */
 class RemittancePurposeService
 {
     /**
      * RemittancePurposeService constructor.
+     * @param RemittancePurposeRepository $remittancePurposeRepository
      */
-    public function __construct(private RemittancePurposeRepository $remittancePurposeRepository)
+    public function __construct(RemittancePurposeRepository $remittancePurposeRepository)
     {
+        $this->remittancePurposeRepository = $remittancePurposeRepository;
     }
 
     /**
@@ -36,9 +37,9 @@ class RemittancePurposeService
         return $this->remittancePurposeRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->remittancePurposeRepository->find($id);
+        return $this->remittancePurposeRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

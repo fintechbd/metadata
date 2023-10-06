@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\CityRepository;
 /**
  * Class CityService
  *
- * @property-read CityRepository $cityRepository
  */
 class CityService
 {
@@ -39,9 +38,9 @@ class CityService
         return $this->cityRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->cityRepository->find($id);
+        return $this->cityRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

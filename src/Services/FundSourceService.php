@@ -7,15 +7,21 @@ use Fintech\MetaData\Interfaces\FundSourceRepository;
 /**
  * Class FundSourceService
  *
- * @property-read FundSourceRepository $fundSourceRepository
  */
 class FundSourceService
 {
     /**
-     * FundSourceService constructor.
+     * @var FundSourceRepository
      */
-    public function __construct(private FundSourceRepository $fundSourceRepository)
+    private FundSourceRepository $fundSourceRepository;
+
+    /**
+     * FundSourceService constructor.
+     * @param FundSourceRepository $fundSourceRepository
+     */
+    public function __construct(FundSourceRepository $fundSourceRepository)
     {
+        $this->fundSourceRepository = $fundSourceRepository;
     }
 
     /**
@@ -36,9 +42,9 @@ class FundSourceService
         return $this->fundSourceRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->fundSourceRepository->find($id);
+        return $this->fundSourceRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

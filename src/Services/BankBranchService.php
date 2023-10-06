@@ -7,15 +7,21 @@ use Fintech\MetaData\Interfaces\BankBranchRepository;
 /**
  * Class BankBranchService
  *
- * @property-read BankBranchRepository $bankBranchRepository
  */
 class BankBranchService
 {
     /**
-     * BankBranchService constructor.
+     * @var BankBranchRepository
      */
-    public function __construct(private BankBranchRepository $bankBranchRepository)
+    private BankBranchRepository $bankBranchRepository;
+
+    /**
+     * BankBranchService constructor.
+     * @param BankBranchRepository $bankBranchRepository
+     */
+    public function __construct(BankBranchRepository $bankBranchRepository)
     {
+        $this->bankBranchRepository = $bankBranchRepository;
     }
 
     /**
@@ -36,9 +42,9 @@ class BankBranchService
         return $this->bankBranchRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->bankBranchRepository->find($id);
+        return $this->bankBranchRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

@@ -7,12 +7,12 @@ use Fintech\MetaData\Interfaces\RegionRepository;
 /**
  * Class RegionService
  *
- * @property-read RegionRepository $regionRepository
  */
 class RegionService
 {
     /**
      * RegionService constructor.
+     * @param RegionRepository $regionRepository
      */
     public function __construct(RegionRepository $regionRepository)
     {
@@ -37,9 +37,9 @@ class RegionService
         return $this->regionRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->regionRepository->find($id);
+        return $this->regionRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

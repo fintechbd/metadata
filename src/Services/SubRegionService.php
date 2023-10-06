@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\SubRegionRepository;
 /**
  * Class SubRegionService
  *
- * @property-read SubRegionRepository $subRegionRepository
  */
 class SubRegionService
 {
@@ -39,9 +38,9 @@ class SubRegionService
         return $this->subRegionRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->subRegionRepository->find($id);
+        return $this->subRegionRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

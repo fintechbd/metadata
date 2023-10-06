@@ -7,15 +7,21 @@ use Fintech\MetaData\Interfaces\OccupationRepository;
 /**
  * Class OccupationService
  *
- * @property-read OccupationRepository $occupationRepository
  */
 class OccupationService
 {
     /**
-     * OccupationService constructor.
+     * @var OccupationRepository
      */
-    public function __construct(private OccupationRepository $occupationRepository)
+    private OccupationRepository $occupationRepository;
+
+    /**
+     * OccupationService constructor.
+     * @param OccupationRepository $occupationRepository
+     */
+    public function __construct(OccupationRepository $occupationRepository)
     {
+        $this->occupationRepository = $occupationRepository;
     }
 
     /**
@@ -36,9 +42,9 @@ class OccupationService
         return $this->occupationRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->occupationRepository->find($id);
+        return $this->occupationRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

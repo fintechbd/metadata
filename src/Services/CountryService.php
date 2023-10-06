@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\CountryRepository;
 /**
  * Class CountryService
  *
- * @property-read CountryRepository $countryRepository
  */
 class CountryService
 {
@@ -15,6 +14,7 @@ class CountryService
 
     /**
      * CountryService constructor.
+     * @param CountryRepository $countryRepository
      */
     public function __construct(CountryRepository $countryRepository)
     {
@@ -39,9 +39,9 @@ class CountryService
         return $this->countryRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->countryRepository->find($id);
+        return $this->countryRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

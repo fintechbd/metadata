@@ -7,15 +7,16 @@ use Fintech\MetaData\Interfaces\RelationRepository;
 /**
  * Class RelationService
  *
- * @property-read RelationRepository $relationRepository
  */
 class RelationService
 {
     /**
      * RelationService constructor.
+     * @param RelationRepository $relationRepository
      */
-    public function __construct(private RelationRepository $relationRepository)
+    public function __construct(RelationRepository $relationRepository)
     {
+        $this->relationRepository = $relationRepository;
     }
 
     /**
@@ -36,9 +37,9 @@ class RelationService
         return $this->relationRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->relationRepository->find($id);
+        return $this->relationRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])

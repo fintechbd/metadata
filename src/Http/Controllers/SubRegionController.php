@@ -3,7 +3,6 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Fintech\Core\Exceptions\DeleteOperationException;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
@@ -15,6 +14,7 @@ use Fintech\MetaData\Http\Requests\StoreSubRegionRequest;
 use Fintech\MetaData\Http\Requests\UpdateSubRegionRequest;
 use Fintech\MetaData\Http\Resources\SubRegionCollection;
 use Fintech\MetaData\Http\Resources\SubRegionResource;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 

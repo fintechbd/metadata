@@ -7,15 +7,21 @@ use Fintech\MetaData\Interfaces\BankRepository;
 /**
  * Class BankService
  *
- * @property-read BankRepository $bankRepository
  */
 class BankService
 {
     /**
-     * BankService constructor.
+     * @var BankRepository
      */
-    public function __construct(private BankRepository $bankRepository)
+    private BankRepository $bankRepository;
+
+    /**
+     * BankService constructor.
+     * @param BankRepository $bankRepository
+     */
+    public function __construct(BankRepository $bankRepository)
     {
+        $this->bankRepository = $bankRepository;
     }
 
     /**
@@ -36,9 +42,9 @@ class BankService
         return $this->bankRepository->create($inputs);
     }
 
-    public function find($id)
+    public function find($id, $onlyTrashed = false)
     {
-        return $this->bankRepository->find($id);
+        return $this->bankRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])
