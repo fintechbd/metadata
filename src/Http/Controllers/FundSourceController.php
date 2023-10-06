@@ -70,7 +70,7 @@ class FundSourceController extends Controller
             $fundSource = MetaData::fundSource()->create($inputs);
 
             if (! $fundSource) {
-                throw (new StoreOperationException)->setModel(config('fintech.metadata.fund_source_model'));
+                throw (new StoreOperationException())->setModel(config('fintech.metadata.fund_source_model'));
             }
 
             return $this->created([
@@ -99,7 +99,7 @@ class FundSourceController extends Controller
             $fundSource = MetaData::fundSource()->find($id);
 
             if (! $fundSource) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.fund_source_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             return new FundSourceResource($fundSource);
@@ -130,14 +130,14 @@ class FundSourceController extends Controller
             $fundSource = MetaData::fundSource()->find($id);
 
             if (! $fundSource) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.fund_source_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             $inputs = $request->validated();
 
             if (! MetaData::fundSource()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException)->setModel(config('fintech.metadata.fund_source_model'), $id);
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Source of Fund']));
@@ -170,12 +170,12 @@ class FundSourceController extends Controller
             $fundSource = MetaData::fundSource()->find($id);
 
             if (! $fundSource) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.fund_source_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             if (! MetaData::fundSource()->destroy($id)) {
 
-                throw (new DeleteOperationException)->setModel(config('fintech.metadata.fund_source_model'), $id);
+                throw (new DeleteOperationException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Source of Fund']));
@@ -206,12 +206,12 @@ class FundSourceController extends Controller
             $fundSource = MetaData::fundSource()->find($id, true);
 
             if (! $fundSource) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.fund_source_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             if (! MetaData::fundSource()->restore($id)) {
 
-                throw (new RestoreOperationException)->setModel(config('fintech.metadata.fund_source_model'), $id);
+                throw (new RestoreOperationException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Source of Fund']));

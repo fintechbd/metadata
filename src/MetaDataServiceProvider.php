@@ -16,7 +16,8 @@ class MetaDataServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/metadata.php', 'fintech.metadata'
+            __DIR__.'/../config/metadata.php',
+            'fintech.metadata'
         );
 
         $this->app->register(RouteServiceProvider::class);

@@ -71,7 +71,7 @@ class CountryController extends Controller
             $country = MetaData::country()->create($inputs);
 
             if (!$country) {
-                throw (new StoreOperationException)->setModel(config('fintech.metadata.country_model'));
+                throw (new StoreOperationException())->setModel(config('fintech.metadata.country_model'));
             }
 
             return $this->created([
@@ -100,7 +100,7 @@ class CountryController extends Controller
             $country = MetaData::country()->find($id);
 
             if (!$country) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.country_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             return new CountryResource($country);
@@ -131,14 +131,14 @@ class CountryController extends Controller
             $country = MetaData::country()->find($id);
 
             if (!$country) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.country_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             $inputs = $request->validated();
 
             if (!MetaData::country()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException)->setModel(config('fintech.metadata.country_model'), $id);
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Country']));
@@ -171,12 +171,12 @@ class CountryController extends Controller
             $country = MetaData::country()->find($id);
 
             if (!$country) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.country_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             if (!MetaData::country()->destroy($id)) {
 
-                throw (new DeleteOperationException)->setModel(config('fintech.metadata.country_model'), $id);
+                throw (new DeleteOperationException())->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Country']));
@@ -207,12 +207,12 @@ class CountryController extends Controller
             $country = MetaData::country()->find($id, true);
 
             if (!$country) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.country_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             if (!MetaData::country()->restore($id)) {
 
-                throw (new RestoreOperationException)->setModel(config('fintech.metadata.country_model'), $id);
+                throw (new RestoreOperationException())->setModel(config('fintech.metadata.country_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Country']));

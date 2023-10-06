@@ -71,7 +71,7 @@ class BankController extends Controller
             $bank = MetaData::bank()->create($inputs);
 
             if (!$bank) {
-                throw (new StoreOperationException)->setModel(config('fintech.metadata.bank_model'));
+                throw (new StoreOperationException())->setModel(config('fintech.metadata.bank_model'));
             }
 
             return $this->created([
@@ -100,7 +100,7 @@ class BankController extends Controller
             $bank = MetaData::bank()->find($id);
 
             if (!$bank) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             return new BankResource($bank);
@@ -131,14 +131,14 @@ class BankController extends Controller
             $bank = MetaData::bank()->find($id);
 
             if (!$bank) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             $inputs = $request->validated();
 
             if (!MetaData::bank()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException)->setModel(config('fintech.metadata.bank_model'), $id);
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Bank']));
@@ -171,12 +171,12 @@ class BankController extends Controller
             $bank = MetaData::bank()->find($id);
 
             if (!$bank) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             if (!MetaData::bank()->destroy($id)) {
 
-                throw (new DeleteOperationException)->setModel(config('fintech.metadata.bank_model'), $id);
+                throw (new DeleteOperationException())->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Bank']));
@@ -207,12 +207,12 @@ class BankController extends Controller
             $bank = MetaData::bank()->find($id, true);
 
             if (!$bank) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             if (!MetaData::bank()->restore($id)) {
 
-                throw (new RestoreOperationException)->setModel(config('fintech.metadata.bank_model'), $id);
+                throw (new RestoreOperationException())->setModel(config('fintech.metadata.bank_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Bank']));

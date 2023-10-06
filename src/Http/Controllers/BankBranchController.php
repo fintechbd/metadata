@@ -69,7 +69,7 @@ class BankBranchController extends Controller
             $bankBranch = MetaData::bankBranch()->create($inputs);
 
             if (! $bankBranch) {
-                throw (new StoreOperationException)->setModel(config('fintech.metadata.bank_branch_model'));
+                throw (new StoreOperationException())->setModel(config('fintech.metadata.bank_branch_model'));
             }
 
             return $this->created([
@@ -98,7 +98,7 @@ class BankBranchController extends Controller
             $bankBranch = MetaData::bankBranch()->find($id);
 
             if (! $bankBranch) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
             return new BankBranchResource($bankBranch);
@@ -129,14 +129,14 @@ class BankBranchController extends Controller
             $bankBranch = MetaData::bankBranch()->find($id);
 
             if (! $bankBranch) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
             $inputs = $request->validated();
 
             if (! MetaData::bankBranch()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Bank Branch']));
@@ -169,12 +169,12 @@ class BankBranchController extends Controller
             $bankBranch = MetaData::bankBranch()->find($id);
 
             if (! $bankBranch) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
             if (! MetaData::bankBranch()->destroy($id)) {
 
-                throw (new DeleteOperationException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
+                throw (new DeleteOperationException())->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Bank Branch']));
@@ -205,12 +205,12 @@ class BankBranchController extends Controller
             $bankBranch = MetaData::bankBranch()->find($id, true);
 
             if (! $bankBranch) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
             if (! MetaData::bankBranch()->restore($id)) {
 
-                throw (new RestoreOperationException)->setModel(config('fintech.metadata.bank_branch_model'), $id);
+                throw (new RestoreOperationException())->setModel(config('fintech.metadata.bank_branch_model'), $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Bank Branch']));

@@ -3,7 +3,6 @@
 namespace Fintech\MetaData\Http\Requests;
 
 use Fintech\Core\Traits\HasPaginateQuery;
-use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class IndexSubRegionRequest extends FormRequest
