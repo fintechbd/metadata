@@ -43,6 +43,7 @@ class BankRepository extends EloquentRepository implements InterfacesBankReposit
             }
         }
 
+        //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();
         }

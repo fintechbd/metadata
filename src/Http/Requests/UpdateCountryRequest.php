@@ -22,7 +22,25 @@ class UpdateCountryRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => ['string', 'nullable'],
+            'iso2' => ['string', 'nullable'],
+            'iso3' => ['string', 'nullable'],
+            'phone_code' => ['string', 'nullable'],
+            'capital' => ['string', 'nullable'],
+            'currency' => ['string', 'nullable'],
+            'currency_name' => ['string', 'nullable'],
+            'currency_symbol' => ['string', 'nullable'],
+            'nationality' => ['string', 'nullable'],
+            'region_id' => ['integer', 'nullable'],
+            'subregion_id' => ['integer', 'nullable'],
+            'language' => ['string', 'nullable'],
+            'logo' => ['image', 'nullable'],
+            'enabled' => ['bool', 'nullable'],
+            'emoji' => ['string', 'nullable'],
+            'latitude' => ['numeric', 'nullable'],
+            'longitude' => ['numeric', 'nullable'],
+            'timezones' => ['array', 'nullable'],
+            'country_data' => ['array', 'nullable'],
         ];
     }
 

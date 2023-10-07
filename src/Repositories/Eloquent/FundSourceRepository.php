@@ -43,6 +43,7 @@ class FundSourceRepository extends EloquentRepository implements InterfacesFundS
             }
         }
 
+        //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();
         }

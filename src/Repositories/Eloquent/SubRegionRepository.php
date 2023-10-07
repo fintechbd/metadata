@@ -48,6 +48,7 @@ class SubRegionRepository extends EloquentRepository implements InterfacesSubReg
             $query->where('region_id', "=", $filters['region_id']);
         }
 
+        //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();
         }

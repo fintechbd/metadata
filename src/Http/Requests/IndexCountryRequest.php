@@ -3,6 +3,7 @@
 namespace Fintech\MetaData\Http\Requests;
 
 use Fintech\Core\Traits\HasPaginateQuery;
+use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class IndexCountryRequest extends FormRequest
@@ -26,36 +27,15 @@ class IndexCountryRequest extends FormRequest
     {
         return [
             'search' => ['string', 'nullable', 'max:255'],
+            'region_id' => ['integer', 'nullable', 'min:1'],
+            'subregion_id' => ['integer', 'nullable', 'min:1'],
             'per_page' => ['integer', 'nullable', 'min:10', 'max:500'],
             'page' => ['integer', 'nullable', 'min:1'],
             'paginate' => ['boolean'],
             'sort' => ['string', 'nullable', 'min:2', 'max:255'],
             'dir' => ['string', 'min:3', 'max:4'],
             'trashed' => ['boolean', 'nullable'],
-        ];
-    }
-
-    /**
-     * Get the validation attributes that apply to the request.
-     *
-     * @return array
-     */
-    public function attributes()
-    {
-        return [
-            //
-        ];
-    }
-
-    /**
-     * Get the validation messages that apply to the request.
-     *
-     * @return array
-     */
-    public function messages()
-    {
-        return [
-            //
+            'enabled' => ['boolean', 'nullable'],
         ];
     }
 }

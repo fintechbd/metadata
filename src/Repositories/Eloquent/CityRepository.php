@@ -43,6 +43,7 @@ class CityRepository extends EloquentRepository implements InterfacesCityReposit
             }
         }
 
+        //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();
         }

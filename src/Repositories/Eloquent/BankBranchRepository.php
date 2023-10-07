@@ -43,6 +43,7 @@ class BankBranchRepository extends EloquentRepository implements InterfacesBankB
             }
         }
 
+        //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();
         }

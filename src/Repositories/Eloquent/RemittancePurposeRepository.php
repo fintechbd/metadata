@@ -43,6 +43,7 @@ class RemittancePurposeRepository extends EloquentRepository implements Interfac
             }
         }
 
+        //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();
         }
