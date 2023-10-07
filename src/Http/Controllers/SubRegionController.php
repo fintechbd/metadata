@@ -85,6 +85,8 @@ class SubRegionController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified subRegion resource found by id.
      *

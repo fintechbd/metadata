@@ -86,6 +86,8 @@ class RegionController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified region resource found by id.
      *

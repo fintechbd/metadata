@@ -86,6 +86,8 @@ class RelationController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified relation resource found by id.
      *

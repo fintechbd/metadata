@@ -85,6 +85,8 @@ class FundSourceController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified fundSource resource found by id.
      *

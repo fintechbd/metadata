@@ -86,6 +86,8 @@ class CountryController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified country resource found by id.
      *

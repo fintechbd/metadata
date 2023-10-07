@@ -85,6 +85,8 @@ class OccupationController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified occupation resource found by id.
      *

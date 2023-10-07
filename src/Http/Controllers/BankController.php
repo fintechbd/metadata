@@ -86,6 +86,8 @@ class BankController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified bank resource found by id.
      *

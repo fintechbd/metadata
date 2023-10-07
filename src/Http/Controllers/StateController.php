@@ -86,6 +86,8 @@ class StateController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified state resource found by id.
      *

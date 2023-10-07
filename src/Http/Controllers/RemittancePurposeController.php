@@ -85,6 +85,8 @@ class RemittancePurposeController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified remittancePurpose resource found by id.
      *

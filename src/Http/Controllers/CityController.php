@@ -86,6 +86,8 @@ class CityController extends Controller
     }
 
     /**
+     * @LRDparam trashed boolean|nullable
+     *
      * @lrd:start
      * Return a specified city resource found by id.
      *
