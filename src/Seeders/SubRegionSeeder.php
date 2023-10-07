@@ -33,6 +33,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Northern Africa',
+                'region_id' => 1,
             ],
             1 => [
                 'id' => '2',
@@ -61,6 +62,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Western Africa',
+                'region_id' => 1,
             ],
             3 => [
                 'id' => '4',
@@ -75,6 +77,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Eastern Africa',
+                'region_id' => 1,
             ],
             4 => [
                 'id' => '5',
@@ -89,6 +92,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Southern Africa',
+                'region_id' => 1,
             ],
             5 => [
                 'id' => '6',
@@ -103,6 +107,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Northern America',
+                'region_id' => 2,
             ],
             6 => [
                 'id' => '7',
@@ -117,6 +122,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Caribbean',
+                'region_id' => 2,
             ],
             7 => [
                 'id' => '8',
@@ -131,6 +137,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'South America',
+                'region_id' => 2,
             ],
             8 => [
                 'id' => '9',
@@ -145,6 +152,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Central America',
+                'region_id' => 2,
             ],
             9 => [
                 'id' => '10',
@@ -159,6 +167,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Central Asia',
+                'region_id' => 3,
             ],
             10 => [
                 'id' => '11',
@@ -173,6 +182,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Western Asia',
+                'region_id' => 3,
             ],
             11 => [
                 'id' => '12',
@@ -187,6 +197,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Eastern Asia',
+                'region_id' => 3,
             ],
             12 => [
                 'id' => '13',
@@ -201,6 +212,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'South-Eastern Asia',
+                'region_id' => 3,
             ],
             13 => [
                 'id' => '14',
@@ -215,6 +227,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Southern Asia',
+                'region_id' => 3,
             ],
             14 => [
                 'id' => '15',
@@ -229,6 +242,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Eastern Europe',
+                'region_id' => 4,
             ],
             15 => [
                 'id' => '16',
@@ -243,6 +257,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Southern Europe',
+                'region_id' => 4,
             ],
             16 => [
                 'id' => '17',
@@ -257,6 +272,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Western Europe',
+                'region_id' => 4,
             ],
             17 => [
                 'id' => '18',
@@ -271,6 +287,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Northern Europe',
+                'region_id' => 4,
             ],
             18 => [
                 'id' => '19',
@@ -285,6 +302,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Australia and New Zealand',
+                'region_id' => 5,
             ],
             19 => [
                 'id' => '20',
@@ -299,6 +317,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Melanesia',
+                'region_id' => 5,
             ],
             20 => [
                 'id' => '21',
@@ -313,6 +332,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Micronesia',
+                'region_id' => 5,
             ],
             21 => [
                 'id' => '22',
@@ -327,6 +347,7 @@ class SubRegionSeeder extends Seeder
                 'deleted_at' => null,
                 'restored_at' => null,
                 'name' => 'Polynesia',
+                'region_id' => 5,
             ],
         ];
     }

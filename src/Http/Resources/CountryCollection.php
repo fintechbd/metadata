@@ -73,6 +73,7 @@ class CountryCollection extends ResourceCollection
                     $subregions[$subregion->id] = $subregion->name;
                 });
         }
+
         return [
             'options' => [
                 'dir' => Constant::SORT_DIRECTIONS,
