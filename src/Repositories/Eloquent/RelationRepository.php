@@ -16,7 +16,7 @@ class RelationRepository extends EloquentRepository implements InterfacesRelatio
 {
     public function __construct()
     {
-        $model = app()->make(config('fintech.metadata.relation_model', \Fintech\MetaData\Models\Relation::class));
+        $model = app(config('fintech.metadata.relation_model', \Fintech\MetaData\Models\Relation::class));
 
         if (! $model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

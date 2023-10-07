@@ -12,16 +12,17 @@ return new class () extends Migration {
     {
         Schema::create('remittance_purposes', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('country_id');
-            $table->string('name');
-            $table->json('translations')->nullable();
-            $table->json('vendor_alias')->nullable();
-            $table->json('fund_source_data')->nullable();
-            $table->unsignedBigInteger('creator_id')->index()->nullable();
-            $table->unsignedBigInteger('editor_id')->index()->nullable();
-            $table->unsignedBigInteger('destroyer_id')->index()->nullable();
+            $table->foreignId('country_id')->nullable();
+            $table->json('name');
+            $table->string('code');
+            $table->json('remittance_purpose_data')->nullable();
+            $table->foreignId('creator_id')->nullable();
+            $table->foreignId('editor_id')->nullable();
+            $table->foreignId('destroyer_id')->nullable();
+            $table->foreignId('restorer_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
+            $table->timestamp('restored_at')->nullable();
         });
     }
 

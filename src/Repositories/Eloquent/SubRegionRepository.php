@@ -16,7 +16,7 @@ class SubRegionRepository extends EloquentRepository implements InterfacesSubReg
 {
     public function __construct()
     {
-        $model = app()->make(config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\Subregion::class));
+        $model = app(config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\Subregion::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

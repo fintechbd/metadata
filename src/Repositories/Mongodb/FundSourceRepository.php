@@ -13,7 +13,7 @@ class FundSourceRepository implements InterfacesCountryRepository
 {
     public function __construct()
     {
-        $model = app()->make(config('fintech.metadata.fund_source_model', \Fintech\MetaData\Models\FundSource::class));
+        $model = app(config('fintech.metadata.fund_source_model', \Fintech\MetaData\Models\FundSource::class));
 
         if (! $model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

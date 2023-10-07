@@ -6,12 +6,14 @@ use Fintech\Core\Traits\BlameableTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use OwenIt\Auditing\Contracts\Auditable;
+use Spatie\Translatable\HasTranslations;
 
 class FundSource extends Model implements Auditable
 {
     use BlameableTrait;
     use \OwenIt\Auditing\Auditable;
     use SoftDeletes;
+    use HasTranslations;
 
     /*
     |--------------------------------------------------------------------------
@@ -28,6 +30,8 @@ class FundSource extends Model implements Auditable
     protected $casts = ['restored_at' => 'datetime','fund_source_data' => 'json'];
 
     protected $appends = ['links'];
+
+    public $translatable = ['name'];
 
     /*
     |--------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 <?php
 
-namespace Fintech\MetaData\Seeders;
+namespace Fintech\MetaData\Seeders\States;
 
 use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Database\Seeder;

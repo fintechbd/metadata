@@ -4,18 +4,19 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class () extends Migration {
+return new class extends Migration
+{
     /**
      * Run the migrations.
      */
     public function up(): void
     {
-        Schema::create('fund_sources', function (Blueprint $table) {
+        Schema::create('id_doc_types', function (Blueprint $table) {
             $table->id();
             $table->foreignId('country_id')->nullable();
             $table->json('name');
             $table->string('code');
-            $table->json('fund_source_data')->nullable();
+            $table->json('id_doc_type_data')->nullable();
             $table->foreignId('creator_id')->nullable();
             $table->foreignId('editor_id')->nullable();
             $table->foreignId('destroyer_id')->nullable();
@@ -31,6 +32,6 @@ return new class () extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('fund_sources');
+        Schema::dropIfExists('id_doc_types');
     }
 };

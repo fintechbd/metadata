@@ -16,7 +16,7 @@ class BankBranchRepository extends EloquentRepository implements InterfacesBankB
 {
     public function __construct()
     {
-        $model = app()->make(config('fintech.metadata.bank_branch_model', \Fintech\MetaData\Models\BankBranch::class));
+        $model = app(config('fintech.metadata.bank_branch_model', \Fintech\MetaData\Models\BankBranch::class));
 
         if (! $model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
