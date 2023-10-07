@@ -20,7 +20,7 @@ class OccupationCollection extends ResourceCollection
             return [
                 "id" => $item->iid,
                 "country_id" => $item->country_id,
-                "country_name" => $item->country->name,
+                "country_name" => $item->country != null ? $item->country->name : null,
                 "name" => $item->name,
                 "code" => $item->code,
                 "enabled" => $item->enabled,
