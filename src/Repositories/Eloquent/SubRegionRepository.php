@@ -44,6 +44,10 @@ class SubRegionRepository extends EloquentRepository implements InterfacesSubReg
             }
         }
 
+        if (isset($filters['region_id']) && !empty($filters['region_id'])) {
+            $query->where('region_id', "=", $filters['region_id']);
+        }
+
         //Handle Sorting
         $query->orderBy($filters['sort'] ?? $this->model->getKeyName(), $filters['direction'] ?? 'asc');
 
