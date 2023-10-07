@@ -26,6 +26,8 @@ class SubRegionCollection extends ResourceCollection
                 'subregion_data' => $subregion->subregion_data ?? null,
                 'created_at' => $subregion->created_at,
                 'updated_at' => $subregion->updated_at,
+                'deleted_at' => $subregion->deleted_at,
+                'restored_at' => $subregion->restored_at,
                 'links' => $subregion->links,
             ];
 
