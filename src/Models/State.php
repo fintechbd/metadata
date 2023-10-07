@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Traits\BlameableTrait;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use OwenIt\Auditing\Contracts\Auditable;
 
@@ -40,6 +41,11 @@ class State extends Model implements Auditable
     | RELATIONS
     |--------------------------------------------------------------------------
     */
+
+    public function country(): BelongsTo
+    {
+        return $this->belongsTo(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
+    }
 
     /*
     |--------------------------------------------------------------------------

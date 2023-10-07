@@ -22,31 +22,14 @@ class UpdateStateRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => ['string', 'nullable'],
+            'type' => ['string', 'nullable'],
+            'latitude' => ['numeric', 'nullable'],
+            'longitude' => ['numeric', 'nullable'],
+            'enabled' => ['bool', 'nullable'],
+            'state_data' => ['array', 'nullable'],
+            'country_id' => ['string', 'nullable'],
         ];
     }
 
-    /**
-     * Get the validation attributes that apply to the request.
-     *
-     * @return array
-     */
-    public function attributes()
-    {
-        return [
-            //
-        ];
-    }
-
-    /**
-     * Get the validation messages that apply to the request.
-     *
-     * @return array
-     */
-    public function messages()
-    {
-        return [
-            //
-        ];
-    }
 }
