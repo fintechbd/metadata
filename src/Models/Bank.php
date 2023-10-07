@@ -25,7 +25,7 @@ class Bank extends Model implements Auditable
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['restored_at' => 'datetime','bank_data' => 'json'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','bank_data' => 'json'];
 
     protected $appends = ['links'];
 

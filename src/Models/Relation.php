@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Traits\BlameableTrait;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use OwenIt\Auditing\Contracts\Auditable;
 use Spatie\Translatable\HasTranslations;
@@ -27,7 +28,7 @@ class Relation extends Model implements Auditable
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['restored_at' => 'datetime','relation_data' => 'json'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','relation_data' => 'json'];
 
     protected $appends = ['links'];
 
@@ -44,7 +45,10 @@ class Relation extends Model implements Auditable
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
+    public function country(): BelongsTo
+    {
+        return $this->belongsTo(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES

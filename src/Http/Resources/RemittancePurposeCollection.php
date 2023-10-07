@@ -16,7 +16,22 @@ class RemittancePurposeCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return $this->collection->map(function ($item) {
+            return [
+                "id" => $item->iid,
+                "country_id" => $item->country_id,
+                "country_name" => $item->country->name,
+                "name" => $item->name,
+                "code" => $item->code,
+                "enabled" => $item->enabled,
+                "remittance_purpose_data" => $item->fund_source_data,
+                "created_at" => $item->created_at,
+                "updated_at" => $item->updated_at,
+                "deleted_at" => $item->deleted_at,
+                "restored_at" => $item->restored_at,
+                "links" => $item->links
+            ];
+        })->toArray();
     }
 
     /**
