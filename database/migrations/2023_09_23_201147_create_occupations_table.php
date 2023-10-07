@@ -15,6 +15,7 @@ return new class () extends Migration {
             $table->foreignId('country_id')->nullable();
             $table->string('name');
             $table->string('code');
+            $table->boolean('enabled')->default(true);
             $table->json('occupation_data')->nullable();
             $table->foreignId('creator_id')->nullable();
             $table->foreignId('editor_id')->nullable();

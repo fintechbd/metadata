@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Seeders;
 
 use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class FundSourceSeeder extends Seeder
 {
@@ -12,74 +13,45 @@ class FundSourceSeeder extends Seeder
      */
     public function run(): void
     {
-        foreach ($this->data() as $region) {
-            MetaData::fundSource()->create($region);
+        foreach ($this->data() as $fundSource) {
+            MetaData::fundSource()->create($fundSource);
         }
     }
 
     private function data()
     {
-        return [
-            [
-                'id' => '1',
-                'name' => 'Africa',
-                'region_data' => [],
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03',
-            ],
-            [
-                'id' => '2',
-                'name' => 'Americas',
-                'region_data' => [],
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03',
-            ],
-            [
-                'id' => '3',
-                'name' => 'Asia',
-                'region_data' => [],
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03',
-            ],
-            [
-                'id' => '4',
-                'name' => 'Europe',
-                'region_data' => [],
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03',
-            ],
-            [
-                'id' => '5',
-                'name' => 'Oceania',
-                'region_data' => [],
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03',
-            ],
-            [
-                'id' => '6',
-                'name' => 'Polar',
-                'region_data' => [],
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'created_at' => '2023-08-14 13:11:03',
-                'updated_at' => '2023-08-14 13:11:03',
-            ],
-        ];
+        return array(
+            array('id' => '1','country_id' => NULL,'name' => 'Allowance And Commission','code' => 'allowance-and-commission','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:31:28','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '2','country_id' => NULL,'name' => 'Bonus','code' => 'bonus','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:31:32','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '3','country_id' => NULL,'name' => 'Borrow From Friends','code' => 'borrow-from-friends','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-08-28 07:48:51','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '4','country_id' => NULL,'name' => 'Business','code' => 'business','enabled' => '1','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2022-02-06 21:18:17','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '5','country_id' => NULL,'name' => 'Company Compensation','code' => 'company-compensation','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:31:36','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '6','country_id' => NULL,'name' => 'Gift','code' => 'gift','enabled' => '1','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2022-02-06 21:24:11','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '7','country_id' => NULL,'name' => 'Insurance Claim','code' => 'insurance-claim','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:31:45','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '8','country_id' => NULL,'name' => 'Loan From Employer','code' => 'loan-from-employer','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2021-12-16 09:35:35','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '9','country_id' => NULL,'name' => 'Loan From Financial Institution','code' => 'loan-from-financial-institution','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-08-28 07:48:51','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '10','country_id' => NULL,'name' => 'Lottery','code' => 'lottery','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:31:50','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '11','country_id' => NULL,'name' => 'Pension','code' => 'pension','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:31:54','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '12','country_id' => NULL,'name' => 'Salary','code' => 'salary','enabled' => '1','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2022-02-06 21:17:46','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '13','country_id' => NULL,'name' => 'Salary  Borrow From Friends','code' => 'salary-borrow-from-friends','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:31:59','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '14','country_id' => NULL,'name' => 'Salary  Loan From Employer','code' => 'salary-loan-from-employer','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:32:03','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '15','country_id' => NULL,'name' => 'Salary Saving  Borrow From Friends','code' => 'salary-saving-borrow-from-friends','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:32:06','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '16','country_id' => NULL,'name' => 'Salary Saving  Loan From Employer','code' => 'salary-saving-loan-from-employer','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:32:11','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '17','country_id' => NULL,'name' => 'Saving  Borrow From Friends','code' => 'saving-borrow-from-friends','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:32:15','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '18','country_id' => NULL,'name' => 'Saving  Loan From Employer','code' => 'saving-loan-from-employer','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-08-28 07:48:51','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '19','country_id' => NULL,'name' => 'Savings','code' => 'savings','enabled' => '1','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2022-02-06 21:17:50','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '20','country_id' => NULL,'name' => 'Scholarship','code' => 'scholarship','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-11-22 22:16:11','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '21','country_id' => NULL,'name' => 'Share Money With Friends','code' => 'share-money-with-friends','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:32:18','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '22','country_id' => NULL,'name' => 'Share Money With Relative','code' => 'share-money-with-relative','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:51','updated_at' => '2020-09-15 00:32:23','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '23','country_id' => NULL,'name' => 'Share Money With Spouse','code' => 'share-money-with-spouse','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2020-08-28 07:48:52','updated_at' => '2020-09-15 00:32:27','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '24','country_id' => NULL,'name' => 'Bank Deposit','code' => 'bank-deposit','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2021-12-16 09:35:34','updated_at' => '2021-12-16 09:35:34','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '25','country_id' => NULL,'name' => 'Grant From Family Or Friends','code' => 'grant-from-family-or-friends','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2021-12-16 09:35:34','updated_at' => '2021-12-16 09:35:34','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '26','country_id' => NULL,'name' => 'Redemption Of Investment Products','code' => 'redemption-of-investment-products','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2021-12-16 09:35:34','updated_at' => '2021-12-16 09:35:34','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '27','country_id' => NULL,'name' => 'Allowance For Family Maintenance','code' => 'allowance-for-family-maintenance','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2021-12-16 09:35:35','updated_at' => '2021-12-16 09:35:35','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '28','country_id' => NULL,'name' => 'Real Estate','code' => 'real-estate','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2021-12-16 09:35:36','updated_at' => '2021-12-16 09:35:36','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '29','country_id' => NULL,'name' => 'Revenue','code' => 'revenue','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2021-12-16 09:35:37','updated_at' => '2021-12-16 09:35:37','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '30','country_id' => NULL,'name' => 'Borrow','code' => 'borrow','enabled' => '1','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2022-02-06 21:19:49','updated_at' => '2022-02-06 21:19:49','deleted_at' => NULL,'restored_at' => NULL),
+            array('id' => '31','country_id' => NULL,'name' => 'Others','code' => 'others','enabled' => '0','fund_source_data' => NULL,'creator_id' => NULL,'editor_id' => NULL,'destroyer_id' => NULL,'restorer_id' => NULL,'created_at' => '2022-02-06 21:25:07','updated_at' => '2022-02-06 21:27:25','deleted_at' => NULL,'restored_at' => NULL)
+        );
     }
 }

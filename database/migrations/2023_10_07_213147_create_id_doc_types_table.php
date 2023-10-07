@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('country_id')->nullable();
             $table->json('name');
             $table->string('code');
+            $table->boolean('enabled')->default(true);
             $table->json('id_doc_type_data')->nullable();
             $table->foreignId('creator_id')->nullable();
             $table->foreignId('editor_id')->nullable();
