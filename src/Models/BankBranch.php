@@ -23,9 +23,9 @@ class BankBranch extends Model implements Auditable
 
     protected $guarded = ['id'];
 
-    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id', 'deleted_at', 'restored_at'];
+    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['bank_branch_data' => 'json'];
+    protected $casts = ['restored_at' => 'datetime','bank_branch_data' => 'json'];
 
     protected $appends = ['links'];
 

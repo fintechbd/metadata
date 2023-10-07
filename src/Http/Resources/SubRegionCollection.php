@@ -17,7 +17,18 @@ class SubRegionCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return $this->collection->map(function ($subregion) {
+            return [
+                'id' => $subregion->id,
+                'region_id' => $subregion->region_id ?? null,
+                'region_name' => ($subregion->region != null) ? $subregion->region->name : null,
+                'name' => $subregion->name ?? null,
+                'created_at' => $subregion->created_at,
+                'updated_at' => $subregion->updated_at,
+                'links' => $subregion->links,
+            ];
+
+        })->toArray();
     }
 
     /**

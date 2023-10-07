@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Traits\BlameableTrait;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use OwenIt\Auditing\Contracts\Auditable;
 
@@ -23,9 +24,9 @@ class Subregion extends Model implements Auditable
 
     protected $guarded = ['id'];
 
-    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id', 'deleted_at', 'restored_at'];
+    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['subregion_data' => 'json'];
+    protected $casts = ['restored_at' => 'datetime','subregion_data' => 'json'];
 
     protected $appends = ['links'];
 
@@ -40,7 +41,10 @@ class Subregion extends Model implements Auditable
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
+    public function region(): BelongsTo
+    {
+        return $this->belongsTo(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES
