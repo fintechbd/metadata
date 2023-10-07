@@ -36,8 +36,12 @@ class RegionRepository extends EloquentRepository implements InterfacesRegionRep
         $query = $this->model->newQuery();
 
         if (isset($filters['search']) && ! empty($filters['search'])) {
-            $query->where('name', 'like', "%{$filters['search']}%");
-            $query->orWhere('region_data', 'like', "%{$filters['search']}%");
+            if (is_numeric($filters['search'])) {
+                $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
+            } else {
+                $query->where('name', 'like', "%{$filters['search']}%");
+                $query->orWhere('region_data', 'like', "%{$filters['search']}%");
+            }
         }
 
         //Handle Sorting

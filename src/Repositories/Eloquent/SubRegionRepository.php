@@ -18,7 +18,7 @@ class SubRegionRepository extends EloquentRepository implements InterfacesSubReg
     {
         $model = app()->make(config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\Subregion::class));
 
-        if (! $model instanceof Model) {
+        if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -35,8 +35,13 @@ class SubRegionRepository extends EloquentRepository implements InterfacesSubReg
     {
         $query = $this->model->newQuery();
 
-        if (isset($filters['search']) && ! empty($filters['search'])) {
-            $query->where('name', 'like', "%{$filters['search']}%");
+        if (isset($filters['search']) && !empty($filters['search'])) {
+            if (is_numeric($filters['search'])) {
+                $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
+            } else {
+                $query->where('name', 'like', "%{$filters['search']}%");
+                $query->orWhere('subregion_data', 'like', "%{$filters['search']}%");
+            }
         }
 
         //Handle Sorting

@@ -36,7 +36,11 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
         $query = $this->model->newQuery();
 
         if (isset($filters['search']) && ! empty($filters['search'])) {
-            $query->where('name', 'like', "%{$filters['search']}%");
+            if (is_numeric($filters['search'])) {
+                $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
+            } else {
+                $query->where('name', 'like', "%{$filters['search']}%");
+            }
         }
 
         //Handle Sorting
