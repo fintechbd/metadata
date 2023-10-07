@@ -21,11 +21,14 @@ class StoreSubRegionRequest extends FormRequest
      */
     public function rules(): array
     {
+        $uniqueRule = 'unique:'.config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\SubRegion::class).',name';
+
         return [
             'region_id' => ['integer', 'nullable'],
-            'name' => ['string', 'nullable'],
-            'subregion_data' => ['array', 'nullable'],
+            'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
+            'subregion_data' => ['nullable', 'array']
         ];
+
     }
 
     /**

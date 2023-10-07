@@ -43,6 +43,10 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
             }
         }
 
+        if (isset($filters['trashed']) && !empty($filters['trashed'])) {
+            $query->onlyTrashed();
+        }
+
         //Handle Sorting
         $query->orderBy($filters['sort'] ?? $this->model->getKeyName(), $filters['direction'] ?? 'asc');
 

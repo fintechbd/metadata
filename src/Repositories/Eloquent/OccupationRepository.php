@@ -43,6 +43,10 @@ class OccupationRepository extends EloquentRepository implements InterfacesOccup
             }
         }
 
+        if (isset($filters['trashed']) && !empty($filters['trashed'])) {
+            $query->onlyTrashed();
+        }
+
         //Handle Sorting
         $query->orderBy($filters['sort'] ?? $this->model->getKeyName(), $filters['direction'] ?? 'asc');
 
