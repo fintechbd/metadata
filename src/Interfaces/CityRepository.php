@@ -3,7 +3,7 @@
 namespace Fintech\MetaData\Interfaces;
 
 use Fintech\MetaData\Exceptions\CityRepositoryException;
-use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
