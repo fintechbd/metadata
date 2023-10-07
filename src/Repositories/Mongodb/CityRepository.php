@@ -2,7 +2,7 @@
 
 namespace Fintech\MetaData\Repositories\Mongodb;
 
-use Fintech\MetaData\Exceptions\CityRepositoryException;
+
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
 use Fintech\MetaData\Models\City;
 use Illuminate\Contracts\Pagination\Paginator;

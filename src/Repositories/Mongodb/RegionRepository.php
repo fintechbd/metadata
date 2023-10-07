@@ -2,7 +2,7 @@
 
 namespace Fintech\MetaData\Repositories\Mongodb;
 
-use Fintech\MetaData\Exceptions\RegionRepositoryException;
+
 use Fintech\MetaData\Interfaces\RegionRepository as InterfacesRegionRepository;
 use Illuminate\Contracts\Pagination\Paginator;
 use InvalidArgumentException;
