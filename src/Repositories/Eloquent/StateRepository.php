@@ -43,6 +43,10 @@ class StateRepository extends EloquentRepository implements InterfacesStateRepos
             }
         }
 
+        if (isset($filters['country_id']) && !empty($filters['country_id'])) {
+            $query->where('country_id', $filters['country_id']);
+        }
+
         //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();

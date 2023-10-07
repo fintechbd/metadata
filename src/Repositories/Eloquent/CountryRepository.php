@@ -58,6 +58,7 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
         if (isset($filters['iso2']) && !empty($filters['iso2'])) {
             $query->where('iso2', $filters['iso2']);
         }
+
         if (isset($filters['currency']) && !empty($filters['currency'])) {
             $query->where('currency', $filters['currency']);
         }
