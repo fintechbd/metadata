@@ -22,7 +22,13 @@ class UpdateCityRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => ['string', 'nullable'],
+            'latitude' => ['numeric', 'nullable'],
+            'longitude' => ['numeric', 'nullable'],
+            'enabled' => ['bool', 'nullable'],
+            'city_data' => ['array', 'nullable'],
+            'state_id' => ['integer', 'nullable'],
+            'country_id' => ['integer', 'nullable'],
         ];
     }
 

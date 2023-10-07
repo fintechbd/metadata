@@ -26,33 +26,9 @@ class StoreCityRequest extends FormRequest
             'latitude' => ['numeric', 'nullable'],
             'longitude' => ['numeric', 'nullable'],
             'enabled' => ['bool', 'nullable'],
-            'city_data' => ['string', 'nullable'],
+            'city_data' => ['array', 'nullable'],
             'state_id' => ['integer', 'nullable'],
             'country_id' => ['integer', 'nullable'],
-        ];
-    }
-
-    /**
-     * Get the validation attributes that apply to the request.
-     *
-     * @return array
-     */
-    public function attributes()
-    {
-        return [
-            //
-        ];
-    }
-
-    /**
-     * Get the validation messages that apply to the request.
-     *
-     * @return array
-     */
-    public function messages()
-    {
-        return [
-            //
         ];
     }
 }
