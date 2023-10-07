@@ -46,5 +46,5 @@ Route::prefix('metadata')->name('metadata.')->group(function () {
     Route::post('relations/{relation}/restore', [\Fintech\MetaData\Http\Controllers\RelationController::class, 'restore'])->name('relations.restore');
 
     Route::apiResource('remittance-purposes', \Fintech\MetaData\Http\Controllers\RemittancePurposeController::class);
-    Route::post('remittance-purposes/{remittance-purpose}/restore', [\Fintech\MetaData\Http\Controllers\RegionController::class, 'restore'])->name('remittance-purposes.restore');
+    Route::post('remittance-purposes/{remittance-purpose}/restore', [\Fintech\MetaData\Http\Controllers\RemittancePurposeController::class, 'restore'])->name('remittance-purposes.restore');
 });

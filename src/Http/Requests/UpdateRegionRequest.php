@@ -21,8 +21,11 @@ class UpdateRegionRequest extends FormRequest
      */
     public function rules(): array
     {
+        $uniqueRule = 'unique:'.config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class).',name';
+
         return [
-            //
+            'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
+            'region_data' => ['nullable', 'array']
         ];
     }
 

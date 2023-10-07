@@ -25,7 +25,6 @@ class StoreRegionRequest extends FormRequest
 
         return [
             'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
-            'country_id' => ['nullable', 'integer'],
             'region_data' => ['nullable', 'array']
         ];
     }
