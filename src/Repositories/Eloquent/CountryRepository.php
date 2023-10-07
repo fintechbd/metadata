@@ -38,8 +38,7 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
         if (isset($filters['search']) && ! empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
-            }
-            else {
+            } else {
                 $query->where('name', 'like', "%{$filters['search']}%")
                     ->orWhere('iso3', 'like', "%{$filters['search']}%")
                     ->orWhere('iso2', 'like', "%{$filters['search']}%")

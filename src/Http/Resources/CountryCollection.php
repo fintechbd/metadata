@@ -68,7 +68,8 @@ class CountryCollection extends ResourceCollection
 
         if (is_numeric($request->input('region_id'))) {
             MetaData::subregion()->list(
-                ['paginate' => false, 'region_id' => $request->input('region_id')])
+                ['paginate' => false, 'region_id' => $request->input('region_id')]
+            )
                 ->each(function ($subregion) use (&$subregions) {
                     $subregions[$subregion->id] = $subregion->name;
                 });
