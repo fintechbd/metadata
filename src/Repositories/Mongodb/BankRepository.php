@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Repositories\Mongodb;
 
-
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
 use Fintech\MetaData\Models\Bank;
 use Illuminate\Contracts\Pagination\Paginator;
