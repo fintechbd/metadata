@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Traits\BlameableTrait;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use OwenIt\Auditing\Contracts\Auditable;
 
@@ -39,6 +40,15 @@ class Country extends Model implements Auditable
     | RELATIONS
     |--------------------------------------------------------------------------
     */
+    public function region(): BelongsTo
+    {
+        return $this->belongsTo(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
+    }
+
+    public function subregion(): BelongsTo
+    {
+        return $this->belongsTo(config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\SubRegion::class));
+    }
 
     /*
     |--------------------------------------------------------------------------
