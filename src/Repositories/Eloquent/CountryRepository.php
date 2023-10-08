@@ -84,10 +84,8 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
         //Handle Sorting
         $query->orderBy($filters['sort'] ?? $this->model->getKeyName(), $filters['dir'] ?? 'asc');
 
-        //Prepare Output
-        return (isset($filters['paginate']) && $filters['paginate'] == true)
-            ? $query->simplePaginate(($filters['per_page'] ?? 20))
-            : $query->get();
+        //Execute Output
+        return $this->executeQuery($query);
 
     }
 }
