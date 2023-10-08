@@ -17,12 +17,12 @@ class FundSourceResource extends JsonResource
     {
         return [
             "id" => $this->iid,
-            "country_id" => $this->country_id,
-            "country_name" => $this->country != null ? $this->country->name : null,
             "name" => $this->name,
             "code" => $this->code,
             "enabled" => $this->enabled,
-            "occupation_data" => $this->fund_source_data,
+            "fund_source_data" => $this->fund_source_data,
+            "country_id" => $this->country_id,
+            "country_name" => $this->country != null ? $this->country->name : null,
             "created_at" => $this->created_at,
             "updated_at" => $this->updated_at,
             "deleted_at" => $this->deleted_at,

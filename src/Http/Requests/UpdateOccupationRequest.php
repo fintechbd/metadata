@@ -21,8 +21,13 @@ class UpdateOccupationRequest extends FormRequest
      */
     public function rules(): array
     {
+        $uniqueRule = 'unique:'.config('fintech.metadata.occupation_model', \Fintech\MetaData\Models\Occupation::class).',name';
+
         return [
-            //
+            'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
+            'code' => ['required', 'string', 'min:5', 'max:255'],
+            'country_id' => ['nullable', 'integer'],
+            'occupation_data' => ['nullable', 'array']
         ];
     }
 

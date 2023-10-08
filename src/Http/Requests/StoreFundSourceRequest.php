@@ -25,6 +25,7 @@ class StoreFundSourceRequest extends FormRequest
 
         return [
             'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
+            'code' => ['required', 'string', 'min:5', 'max:255'],
             'country_id' => ['nullable', 'integer'],
             'fund_source_data' => ['nullable', 'array']
         ];

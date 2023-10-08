@@ -21,8 +21,13 @@ class UpdateRelationRequest extends FormRequest
      */
     public function rules(): array
     {
+        $uniqueRule = 'unique:'.config('fintech.metadata.relation_model', \Fintech\MetaData\Models\Relation::class).',name';
+
         return [
-            //
+            'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
+            'code' => ['required', 'string', 'min:5', 'max:255'],
+            'country_id' => ['nullable', 'integer'],
+            'relation_data' => ['nullable', 'array']
         ];
     }
 

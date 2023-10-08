@@ -21,8 +21,13 @@ class UpdateFundSourceRequest extends FormRequest
      */
     public function rules(): array
     {
+        $uniqueRule = 'unique:'.config('fintech.metadata.fund_source_model', \Fintech\MetaData\Models\FundSource::class).',name';
+
         return [
-            //
+            'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
+            'code' => ['required', 'string', 'min:5', 'max:255'],
+            'country_id' => ['nullable', 'integer'],
+            'fund_source_data' => ['nullable', 'array']
         ];
     }
 

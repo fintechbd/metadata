@@ -19,12 +19,12 @@ class OccupationCollection extends ResourceCollection
         return $this->collection->map(function ($item) {
             return [
                 "id" => $item->iid,
-                "country_id" => $item->country_id,
-                "country_name" => $item->country != null ? $item->country->name : null,
                 "name" => $item->name,
                 "code" => $item->code,
                 "enabled" => $item->enabled,
-                "occupation_data" => $item->fund_source_data,
+                "country_id" => $item->country_id,
+                "country_name" => $item->country != null ? $item->country->name : null,
+                "occupation_data" => $item->occupation_data,
                 "created_at" => $item->created_at,
                 "updated_at" => $item->updated_at,
                 "deleted_at" => $item->deleted_at,
