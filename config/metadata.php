@@ -113,4 +113,42 @@ return [
     */
     'remittance_purpose_model' => \Fintech\MetaData\Models\RemittancePurpose::class,
 
+    //** Model Config Point Do not Remove **//
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Repositories
+    |--------------------------------------------------------------------------
+    |
+    | This value will be used to across system where model is needed
+    */
+    'repositories' => [
+        \Fintech\Auth\Interfaces\PermissionRepository::class => \Fintech\Auth\Repositories\Eloquent\PermissionRepository::class,
+
+        \Fintech\MetaData\Interfaces\BankBranchRepository::class => \Fintech\MetaData\Repositories\Eloquent\BankBranchRepository::class,
+
+        \Fintech\MetaData\Interfaces\BankRepository::class => \Fintech\MetaData\Repositories\Eloquent\BankRepository::class,
+
+        \Fintech\MetaData\Interfaces\CityRepository::class => \Fintech\MetaData\Repositories\Eloquent\CityRepository::class,
+
+        \Fintech\MetaData\Interfaces\CountryRepository::class => \Fintech\MetaData\Repositories\Eloquent\CountryRepository::class,
+
+        \Fintech\MetaData\Interfaces\FundSourceRepository::class => \Fintech\MetaData\Repositories\Eloquent\FundSourceRepository::class,
+
+        \Fintech\MetaData\Interfaces\OccupationRepository::class => \Fintech\MetaData\Repositories\Eloquent\OccupationRepository::class,
+
+        \Fintech\MetaData\Interfaces\RegionRepository::class => \Fintech\MetaData\Repositories\Eloquent\RegionRepository::class,
+
+        \Fintech\MetaData\Interfaces\RelationRepository::class => \Fintech\MetaData\Repositories\Eloquent\RelationRepository::class,
+
+        \Fintech\MetaData\Interfaces\RemittancePurposeRepository::class => \Fintech\MetaData\Repositories\Eloquent\RemittancePurposeRepository::class,
+
+        \Fintech\MetaData\Interfaces\StateRepository::class => \Fintech\MetaData\Repositories\Eloquent\StateRepository::class,
+
+        \Fintech\MetaData\Interfaces\SubRegionRepository::class => \Fintech\MetaData\Repositories\Eloquent\SubRegionRepository::class,
+
+        //** Repository Binding Config Point Do not Remove **//
+        ],
+
 ];
