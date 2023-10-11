@@ -2,14 +2,11 @@
 
 namespace Fintech\MetaData\Models;
 
-
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-
 class Region extends Model
 {
-
     use \Fintech\Core\Traits\AuditableTrait;
     use SoftDeletes;
 

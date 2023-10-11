@@ -2,15 +2,12 @@
 
 namespace Fintech\MetaData\Models;
 
-
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-
 class Country extends Model
 {
-
     use \Fintech\Core\Traits\AuditableTrait;
     use SoftDeletes;
     /*
