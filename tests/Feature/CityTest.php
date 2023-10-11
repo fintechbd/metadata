@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Http;
 
-
 test('city list', function () {
     $response = Http::get(BASE_URL.'/cities');
     expect($response->status())->toEqual(200);

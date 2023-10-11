@@ -2,8 +2,6 @@
 
 use Illuminate\Support\Facades\Http;
 
-
-
 test('country list', function () {
     $response = Http::get(BASE_URL.'/countries');
     expect($response->status())->toEqual(200);
