@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Http;
 
-define('BASE_URL', 'http://devstarter.test/api/v1/metadata');
+
 
 test('state list', function () {
     $response = Http::get(BASE_URL.'/states');
