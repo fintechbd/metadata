@@ -2,8 +2,6 @@
 
 use Illuminate\Support\Facades\Http;
 
-
-
 test('subregion list', function () {
     $response = Http::get(BASE_URL.'/subregions');
     expect($response->status())->toEqual(200);

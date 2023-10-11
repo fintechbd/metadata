@@ -2,8 +2,6 @@
 
 use Illuminate\Support\Facades\Http;
 
-
-
 test('state list', function () {
     $response = Http::get(BASE_URL.'/states');
     expect($response->status())->toEqual(200);

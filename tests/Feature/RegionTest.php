@@ -2,8 +2,6 @@
 
 use Illuminate\Support\Facades\Http;
 
-
-
 test('region list', function () {
     $response = Http::get(BASE_URL.'/regions');
     expect($response->status())->toEqual(200);
