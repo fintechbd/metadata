@@ -18,7 +18,7 @@ class RemittancePurposeCollection extends ResourceCollection
     {
         return $this->collection->map(function ($item) {
             return [
-                "id" => $item->iid,
+                "id" => $item->id,
                 "name" => $item->name,
                 "code" => $item->code,
                 "enabled" => $item->enabled,

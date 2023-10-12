@@ -1,34 +1,69 @@
 <?php
 
-use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Str;
+
+use function Pest\Laravel\deleteJson;
+use function Pest\Laravel\getJson;
+use function Pest\Laravel\postJson;
+use function Pest\Laravel\putJson;
+
+function createFreshRegion()
+{
+    return \Fintech\MetaData\Facades\MetaData::region()->create([
+        'name' => Str::random(20),
+        'region_data' => ['vendors' => 'emq'],
+    ]);
+}
 
 test('region list', function () {
-    $response = Http::get(BASE_URL.'/regions');
-    expect($response->status())->toEqual(200);
+    getJson('/api/metadata/regions')->assertStatus(200);
+});
+
+test('region create validation', function () {
+    postJson('/api/metadata/regions', [
+        'name' => Str::random(3),
+    ])->assertStatus(422);
 });
 
 test('region created', function () {
-    $response = Http::post(BASE_URL.'/regions', [
-        'region_name' => 'Test',
-        'region_translations' => ['en' => 'Test'],
-        'region_data' => ['en' => 'Test'],
-    ]);
-    expect($response->status())->toEqual(201);
+    postJson('/api/metadata/regions', [
+        'name' => Str::random(20),
+        'region_data' => ['en' => 'en'],
+    ])->assertStatus(201);
+});
+
+test('region not found', function () {
+    createFreshSubRegion();
+    getJson('/api/metadata/regions/100')->assertStatus(404);
 });
 
 test('region detail', function () {
-    $response = Http::get(BASE_URL.'/regions/2');
-    expect($response->status())->toEqual(200);
+    createFreshSubRegion();
+    getJson('/api/metadata/regions/1')->assertStatus(200);
+});
+
+test('region update validation', function () {
+    createFreshSubRegion();
+    putJson('/api/metadata/regions/1', [
+        'name' => 'abcd',
+        'region_data' => ['vendors' => 'emq'],
+    ])->assertStatus(422);
 });
 
 test('region updated', function () {
-    $response = Http::put(BASE_URL.'/regions/2', [
-        'region_name' => 'Test2',
-    ]);
-    expect($response->status())->toEqual(202);
+    createFreshSubRegion();
+    putJson('/api/metadata/regions/1', [
+        'name' => Str::random(20),
+    ])->assertStatus(200);
 });
 
-//test('region deleted', function () {
-//    $response = Http::delete(BASE_URL . '/regions/1');
-//    expect($response->status())->toEqual(200);
-//});
+test('region deleted', function () {
+    createFreshSubRegion();
+    deleteJson('/api/metadata/regions/1')->assertStatus(200);
+});
+
+test('region restored', function () {
+    $region = createFreshSubRegion();
+    $region->delete();
+    postJson('/api/metadata/regions/1/restore')->assertStatus(200);
+});
