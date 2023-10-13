@@ -3,13 +3,10 @@
 namespace Fintech\MetaData\Tests;
 
 use Fintech\MetaData\MetaDataServiceProvider;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
-    use DatabaseMigrations;
-
     protected function setUp(): void
     {
         parent::setUp();
