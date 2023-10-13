@@ -1,47 +1,77 @@
 <?php
 
-use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Str;
+
+use function Pest\Laravel\deleteJson;
+use function Pest\Laravel\getJson;
+use function Pest\Laravel\postJson;
+use function Pest\Laravel\putJson;
+
+function createState()
+{
+    return \Fintech\MetaData\Facades\MetaData::state()->create([
+        "name" => Str::random(20),
+        "country_id" => 1,
+        "enabled" => "1",
+        "state_data" => []
+    ]);
+}
 
 test('state list', function () {
-    $response = Http::get(BASE_URL.'/states');
-    expect($response->status())->toEqual(200);
+    getJson('/api/metadata/states')->assertStatus(200);
+});
+
+test('state create validation', function () {
+    postJson('/api/metadata/states', [
+        "name" => '',
+        "country_id" => "1",
+        "enabled" => "1",
+        "state_data" => []
+    ])->assertStatus(422);
 });
 
 test('state created', function () {
-    $response = Http::post(BASE_URL.'/states', [
-        'state_name' => 'Test',
-        'state_iso2' => '12',
-        'state_iso3' => '123',
-        'state_num_code' => '012',
-        'state_type' => 'DIVISION',
-        'state_status' => 'ACTIVE',
-        'state_timezones' => 'test',
-        'country_id' => 1,
-    ]);
+    postJson('/api/metadata/states', [
+        "name" => Str::random(20),
+        "country_id" => "10",
+        "enabled" => "1",
+        "state_data" => []
+    ])->assertStatus(201);
+});
 
-    expect($response->status())->toEqual(200);
+test('state not found', function () {
+    createState();
+    getJson('/api/metadata/states/100')->assertStatus(404);
 });
 
 test('state detail', function () {
-    $response = Http::get(BASE_URL.'/states/1');
-    expect($response->status())->toEqual(200);
+    createState();
+    getJson('/api/metadata/states/1')->assertStatus(200);
+});
+
+test('state update validation', function () {
+    createState();
+    putJson('/api/metadata/states/1', [
+        'name' => '',
+        'state_data' => ['vendors' => 'emq'],
+    ])->assertStatus(422);
 });
 
 test('state updated', function () {
-    $response = Http::put(BASE_URL.'/states/1', [
-        'state_name' => 'Test2',
-        'state_iso2' => '12',
-        'state_iso3' => '123',
-        'state_num_code' => '012',
-        'state_type' => 'DIVISION',
-        'state_status' => 'ACTIVE',
-        'state_timezones' => 'test',
-        'country_id' => 1,
-    ]);
-    expect($response->status())->toEqual(202);
+    createState();
+    putJson('/api/metadata/states/1', [
+        'name' => Str::random(20),
+        'country_id' => 1
+    ])->assertStatus(200);
 });
 
-//test('state deleted', function () {
-//    $response = Http::delete(BASE_URL . '/states/1');
-//    expect($response->status())->toEqual(200);
-//});
+test('state deleted', function () {
+    createState();
+    deleteJson('/api/metadata/states/1')->assertStatus(200);
+});
+
+test('state restored', function () {
+    $state = createState();
+    $state->delete();
+    postJson('/api/metadata/states/1/restore')->assertStatus(200);
+});
