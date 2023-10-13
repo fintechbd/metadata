@@ -33,17 +33,17 @@ test('region created', function () {
 });
 
 test('region not found', function () {
-    createFreshSubRegion();
+    createFreshRegion();
     getJson('/api/metadata/regions/100')->assertStatus(404);
 });
 
 test('region detail', function () {
-    createFreshSubRegion();
+    createFreshRegion();
     getJson('/api/metadata/regions/1')->assertStatus(200);
 });
 
 test('region update validation', function () {
-    createFreshSubRegion();
+    createFreshRegion();
     putJson('/api/metadata/regions/1', [
         'name' => 'abcd',
         'region_data' => ['vendors' => 'emq'],
@@ -51,19 +51,19 @@ test('region update validation', function () {
 });
 
 test('region updated', function () {
-    createFreshSubRegion();
+    createFreshRegion();
     putJson('/api/metadata/regions/1', [
         'name' => Str::random(20),
     ])->assertStatus(200);
 });
 
 test('region deleted', function () {
-    createFreshSubRegion();
+    createFreshRegion();
     deleteJson('/api/metadata/regions/1')->assertStatus(200);
 });
 
 test('region restored', function () {
-    $region = createFreshSubRegion();
+    $region = createFreshRegion();
     $region->delete();
     postJson('/api/metadata/regions/1/restore')->assertStatus(200);
 });

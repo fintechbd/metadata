@@ -7,7 +7,7 @@ use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
 use function Pest\Laravel\putJson;
 
-function createFreshSubRegion()
+function createCountry()
 {
     return \Fintech\MetaData\Facades\MetaData::country()->create([
         "name" => Str::random(20),
@@ -20,120 +20,100 @@ function createFreshSubRegion()
         "currency_symbol" => "$",
         "nationality" => "Bangladeshi",
         "region_id" => "1",
-        "subregion_id" => "1",
+        "country_id" => "1",
         "language" => "bn",
         "enabled" => "1",
         "emoji" => "",
-        "latitude" => "",
-        "longitude" => "",
-        "timezones" => [
-        ],
-        "country_data" => [
-        ]
+        "latitude" => "90.000",
+        "longitude" => "23.231",
+        "timezones" => [],
+        "country_data" => []
     ]);
 }
 
-test('subregion list', function () {
-    getJson('/api/metadata/subregions')->assertStatus(200);
+test('country list', function () {
+    getJson('/api/metadata/countries')->assertStatus(200);
 });
 
-test('subregion create validation', function () {
-    postJson('/api/metadata/subregions', [
-        'name' => Str::random(3),
+test('country create validation', function () {
+    postJson('/api/metadata/countries', [
+        "name" => '',
+        "iso2" => "BD",
+        "iso3" => "BGD",
+        "phone_code" => "880",
+        "capital" => "Dhaka",
+        "currency" => "BDT",
+        "currency_name" => "Bangladeshi Taka",
+        "currency_symbol" => "$",
+        "nationality" => "Bangladeshi",
+        "region_id" => "1",
+        "country_id" => "1",
+        "language" => "bn",
+        "enabled" => "1",
+        "emoji" => "",
+        "latitude" => "90.000",
+        "longitude" => "23.231",
+        "timezones" => [],
+        "country_data" => []
     ])->assertStatus(422);
 });
 
-test('subregion created', function () {
-    postJson('/api/metadata/subregions', [
-        'name' => Str::random(20),
-        'subregion_data' => ['en' => 'en'],
+test('country created', function () {
+    postJson('/api/metadata/countries', [
+        "name" => Str::random(20),
+        "iso2" => "BD",
+        "iso3" => "BGD",
+        "phone_code" => "880",
+        "capital" => "Dhaka",
+        "currency" => "BDT",
+        "currency_name" => "Bangladeshi Taka",
+        "currency_symbol" => "$",
+        "nationality" => "Bangladeshi",
+        "region_id" => "1",
+        "country_id" => "1",
+        "language" => "bn",
+        "enabled" => "1",
+        "emoji" => "",
+        "latitude" => "90.000",
+        "longitude" => "23.231",
+        "timezones" => [],
+        "country_data" => []
     ])->assertStatus(201);
 });
 
-test('subregion not found', function () {
-    createFreshSubRegion();
-    getJson('/api/metadata/subregions/100')->assertStatus(404);
+test('country not found', function () {
+    createCountry();
+    getJson('/api/metadata/countries/100')->assertStatus(404);
 });
 
-test('subregion detail', function () {
-    createFreshSubRegion();
-    getJson('/api/metadata/subregions/1')->assertStatus(200);
+test('country detail', function () {
+    createCountry();
+    getJson('/api/metadata/countries/1')->assertStatus(200);
 });
 
-test('subregion update validation', function () {
-    createFreshSubRegion();
-    putJson('/api/metadata/subregions/1', [
-        'name' => 'abcd',
-        'subregion_data' => ['vendors' => 'emq'],
+test('country update validation', function () {
+    createCountry();
+    putJson('/api/metadata/countries/1', [
+        'name' => '',
+        'country_data' => ['vendors' => 'emq'],
     ])->assertStatus(422);
 });
 
-test('subregion updated', function () {
-    createFreshSubRegion();
-    putJson('/api/metadata/subregions/1', [
+test('country updated', function () {
+    createCountry();
+    putJson('/api/metadata/countries/1', [
         'name' => Str::random(20),
     ])->assertStatus(200);
 });
 
-test('subregion deleted', function () {
-    createFreshSubRegion();
-    deleteJson('/api/metadata/subregions/1')->assertStatus(200);
+test('country deleted', function () {
+    createCountry();
+    deleteJson('/api/metadata/countries/1')->assertStatus(200);
 });
 
-test('subregion restored', function () {
-    $subregion = createFreshSubRegion();
-    $subregion->delete();
-    postJson('/api/metadata/subregions/1/restore')->assertStatus(200);
+test('country restored', function () {
+    $country = createCountry();
+    $country->delete();
+    postJson('/api/metadata/countries/1/restore')->assertStatus(200);
 });
 
-
-test('country list', function () {
-    $response = Http::get(BASE_URL.'/countries');
-    expect($response->status())->toEqual(200);
-});
-
-test('country created', function () {
-    $response = Http::post(BASE_URL.'/countries', [
-        'country_name' => 'Test',
-        'country_iso2' => 'test',
-        'country_iso3' => 'test',
-        'country_num_code' => '01',
-        'country_phone_code' => '880',
-        'country_capital' => 'test',
-        'country_currency' => 'BDT',
-        'country_region' => 'Asia',
-        'country_subregion' => 'South',
-        'country_currency_symbol' => '$',
-        'country_language' => 'bn',
-        'country_status' => 'ACTIVE',
-    ]);
-    expect($response->status())->toEqual(201);
-});
-
-test('country detail', function () {
-    $response = Http::get(BASE_URL.'/countries/1');
-    expect($response->status())->toEqual(200);
-});
-
-test('country updated', function () {
-    $response = Http::put(BASE_URL.'/countries/1', [
-        'country_name' => 'Test v2',
-        'country_iso2' => 'test',
-        'country_iso3' => 'test',
-        'country_num_code' => '01',
-        'country_phone_code' => '880',
-        'country_capital' => 'test',
-        'country_currency' => 'BDT',
-        'country_region' => 'Asia',
-        'country_subregion' => 'South',
-        'country_currency_symbol' => '$',
-        'country_language' => 'bn',
-        'country_status' => 'ACTIVE',
-    ]);
-    expect($response->status())->toEqual(202);
-});
-
-//test('country deleted', function () {
-//    $response = Http::delete(BASE_URL . '/countries/1');
-//    expect($response->status())->toEqual(200);
-//});

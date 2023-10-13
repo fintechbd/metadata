@@ -22,7 +22,7 @@ class StoreCountryRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => ['string', 'nullable'],
+            'name' => ['string', 'required'],
             'iso2' => ['string', 'nullable'],
             'iso3' => ['string', 'nullable'],
             'phone_code' => ['string', 'nullable'],
