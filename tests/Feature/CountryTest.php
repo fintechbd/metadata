@@ -116,4 +116,3 @@ test('country restored', function () {
     $country->delete();
     postJson('/api/metadata/countries/1/restore')->assertStatus(200);
 });
-
