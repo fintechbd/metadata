@@ -42,7 +42,6 @@ test('fund source create for blank name field validation expect The name field i
 });
 
 test('fund source create for blank name field validation expect The name field must be at least 5 characters.', function () {
-    createFundSources();
     $fundSource = postJson('/api/metadata/fund-sources', [
         "name" => 'BUS',
         "code" => "business",
@@ -60,6 +59,17 @@ test('fund source create for blank code field validation expect The code field i
         "fund_source_data" => [],
     ]);
     expect($fundSource['message'])->toBe('The code field is required.');
+    //assertStatus(422);
+});
+
+test('fund source create for blank code field validation expect The code field must be at least 5 characters.', function () {
+    $fundSource = postJson('/api/metadata/fund-sources/1', [
+        "name" => "Business",
+        "code" => "BUS",
+        "country_id" => '',
+        "fund_source_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The code field must be at least 5 characters.');
     //assertStatus(422);
 });
 
