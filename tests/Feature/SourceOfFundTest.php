@@ -31,6 +31,18 @@ test('fund source create for blank all field validation expect status code 422',
     //expect($fundSource['message'])->toBe('The name field is required. (and 1 more error)');
 });
 
+test('fund source create for blank name field validation expect The name field is required.', function () {
+    $fundSource = postJson('/api/metadata/fund-sources', [
+        "name" => '',
+        "code" => "business",
+        "country_id" => 1,
+        "fund_source_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The name field is required.');
+});
+
+
+
 test('fund source created', function () {
     postJson('/api/metadata/fund-sources', [
         "name" => 'Business',
