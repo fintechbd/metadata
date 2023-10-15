@@ -71,15 +71,17 @@ test('fund source detail', function () {
     getJson('/api/metadata/fund-sources/1')->assertStatus(200);
 });
 
-test('fund source update validation', function () {
+test('fund source update for blank name field validation expect The name field is required.', function () {
     createFundSources();
-    putJson('/api/metadata/fund-sources/1', [
+    $fundSource = putJson('/api/metadata/fund-sources/1', [
         "name" => '',
-        "code" => "Business",
+        "code" => "business",
         "country_id" => 1,
         "fund_source_data" => [],
-    ])->assertStatus(422);
+    ]);
+    expect($fundSource['message'])->toBe('The name field is required.');
 });
+
 
 test('fund source updated', function () {
     createFundSources();
