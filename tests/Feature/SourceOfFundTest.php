@@ -63,7 +63,7 @@ test('fund source create for blank code field validation expect The code field i
 });
 
 test('fund source create for blank code field validation expect The code field must be at least 5 characters.', function () {
-    $fundSource = postJson('/api/metadata/fund-sources/1', [
+    $fundSource = postJson('/api/metadata/fund-sources', [
         "name" => "Business",
         "code" => "BUS",
         "country_id" => '',
