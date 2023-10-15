@@ -115,6 +115,18 @@ test('occupation update for blank name field validation expect The name field mu
     expect($fundSource['message'])->toBe('The name field must be at least 5 characters.');
 });
 
+test('occupation update for blank code field validation expect The code field is required.', function () {
+    createOccupations();
+    $fundSource = putJson('/api/metadata/occupations/1', [
+        "name" => "Business",
+        "code" => "",
+        "country_id" => '',
+        "occupation_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The code field is required.');
+    //assertStatus(422);
+});
+
 test('occupation updated', function () {
     createOccupations();
     putJson('/api/metadata/occupations/1', [
