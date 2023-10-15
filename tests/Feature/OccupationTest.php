@@ -22,7 +22,15 @@ test('occupation list', function () {
     getJson('/api/metadata/occupations')->assertStatus(200);
 });
 
-
+test('occupation create for blank all field validation expect status code 422', function () {
+    $fundSource = postJson('/api/metadata/occupations', [
+        "name" => '',
+        "code" => "",
+        "country_id" => '',
+        "occupation_data" => [],
+    ])->assertStatus(422);
+    //expect($fundSource['message'])->toBe('The name field is required. (and 1 more error)');
+});
 
 test('occupation created', function () {
     postJson('/api/metadata/occupations', [
