@@ -154,5 +154,5 @@ test('fund source deleted', function () {
 test('fund source restored', function () {
     $fundSource = createFundSources();
     $fundSource->delete();
-    postJson('/api/metadata/fund-sources/1/restore')->assertStatus(422);
+    postJson('/api/metadata/fund-sources/1/restore')->assertStatus(404);
 });
