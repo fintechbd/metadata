@@ -21,6 +21,16 @@ test('fund source list', function () {
     getJson('/api/metadata/fund-sources')->assertStatus(200);
 });
 
+test('fund source create for blank all field validation expect status code 422', function () {
+    $fundSource = postJson('/api/metadata/fund-sources', [
+        "name" => '',
+        "code" => "",
+        "country_id" => '',
+        "fund_source_data" => [],
+    ])->assertStatus(422);
+    //expect($fundSource['message'])->toBe('The name field is required. (and 1 more error)');
+});
+
 test('fund source created', function () {
     postJson('/api/metadata/fund-sources', [
         "name" => 'Business',
