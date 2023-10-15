@@ -41,7 +41,16 @@ test('fund source create for blank name field validation expect The name field i
     expect($fundSource['message'])->toBe('The name field is required.');
 });
 
-
+test('fund source create for blank code field validation expect The code field is required.', function () {
+    $fundSource = postJson('/api/metadata/fund-sources', [
+        "name" => "Business",
+        "code" => "",
+        "country_id" => '',
+        "fund_source_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The code field is required.');
+    //assertStatus(422);
+});
 
 test('fund source created', function () {
     postJson('/api/metadata/fund-sources', [
