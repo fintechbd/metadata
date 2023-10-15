@@ -63,6 +63,17 @@ test('occupation create for blank code field validation expect The code field is
     //assertStatus(422);
 });
 
+test('occupation create for blank code field validation expect The code field must be at least 5 characters.', function () {
+    $fundSource = postJson('/api/metadata/occupations', [
+        "name" => "Business",
+        "code" => "BUS",
+        "country_id" => '',
+        "occupation_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The code field must be at least 5 characters.');
+    //assertStatus(422);
+});
+
 test('occupation created', function () {
     postJson('/api/metadata/occupations', [
         "name" => 'Business',
