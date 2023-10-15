@@ -22,7 +22,7 @@ class Bank extends Model
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','bank_data' => 'json'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','bank_data' => 'array'];
 
     protected $appends = ['links'];
 
