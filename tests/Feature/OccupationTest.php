@@ -93,6 +93,16 @@ test('occupation detail', function () {
     getJson('/api/metadata/occupations/1')->assertStatus(200);
 });
 
+test('occupation update for blank name field validation expect The name field is required.', function () {
+    createOccupations();
+    $fundSource = putJson('/api/metadata/occupations/1', [
+        "name" => '',
+        "code" => "business",
+        "country_id" => 1,
+        "occupation_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The name field is required.');
+});
 
 
 test('occupation updated', function () {
