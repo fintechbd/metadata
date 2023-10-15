@@ -142,6 +142,7 @@ test('fund source updated', function () {
     createFundSources();
     putJson('/api/metadata/fund-sources/1', [
         'name' => Str::random(20),
+        'code' => Str::random(20),
     ])->assertStatus(200);
 });
 
