@@ -16,7 +16,25 @@ class CityCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return $this->collection->map(function ($state) {
+            return [
+                'id' => $state->id,
+                'name' => $state->name,
+                'latitude' => $state->latitude,
+                'longitude' => $state->longitude,
+                'enabled' => $state->enabled,
+                'city_data' => $state->city_data,
+                'country_id' => $state->country_id ?? null,
+                'country_name' => ($state->country != null) ? $state->country->name : null,
+                'state_id' => $state->state_id ?? null,
+                'state_name' => ($state->state != null) ? $state->state->name : null,
+                'created_at' => $state->created_at,
+                'updated_at' => $state->updated_at,
+                'deleted_at' => $state->deleted_at,
+                'restored_at' => $state->restored_at,
+                'links' => $state->links,
+            ];
+        })->toArray();
     }
 
     /**

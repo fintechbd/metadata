@@ -20,7 +20,7 @@ class StateCollection extends ResourceCollection
             return [
                 'id' => $state->id,
                 'name' => $state->name,
-                'state_data' => $state->country_data,
+                'state_data' => $state->state_data,
                 'latitude' => $state->latitude,
                 'longitude' => $state->longitude,
                 'enabled' => $state->enabled,
