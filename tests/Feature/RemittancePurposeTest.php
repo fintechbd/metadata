@@ -102,3 +102,14 @@ test('Remittance Purpose update for blank name field validation expect The name 
     ]);
     expect($fundSource['message'])->toBe('The name field is required.');
 });
+
+test('Remittance Purpose update for name field validation expect The name field must be at least 5 characters.', function () {
+    createRemittancePurpose();
+    $fundSource = putJson('/api/metadata/remittance-purposes/1', [
+        "name" => 'BUS',
+        "code" => "business",
+        "country_id" => 1,
+        "remittance_purpose_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The name field must be at least 5 characters.');
+});
