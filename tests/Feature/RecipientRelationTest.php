@@ -149,3 +149,8 @@ test('relation updated', function () {
         'code' => Str::random(20),
     ])->assertStatus(200);
 });
+
+test('relation deleted', function () {
+    createRelations();
+    deleteJson('/api/metadata/relations/1')->assertStatus(200);
+});
