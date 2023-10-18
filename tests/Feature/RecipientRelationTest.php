@@ -85,3 +85,8 @@ test('relation created', function () {
         "relation_data" => [],
     ])->assertStatus(201);
 });
+
+test('relation not found', function () {
+    createRelations();
+    getJson('/api/metadata/relations/100')->assertStatus(404);
+});
