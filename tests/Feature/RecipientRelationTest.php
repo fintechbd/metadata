@@ -90,3 +90,8 @@ test('relation not found', function () {
     createRelations();
     getJson('/api/metadata/relations/100')->assertStatus(404);
 });
+
+test('relation detail', function () {
+    createRelations();
+    getJson('/api/metadata/relations/1')->assertStatus(200);
+});
