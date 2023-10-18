@@ -34,3 +34,13 @@ test('relation create for blank all field validation expect status code 422', fu
     ])->assertStatus(422);
     //expect($fundSource['message'])->toBe('The name field is required. (and 1 more error)');
 });
+
+test('relation create for blank name field validation expect The name field is required.', function () {
+    $fundSource = postJson('/api/metadata/relations', [
+        "name" => '',
+        "code" => "business",
+        "country_id" => 1,
+        "relation_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The name field is required.');
+});
