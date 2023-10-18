@@ -8,6 +8,9 @@ use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
 use function Pest\Laravel\putJson;
 
+/**
+ * @return Model|\MongoDB\Laravel\Eloquent\Model|null
+ */
 function createRelations(): Model|\MongoDB\Laravel\Eloquent\Model|null
 {
     return \Fintech\MetaData\Facades\MetaData::relation()->create([
