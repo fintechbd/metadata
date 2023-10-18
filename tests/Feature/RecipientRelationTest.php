@@ -26,54 +26,54 @@ test('relation list', function () {
 });
 
 test('relation create for blank all field validation expect status code 422', function () {
-    $fundSource = postJson('/api/metadata/relations', [
+    $recipientRelation = postJson('/api/metadata/relations', [
         "name" => '',
         "code" => "",
         "country_id" => '',
         "relation_data" => [],
     ])->assertStatus(422);
-    //expect($fundSource['message'])->toBe('The name field is required. (and 1 more error)');
+    //expect($recipientRelation['message'])->toBe('The name field is required. (and 1 more error)');
 });
 
 test('relation create for blank name field validation expect The name field is required.', function () {
-    $fundSource = postJson('/api/metadata/relations', [
+    $recipientRelation = postJson('/api/metadata/relations', [
         "name" => '',
         "code" => "business",
         "country_id" => 1,
         "relation_data" => [],
     ]);
-    expect($fundSource['message'])->toBe('The name field is required.');
+    expect($recipientRelation['message'])->toBe('The name field is required.');
 });
 
 test('relation create for name field validation expect The name field must be at least 5 characters.', function () {
-    $fundSource = postJson('/api/metadata/relations', [
+    $recipientRelation = postJson('/api/metadata/relations', [
         "name" => 'BUS',
         "code" => "business",
         "country_id" => 1,
         "relation_data" => [],
     ]);
-    expect($fundSource['message'])->toBe('The name field must be at least 5 characters.');
+    expect($recipientRelation['message'])->toBe('The name field must be at least 5 characters.');
 });
 
 test('relation create for blank code field validation expect The code field is required.', function () {
-    $fundSource = postJson('/api/metadata/relations', [
+    $recipientRelation = postJson('/api/metadata/relations', [
         "name" => "Business",
         "code" => "",
         "country_id" => '',
         "relation_data" => [],
     ]);
-    expect($fundSource['message'])->toBe('The code field is required.');
+    expect($recipientRelation['message'])->toBe('The code field is required.');
     //assertStatus(422);
 });
 
 test('relation create for code field validation expect The code field must be at least 5 characters.', function () {
-    $fundSource = postJson('/api/metadata/relations', [
+    $recipientRelation = postJson('/api/metadata/relations', [
         "name" => "Business",
         "code" => "BUS",
         "country_id" => '',
         "relation_data" => [],
     ]);
-    expect($fundSource['message'])->toBe('The code field must be at least 5 characters.');
+    expect($recipientRelation['message'])->toBe('The code field must be at least 5 characters.');
     //assertStatus(422);
 });
 
@@ -98,47 +98,47 @@ test('relation detail', function () {
 
 test('relation update for blank name field validation expect The name field is required.', function () {
     createRelations();
-    $fundSource = putJson('/api/metadata/relations/1', [
+    $recipientRelation = putJson('/api/metadata/relations/1', [
         "name" => '',
         "code" => "business",
         "country_id" => 1,
         "relation_data" => [],
     ]);
-    expect($fundSource['message'])->toBe('The name field is required.');
+    expect($recipientRelation['message'])->toBe('The name field is required.');
 });
 
 test('relation update for name field validation expect The name field must be at least 5 characters.', function () {
     createRelations();
-    $fundSource = putJson('/api/metadata/relations/1', [
+    $recipientRelation = putJson('/api/metadata/relations/1', [
         "name" => 'BUS',
         "code" => "business",
         "country_id" => 1,
         "relation_data" => [],
     ]);
-    expect($fundSource['message'])->toBe('The name field must be at least 5 characters.');
+    expect($recipientRelation['message'])->toBe('The name field must be at least 5 characters.');
 });
 
 test('relation update for blank code field validation expect The code field is required.', function () {
     createRelations();
-    $fundSource = putJson('/api/metadata/relations/1', [
+    $recipientRelation = putJson('/api/metadata/relations/1', [
         "name" => "Business",
         "code" => "",
         "country_id" => '',
         "relation_data" => [],
     ]);
-    expect($fundSource['message'])->toBe('The code field is required.');
+    expect($recipientRelation['message'])->toBe('The code field is required.');
     //assertStatus(422);
 });
 
 test('relation update for code field validation expect The code field must be at least 5 characters.', function () {
     createRelations();
-    $fundSource = putJson('/api/metadata/relations/1', [
+    $recipientRelation = putJson('/api/metadata/relations/1', [
         "name" => "Business",
         "code" => "BUS",
         "country_id" => '',
         "relation_data" => [],
     ]);
-    expect($fundSource['message'])->toBe('The code field must be at least 5 characters.');
+    expect($recipientRelation['message'])->toBe('The code field must be at least 5 characters.');
     //assertStatus(422);
 });
 
@@ -156,7 +156,7 @@ test('relation deleted', function () {
 });
 
 test('relation restored', function () {
-    $fundSource = createRelations();
-    $fundSource->delete();
+    $recipientRelation = createRelations();
+    $recipientRelation->delete();
     postJson('/api/metadata/relations/1/restore')->assertStatus(200);
 });
