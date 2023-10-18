@@ -129,3 +129,15 @@ test('relation update for blank code field validation expect The code field is r
     expect($fundSource['message'])->toBe('The code field is required.');
     //assertStatus(422);
 });
+
+test('relation update for code field validation expect The code field must be at least 5 characters.', function () {
+    createRelations();
+    $fundSource = putJson('/api/metadata/relations/1', [
+        "name" => "Business",
+        "code" => "BUS",
+        "country_id" => '',
+        "relation_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The code field must be at least 5 characters.');
+    //assertStatus(422);
+});
