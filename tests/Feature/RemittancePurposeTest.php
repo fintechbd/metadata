@@ -72,3 +72,12 @@ test('Remittance Purpose create for code field validation expect The code field 
     expect($fundSource['message'])->toBe('The code field must be at least 5 characters.');
     //assertStatus(422);
 });
+
+test('Remittance Purpose created', function () {
+    postJson('/api/metadata/remittance-purposes', [
+        "name" => 'Business',
+        "code" => "Business",
+        "country_id" => 1,
+        "remittance_purpose_data" => [],
+    ])->assertStatus(201);
+});
