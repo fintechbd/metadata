@@ -150,3 +150,9 @@ test('Remittance Purpose deleted', function () {
     createRemittancePurpose();
     deleteJson('/api/metadata/remittance-purposes/1')->assertStatus(200);
 });
+
+test('Remittance Purpose restored', function () {
+    $fundSource = createRemittancePurpose();
+    $fundSource->delete();
+    postJson('/api/metadata/remittance-purposes/1/restore')->assertStatus(200);
+});
