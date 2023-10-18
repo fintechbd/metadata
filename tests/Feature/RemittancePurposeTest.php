@@ -20,3 +20,13 @@ function createRemittancePurpose(): Model|\MongoDB\Laravel\Eloquent\Model|null
 test('Remittance Purpose list', function () {
     getJson('/api/metadata/remittance-purposes')->assertStatus(200);
 });
+
+test('Remittance Purpose create for blank all field validation expect status code 422', function () {
+    $fundSource = postJson('/api/metadata/remittance-purposes', [
+        "name" => '',
+        "code" => "",
+        "country_id" => '',
+        "remittance_purpose_data" => [],
+    ])->assertStatus(422);
+    //expect($fundSource['message'])->toBe('The name field is required. (and 1 more error)');
+});
