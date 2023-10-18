@@ -95,3 +95,14 @@ test('relation detail', function () {
     createRelations();
     getJson('/api/metadata/relations/1')->assertStatus(200);
 });
+
+test('relation update for blank name field validation expect The name field is required.', function () {
+    createRelations();
+    $fundSource = putJson('/api/metadata/relations/1', [
+        "name" => '',
+        "code" => "business",
+        "country_id" => 1,
+        "relation_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The name field is required.');
+});
