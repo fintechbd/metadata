@@ -3,6 +3,7 @@
 namespace Fintech\MetaData\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class City extends Model
@@ -37,7 +38,15 @@ class City extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
+    public function country(): BelongsTo
+    {
+        return $this->belongsTo(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
+    }
 
+    public function state(): BelongsTo
+    {
+        return $this->belongsTo(config('fintech.metadata.state_model', \Fintech\MetaData\Models\State::class));
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES
