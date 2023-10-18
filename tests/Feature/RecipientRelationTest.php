@@ -20,3 +20,17 @@ function createRelations(): Model|\MongoDB\Laravel\Eloquent\Model|null
         "relation_data" => [],
     ]);
 }
+
+test('relation list', function () {
+    getJson('/api/metadata/relations')->assertStatus(200);
+});
+
+test('relation create for blank all field validation expect status code 422', function () {
+    $fundSource = postJson('/api/metadata/relations', [
+        "name" => '',
+        "code" => "",
+        "country_id" => '',
+        "relation_data" => [],
+    ])->assertStatus(422);
+    //expect($fundSource['message'])->toBe('The name field is required. (and 1 more error)');
+});
