@@ -61,3 +61,14 @@ test('Remittance Purpose create for blank code field validation expect The code 
     expect($fundSource['message'])->toBe('The code field is required.');
     //assertStatus(422);
 });
+
+test('Remittance Purpose create for code field validation expect The code field must be at least 5 characters.', function () {
+    $fundSource = postJson('/api/metadata/remittance-purposes', [
+        "name" => "Business",
+        "code" => "BUS",
+        "country_id" => '',
+        "remittance_purpose_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The code field must be at least 5 characters.');
+    //assertStatus(422);
+});
