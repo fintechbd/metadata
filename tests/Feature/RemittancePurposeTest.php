@@ -145,3 +145,8 @@ test('Remittance Purpose updated', function () {
         'code' => Str::random(20),
     ])->assertStatus(200);
 });
+
+test('Remittance Purpose deleted', function () {
+    createRemittancePurpose();
+    deleteJson('/api/metadata/remittance-purposes/1')->assertStatus(200);
+});
