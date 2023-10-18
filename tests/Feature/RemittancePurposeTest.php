@@ -86,3 +86,8 @@ test('Remittance Purpose not found', function () {
     createRemittancePurpose();
     getJson('/api/metadata/remittance-purposes/100')->assertStatus(404);
 });
+
+test('Remittance Purpose detail', function () {
+    createRemittancePurpose();
+    getJson('/api/metadata/remittance-purposes/1')->assertStatus(200);
+});
