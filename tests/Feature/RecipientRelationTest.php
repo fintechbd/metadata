@@ -154,3 +154,9 @@ test('relation deleted', function () {
     createRelations();
     deleteJson('/api/metadata/relations/1')->assertStatus(200);
 });
+
+test('relation restored', function () {
+    $fundSource = createRelations();
+    $fundSource->delete();
+    postJson('/api/metadata/relations/1/restore')->assertStatus(200);
+});
