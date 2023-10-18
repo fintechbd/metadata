@@ -106,3 +106,14 @@ test('relation update for blank name field validation expect The name field is r
     ]);
     expect($fundSource['message'])->toBe('The name field is required.');
 });
+
+test('relation update for name field validation expect The name field must be at least 5 characters.', function () {
+    createRelations();
+    $fundSource = putJson('/api/metadata/relations/1', [
+        "name" => 'BUS',
+        "code" => "business",
+        "country_id" => 1,
+        "relation_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The name field must be at least 5 characters.');
+});
