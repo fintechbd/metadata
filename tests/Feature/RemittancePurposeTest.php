@@ -91,3 +91,14 @@ test('Remittance Purpose detail', function () {
     createRemittancePurpose();
     getJson('/api/metadata/remittance-purposes/1')->assertStatus(200);
 });
+
+test('Remittance Purpose update for blank name field validation expect The name field is required.', function () {
+    createRemittancePurpose();
+    $fundSource = putJson('/api/metadata/remittance-purposes/1', [
+        "name" => '',
+        "code" => "business",
+        "country_id" => 1,
+        "remittance_purpose_data" => [],
+    ]);
+    expect($fundSource['message'])->toBe('The name field is required.');
+});
