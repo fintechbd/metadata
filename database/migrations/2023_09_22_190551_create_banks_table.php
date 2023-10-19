@@ -12,22 +12,14 @@ return new class () extends Migration {
     {
         Schema::create('banks', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('country_id')->nullable();
+            //$table->foreignId('recipient_type_id')->nullable();
             $table->string('bank_name');
-            $table->string('bank_iso2')->nullable();
-            $table->string('bank_iso3')->nullable();
-            $table->string('bank_num_code')->nullable();
-            $table->string('bank_phone_code')->nullable();
-            $table->string('bank_capital')->nullable();
+            $table->string('bank_category')->nullable();
+            $table->string('bank_transaction_type')->nullable();
             $table->string('bank_currency')->nullable();
-            $table->string('bank_region')->nullable();
-            $table->string('bank_subregion')->nullable();
-            $table->string('bank_currency_symbol')->nullable();
-            $table->string('bank_language')->nullable();
-            $table->string('bank_logo')->nullable();
-            $table->string('bank_status')->nullable();
-            $table->json('bank_timezones')->nullable();
-            $table->json('bank_translations')->nullable();
             $table->json('bank_data')->nullable();
+            $table->boolean('enabled')->nullable();
             $table->unsignedBigInteger('creator_id')->index()->nullable();
             $table->unsignedBigInteger('editor_id')->index()->nullable();
             $table->unsignedBigInteger('destroyer_id')->index()->nullable();
