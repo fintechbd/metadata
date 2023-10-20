@@ -8,7 +8,7 @@ return [
     |--------------------------------------------------------------------------
     | this setting enable the api will be available or not
     */
-    'enabled' => true,
+    'enabled' => false,
 
     /*
      |--------------------------------------------------------------------------
@@ -69,24 +69,6 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Bank Model
-    |--------------------------------------------------------------------------
-    |
-    | This value will be used to across system where model is needed
-    */
-    'bank_model' => \Fintech\MetaData\Models\Bank::class,
-
-    /*
-    |--------------------------------------------------------------------------
-    | Bank Branch Model
-    |--------------------------------------------------------------------------
-    |
-    | This value will be used to across system where model is needed
-    */
-    'bank_branch_model' => \Fintech\MetaData\Models\BankBranch::class,
-
-    /*
-    |--------------------------------------------------------------------------
     | Source Of Fund Model
     |--------------------------------------------------------------------------
     |
@@ -132,12 +114,6 @@ return [
     | This value will be used to across system where model is needed
     */
     'repositories' => [
-        \Fintech\Auth\Interfaces\PermissionRepository::class => \Fintech\Auth\Repositories\Eloquent\PermissionRepository::class,
-
-        \Fintech\MetaData\Interfaces\BankBranchRepository::class => \Fintech\MetaData\Repositories\Eloquent\BankBranchRepository::class,
-
-        \Fintech\MetaData\Interfaces\BankRepository::class => \Fintech\MetaData\Repositories\Eloquent\BankRepository::class,
-
         \Fintech\MetaData\Interfaces\CityRepository::class => \Fintech\MetaData\Repositories\Eloquent\CityRepository::class,
 
         \Fintech\MetaData\Interfaces\CountryRepository::class => \Fintech\MetaData\Repositories\Eloquent\CountryRepository::class,
@@ -157,6 +133,6 @@ return [
         \Fintech\MetaData\Interfaces\SubRegionRepository::class => \Fintech\MetaData\Repositories\Eloquent\SubRegionRepository::class,
 
         //** Repository Binding Config Point Do not Remove **//
-        ],
+    ],
 
 ];

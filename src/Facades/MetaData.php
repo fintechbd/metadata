@@ -12,8 +12,6 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Fintech\MetaData\Services\CountryService country()
  * @method static \Fintech\MetaData\Services\StateService state()
  * @method static \Fintech\MetaData\Services\CityService city()
- * @method static \Fintech\MetaData\Services\BankService bank()
- * @method static \Fintech\MetaData\Services\BankBranchService bankBranch()
  * @method static \Fintech\MetaData\Services\FundSourceService fundSource()
  * @method static \Fintech\MetaData\Services\OccupationService occupation()
  * @method static \Fintech\MetaData\Services\RelationService relation()

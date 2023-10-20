@@ -62,24 +62,6 @@ class MetaData
     }
 
     /**
-     * @return BankService
-     *
-     */
-    public function bank()
-    {
-        return app(BankService::class);
-    }
-
-    /**
-     * @return BankBranchService
-     *
-     */
-    public function bankBranch()
-    {
-        return app(BankBranchService::class);
-    }
-
-    /**
      * @return FundSourceService
      *
      */
