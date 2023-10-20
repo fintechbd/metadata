@@ -12,27 +12,17 @@ return new class () extends Migration {
     {
         Schema::create('bank_branches', function (Blueprint $table) {
             $table->id();
-            $table->string('bank_branch_name');
-            $table->string('bank_branch_iso2')->nullable();
-            $table->string('bank_branch_iso3')->nullable();
-            $table->string('bank_branch_num_code')->nullable();
-            $table->string('bank_branch_phone_code')->nullable();
-            $table->string('bank_branch_capital')->nullable();
-            $table->string('bank_branch_currency')->nullable();
-            $table->string('bank_branch_region')->nullable();
-            $table->string('bank_branch_subregion')->nullable();
-            $table->string('bank_branch_currency_symbol')->nullable();
-            $table->string('bank_branch_language')->nullable();
-            $table->string('bank_branch_logo')->nullable();
-            $table->string('bank_branch_status')->nullable();
-            $table->json('bank_branch_timezones')->nullable();
-            $table->json('bank_branch_translations')->nullable();
+            $table->foreignId('bank_id');
+            $table->string('name');
+            $table->boolean('enabled')->nullable();
             $table->json('bank_branch_data')->nullable();
-            $table->unsignedBigInteger('creator_id')->index()->nullable();
-            $table->unsignedBigInteger('editor_id')->index()->nullable();
-            $table->unsignedBigInteger('destroyer_id')->index()->nullable();
+            $table->foreignId('creator_id')->nullable();
+            $table->foreignId('editor_id')->nullable();
+            $table->foreignId('destroyer_id')->nullable();
+            $table->foreignId('restorer_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
+            $table->timestamp('restored_at')->nullable();
         });
     }
 

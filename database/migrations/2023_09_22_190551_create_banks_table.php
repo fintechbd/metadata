@@ -12,27 +12,21 @@ return new class () extends Migration {
     {
         Schema::create('banks', function (Blueprint $table) {
             $table->id();
-            $table->string('bank_name');
-            $table->string('bank_iso2')->nullable();
-            $table->string('bank_iso3')->nullable();
-            $table->string('bank_num_code')->nullable();
-            $table->string('bank_phone_code')->nullable();
-            $table->string('bank_capital')->nullable();
-            $table->string('bank_currency')->nullable();
-            $table->string('bank_region')->nullable();
-            $table->string('bank_subregion')->nullable();
-            $table->string('bank_currency_symbol')->nullable();
-            $table->string('bank_language')->nullable();
-            $table->string('bank_logo')->nullable();
-            $table->string('bank_status')->nullable();
-            $table->json('bank_timezones')->nullable();
-            $table->json('bank_translations')->nullable();
+            $table->foreignId('country_id');
+            $table->foreignId('recipient_type_id')->nullable();
+            $table->string('name');
+            $table->string('category')->nullable();
+            $table->string('transaction_type')->nullable();
+            $table->string('currency')->nullable();
+            $table->boolean('enabled')->nullable();
             $table->json('bank_data')->nullable();
-            $table->unsignedBigInteger('creator_id')->index()->nullable();
-            $table->unsignedBigInteger('editor_id')->index()->nullable();
-            $table->unsignedBigInteger('destroyer_id')->index()->nullable();
+            $table->foreignId('creator_id')->nullable();
+            $table->foreignId('editor_id')->nullable();
+            $table->foreignId('destroyer_id')->nullable();
+            $table->foreignId('restorer_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
+            $table->timestamp('restored_at')->nullable();
         });
     }
 
