@@ -2,8 +2,6 @@
 
 namespace Fintech\MetaData;
 
-use Fintech\MetaData\Services\BankBranchService;
-use Fintech\MetaData\Services\BankService;
 use Fintech\MetaData\Services\CityService;
 use Fintech\MetaData\Services\CountryService;
 use Fintech\MetaData\Services\FundSourceService;
