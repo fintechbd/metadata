@@ -42,5 +42,7 @@ if (Config::get('fintech.metadata.enabled')) {
 
         Route::apiResource('remittance-purposes', \Fintech\MetaData\Http\Controllers\RemittancePurposeController::class);
         Route::post('remittance-purposes/{remittance_purpose}/restore', [\Fintech\MetaData\Http\Controllers\RemittancePurposeController::class, 'restore'])->name('remittance-purposes.restore');
+
+        //DO NOT REMOVE THIS LINE//
     });
 }
