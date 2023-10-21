@@ -31,14 +31,8 @@ if (Config::get('fintech.metadata.enabled')) {
         Route::apiResource('cities', \Fintech\MetaData\Http\Controllers\CityController::class);
         Route::post('cities/{city}/restore', [\Fintech\MetaData\Http\Controllers\CityController::class, 'restore'])->name('cities.restore');
 
-        Route::apiResource('banks', \Fintech\MetaData\Http\Controllers\BankController::class);
-        Route::post('banks/{bank}/restore', [\Fintech\MetaData\Http\Controllers\BankController::class, 'restore'])->name('banks.restore');
-
-        Route::apiResource('bank-branches', \Fintech\MetaData\Http\Controllers\BankBranchController::class);
-        Route::post('bank-branches/{bank-branch}/restore', [\Fintech\MetaData\Http\Controllers\BankBranchController::class, 'restore'])->name('bank-branches.restore');
-
         Route::apiResource('fund-sources', \Fintech\MetaData\Http\Controllers\FundSourceController::class);
-        Route::post('fund-sources/{fund-source}/restore', [\Fintech\MetaData\Http\Controllers\FundSourceController::class, 'restore'])->name('fund-sources.restore');
+        Route::post('fund-sources/{fund_source}/restore', [\Fintech\MetaData\Http\Controllers\FundSourceController::class, 'restore'])->name('fund-sources.restore');
 
         Route::apiResource('occupations', \Fintech\MetaData\Http\Controllers\OccupationController::class);
         Route::post('occupations/{occupation}/restore', [\Fintech\MetaData\Http\Controllers\OccupationController::class, 'restore'])->name('occupations.restore');
@@ -47,6 +41,6 @@ if (Config::get('fintech.metadata.enabled')) {
         Route::post('relations/{relation}/restore', [\Fintech\MetaData\Http\Controllers\RelationController::class, 'restore'])->name('relations.restore');
 
         Route::apiResource('remittance-purposes', \Fintech\MetaData\Http\Controllers\RemittancePurposeController::class);
-        Route::post('remittance-purposes/{remittance-purpose}/restore', [\Fintech\MetaData\Http\Controllers\RemittancePurposeController::class, 'restore'])->name('remittance-purposes.restore');
+        Route::post('remittance-purposes/{remittance_purpose}/restore', [\Fintech\MetaData\Http\Controllers\RemittancePurposeController::class, 'restore'])->name('remittance-purposes.restore');
     });
 }
