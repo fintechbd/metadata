@@ -13,8 +13,9 @@ return new class () extends Migration {
         Schema::create('id_doc_types', function (Blueprint $table) {
             $table->id();
             $table->foreignId('country_id')->nullable();
-            $table->json('name');
+            $table->string('name');
             $table->string('code');
+            $table->unsignedSmallInteger('sides')->default(1);
             $table->boolean('enabled')->default(true);
             $table->json('id_doc_type_data')->nullable();
             $table->foreignId('creator_id')->nullable();
