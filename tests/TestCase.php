@@ -9,20 +9,32 @@ use Orchestra\Testbench\TestCase as Orchestra;
 class TestCase extends Orchestra
 {
     use DatabaseMigrations;
+
+    /**
+     * @return void
+     */
     protected function setUp(): void
     {
         parent::setUp();
     }
 
 
-    protected function getPackageProviders($app)
+    /**
+     * @param $app
+     * @return string[]
+     */
+    protected function getPackageProviders($app): array
     {
         return [
             MetaDataServiceProvider::class,
         ];
     }
 
-    public function getEnvironmentSetUp($app)
+    /**
+     * @param $app
+     * @return void
+     */
+    public function getEnvironmentSetUp($app): void
     {
         config()->set('app.env', 'testing');
         config()->set('database.default', 'testing');
