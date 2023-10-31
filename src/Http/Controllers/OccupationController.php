@@ -75,7 +75,7 @@ class OccupationController extends Controller
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Occupation']),
-                'id' => $occupation->id,
+                'id' => $occupation->getKey(),
             ]);
 
         } catch (\Exception $exception) {

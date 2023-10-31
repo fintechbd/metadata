@@ -19,7 +19,7 @@ class CountryCollection extends ResourceCollection
     {
         return $this->collection->map(function ($country) {
             return [
-                'id' => $country->id,
+                'id' => $country->getKey(),
                 'name' => $country->name,
                 'iso3' => $country->iso3,
                 'iso2' => $country->iso2,
@@ -61,7 +61,7 @@ class CountryCollection extends ResourceCollection
 
         MetaData::region()->list(['paginate' => false])
             ->each(function ($region) use (&$regions) {
-                $regions[$region->id] = $region->name;
+                $regions[$region->getKey()] = $region->name;
             });
 
         $subregions = [];
@@ -71,7 +71,7 @@ class CountryCollection extends ResourceCollection
                 ['paginate' => false, 'region_id' => $request->input('region_id')]
             )
                 ->each(function ($subregion) use (&$subregions) {
-                    $subregions[$subregion->id] = $subregion->name;
+                    $subregions[$subregion->getKey()] = $subregion->name;
                 });
         }
 

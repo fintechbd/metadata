@@ -76,7 +76,7 @@ class RelationController extends Controller
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Relation']),
-                'id' => $relation->id,
+                'id' => $relation->getKey(),
             ]);
 
         } catch (Exception $exception) {

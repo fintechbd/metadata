@@ -76,7 +76,7 @@ class StateController extends Controller
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'State']),
-                'id' => $state->id,
+                'id' => $state->getKey(),
             ]);
 
         } catch (Exception $exception) {

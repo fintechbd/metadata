@@ -75,7 +75,7 @@ class SubRegionController extends Controller
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Sub-Region']),
-                'id' => $subRegion->id,
+                'id' => $subRegion->getKey(),
             ]);
 
         } catch (\Exception $exception) {

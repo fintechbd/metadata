@@ -76,7 +76,7 @@ class RegionController extends Controller
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Region']),
-                'id' => $region->id,
+                'id' => $region->getKey(),
             ]);
 
         } catch (Exception $exception) {

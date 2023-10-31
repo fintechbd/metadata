@@ -76,7 +76,7 @@ class CityController extends Controller
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'City']),
-                'id' => $city->id,
+                'id' => $city->getKey(),
             ]);
 
         } catch (Exception $exception) {

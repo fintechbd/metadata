@@ -75,7 +75,7 @@ class RemittancePurposeController extends Controller
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Purpose of Remittance']),
-                'id' => $remittancePurpose->id,
+                'id' => $remittancePurpose->getKey(),
             ]);
 
         } catch (\Exception $exception) {

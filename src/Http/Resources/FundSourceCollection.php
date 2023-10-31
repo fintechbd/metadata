@@ -18,7 +18,7 @@ class FundSourceCollection extends ResourceCollection
     {
         return $this->collection->map(function ($item) {
             return [
-                "id" => $item->id,
+                "id" => $item->getKey(),
                 "name" => $item->name,
                 "code" => $item->code,
                 "enabled" => $item->enabled,

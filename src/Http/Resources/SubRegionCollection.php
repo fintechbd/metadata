@@ -19,7 +19,7 @@ class SubRegionCollection extends ResourceCollection
     {
         return $this->collection->map(function ($subregion) {
             return [
-                'id' => $subregion->id,
+                'id' => $subregion->getKey(),
                 'region_id' => $subregion->region_id ?? null,
                 'region_name' => ($subregion->region != null) ? $subregion->region->name : null,
                 'name' => $subregion->name ?? null,
@@ -45,7 +45,7 @@ class SubRegionCollection extends ResourceCollection
 
         MetaData::region()->list(['paginate' => false])
             ->each(function ($region) use (&$regions) {
-                $regions[$region->id] = $region->name;
+                $regions[$region->getKey()] = $region->name;
             });
 
         return [

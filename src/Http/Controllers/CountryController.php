@@ -76,7 +76,7 @@ class CountryController extends Controller
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Country']),
-                'id' => $country->id,
+                'id' => $country->getKey(),
             ]);
 
         } catch (Exception $exception) {

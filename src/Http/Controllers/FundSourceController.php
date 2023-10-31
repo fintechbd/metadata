@@ -75,7 +75,7 @@ class FundSourceController extends Controller
 
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Source of Fund']),
-                'id' => $fundSource->id,
+                'id' => $fundSource->getKey(),
             ]);
 
         } catch (\Exception $exception) {

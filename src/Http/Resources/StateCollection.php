@@ -18,7 +18,7 @@ class StateCollection extends ResourceCollection
     {
         return $this->collection->map(function ($state) {
             return [
-                'id' => $state->id,
+                'id' => $state->getKey(),
                 'name' => $state->name,
                 'state_data' => $state->state_data,
                 'latitude' => $state->latitude,

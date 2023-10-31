@@ -16,7 +16,7 @@ class OccupationResource extends JsonResource
     public function toArray($request)
     {
         return [
-            "id" => $this->id,
+            "id" => $this->getKey(),
             "name" => $this->name,
             "code" => $this->code,
             "enabled" => $this->enabled,
