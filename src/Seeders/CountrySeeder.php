@@ -20,7 +20,7 @@ class CountrySeeder extends Seeder
     private function data()
     {
         return [
-            0 => [
+            [
                 'id' => '1',
                 'name' => 'Afghanistan',
                 'iso3' => 'AFG',
@@ -32,7 +32,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '؋',
                 'nationality' => 'Afghan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Kabul',
                         'gmtOffset' => 16200,
                         'gmtOffsetName' => 'UTC+04:30',
@@ -49,16 +49,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '14',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            1 => [
+            [
                 'id' => '2',
                 'name' => 'Aland Islands',
                 'iso3' => 'ALA',
@@ -70,7 +62,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Aland Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Mariehamn',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -87,16 +79,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            2 => [
+            [
                 'id' => '3',
                 'name' => 'Albania',
                 'iso3' => 'ALB',
@@ -108,7 +92,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Lek',
                 'nationality' => 'Albanian ',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Tirane',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -125,16 +109,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            3 => [
+            [
                 'id' => '4',
                 'name' => 'Algeria',
                 'iso3' => 'DZA',
@@ -146,7 +122,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'دج',
                 'nationality' => 'Algerian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Algiers',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -163,16 +139,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '1',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            4 => [
+            [
                 'id' => '5',
                 'name' => 'American Samoa',
                 'iso3' => 'ASM',
@@ -184,7 +152,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'American Samoan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Pago_Pago',
                         'gmtOffset' => -39600,
                         'gmtOffsetName' => 'UTC-11:00',
@@ -201,16 +169,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            5 => [
+            [
                 'id' => '6',
                 'name' => 'Andorra',
                 'iso3' => 'AND',
@@ -222,7 +182,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Andorran',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Andorra',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -239,16 +199,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            6 => [
+            [
                 'id' => '7',
                 'name' => 'Angola',
                 'iso3' => 'AGO',
@@ -260,7 +212,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Kz',
                 'nationality' => 'Angolan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Luanda',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -277,16 +229,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            7 => [
+            [
                 'id' => '8',
                 'name' => 'Anguilla',
                 'iso3' => 'AIA',
@@ -298,7 +242,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Anguillan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Anguilla',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -315,16 +259,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            8 => [
+            [
                 'id' => '9',
                 'name' => 'Antarctica',
                 'iso3' => 'ATA',
@@ -336,70 +272,70 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Antarctic',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Antarctica/Casey',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'AWST',
                         'tzName' => 'Australian Western Standard Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Antarctica/Davis',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
                         'abbreviation' => 'DAVT',
                         'tzName' => 'Davis Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Antarctica/DumontDUrville',
                         'gmtOffset' => 36000,
                         'gmtOffsetName' => 'UTC+10:00',
                         'abbreviation' => 'DDUT',
                         'tzName' => 'Dumont d\'Urville Time',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'Antarctica/Mawson',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
                         'abbreviation' => 'MAWT',
                         'tzName' => 'Mawson Station Time',
                     ],
-                    4 => [
+                    [
                         'zoneName' => 'Antarctica/McMurdo',
                         'gmtOffset' => 46800,
                         'gmtOffsetName' => 'UTC+13:00',
                         'abbreviation' => 'NZDT',
                         'tzName' => 'New Zealand Daylight Time',
                     ],
-                    5 => [
+                    [
                         'zoneName' => 'Antarctica/Palmer',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'CLST',
                         'tzName' => 'Chile Summer Time',
                     ],
-                    6 => [
+                    [
                         'zoneName' => 'Antarctica/Rothera',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ROTT',
                         'tzName' => 'Rothera Research Station Time',
                     ],
-                    7 => [
+                    [
                         'zoneName' => 'Antarctica/Syowa',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
                         'abbreviation' => 'SYOT',
                         'tzName' => 'Showa Station Time',
                     ],
-                    8 => [
+                    [
                         'zoneName' => 'Antarctica/Troll',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
                         'abbreviation' => 'GMT',
                         'tzName' => 'Greenwich Mean Time',
                     ],
-                    9 => [
+                    [
                         'zoneName' => 'Antarctica/Vostok',
                         'gmtOffset' => 21600,
                         'gmtOffsetName' => 'UTC+06:00',
@@ -416,16 +352,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '6',
                 'subregion_id' => null,
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:31:40',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            9 => [
+            [
                 'id' => '10',
                 'name' => 'Antigua And Barbuda',
                 'iso3' => 'ATG',
@@ -437,7 +365,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Antiguan or Barbudan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Antigua',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -454,16 +382,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            10 => [
+            [
                 'id' => '11',
                 'name' => 'Argentina',
                 'iso3' => 'ARG',
@@ -475,84 +395,84 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Argentine',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Argentina/Buenos_Aires',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'America/Argentina/Catamarca',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'America/Argentina/Cordoba',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'America/Argentina/Jujuy',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    4 => [
+                    [
                         'zoneName' => 'America/Argentina/La_Rioja',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    5 => [
+                    [
                         'zoneName' => 'America/Argentina/Mendoza',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    6 => [
+                    [
                         'zoneName' => 'America/Argentina/Rio_Gallegos',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    7 => [
+                    [
                         'zoneName' => 'America/Argentina/Salta',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    8 => [
+                    [
                         'zoneName' => 'America/Argentina/San_Juan',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    9 => [
+                    [
                         'zoneName' => 'America/Argentina/San_Luis',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    10 => [
+                    [
                         'zoneName' => 'America/Argentina/Tucuman',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'ART',
                         'tzName' => 'Argentina Time',
                     ],
-                    11 => [
+                    [
                         'zoneName' => 'America/Argentina/Ushuaia',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
@@ -569,16 +489,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            11 => [
+            [
                 'id' => '12',
                 'name' => 'Armenia',
                 'iso3' => 'ARM',
@@ -590,7 +502,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '֏',
                 'nationality' => 'Armenian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Yerevan',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
@@ -607,16 +519,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            12 => [
+            [
                 'id' => '13',
                 'name' => 'Aruba',
                 'iso3' => 'ABW',
@@ -628,7 +532,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ƒ',
                 'nationality' => 'Aruban',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Aruba',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -645,16 +549,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            13 => [
+            [
                 'id' => '14',
                 'name' => 'Australia',
                 'iso3' => 'AUS',
@@ -666,91 +562,91 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Australian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Antarctica/Macquarie',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'MIST',
                         'tzName' => 'Macquarie Island Station Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Australia/Adelaide',
                         'gmtOffset' => 37800,
                         'gmtOffsetName' => 'UTC+10:30',
                         'abbreviation' => 'ACDT',
                         'tzName' => 'Australian Central Daylight Saving Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Australia/Brisbane',
                         'gmtOffset' => 36000,
                         'gmtOffsetName' => 'UTC+10:00',
                         'abbreviation' => 'AEST',
                         'tzName' => 'Australian Eastern Standard Time',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'Australia/Broken_Hill',
                         'gmtOffset' => 37800,
                         'gmtOffsetName' => 'UTC+10:30',
                         'abbreviation' => 'ACDT',
                         'tzName' => 'Australian Central Daylight Saving Time',
                     ],
-                    4 => [
+                    [
                         'zoneName' => 'Australia/Currie',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'AEDT',
                         'tzName' => 'Australian Eastern Daylight Saving Time',
                     ],
-                    5 => [
+                    [
                         'zoneName' => 'Australia/Darwin',
                         'gmtOffset' => 34200,
                         'gmtOffsetName' => 'UTC+09:30',
                         'abbreviation' => 'ACST',
                         'tzName' => 'Australian Central Standard Time',
                     ],
-                    6 => [
+                    [
                         'zoneName' => 'Australia/Eucla',
                         'gmtOffset' => 31500,
                         'gmtOffsetName' => 'UTC+08:45',
                         'abbreviation' => 'ACWST',
                         'tzName' => 'Australian Central Western Standard Time (Unofficial)',
                     ],
-                    7 => [
+                    [
                         'zoneName' => 'Australia/Hobart',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'AEDT',
                         'tzName' => 'Australian Eastern Daylight Saving Time',
                     ],
-                    8 => [
+                    [
                         'zoneName' => 'Australia/Lindeman',
                         'gmtOffset' => 36000,
                         'gmtOffsetName' => 'UTC+10:00',
                         'abbreviation' => 'AEST',
                         'tzName' => 'Australian Eastern Standard Time',
                     ],
-                    9 => [
+                    [
                         'zoneName' => 'Australia/Lord_Howe',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'LHST',
                         'tzName' => 'Lord Howe Summer Time',
                     ],
-                    10 => [
+                    [
                         'zoneName' => 'Australia/Melbourne',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'AEDT',
                         'tzName' => 'Australian Eastern Daylight Saving Time',
                     ],
-                    11 => [
+                    [
                         'zoneName' => 'Australia/Perth',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
                         'abbreviation' => 'AWST',
                         'tzName' => 'Australian Western Standard Time',
                     ],
-                    12 => [
+                    [
                         'zoneName' => 'Australia/Sydney',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
@@ -767,16 +663,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '19',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            14 => [
+            [
                 'id' => '15',
                 'name' => 'Austria',
                 'iso3' => 'AUT',
@@ -788,7 +676,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Austrian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Vienna',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -805,16 +693,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '17',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            15 => [
+            [
                 'id' => '16',
                 'name' => 'Azerbaijan',
                 'iso3' => 'AZE',
@@ -826,7 +706,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'm',
                 'nationality' => 'Azerbaijani, Azeri',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Baku',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
@@ -843,16 +723,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            16 => [
+            [
                 'id' => '17',
                 'name' => 'The Bahamas',
                 'iso3' => 'BHS',
@@ -864,7 +736,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'B$',
                 'nationality' => 'Bahamian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Nassau',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -881,16 +753,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            17 => [
+            [
                 'id' => '18',
                 'name' => 'Bahrain',
                 'iso3' => 'BHR',
@@ -902,7 +766,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '.د.ب',
                 'nationality' => 'Bahraini',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Bahrain',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -919,16 +783,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            18 => [
+            [
                 'id' => '19',
                 'name' => 'Bangladesh',
                 'iso3' => 'BGD',
@@ -940,7 +796,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '৳',
                 'nationality' => 'Bangladeshi',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Dhaka',
                         'gmtOffset' => 21600,
                         'gmtOffsetName' => 'UTC+06:00',
@@ -957,16 +813,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '14',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            19 => [
+            [
                 'id' => '20',
                 'name' => 'Barbados',
                 'iso3' => 'BRB',
@@ -978,7 +826,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Bds$',
                 'nationality' => 'Barbadian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Barbados',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -995,16 +843,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            20 => [
+            [
                 'id' => '21',
                 'name' => 'Belarus',
                 'iso3' => 'BLR',
@@ -1016,7 +856,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Br',
                 'nationality' => 'Belarusian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Minsk',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -1033,16 +873,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            21 => [
+            [
                 'id' => '22',
                 'name' => 'Belgium',
                 'iso3' => 'BEL',
@@ -1054,7 +886,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Belgian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Brussels',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -1071,16 +903,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '17',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            22 => [
+            [
                 'id' => '23',
                 'name' => 'Belize',
                 'iso3' => 'BLZ',
@@ -1092,7 +916,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Belizean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Belize',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
@@ -1109,16 +933,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '9',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            23 => [
+            [
                 'id' => '24',
                 'name' => 'Benin',
                 'iso3' => 'BEN',
@@ -1130,7 +946,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CFA',
                 'nationality' => 'Beninese, Beninois',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Porto-Novo',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -1147,16 +963,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            24 => [
+            [
                 'id' => '25',
                 'name' => 'Bermuda',
                 'iso3' => 'BMU',
@@ -1168,7 +976,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Bermudian, Bermudan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Atlantic/Bermuda',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -1185,16 +993,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '6',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            25 => [
+            [
                 'id' => '26',
                 'name' => 'Bhutan',
                 'iso3' => 'BTN',
@@ -1206,7 +1006,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Nu.',
                 'nationality' => 'Bhutanese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Thimphu',
                         'gmtOffset' => 21600,
                         'gmtOffsetName' => 'UTC+06:00',
@@ -1223,16 +1023,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '14',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            26 => [
+            [
                 'id' => '27',
                 'name' => 'Bolivia',
                 'iso3' => 'BOL',
@@ -1244,7 +1036,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Bs.',
                 'nationality' => 'Bolivian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/La_Paz',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -1261,16 +1053,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            27 => [
+            [
                 'id' => '28',
                 'name' => 'Bosnia and Herzegovina',
                 'iso3' => 'BIH',
@@ -1282,7 +1066,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'KM',
                 'nationality' => 'Bosnian or Herzegovinian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Sarajevo',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -1299,16 +1083,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            28 => [
+            [
                 'id' => '29',
                 'name' => 'Botswana',
                 'iso3' => 'BWA',
@@ -1320,7 +1096,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'P',
                 'nationality' => 'Motswana, Botswanan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Gaborone',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -1337,16 +1113,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '5',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:31:40',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            29 => [
+            [
                 'id' => '30',
                 'name' => 'Bouvet Island',
                 'iso3' => 'BVT',
@@ -1358,7 +1126,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'kr',
                 'nationality' => 'Bouvet Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Oslo',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -1375,16 +1143,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => null,
                 'subregion_id' => null,
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            30 => [
+            [
                 'id' => '31',
                 'name' => 'Brazil',
                 'iso3' => 'BRA',
@@ -1396,112 +1156,112 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'R$',
                 'nationality' => 'Brazilian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Araguaina',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'BRT',
                         'tzName' => 'Brasília Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'America/Bahia',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'BRT',
                         'tzName' => 'Brasília Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'America/Belem',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'BRT',
                         'tzName' => 'Brasília Time',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'America/Boa_Vista',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'AMT',
                         'tzName' => 'Amazon Time (Brazil)[3',
                     ],
-                    4 => [
+                    [
                         'zoneName' => 'America/Campo_Grande',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'AMT',
                         'tzName' => 'Amazon Time (Brazil)[3',
                     ],
-                    5 => [
+                    [
                         'zoneName' => 'America/Cuiaba',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'BRT',
                         'tzName' => 'Brasilia Time',
                     ],
-                    6 => [
+                    [
                         'zoneName' => 'America/Eirunepe',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'ACT',
                         'tzName' => 'Acre Time',
                     ],
-                    7 => [
+                    [
                         'zoneName' => 'America/Fortaleza',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'BRT',
                         'tzName' => 'Brasília Time',
                     ],
-                    8 => [
+                    [
                         'zoneName' => 'America/Maceio',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'BRT',
                         'tzName' => 'Brasília Time',
                     ],
-                    9 => [
+                    [
                         'zoneName' => 'America/Manaus',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'AMT',
                         'tzName' => 'Amazon Time (Brazil)',
                     ],
-                    10 => [
+                    [
                         'zoneName' => 'America/Noronha',
                         'gmtOffset' => -7200,
                         'gmtOffsetName' => 'UTC-02:00',
                         'abbreviation' => 'FNT',
                         'tzName' => 'Fernando de Noronha Time',
                     ],
-                    11 => [
+                    [
                         'zoneName' => 'America/Porto_Velho',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'AMT',
                         'tzName' => 'Amazon Time (Brazil)[3',
                     ],
-                    12 => [
+                    [
                         'zoneName' => 'America/Recife',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'BRT',
                         'tzName' => 'Brasília Time',
                     ],
-                    13 => [
+                    [
                         'zoneName' => 'America/Rio_Branco',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'ACT',
                         'tzName' => 'Acre Time',
                     ],
-                    14 => [
+                    [
                         'zoneName' => 'America/Santarem',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'BRT',
                         'tzName' => 'Brasília Time',
                     ],
-                    15 => [
+                    [
                         'zoneName' => 'America/Sao_Paulo',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
@@ -1518,16 +1278,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            31 => [
+            [
                 'id' => '32',
                 'name' => 'British Indian Ocean Territory',
                 'iso3' => 'IOT',
@@ -1539,7 +1291,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'BIOT',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Chagos',
                         'gmtOffset' => 21600,
                         'gmtOffsetName' => 'UTC+06:00',
@@ -1556,16 +1308,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            32 => [
+            [
                 'id' => '33',
                 'name' => 'Brunei',
                 'iso3' => 'BRN',
@@ -1577,7 +1321,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'B$',
                 'nationality' => 'Bruneian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Brunei',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
@@ -1594,16 +1338,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            33 => [
+            [
                 'id' => '34',
                 'name' => 'Bulgaria',
                 'iso3' => 'BGR',
@@ -1615,7 +1351,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Лв.',
                 'nationality' => 'Bulgarian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Sofia',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -1632,16 +1368,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            34 => [
+            [
                 'id' => '35',
                 'name' => 'Burkina Faso',
                 'iso3' => 'BFA',
@@ -1653,7 +1381,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CFA',
                 'nationality' => 'Burkinabe',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Ouagadougou',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -1670,16 +1398,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            35 => [
+            [
                 'id' => '36',
                 'name' => 'Burundi',
                 'iso3' => 'BDI',
@@ -1691,7 +1411,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FBu',
                 'nationality' => 'Burundian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Bujumbura',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -1708,16 +1428,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            36 => [
+            [
                 'id' => '37',
                 'name' => 'Cambodia',
                 'iso3' => 'KHM',
@@ -1729,7 +1441,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'KHR',
                 'nationality' => 'Cambodian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Phnom_Penh',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
@@ -1746,16 +1458,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            37 => [
+            [
                 'id' => '38',
                 'name' => 'Cameroon',
                 'iso3' => 'CMR',
@@ -1767,7 +1471,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FCFA',
                 'nationality' => 'Cameroonian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Douala',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -1784,16 +1488,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            38 => [
+            [
                 'id' => '39',
                 'name' => 'Canada',
                 'iso3' => 'CAN',
@@ -1805,196 +1501,196 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Canadian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Atikokan',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America)',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'America/Blanc-Sablon',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'AST',
                         'tzName' => 'Atlantic Standard Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'America/Cambridge_Bay',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America)',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'America/Creston',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America)',
                     ],
-                    4 => [
+                    [
                         'zoneName' => 'America/Dawson',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America)',
                     ],
-                    5 => [
+                    [
                         'zoneName' => 'America/Dawson_Creek',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America)',
                     ],
-                    6 => [
+                    [
                         'zoneName' => 'America/Edmonton',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America)',
                     ],
-                    7 => [
+                    [
                         'zoneName' => 'America/Fort_Nelson',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America)',
                     ],
-                    8 => [
+                    [
                         'zoneName' => 'America/Glace_Bay',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'AST',
                         'tzName' => 'Atlantic Standard Time',
                     ],
-                    9 => [
+                    [
                         'zoneName' => 'America/Goose_Bay',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'AST',
                         'tzName' => 'Atlantic Standard Time',
                     ],
-                    10 => [
+                    [
                         'zoneName' => 'America/Halifax',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'AST',
                         'tzName' => 'Atlantic Standard Time',
                     ],
-                    11 => [
+                    [
                         'zoneName' => 'America/Inuvik',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America',
                     ],
-                    12 => [
+                    [
                         'zoneName' => 'America/Iqaluit',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    13 => [
+                    [
                         'zoneName' => 'America/Moncton',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
                         'abbreviation' => 'AST',
                         'tzName' => 'Atlantic Standard Time',
                     ],
-                    14 => [
+                    [
                         'zoneName' => 'America/Nipigon',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    15 => [
+                    [
                         'zoneName' => 'America/Pangnirtung',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    16 => [
+                    [
                         'zoneName' => 'America/Rainy_River',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    17 => [
+                    [
                         'zoneName' => 'America/Rankin_Inlet',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    18 => [
+                    [
                         'zoneName' => 'America/Regina',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    19 => [
+                    [
                         'zoneName' => 'America/Resolute',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    20 => [
+                    [
                         'zoneName' => 'America/St_Johns',
                         'gmtOffset' => -12600,
                         'gmtOffsetName' => 'UTC-03:30',
                         'abbreviation' => 'NST',
                         'tzName' => 'Newfoundland Standard Time',
                     ],
-                    21 => [
+                    [
                         'zoneName' => 'America/Swift_Current',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    22 => [
+                    [
                         'zoneName' => 'America/Thunder_Bay',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    23 => [
+                    [
                         'zoneName' => 'America/Toronto',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    24 => [
+                    [
                         'zoneName' => 'America/Vancouver',
                         'gmtOffset' => -28800,
                         'gmtOffsetName' => 'UTC-08:00',
                         'abbreviation' => 'PST',
                         'tzName' => 'Pacific Standard Time (North America',
                     ],
-                    25 => [
+                    [
                         'zoneName' => 'America/Whitehorse',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America',
                     ],
-                    26 => [
+                    [
                         'zoneName' => 'America/Winnipeg',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    27 => [
+                    [
                         'zoneName' => 'America/Yellowknife',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
@@ -2011,16 +1707,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '6',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            39 => [
+            [
                 'id' => '40',
                 'name' => 'Cape Verde',
                 'iso3' => 'CPV',
@@ -2032,7 +1720,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Verdean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Atlantic/Cape_Verde',
                         'gmtOffset' => -3600,
                         'gmtOffsetName' => 'UTC-01:00',
@@ -2049,16 +1737,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            40 => [
+            [
                 'id' => '41',
                 'name' => 'Cayman Islands',
                 'iso3' => 'CYM',
@@ -2070,7 +1750,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Caymanian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Cayman',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -2087,16 +1767,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            41 => [
+            [
                 'id' => '42',
                 'name' => 'Central African Republic',
                 'iso3' => 'CAF',
@@ -2108,7 +1780,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FCFA',
                 'nationality' => 'Central African',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Bangui',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -2125,16 +1797,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            42 => [
+            [
                 'id' => '43',
                 'name' => 'Chad',
                 'iso3' => 'TCD',
@@ -2146,7 +1810,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FCFA',
                 'nationality' => 'Chadian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Ndjamena',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -2163,16 +1827,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            43 => [
+            [
                 'id' => '44',
                 'name' => 'Chile',
                 'iso3' => 'CHL',
@@ -2184,21 +1840,21 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Chilean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Punta_Arenas',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'CLST',
                         'tzName' => 'Chile Summer Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'America/Santiago',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'CLST',
                         'tzName' => 'Chile Summer Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Pacific/Easter',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -2215,16 +1871,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            44 => [
+            [
                 'id' => '45',
                 'name' => 'China',
                 'iso3' => 'CHN',
@@ -2236,14 +1884,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '¥',
                 'nationality' => 'Chinese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Shanghai',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'China Standard Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Asia/Urumqi',
                         'gmtOffset' => 21600,
                         'gmtOffsetName' => 'UTC+06:00',
@@ -2260,16 +1908,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '12',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            45 => [
+            [
                 'id' => '46',
                 'name' => 'Christmas Island',
                 'iso3' => 'CXR',
@@ -2281,7 +1921,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Christmas Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Christmas',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
@@ -2298,16 +1938,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '19',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            46 => [
+            [
                 'id' => '47',
                 'name' => 'Cocos (Keeling) Islands',
                 'iso3' => 'CCK',
@@ -2319,7 +1951,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Cocos Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Cocos',
                         'gmtOffset' => 23400,
                         'gmtOffsetName' => 'UTC+06:30',
@@ -2336,16 +1968,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '19',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            47 => [
+            [
                 'id' => '48',
                 'name' => 'Colombia',
                 'iso3' => 'COL',
@@ -2357,7 +1981,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Colombian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Bogota',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -2374,16 +1998,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            48 => [
+            [
                 'id' => '49',
                 'name' => 'Comoros',
                 'iso3' => 'COM',
@@ -2395,7 +2011,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CF',
                 'nationality' => 'Comoran, Comorian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Comoro',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -2412,16 +2028,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            49 => [
+            [
                 'id' => '50',
                 'name' => 'Congo',
                 'iso3' => 'COG',
@@ -2433,7 +2041,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FC',
                 'nationality' => 'Congolese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Brazzaville',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -2450,16 +2058,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            50 => [
+            [
                 'id' => '51',
                 'name' => 'Democratic Republic of the Congo',
                 'iso3' => 'COD',
@@ -2471,14 +2071,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FC',
                 'nationality' => 'Congolese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Kinshasa',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
                         'abbreviation' => 'WAT',
                         'tzName' => 'West Africa Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Africa/Lubumbashi',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -2495,16 +2095,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            51 => [
+            [
                 'id' => '52',
                 'name' => 'Cook Islands',
                 'iso3' => 'COK',
@@ -2516,7 +2108,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Cook Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Rarotonga',
                         'gmtOffset' => -36000,
                         'gmtOffsetName' => 'UTC-10:00',
@@ -2533,16 +2125,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            52 => [
+            [
                 'id' => '53',
                 'name' => 'Costa Rica',
                 'iso3' => 'CRI',
@@ -2554,7 +2138,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₡',
                 'nationality' => 'Costa Rican',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Costa_Rica',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
@@ -2571,16 +2155,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '9',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            53 => [
+            [
                 'id' => '54',
                 'name' => 'Cote D\'Ivoire (Ivory Coast)',
                 'iso3' => 'CIV',
@@ -2592,7 +2168,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CFA',
                 'nationality' => 'Ivorian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Abidjan',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -2609,16 +2185,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            54 => [
+            [
                 'id' => '55',
                 'name' => 'Croatia',
                 'iso3' => 'HRV',
@@ -2630,7 +2198,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'kn',
                 'nationality' => 'Croatian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Zagreb',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -2647,16 +2215,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            55 => [
+            [
                 'id' => '56',
                 'name' => 'Cuba',
                 'iso3' => 'CUB',
@@ -2668,7 +2228,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Cuban',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Havana',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -2685,16 +2245,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            56 => [
+            [
                 'id' => '57',
                 'name' => 'Cyprus',
                 'iso3' => 'CYP',
@@ -2706,14 +2258,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Cypriot',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Famagusta',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
                         'abbreviation' => 'EET',
                         'tzName' => 'Eastern European Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Asia/Nicosia',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -2730,16 +2282,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            57 => [
+            [
                 'id' => '58',
                 'name' => 'Czech Republic',
                 'iso3' => 'CZE',
@@ -2760,16 +2304,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            58 => [
+            [
                 'id' => '59',
                 'name' => 'Denmark',
                 'iso3' => 'DNK',
@@ -2781,7 +2317,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Kr.',
                 'nationality' => 'Danish',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Copenhagen',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -2798,16 +2334,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            59 => [
+            [
                 'id' => '60',
                 'name' => 'Djibouti',
                 'iso3' => 'DJI',
@@ -2819,7 +2347,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Fdj',
                 'nationality' => 'Djiboutian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Djibouti',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -2836,16 +2364,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            60 => [
+            [
                 'id' => '61',
                 'name' => 'Dominica',
                 'iso3' => 'DMA',
@@ -2857,7 +2377,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Dominican',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Dominica',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -2874,16 +2394,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            61 => [
+            [
                 'id' => '62',
                 'name' => 'Dominican Republic',
                 'iso3' => 'DOM',
@@ -2895,7 +2407,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Dominican',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Santo_Domingo',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -2912,16 +2424,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            62 => [
+            [
                 'id' => '63',
                 'name' => 'East Timor',
                 'iso3' => 'TLS',
@@ -2933,7 +2437,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Timorese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Dili',
                         'gmtOffset' => 32400,
                         'gmtOffsetName' => 'UTC+09:00',
@@ -2950,16 +2454,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            63 => [
+            [
                 'id' => '64',
                 'name' => 'Ecuador',
                 'iso3' => 'ECU',
@@ -2971,14 +2467,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Ecuadorian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Guayaquil',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'ECT',
                         'tzName' => 'Ecuador Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Pacific/Galapagos',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
@@ -2995,16 +2491,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            64 => [
+            [
                 'id' => '65',
                 'name' => 'Egypt',
                 'iso3' => 'EGY',
@@ -3016,7 +2504,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ج.م',
                 'nationality' => 'Egyptian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Cairo',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -3033,16 +2521,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '1',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            65 => [
+            [
                 'id' => '66',
                 'name' => 'El Salvador',
                 'iso3' => 'SLV',
@@ -3054,7 +2534,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Salvadoran',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/El_Salvador',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
@@ -3071,16 +2551,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '9',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            66 => [
+            [
                 'id' => '67',
                 'name' => 'Equatorial Guinea',
                 'iso3' => 'GNQ',
@@ -3092,7 +2564,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FCFA',
                 'nationality' => 'Equatorial Guinean, Equatoguinean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Malabo',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -3109,16 +2581,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            67 => [
+            [
                 'id' => '68',
                 'name' => 'Eritrea',
                 'iso3' => 'ERI',
@@ -3130,7 +2594,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Nfk',
                 'nationality' => 'Eritrean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Asmara',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -3147,16 +2611,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            68 => [
+            [
                 'id' => '69',
                 'name' => 'Estonia',
                 'iso3' => 'EST',
@@ -3168,7 +2624,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Estonian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Tallinn',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -3185,16 +2641,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            69 => [
+            [
                 'id' => '70',
                 'name' => 'Ethiopia',
                 'iso3' => 'ETH',
@@ -3206,7 +2654,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Nkf',
                 'nationality' => 'Ethiopian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Addis_Ababa',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -3223,16 +2671,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            70 => [
+            [
                 'id' => '71',
                 'name' => 'Falkland Islands',
                 'iso3' => 'FLK',
@@ -3244,7 +2684,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'Falkland Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Atlantic/Stanley',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
@@ -3261,16 +2701,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            71 => [
+            [
                 'id' => '72',
                 'name' => 'Faroe Islands',
                 'iso3' => 'FRO',
@@ -3282,7 +2714,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Kr.',
                 'nationality' => 'Faroese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Atlantic/Faroe',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -3299,16 +2731,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            72 => [
+            [
                 'id' => '73',
                 'name' => 'Fiji Islands',
                 'iso3' => 'FJI',
@@ -3320,7 +2744,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FJ$',
                 'nationality' => 'Fijian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Fiji',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
@@ -3337,16 +2761,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '20',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            73 => [
+            [
                 'id' => '74',
                 'name' => 'Finland',
                 'iso3' => 'FIN',
@@ -3358,7 +2774,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Finnish',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Helsinki',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -3375,16 +2791,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            74 => [
+            [
                 'id' => '75',
                 'name' => 'France',
                 'iso3' => 'FRA',
@@ -3396,7 +2804,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'French',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Paris',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -3413,16 +2821,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '17',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            75 => [
+            [
                 'id' => '76',
                 'name' => 'French Guiana',
                 'iso3' => 'GUF',
@@ -3434,7 +2834,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'French Guianese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Cayenne',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
@@ -3451,16 +2851,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            76 => [
+            [
                 'id' => '77',
                 'name' => 'French Polynesia',
                 'iso3' => 'PYF',
@@ -3472,21 +2864,21 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₣',
                 'nationality' => 'French Polynesia',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Gambier',
                         'gmtOffset' => -32400,
                         'gmtOffsetName' => 'UTC-09:00',
                         'abbreviation' => 'GAMT',
                         'tzName' => 'Gambier Islands Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Pacific/Marquesas',
                         'gmtOffset' => -34200,
                         'gmtOffsetName' => 'UTC-09:30',
                         'abbreviation' => 'MART',
                         'tzName' => 'Marquesas Islands Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Pacific/Tahiti',
                         'gmtOffset' => -36000,
                         'gmtOffsetName' => 'UTC-10:00',
@@ -3503,16 +2895,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            77 => [
+            [
                 'id' => '78',
                 'name' => 'French Southern Territories',
                 'iso3' => 'ATF',
@@ -3524,7 +2908,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'French Southern Territories',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Kerguelen',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
@@ -3541,16 +2925,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '5',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            78 => [
+            [
                 'id' => '79',
                 'name' => 'Gabon',
                 'iso3' => 'GAB',
@@ -3562,7 +2938,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FCFA',
                 'nationality' => 'Gabonese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Libreville',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -3579,16 +2955,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            79 => [
+            [
                 'id' => '80',
                 'name' => 'Gambia The',
                 'iso3' => 'GMB',
@@ -3600,7 +2968,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'D',
                 'nationality' => 'Gambian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Banjul',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -3617,16 +2985,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            80 => [
+            [
                 'id' => '81',
                 'name' => 'Georgia',
                 'iso3' => 'GEO',
@@ -3638,7 +2998,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ლ',
                 'nationality' => 'Georgian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Tbilisi',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
@@ -3655,16 +3015,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            81 => [
+            [
                 'id' => '82',
                 'name' => 'Germany',
                 'iso3' => 'DEU',
@@ -3676,14 +3028,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'German',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Berlin',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
                         'abbreviation' => 'CET',
                         'tzName' => 'Central European Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Europe/Busingen',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -3700,16 +3052,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '17',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            82 => [
+            [
                 'id' => '83',
                 'name' => 'Ghana',
                 'iso3' => 'GHA',
@@ -3721,7 +3065,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'GH₵',
                 'nationality' => 'Ghanaian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Accra',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -3738,16 +3082,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            83 => [
+            [
                 'id' => '84',
                 'name' => 'Gibraltar',
                 'iso3' => 'GIB',
@@ -3759,7 +3095,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'Gibraltar',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Gibraltar',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -3776,16 +3112,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            84 => [
+            [
                 'id' => '85',
                 'name' => 'Greece',
                 'iso3' => 'GRC',
@@ -3797,7 +3125,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Greek, Hellenic',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Athens',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -3814,16 +3142,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            85 => [
+            [
                 'id' => '86',
                 'name' => 'Greenland',
                 'iso3' => 'GRL',
@@ -3835,28 +3155,28 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Kr.',
                 'nationality' => 'Greenlandic',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Danmarkshavn',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
                         'abbreviation' => 'GMT',
                         'tzName' => 'Greenwich Mean Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'America/Nuuk',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
                         'abbreviation' => 'WGT',
                         'tzName' => 'West Greenland Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'America/Scoresbysund',
                         'gmtOffset' => -3600,
                         'gmtOffsetName' => 'UTC-01:00',
                         'abbreviation' => 'EGT',
                         'tzName' => 'Eastern Greenland Time',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'America/Thule',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -3873,16 +3193,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '6',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            86 => [
+            [
                 'id' => '87',
                 'name' => 'Grenada',
                 'iso3' => 'GRD',
@@ -3894,7 +3206,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Grenadian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Grenada',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -3911,16 +3223,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            87 => [
+            [
                 'id' => '88',
                 'name' => 'Guadeloupe',
                 'iso3' => 'GLP',
@@ -3932,7 +3236,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Guadeloupe',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Guadeloupe',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -3949,16 +3253,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            88 => [
+            [
                 'id' => '89',
                 'name' => 'Guam',
                 'iso3' => 'GUM',
@@ -3970,7 +3266,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Guamanian, Guambat',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Guam',
                         'gmtOffset' => 36000,
                         'gmtOffsetName' => 'UTC+10:00',
@@ -3987,16 +3283,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '21',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            89 => [
+            [
                 'id' => '90',
                 'name' => 'Guatemala',
                 'iso3' => 'GTM',
@@ -4008,7 +3296,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Q',
                 'nationality' => 'Guatemalan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Guatemala',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
@@ -4025,16 +3313,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '9',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            90 => [
+            [
                 'id' => '91',
                 'name' => 'Guernsey and Alderney',
                 'iso3' => 'GGY',
@@ -4046,7 +3326,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'Channel Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Guernsey',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -4063,16 +3343,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            91 => [
+            [
                 'id' => '92',
                 'name' => 'Guinea',
                 'iso3' => 'GIN',
@@ -4084,7 +3356,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FG',
                 'nationality' => 'Guinean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Conakry',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -4101,16 +3373,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            92 => [
+            [
                 'id' => '93',
                 'name' => 'Guinea-Bissau',
                 'iso3' => 'GNB',
@@ -4122,7 +3386,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CFA',
                 'nationality' => 'Bissau-Guinean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Bissau',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -4139,16 +3403,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            93 => [
+            [
                 'id' => '94',
                 'name' => 'Guyana',
                 'iso3' => 'GUY',
@@ -4160,7 +3416,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Guyanese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Guyana',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -4177,16 +3433,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            94 => [
+            [
                 'id' => '95',
                 'name' => 'Haiti',
                 'iso3' => 'HTI',
@@ -4198,7 +3446,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'G',
                 'nationality' => 'Haitian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Port-au-Prince',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -4215,16 +3463,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            95 => [
+            [
                 'id' => '96',
                 'name' => 'Heard Island and McDonald Islands',
                 'iso3' => 'HMD',
@@ -4236,7 +3476,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Heard Island or McDonald Islands',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Kerguelen',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
@@ -4253,16 +3493,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => null,
                 'subregion_id' => null,
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            96 => [
+            [
                 'id' => '97',
                 'name' => 'Honduras',
                 'iso3' => 'HND',
@@ -4274,7 +3506,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'L',
                 'nationality' => 'Honduran',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Tegucigalpa',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
@@ -4291,16 +3523,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '9',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            97 => [
+            [
                 'id' => '98',
                 'name' => 'Hong Kong S.A.R.',
                 'iso3' => 'HKG',
@@ -4312,7 +3536,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Hong Kong, Hong Kongese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Hong_Kong',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
@@ -4329,16 +3553,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '12',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            98 => [
+            [
                 'id' => '99',
                 'name' => 'Hungary',
                 'iso3' => 'HUN',
@@ -4350,7 +3566,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Ft',
                 'nationality' => 'Hungarian, Magyar',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Budapest',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -4367,16 +3583,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            99 => [
+            [
                 'id' => '100',
                 'name' => 'Iceland',
                 'iso3' => 'ISL',
@@ -4388,7 +3596,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'kr',
                 'nationality' => 'Icelandic',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Atlantic/Reykjavik',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -4405,16 +3613,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            100 => [
+            [
                 'id' => '101',
                 'name' => 'India',
                 'iso3' => 'IND',
@@ -4426,7 +3626,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₹',
                 'nationality' => 'Indian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Kolkata',
                         'gmtOffset' => 19800,
                         'gmtOffsetName' => 'UTC+05:30',
@@ -4443,16 +3643,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '14',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            101 => [
+            [
                 'id' => '102',
                 'name' => 'Indonesia',
                 'iso3' => 'IDN',
@@ -4464,28 +3656,28 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Rp',
                 'nationality' => 'Indonesian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Jakarta',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
                         'abbreviation' => 'WIB',
                         'tzName' => 'Western Indonesian Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Asia/Jayapura',
                         'gmtOffset' => 32400,
                         'gmtOffsetName' => 'UTC+09:00',
                         'abbreviation' => 'WIT',
                         'tzName' => 'Eastern Indonesian Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Asia/Makassar',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
                         'abbreviation' => 'WITA',
                         'tzName' => 'Central Indonesia Time',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'Asia/Pontianak',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
@@ -4502,16 +3694,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            102 => [
+            [
                 'id' => '103',
                 'name' => 'Iran',
                 'iso3' => 'IRN',
@@ -4523,7 +3707,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '﷼',
                 'nationality' => 'Iranian, Persian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Tehran',
                         'gmtOffset' => 12600,
                         'gmtOffsetName' => 'UTC+03:30',
@@ -4540,16 +3724,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '14',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            103 => [
+            [
                 'id' => '104',
                 'name' => 'Iraq',
                 'iso3' => 'IRQ',
@@ -4561,7 +3737,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'د.ع',
                 'nationality' => 'Iraqi',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Baghdad',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -4578,16 +3754,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            104 => [
+            [
                 'id' => '105',
                 'name' => 'Ireland',
                 'iso3' => 'IRL',
@@ -4599,7 +3767,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Irish',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Dublin',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -4616,16 +3784,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            105 => [
+            [
                 'id' => '106',
                 'name' => 'Israel',
                 'iso3' => 'ISR',
@@ -4637,7 +3797,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₪',
                 'nationality' => 'Israeli',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Jerusalem',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -4654,16 +3814,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            106 => [
+            [
                 'id' => '107',
                 'name' => 'Italy',
                 'iso3' => 'ITA',
@@ -4675,7 +3827,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Italian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Rome',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -4692,16 +3844,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            107 => [
+            [
                 'id' => '108',
                 'name' => 'Jamaica',
                 'iso3' => 'JAM',
@@ -4713,7 +3857,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'J$',
                 'nationality' => 'Jamaican',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Jamaica',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -4730,16 +3874,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            108 => [
+            [
                 'id' => '109',
                 'name' => 'Japan',
                 'iso3' => 'JPN',
@@ -4751,7 +3887,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '¥',
                 'nationality' => 'Japanese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Tokyo',
                         'gmtOffset' => 32400,
                         'gmtOffsetName' => 'UTC+09:00',
@@ -4768,16 +3904,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '12',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            109 => [
+            [
                 'id' => '110',
                 'name' => 'Jersey',
                 'iso3' => 'JEY',
@@ -4789,7 +3917,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'Channel Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Jersey',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -4806,16 +3934,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            110 => [
+            [
                 'id' => '111',
                 'name' => 'Jordan',
                 'iso3' => 'JOR',
@@ -4827,7 +3947,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ا.د',
                 'nationality' => 'Jordanian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Amman',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -4844,16 +3964,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            111 => [
+            [
                 'id' => '112',
                 'name' => 'Kazakhstan',
                 'iso3' => 'KAZ',
@@ -4865,49 +3977,49 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'лв',
                 'nationality' => 'Kazakhstani, Kazakh',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Almaty',
                         'gmtOffset' => 21600,
                         'gmtOffsetName' => 'UTC+06:00',
                         'abbreviation' => 'ALMT',
                         'tzName' => 'Alma-Ata Time[1',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Asia/Aqtau',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
                         'abbreviation' => 'AQTT',
                         'tzName' => 'Aqtobe Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Asia/Aqtobe',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
                         'abbreviation' => 'AQTT',
                         'tzName' => 'Aqtobe Time',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'Asia/Atyrau',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
                         'abbreviation' => 'MSD+1',
                         'tzName' => 'Moscow Daylight Time+1',
                     ],
-                    4 => [
+                    [
                         'zoneName' => 'Asia/Oral',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
                         'abbreviation' => 'ORAT',
                         'tzName' => 'Oral Time',
                     ],
-                    5 => [
+                    [
                         'zoneName' => 'Asia/Qostanay',
                         'gmtOffset' => 21600,
                         'gmtOffsetName' => 'UTC+06:00',
                         'abbreviation' => 'QYZST',
                         'tzName' => 'Qyzylorda Summer Time',
                     ],
-                    6 => [
+                    [
                         'zoneName' => 'Asia/Qyzylorda',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
@@ -4924,16 +4036,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '10',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            112 => [
+            [
                 'id' => '113',
                 'name' => 'Kenya',
                 'iso3' => 'KEN',
@@ -4945,7 +4049,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'KSh',
                 'nationality' => 'Kenyan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Nairobi',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -4962,16 +4066,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            113 => [
+            [
                 'id' => '114',
                 'name' => 'Kiribati',
                 'iso3' => 'KIR',
@@ -4983,21 +4079,21 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'I-Kiribati',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Enderbury',
                         'gmtOffset' => 46800,
                         'gmtOffsetName' => 'UTC+13:00',
                         'abbreviation' => 'PHOT',
                         'tzName' => 'Phoenix Island Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Pacific/Kiritimati',
                         'gmtOffset' => 50400,
                         'gmtOffsetName' => 'UTC+14:00',
                         'abbreviation' => 'LINT',
                         'tzName' => 'Line Islands Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Pacific/Tarawa',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
@@ -5014,16 +4110,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '21',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            114 => [
+            [
                 'id' => '115',
                 'name' => 'North Korea',
                 'iso3' => 'PRK',
@@ -5035,7 +4123,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₩',
                 'nationality' => 'North Korean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Pyongyang',
                         'gmtOffset' => 32400,
                         'gmtOffsetName' => 'UTC+09:00',
@@ -5052,16 +4140,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '12',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            115 => [
+            [
                 'id' => '116',
                 'name' => 'South Korea',
                 'iso3' => 'KOR',
@@ -5073,7 +4153,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₩',
                 'nationality' => 'South Korean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Seoul',
                         'gmtOffset' => 32400,
                         'gmtOffsetName' => 'UTC+09:00',
@@ -5090,16 +4170,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '12',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            116 => [
+            [
                 'id' => '117',
                 'name' => 'Kuwait',
                 'iso3' => 'KWT',
@@ -5111,7 +4183,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ك.د',
                 'nationality' => 'Kuwaiti',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Kuwait',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -5128,16 +4200,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            117 => [
+            [
                 'id' => '118',
                 'name' => 'Kyrgyzstan',
                 'iso3' => 'KGZ',
@@ -5149,7 +4213,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'лв',
                 'nationality' => 'Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Bishkek',
                         'gmtOffset' => 21600,
                         'gmtOffsetName' => 'UTC+06:00',
@@ -5166,16 +4230,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '10',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            118 => [
+            [
                 'id' => '119',
                 'name' => 'Laos',
                 'iso3' => 'LAO',
@@ -5187,7 +4243,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₭',
                 'nationality' => 'Lao, Laotian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Vientiane',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
@@ -5204,16 +4260,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            119 => [
+            [
                 'id' => '120',
                 'name' => 'Latvia',
                 'iso3' => 'LVA',
@@ -5225,7 +4273,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Latvian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Riga',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -5242,16 +4290,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            120 => [
+            [
                 'id' => '121',
                 'name' => 'Lebanon',
                 'iso3' => 'LBN',
@@ -5263,7 +4303,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'Lebanese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Beirut',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -5280,16 +4320,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            121 => [
+            [
                 'id' => '122',
                 'name' => 'Lesotho',
                 'iso3' => 'LSO',
@@ -5301,7 +4333,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'L',
                 'nationality' => 'Basotho',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Maseru',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -5318,16 +4350,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '5',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            122 => [
+            [
                 'id' => '123',
                 'name' => 'Liberia',
                 'iso3' => 'LBR',
@@ -5339,7 +4363,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Liberian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Monrovia',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -5356,16 +4380,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            123 => [
+            [
                 'id' => '124',
                 'name' => 'Libya',
                 'iso3' => 'LBY',
@@ -5377,7 +4393,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'د.ل',
                 'nationality' => 'Libyan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Tripoli',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -5394,16 +4410,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '1',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            124 => [
+            [
                 'id' => '125',
                 'name' => 'Liechtenstein',
                 'iso3' => 'LIE',
@@ -5415,7 +4423,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CHf',
                 'nationality' => 'Liechtenstein',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Vaduz',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -5432,16 +4440,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '17',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            125 => [
+            [
                 'id' => '126',
                 'name' => 'Lithuania',
                 'iso3' => 'LTU',
@@ -5453,7 +4453,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Lithuanian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Vilnius',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -5470,16 +4470,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            126 => [
+            [
                 'id' => '127',
                 'name' => 'Luxembourg',
                 'iso3' => 'LUX',
@@ -5491,7 +4483,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Luxembourg, Luxembourgish',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Luxembourg',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -5508,16 +4500,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '17',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            127 => [
+            [
                 'id' => '128',
                 'name' => 'Macau S.A.R.',
                 'iso3' => 'MAC',
@@ -5529,7 +4513,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Macanese, Chinese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Macau',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
@@ -5546,16 +4530,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '12',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            128 => [
+            [
                 'id' => '129',
                 'name' => 'North Macedonia',
                 'iso3' => 'MKD',
@@ -5567,7 +4543,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ден',
                 'nationality' => 'Macedonian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Skopje',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -5584,16 +4560,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            129 => [
+            [
                 'id' => '130',
                 'name' => 'Madagascar',
                 'iso3' => 'MDG',
@@ -5605,7 +4573,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Ar',
                 'nationality' => 'Malagasy',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Antananarivo',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -5622,16 +4590,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            130 => [
+            [
                 'id' => '131',
                 'name' => 'Malawi',
                 'iso3' => 'MWI',
@@ -5643,7 +4603,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'MK',
                 'nationality' => 'Malawian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Blantyre',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -5660,16 +4620,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            131 => [
+            [
                 'id' => '132',
                 'name' => 'Malaysia',
                 'iso3' => 'MYS',
@@ -5681,14 +4633,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'RM',
                 'nationality' => 'Malaysian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Kuala_Lumpur',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
                         'abbreviation' => 'MYT',
                         'tzName' => 'Malaysia Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Asia/Kuching',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
@@ -5705,16 +4657,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            132 => [
+            [
                 'id' => '133',
                 'name' => 'Maldives',
                 'iso3' => 'MDV',
@@ -5726,7 +4670,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Rf',
                 'nationality' => 'Maldivian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Maldives',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
@@ -5743,16 +4687,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '14',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            133 => [
+            [
                 'id' => '134',
                 'name' => 'Mali',
                 'iso3' => 'MLI',
@@ -5764,7 +4700,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CFA',
                 'nationality' => 'Malian, Malinese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Bamako',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -5781,16 +4717,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            134 => [
+            [
                 'id' => '135',
                 'name' => 'Malta',
                 'iso3' => 'MLT',
@@ -5802,7 +4730,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Maltese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Malta',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -5819,16 +4747,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            135 => [
+            [
                 'id' => '136',
                 'name' => 'Man (Isle of)',
                 'iso3' => 'IMN',
@@ -5840,7 +4760,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'Manx',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Isle_of_Man',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -5857,16 +4777,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            136 => [
+            [
                 'id' => '137',
                 'name' => 'Marshall Islands',
                 'iso3' => 'MHL',
@@ -5878,14 +4790,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Marshallese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Kwajalein',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
                         'abbreviation' => 'MHT',
                         'tzName' => 'Marshall Islands Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Pacific/Majuro',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
@@ -5902,16 +4814,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '21',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            137 => [
+            [
                 'id' => '138',
                 'name' => 'Martinique',
                 'iso3' => 'MTQ',
@@ -5923,7 +4827,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Martiniquais, Martinican',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Martinique',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -5940,16 +4844,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            138 => [
+            [
                 'id' => '139',
                 'name' => 'Mauritania',
                 'iso3' => 'MRT',
@@ -5961,7 +4857,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'MRU',
                 'nationality' => 'Mauritanian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Nouakchott',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -5978,16 +4874,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            139 => [
+            [
                 'id' => '140',
                 'name' => 'Mauritius',
                 'iso3' => 'MUS',
@@ -5999,7 +4887,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₨',
                 'nationality' => 'Mauritian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Mauritius',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
@@ -6016,16 +4904,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            140 => [
+            [
                 'id' => '141',
                 'name' => 'Mayotte',
                 'iso3' => 'MYT',
@@ -6037,7 +4917,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Mahoran',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Mayotte',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -6054,16 +4934,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            141 => [
+            [
                 'id' => '142',
                 'name' => 'Mexico',
                 'iso3' => 'MEX',
@@ -6075,77 +4947,77 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Mexican',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Bahia_Banderas',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'America/Cancun',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'America/Chihuahua',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'America/Hermosillo',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America',
                     ],
-                    4 => [
+                    [
                         'zoneName' => 'America/Matamoros',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    5 => [
+                    [
                         'zoneName' => 'America/Mazatlan',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America',
                     ],
-                    6 => [
+                    [
                         'zoneName' => 'America/Merida',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    7 => [
+                    [
                         'zoneName' => 'America/Mexico_City',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    8 => [
+                    [
                         'zoneName' => 'America/Monterrey',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    9 => [
+                    [
                         'zoneName' => 'America/Ojinaga',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America',
                     ],
-                    10 => [
+                    [
                         'zoneName' => 'America/Tijuana',
                         'gmtOffset' => -28800,
                         'gmtOffsetName' => 'UTC-08:00',
@@ -6162,16 +5034,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '9',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            142 => [
+            [
                 'id' => '143',
                 'name' => 'Micronesia',
                 'iso3' => 'FSM',
@@ -6183,21 +5047,21 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Micronesian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Chuuk',
                         'gmtOffset' => 36000,
                         'gmtOffsetName' => 'UTC+10:00',
                         'abbreviation' => 'CHUT',
                         'tzName' => 'Chuuk Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Pacific/Kosrae',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'KOST',
                         'tzName' => 'Kosrae Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Pacific/Pohnpei',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
@@ -6214,16 +5078,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '21',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            143 => [
+            [
                 'id' => '144',
                 'name' => 'Moldova',
                 'iso3' => 'MDA',
@@ -6235,7 +5091,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'L',
                 'nationality' => 'Moldovan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Chisinau',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -6252,16 +5108,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            144 => [
+            [
                 'id' => '145',
                 'name' => 'Monaco',
                 'iso3' => 'MCO',
@@ -6273,7 +5121,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Monegasque, Monacan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Monaco',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -6290,16 +5138,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '17',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            145 => [
+            [
                 'id' => '146',
                 'name' => 'Mongolia',
                 'iso3' => 'MNG',
@@ -6311,21 +5151,21 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₮',
                 'nationality' => 'Mongolian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Choibalsan',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
                         'abbreviation' => 'CHOT',
                         'tzName' => 'Choibalsan Standard Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Asia/Hovd',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
                         'abbreviation' => 'HOVT',
                         'tzName' => 'Hovd Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Asia/Ulaanbaatar',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
@@ -6342,16 +5182,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '12',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            146 => [
+            [
                 'id' => '147',
                 'name' => 'Montenegro',
                 'iso3' => 'MNE',
@@ -6363,7 +5195,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Montenegrin',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Podgorica',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -6380,16 +5212,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            147 => [
+            [
                 'id' => '148',
                 'name' => 'Montserrat',
                 'iso3' => 'MSR',
@@ -6401,7 +5225,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Montserratian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Montserrat',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -6418,16 +5242,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            148 => [
+            [
                 'id' => '149',
                 'name' => 'Morocco',
                 'iso3' => 'MAR',
@@ -6439,7 +5255,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'DH',
                 'nationality' => 'Moroccan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Casablanca',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -6456,16 +5272,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '1',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            149 => [
+            [
                 'id' => '150',
                 'name' => 'Mozambique',
                 'iso3' => 'MOZ',
@@ -6477,7 +5285,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'MT',
                 'nationality' => 'Mozambican',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Maputo',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -6494,16 +5302,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            150 => [
+            [
                 'id' => '151',
                 'name' => 'Myanmar',
                 'iso3' => 'MMR',
@@ -6515,7 +5315,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'K',
                 'nationality' => 'Burmese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Yangon',
                         'gmtOffset' => 23400,
                         'gmtOffsetName' => 'UTC+06:30',
@@ -6532,16 +5332,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            151 => [
+            [
                 'id' => '152',
                 'name' => 'Namibia',
                 'iso3' => 'NAM',
@@ -6553,7 +5345,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Namibian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Windhoek',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -6570,16 +5362,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '5',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            152 => [
+            [
                 'id' => '153',
                 'name' => 'Nauru',
                 'iso3' => 'NRU',
@@ -6591,7 +5375,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Nauruan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Nauru',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
@@ -6608,16 +5392,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '21',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            153 => [
+            [
                 'id' => '154',
                 'name' => 'Nepal',
                 'iso3' => 'NPL',
@@ -6629,7 +5405,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₨',
                 'nationality' => 'Nepali, Nepalese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Kathmandu',
                         'gmtOffset' => 20700,
                         'gmtOffsetName' => 'UTC+05:45',
@@ -6646,16 +5422,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '14',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            154 => [
+            [
                 'id' => '155',
                 'name' => 'Bonaire, Sint Eustatius and Saba',
                 'iso3' => 'BES',
@@ -6667,7 +5435,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Bonaire',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Anguilla',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -6684,16 +5452,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-09 05:04:58',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            155 => [
+            [
                 'id' => '156',
                 'name' => 'Netherlands',
                 'iso3' => 'NLD',
@@ -6705,7 +5465,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Dutch, Netherlandic',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Amsterdam',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -6722,16 +5482,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '17',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            156 => [
+            [
                 'id' => '157',
                 'name' => 'New Caledonia',
                 'iso3' => 'NCL',
@@ -6743,7 +5495,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₣',
                 'nationality' => 'New Caledonian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Noumea',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
@@ -6760,16 +5512,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '20',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            157 => [
+            [
                 'id' => '158',
                 'name' => 'New Zealand',
                 'iso3' => 'NZL',
@@ -6781,14 +5525,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'New Zealand, NZ',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Auckland',
                         'gmtOffset' => 46800,
                         'gmtOffsetName' => 'UTC+13:00',
                         'abbreviation' => 'NZDT',
                         'tzName' => 'New Zealand Daylight Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Pacific/Chatham',
                         'gmtOffset' => 49500,
                         'gmtOffsetName' => 'UTC+13:45',
@@ -6805,16 +5549,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '19',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            158 => [
+            [
                 'id' => '159',
                 'name' => 'Nicaragua',
                 'iso3' => 'NIC',
@@ -6826,7 +5562,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'C$',
                 'nationality' => 'Nicaraguan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Managua',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
@@ -6843,16 +5579,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '9',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            159 => [
+            [
                 'id' => '160',
                 'name' => 'Niger',
                 'iso3' => 'NER',
@@ -6864,7 +5592,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CFA',
                 'nationality' => 'Nigerien',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Niamey',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -6881,16 +5609,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            160 => [
+            [
                 'id' => '161',
                 'name' => 'Nigeria',
                 'iso3' => 'NGA',
@@ -6902,7 +5622,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₦',
                 'nationality' => 'Nigerian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Lagos',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -6919,16 +5639,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            161 => [
+            [
                 'id' => '162',
                 'name' => 'Niue',
                 'iso3' => 'NIU',
@@ -6940,7 +5652,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Niuean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Niue',
                         'gmtOffset' => -39600,
                         'gmtOffsetName' => 'UTC-11:00',
@@ -6957,16 +5669,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            162 => [
+            [
                 'id' => '163',
                 'name' => 'Norfolk Island',
                 'iso3' => 'NFK',
@@ -6978,7 +5682,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Norfolk Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Norfolk',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
@@ -6995,16 +5699,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '19',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            163 => [
+            [
                 'id' => '164',
                 'name' => 'Northern Mariana Islands',
                 'iso3' => 'MNP',
@@ -7016,7 +5712,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Northern Marianan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Saipan',
                         'gmtOffset' => 36000,
                         'gmtOffsetName' => 'UTC+10:00',
@@ -7033,16 +5729,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '21',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            164 => [
+            [
                 'id' => '165',
                 'name' => 'Norway',
                 'iso3' => 'NOR',
@@ -7054,7 +5742,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'kr',
                 'nationality' => 'Norwegian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Oslo',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -7071,16 +5759,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            165 => [
+            [
                 'id' => '166',
                 'name' => 'Oman',
                 'iso3' => 'OMN',
@@ -7092,7 +5772,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '.ع.ر',
                 'nationality' => 'Omani',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Muscat',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
@@ -7109,16 +5789,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            166 => [
+            [
                 'id' => '167',
                 'name' => 'Pakistan',
                 'iso3' => 'PAK',
@@ -7130,7 +5802,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₨',
                 'nationality' => 'Pakistani',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Karachi',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
@@ -7147,16 +5819,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '14',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            167 => [
+            [
                 'id' => '168',
                 'name' => 'Palau',
                 'iso3' => 'PLW',
@@ -7168,7 +5832,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Palauan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Palau',
                         'gmtOffset' => 32400,
                         'gmtOffsetName' => 'UTC+09:00',
@@ -7185,16 +5849,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '21',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            168 => [
+            [
                 'id' => '169',
                 'name' => 'Palestinian Territory Occupied',
                 'iso3' => 'PSE',
@@ -7206,14 +5862,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₪',
                 'nationality' => 'Palestinian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Gaza',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
                         'abbreviation' => 'EET',
                         'tzName' => 'Eastern European Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Asia/Hebron',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -7230,16 +5886,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            169 => [
+            [
                 'id' => '170',
                 'name' => 'Panama',
                 'iso3' => 'PAN',
@@ -7251,7 +5899,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'B/.',
                 'nationality' => 'Panamanian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Panama',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -7268,16 +5916,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '9',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            170 => [
+            [
                 'id' => '171',
                 'name' => 'Papua new Guinea',
                 'iso3' => 'PNG',
@@ -7289,14 +5929,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'K',
                 'nationality' => 'Papua New Guinean, Papuan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Bougainville',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'BST',
                         'tzName' => 'Bougainville Standard Time[6',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Pacific/Port_Moresby',
                         'gmtOffset' => 36000,
                         'gmtOffsetName' => 'UTC+10:00',
@@ -7313,16 +5953,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '20',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            171 => [
+            [
                 'id' => '172',
                 'name' => 'Paraguay',
                 'iso3' => 'PRY',
@@ -7334,7 +5966,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₲',
                 'nationality' => 'Paraguayan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Asuncion',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
@@ -7351,16 +5983,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            172 => [
+            [
                 'id' => '173',
                 'name' => 'Peru',
                 'iso3' => 'PER',
@@ -7372,7 +5996,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'S/.',
                 'nationality' => 'Peruvian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Lima',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -7389,16 +6013,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            173 => [
+            [
                 'id' => '174',
                 'name' => 'Philippines',
                 'iso3' => 'PHL',
@@ -7410,7 +6026,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₱',
                 'nationality' => 'Philippine, Filipino',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Manila',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
@@ -7427,16 +6043,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            174 => [
+            [
                 'id' => '175',
                 'name' => 'Pitcairn Island',
                 'iso3' => 'PCN',
@@ -7448,7 +6056,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Pitcairn Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Pitcairn',
                         'gmtOffset' => -28800,
                         'gmtOffsetName' => 'UTC-08:00',
@@ -7465,16 +6073,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            175 => [
+            [
                 'id' => '176',
                 'name' => 'Poland',
                 'iso3' => 'POL',
@@ -7486,7 +6086,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'zł',
                 'nationality' => 'Polish',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Warsaw',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -7503,16 +6103,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            176 => [
+            [
                 'id' => '177',
                 'name' => 'Portugal',
                 'iso3' => 'PRT',
@@ -7524,21 +6116,21 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Portuguese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Atlantic/Azores',
                         'gmtOffset' => -3600,
                         'gmtOffsetName' => 'UTC-01:00',
                         'abbreviation' => 'AZOT',
                         'tzName' => 'Azores Standard Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Atlantic/Madeira',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
                         'abbreviation' => 'WET',
                         'tzName' => 'Western European Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Europe/Lisbon',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -7555,16 +6147,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            177 => [
+            [
                 'id' => '178',
                 'name' => 'Puerto Rico',
                 'iso3' => 'PRI',
@@ -7576,7 +6160,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Puerto Rican',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Puerto_Rico',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -7593,16 +6177,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            178 => [
+            [
                 'id' => '179',
                 'name' => 'Qatar',
                 'iso3' => 'QAT',
@@ -7614,7 +6190,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ق.ر',
                 'nationality' => 'Qatari',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Qatar',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -7631,16 +6207,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            179 => [
+            [
                 'id' => '180',
                 'name' => 'Reunion',
                 'iso3' => 'REU',
@@ -7652,7 +6220,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Reunionese, Reunionnais',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Reunion',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
@@ -7669,16 +6237,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            180 => [
+            [
                 'id' => '181',
                 'name' => 'Romania',
                 'iso3' => 'ROU',
@@ -7690,7 +6250,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'lei',
                 'nationality' => 'Romanian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Bucharest',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -7707,16 +6267,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            181 => [
+            [
                 'id' => '182',
                 'name' => 'Russia',
                 'iso3' => 'RUS',
@@ -7728,182 +6280,182 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₽',
                 'nationality' => 'Russian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Anadyr',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
                         'abbreviation' => 'ANAT',
                         'tzName' => 'Anadyr Time[4',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Asia/Barnaul',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
                         'abbreviation' => 'KRAT',
                         'tzName' => 'Krasnoyarsk Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Asia/Chita',
                         'gmtOffset' => 32400,
                         'gmtOffsetName' => 'UTC+09:00',
                         'abbreviation' => 'YAKT',
                         'tzName' => 'Yakutsk Time',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'Asia/Irkutsk',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
                         'abbreviation' => 'IRKT',
                         'tzName' => 'Irkutsk Time',
                     ],
-                    4 => [
+                    [
                         'zoneName' => 'Asia/Kamchatka',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
                         'abbreviation' => 'PETT',
                         'tzName' => 'Kamchatka Time',
                     ],
-                    5 => [
+                    [
                         'zoneName' => 'Asia/Khandyga',
                         'gmtOffset' => 32400,
                         'gmtOffsetName' => 'UTC+09:00',
                         'abbreviation' => 'YAKT',
                         'tzName' => 'Yakutsk Time',
                     ],
-                    6 => [
+                    [
                         'zoneName' => 'Asia/Krasnoyarsk',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
                         'abbreviation' => 'KRAT',
                         'tzName' => 'Krasnoyarsk Time',
                     ],
-                    7 => [
+                    [
                         'zoneName' => 'Asia/Magadan',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'MAGT',
                         'tzName' => 'Magadan Time',
                     ],
-                    8 => [
+                    [
                         'zoneName' => 'Asia/Novokuznetsk',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
                         'abbreviation' => 'KRAT',
                         'tzName' => 'Krasnoyarsk Time',
                     ],
-                    9 => [
+                    [
                         'zoneName' => 'Asia/Novosibirsk',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
                         'abbreviation' => 'NOVT',
                         'tzName' => 'Novosibirsk Time',
                     ],
-                    10 => [
+                    [
                         'zoneName' => 'Asia/Omsk',
                         'gmtOffset' => 21600,
                         'gmtOffsetName' => 'UTC+06:00',
                         'abbreviation' => 'OMST',
                         'tzName' => 'Omsk Time',
                     ],
-                    11 => [
+                    [
                         'zoneName' => 'Asia/Sakhalin',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'SAKT',
                         'tzName' => 'Sakhalin Island Time',
                     ],
-                    12 => [
+                    [
                         'zoneName' => 'Asia/Srednekolymsk',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
                         'abbreviation' => 'SRET',
                         'tzName' => 'Srednekolymsk Time',
                     ],
-                    13 => [
+                    [
                         'zoneName' => 'Asia/Tomsk',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
                         'abbreviation' => 'MSD+3',
                         'tzName' => 'Moscow Daylight Time+3',
                     ],
-                    14 => [
+                    [
                         'zoneName' => 'Asia/Ust-Nera',
                         'gmtOffset' => 36000,
                         'gmtOffsetName' => 'UTC+10:00',
                         'abbreviation' => 'VLAT',
                         'tzName' => 'Vladivostok Time',
                     ],
-                    15 => [
+                    [
                         'zoneName' => 'Asia/Vladivostok',
                         'gmtOffset' => 36000,
                         'gmtOffsetName' => 'UTC+10:00',
                         'abbreviation' => 'VLAT',
                         'tzName' => 'Vladivostok Time',
                     ],
-                    16 => [
+                    [
                         'zoneName' => 'Asia/Yakutsk',
                         'gmtOffset' => 32400,
                         'gmtOffsetName' => 'UTC+09:00',
                         'abbreviation' => 'YAKT',
                         'tzName' => 'Yakutsk Time',
                     ],
-                    17 => [
+                    [
                         'zoneName' => 'Asia/Yekaterinburg',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
                         'abbreviation' => 'YEKT',
                         'tzName' => 'Yekaterinburg Time',
                     ],
-                    18 => [
+                    [
                         'zoneName' => 'Europe/Astrakhan',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
                         'abbreviation' => 'SAMT',
                         'tzName' => 'Samara Time',
                     ],
-                    19 => [
+                    [
                         'zoneName' => 'Europe/Kaliningrad',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
                         'abbreviation' => 'EET',
                         'tzName' => 'Eastern European Time',
                     ],
-                    20 => [
+                    [
                         'zoneName' => 'Europe/Kirov',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
                         'abbreviation' => 'MSK',
                         'tzName' => 'Moscow Time',
                     ],
-                    21 => [
+                    [
                         'zoneName' => 'Europe/Moscow',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
                         'abbreviation' => 'MSK',
                         'tzName' => 'Moscow Time',
                     ],
-                    22 => [
+                    [
                         'zoneName' => 'Europe/Samara',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
                         'abbreviation' => 'SAMT',
                         'tzName' => 'Samara Time',
                     ],
-                    23 => [
+                    [
                         'zoneName' => 'Europe/Saratov',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
                         'abbreviation' => 'MSD',
                         'tzName' => 'Moscow Daylight Time+4',
                     ],
-                    24 => [
+                    [
                         'zoneName' => 'Europe/Ulyanovsk',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
                         'abbreviation' => 'SAMT',
                         'tzName' => 'Samara Time',
                     ],
-                    25 => [
+                    [
                         'zoneName' => 'Europe/Volgograd',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
@@ -7920,16 +6472,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            182 => [
+            [
                 'id' => '183',
                 'name' => 'Rwanda',
                 'iso3' => 'RWA',
@@ -7941,7 +6485,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'FRw',
                 'nationality' => 'Rwandan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Kigali',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -7958,16 +6502,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            183 => [
+            [
                 'id' => '184',
                 'name' => 'Saint Helena',
                 'iso3' => 'SHN',
@@ -7979,7 +6515,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'Saint Helenian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Atlantic/St_Helena',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -7996,16 +6532,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            184 => [
+            [
                 'id' => '185',
                 'name' => 'Saint Kitts And Nevis',
                 'iso3' => 'KNA',
@@ -8017,7 +6545,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Kittitian or Nevisian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/St_Kitts',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -8034,16 +6562,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            185 => [
+            [
                 'id' => '186',
                 'name' => 'Saint Lucia',
                 'iso3' => 'LCA',
@@ -8055,7 +6575,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Saint Lucian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/St_Lucia',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -8072,16 +6592,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            186 => [
+            [
                 'id' => '187',
                 'name' => 'Saint Pierre and Miquelon',
                 'iso3' => 'SPM',
@@ -8093,7 +6605,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Saint-Pierrais or Miquelonnais',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Miquelon',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
@@ -8110,16 +6622,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '6',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            187 => [
+            [
                 'id' => '188',
                 'name' => 'Saint Vincent And The Grenadines',
                 'iso3' => 'VCT',
@@ -8131,7 +6635,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Saint Vincentian, Vincentian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/St_Vincent',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -8148,16 +6652,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            188 => [
+            [
                 'id' => '189',
                 'name' => 'Saint-Barthelemy',
                 'iso3' => 'BLM',
@@ -8169,7 +6665,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Barthelemois',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/St_Barthelemy',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -8186,16 +6682,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            189 => [
+            [
                 'id' => '190',
                 'name' => 'Saint-Martin (French part)',
                 'iso3' => 'MAF',
@@ -8207,7 +6695,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Saint-Martinoise',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Marigot',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -8224,16 +6712,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            190 => [
+            [
                 'id' => '191',
                 'name' => 'Samoa',
                 'iso3' => 'WSM',
@@ -8245,7 +6725,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'SAT',
                 'nationality' => 'Samoan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Apia',
                         'gmtOffset' => 50400,
                         'gmtOffsetName' => 'UTC+14:00',
@@ -8262,16 +6742,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            191 => [
+            [
                 'id' => '192',
                 'name' => 'San Marino',
                 'iso3' => 'SMR',
@@ -8283,7 +6755,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Sammarinese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/San_Marino',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -8300,16 +6772,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            192 => [
+            [
                 'id' => '193',
                 'name' => 'Sao Tome and Principe',
                 'iso3' => 'STP',
@@ -8321,7 +6785,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Db',
                 'nationality' => 'Sao Tomean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Sao_Tome',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -8338,16 +6802,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            193 => [
+            [
                 'id' => '194',
                 'name' => 'Saudi Arabia',
                 'iso3' => 'SAU',
@@ -8359,7 +6815,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '﷼',
                 'nationality' => 'Saudi, Saudi Arabian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Riyadh',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -8376,16 +6832,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            194 => [
+            [
                 'id' => '195',
                 'name' => 'Senegal',
                 'iso3' => 'SEN',
@@ -8397,7 +6845,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CFA',
                 'nationality' => 'Senegalese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Dakar',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -8414,16 +6862,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            195 => [
+            [
                 'id' => '196',
                 'name' => 'Serbia',
                 'iso3' => 'SRB',
@@ -8435,7 +6875,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'din',
                 'nationality' => 'Serbian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Belgrade',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -8452,16 +6892,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            196 => [
+            [
                 'id' => '197',
                 'name' => 'Seychelles',
                 'iso3' => 'SYC',
@@ -8473,7 +6905,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'SRe',
                 'nationality' => 'Seychellois',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Indian/Mahe',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
@@ -8490,16 +6922,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            197 => [
+            [
                 'id' => '198',
                 'name' => 'Sierra Leone',
                 'iso3' => 'SLE',
@@ -8511,7 +6935,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Le',
                 'nationality' => 'Sierra Leonean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Freetown',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -8528,16 +6952,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            198 => [
+            [
                 'id' => '199',
                 'name' => 'Singapore',
                 'iso3' => 'SGP',
@@ -8549,7 +6965,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Singaporean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Singapore',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
@@ -8566,16 +6982,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            199 => [
+            [
                 'id' => '200',
                 'name' => 'Slovakia',
                 'iso3' => 'SVK',
@@ -8587,7 +6995,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Slovak',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Bratislava',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -8604,16 +7012,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            200 => [
+            [
                 'id' => '201',
                 'name' => 'Slovenia',
                 'iso3' => 'SVN',
@@ -8625,7 +7025,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Slovenian, Slovene',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Ljubljana',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -8642,16 +7042,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            201 => [
+            [
                 'id' => '202',
                 'name' => 'Solomon Islands',
                 'iso3' => 'SLB',
@@ -8663,7 +7055,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Si$',
                 'nationality' => 'Solomon Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Guadalcanal',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
@@ -8680,16 +7072,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '20',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            202 => [
+            [
                 'id' => '203',
                 'name' => 'Somalia',
                 'iso3' => 'SOM',
@@ -8701,7 +7085,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Sh.so.',
                 'nationality' => 'Somali, Somalian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Mogadishu',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -8718,16 +7102,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            203 => [
+            [
                 'id' => '204',
                 'name' => 'South Africa',
                 'iso3' => 'ZAF',
@@ -8739,7 +7115,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'R',
                 'nationality' => 'South African',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Johannesburg',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -8756,16 +7132,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '5',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            204 => [
+            [
                 'id' => '205',
                 'name' => 'South Georgia',
                 'iso3' => 'SGS',
@@ -8777,7 +7145,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'South Georgia or South Sandwich Islands',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Atlantic/South_Georgia',
                         'gmtOffset' => -7200,
                         'gmtOffsetName' => 'UTC-02:00',
@@ -8794,16 +7162,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            205 => [
+            [
                 'id' => '206',
                 'name' => 'South Sudan',
                 'iso3' => 'SSD',
@@ -8815,7 +7175,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'South Sudanese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Juba',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -8832,16 +7192,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '2',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            206 => [
+            [
                 'id' => '207',
                 'name' => 'Spain',
                 'iso3' => 'ESP',
@@ -8853,21 +7205,21 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Spanish',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Ceuta',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
                         'abbreviation' => 'CET',
                         'tzName' => 'Central European Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Atlantic/Canary',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
                         'abbreviation' => 'WET',
                         'tzName' => 'Western European Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Europe/Madrid',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -8884,16 +7236,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            207 => [
+            [
                 'id' => '208',
                 'name' => 'Sri Lanka',
                 'iso3' => 'LKA',
@@ -8905,7 +7249,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Rs',
                 'nationality' => 'Sri Lankan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Colombo',
                         'gmtOffset' => 19800,
                         'gmtOffsetName' => 'UTC+05:30',
@@ -8922,16 +7266,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '14',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            208 => [
+            [
                 'id' => '209',
                 'name' => 'Sudan',
                 'iso3' => 'SDN',
@@ -8943,7 +7279,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '.س.ج',
                 'nationality' => 'Sudanese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Khartoum',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -8960,16 +7296,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '1',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            209 => [
+            [
                 'id' => '210',
                 'name' => 'Suriname',
                 'iso3' => 'SUR',
@@ -8981,7 +7309,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Surinamese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Paramaribo',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
@@ -8998,16 +7326,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            210 => [
+            [
                 'id' => '211',
                 'name' => 'Svalbard And Jan Mayen Islands',
                 'iso3' => 'SJM',
@@ -9019,7 +7339,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'kr',
                 'nationality' => 'Svalbard',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Arctic/Longyearbyen',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -9036,16 +7356,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            211 => [
+            [
                 'id' => '212',
                 'name' => 'Swaziland',
                 'iso3' => 'SWZ',
@@ -9057,7 +7369,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'E',
                 'nationality' => 'Swazi',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Mbabane',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -9074,16 +7386,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '5',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            212 => [
+            [
                 'id' => '213',
                 'name' => 'Sweden',
                 'iso3' => 'SWE',
@@ -9095,7 +7399,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'kr',
                 'nationality' => 'Swedish',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Stockholm',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -9112,16 +7416,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            213 => [
+            [
                 'id' => '214',
                 'name' => 'Switzerland',
                 'iso3' => 'CHE',
@@ -9133,7 +7429,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CHf',
                 'nationality' => 'Swiss',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Zurich',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -9150,16 +7446,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '17',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            214 => [
+            [
                 'id' => '215',
                 'name' => 'Syria',
                 'iso3' => 'SYR',
@@ -9171,7 +7459,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'LS',
                 'nationality' => 'Syrian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Damascus',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -9188,16 +7476,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            215 => [
+            [
                 'id' => '216',
                 'name' => 'Taiwan',
                 'iso3' => 'TWN',
@@ -9209,7 +7489,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Chinese, Taiwanese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Taipei',
                         'gmtOffset' => 28800,
                         'gmtOffsetName' => 'UTC+08:00',
@@ -9226,16 +7506,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '12',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            216 => [
+            [
                 'id' => '217',
                 'name' => 'Tajikistan',
                 'iso3' => 'TJK',
@@ -9247,7 +7519,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'SM',
                 'nationality' => 'Tajikistani',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Dushanbe',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
@@ -9264,16 +7536,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '10',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            217 => [
+            [
                 'id' => '218',
                 'name' => 'Tanzania',
                 'iso3' => 'TZA',
@@ -9285,7 +7549,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'TSh',
                 'nationality' => 'Tanzanian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Dar_es_Salaam',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -9302,16 +7566,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            218 => [
+            [
                 'id' => '219',
                 'name' => 'Thailand',
                 'iso3' => 'THA',
@@ -9323,7 +7579,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '฿',
                 'nationality' => 'Thai',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Bangkok',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
@@ -9340,16 +7596,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            219 => [
+            [
                 'id' => '220',
                 'name' => 'Togo',
                 'iso3' => 'TGO',
@@ -9361,7 +7609,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'CFA',
                 'nationality' => 'Togolese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Lome',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -9378,16 +7626,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '3',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            220 => [
+            [
                 'id' => '221',
                 'name' => 'Tokelau',
                 'iso3' => 'TKL',
@@ -9399,7 +7639,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Tokelauan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Fakaofo',
                         'gmtOffset' => 46800,
                         'gmtOffsetName' => 'UTC+13:00',
@@ -9416,16 +7656,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            221 => [
+            [
                 'id' => '222',
                 'name' => 'Tonga',
                 'iso3' => 'TON',
@@ -9437,7 +7669,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Tongan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Tongatapu',
                         'gmtOffset' => 46800,
                         'gmtOffsetName' => 'UTC+13:00',
@@ -9454,16 +7686,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            222 => [
+            [
                 'id' => '223',
                 'name' => 'Trinidad And Tobago',
                 'iso3' => 'TTO',
@@ -9475,7 +7699,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Trinidadian or Tobagonian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Port_of_Spain',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -9492,16 +7716,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            223 => [
+            [
                 'id' => '224',
                 'name' => 'Tunisia',
                 'iso3' => 'TUN',
@@ -9513,7 +7729,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ت.د',
                 'nationality' => 'Tunisian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Tunis',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -9530,16 +7746,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '1',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            224 => [
+            [
                 'id' => '225',
                 'name' => 'Turkey',
                 'iso3' => 'TUR',
@@ -9551,7 +7759,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₺',
                 'nationality' => 'Turkish',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Istanbul',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -9568,16 +7776,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            225 => [
+            [
                 'id' => '226',
                 'name' => 'Turkmenistan',
                 'iso3' => 'TKM',
@@ -9589,7 +7789,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'T',
                 'nationality' => 'Turkmen',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Ashgabat',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
@@ -9606,16 +7806,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '10',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            226 => [
+            [
                 'id' => '227',
                 'name' => 'Turks And Caicos Islands',
                 'iso3' => 'TCA',
@@ -9627,7 +7819,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Turks and Caicos Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Grand_Turk',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
@@ -9644,16 +7836,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            227 => [
+            [
                 'id' => '228',
                 'name' => 'Tuvalu',
                 'iso3' => 'TUV',
@@ -9665,7 +7849,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Tuvaluan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Funafuti',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
@@ -9682,16 +7866,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            228 => [
+            [
                 'id' => '229',
                 'name' => 'Uganda',
                 'iso3' => 'UGA',
@@ -9703,7 +7879,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'USh',
                 'nationality' => 'Ugandan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Kampala',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -9720,16 +7896,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            229 => [
+            [
                 'id' => '230',
                 'name' => 'Ukraine',
                 'iso3' => 'UKR',
@@ -9741,28 +7909,28 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₴',
                 'nationality' => 'Ukrainian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Kiev',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
                         'abbreviation' => 'EET',
                         'tzName' => 'Eastern European Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Europe/Simferopol',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
                         'abbreviation' => 'MSK',
                         'tzName' => 'Moscow Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'Europe/Uzhgorod',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
                         'abbreviation' => 'EET',
                         'tzName' => 'Eastern European Time',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'Europe/Zaporozhye',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -9779,16 +7947,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            230 => [
+            [
                 'id' => '231',
                 'name' => 'United Arab Emirates',
                 'iso3' => 'ARE',
@@ -9800,7 +7960,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'إ.د',
                 'nationality' => 'Emirati, Emirian, Emiri',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Dubai',
                         'gmtOffset' => 14400,
                         'gmtOffsetName' => 'UTC+04:00',
@@ -9817,16 +7977,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            231 => [
+            [
                 'id' => '232',
                 'name' => 'United Kingdom',
                 'iso3' => 'GBR',
@@ -9838,7 +7990,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '£',
                 'nationality' => 'British, UK',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/London',
                         'gmtOffset' => 0,
                         'gmtOffsetName' => 'UTC±00',
@@ -9855,16 +8007,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '18',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            232 => [
+            [
                 'id' => '233',
                 'name' => 'United States',
                 'iso3' => 'USA',
@@ -9876,203 +8020,203 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'American',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Adak',
                         'gmtOffset' => -36000,
                         'gmtOffsetName' => 'UTC-10:00',
                         'abbreviation' => 'HST',
                         'tzName' => 'Hawaii–Aleutian Standard Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'America/Anchorage',
                         'gmtOffset' => -32400,
                         'gmtOffsetName' => 'UTC-09:00',
                         'abbreviation' => 'AKST',
                         'tzName' => 'Alaska Standard Time',
                     ],
-                    2 => [
+                    [
                         'zoneName' => 'America/Boise',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America',
                     ],
-                    3 => [
+                    [
                         'zoneName' => 'America/Chicago',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    4 => [
+                    [
                         'zoneName' => 'America/Denver',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America',
                     ],
-                    5 => [
+                    [
                         'zoneName' => 'America/Detroit',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    6 => [
+                    [
                         'zoneName' => 'America/Indiana/Indianapolis',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    7 => [
+                    [
                         'zoneName' => 'America/Indiana/Knox',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    8 => [
+                    [
                         'zoneName' => 'America/Indiana/Marengo',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    9 => [
+                    [
                         'zoneName' => 'America/Indiana/Petersburg',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    10 => [
+                    [
                         'zoneName' => 'America/Indiana/Tell_City',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    11 => [
+                    [
                         'zoneName' => 'America/Indiana/Vevay',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    12 => [
+                    [
                         'zoneName' => 'America/Indiana/Vincennes',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    13 => [
+                    [
                         'zoneName' => 'America/Indiana/Winamac',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    14 => [
+                    [
                         'zoneName' => 'America/Juneau',
                         'gmtOffset' => -32400,
                         'gmtOffsetName' => 'UTC-09:00',
                         'abbreviation' => 'AKST',
                         'tzName' => 'Alaska Standard Time',
                     ],
-                    15 => [
+                    [
                         'zoneName' => 'America/Kentucky/Louisville',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    16 => [
+                    [
                         'zoneName' => 'America/Kentucky/Monticello',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    17 => [
+                    [
                         'zoneName' => 'America/Los_Angeles',
                         'gmtOffset' => -28800,
                         'gmtOffsetName' => 'UTC-08:00',
                         'abbreviation' => 'PST',
                         'tzName' => 'Pacific Standard Time (North America',
                     ],
-                    18 => [
+                    [
                         'zoneName' => 'America/Menominee',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    19 => [
+                    [
                         'zoneName' => 'America/Metlakatla',
                         'gmtOffset' => -32400,
                         'gmtOffsetName' => 'UTC-09:00',
                         'abbreviation' => 'AKST',
                         'tzName' => 'Alaska Standard Time',
                     ],
-                    20 => [
+                    [
                         'zoneName' => 'America/New_York',
                         'gmtOffset' => -18000,
                         'gmtOffsetName' => 'UTC-05:00',
                         'abbreviation' => 'EST',
                         'tzName' => 'Eastern Standard Time (North America',
                     ],
-                    21 => [
+                    [
                         'zoneName' => 'America/Nome',
                         'gmtOffset' => -32400,
                         'gmtOffsetName' => 'UTC-09:00',
                         'abbreviation' => 'AKST',
                         'tzName' => 'Alaska Standard Time',
                     ],
-                    22 => [
+                    [
                         'zoneName' => 'America/North_Dakota/Beulah',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    23 => [
+                    [
                         'zoneName' => 'America/North_Dakota/Center',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    24 => [
+                    [
                         'zoneName' => 'America/North_Dakota/New_Salem',
                         'gmtOffset' => -21600,
                         'gmtOffsetName' => 'UTC-06:00',
                         'abbreviation' => 'CST',
                         'tzName' => 'Central Standard Time (North America',
                     ],
-                    25 => [
+                    [
                         'zoneName' => 'America/Phoenix',
                         'gmtOffset' => -25200,
                         'gmtOffsetName' => 'UTC-07:00',
                         'abbreviation' => 'MST',
                         'tzName' => 'Mountain Standard Time (North America',
                     ],
-                    26 => [
+                    [
                         'zoneName' => 'America/Sitka',
                         'gmtOffset' => -32400,
                         'gmtOffsetName' => 'UTC-09:00',
                         'abbreviation' => 'AKST',
                         'tzName' => 'Alaska Standard Time',
                     ],
-                    27 => [
+                    [
                         'zoneName' => 'America/Yakutat',
                         'gmtOffset' => -32400,
                         'gmtOffsetName' => 'UTC-09:00',
                         'abbreviation' => 'AKST',
                         'tzName' => 'Alaska Standard Time',
                     ],
-                    28 => [
+                    [
                         'zoneName' => 'Pacific/Honolulu',
                         'gmtOffset' => -36000,
                         'gmtOffsetName' => 'UTC-10:00',
@@ -10089,16 +8233,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '6',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            233 => [
+            [
                 'id' => '234',
                 'name' => 'United States Minor Outlying Islands',
                 'iso3' => 'UMI',
@@ -10110,14 +8246,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'American',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Midway',
                         'gmtOffset' => -39600,
                         'gmtOffsetName' => 'UTC-11:00',
                         'abbreviation' => 'SST',
                         'tzName' => 'Samoa Standard Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Pacific/Wake',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
@@ -10134,16 +8270,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '6',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            234 => [
+            [
                 'id' => '235',
                 'name' => 'Uruguay',
                 'iso3' => 'URY',
@@ -10155,7 +8283,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Uruguayan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Montevideo',
                         'gmtOffset' => -10800,
                         'gmtOffsetName' => 'UTC-03:00',
@@ -10172,16 +8300,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            235 => [
+            [
                 'id' => '236',
                 'name' => 'Uzbekistan',
                 'iso3' => 'UZB',
@@ -10193,14 +8313,14 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'лв',
                 'nationality' => 'Uzbekistani, Uzbek',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Samarkand',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
                         'abbreviation' => 'UZT',
                         'tzName' => 'Uzbekistan Time',
                     ],
-                    1 => [
+                    [
                         'zoneName' => 'Asia/Tashkent',
                         'gmtOffset' => 18000,
                         'gmtOffsetName' => 'UTC+05:00',
@@ -10217,16 +8337,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '10',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            236 => [
+            [
                 'id' => '237',
                 'name' => 'Vanuatu',
                 'iso3' => 'VUT',
@@ -10238,7 +8350,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'VT',
                 'nationality' => 'Ni-Vanuatu, Vanuatuan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Efate',
                         'gmtOffset' => 39600,
                         'gmtOffsetName' => 'UTC+11:00',
@@ -10255,16 +8367,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '20',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            237 => [
+            [
                 'id' => '238',
                 'name' => 'Vatican City State (Holy See)',
                 'iso3' => 'VAT',
@@ -10276,7 +8380,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Vatican',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Vatican',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -10293,16 +8397,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '16',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            238 => [
+            [
                 'id' => '239',
                 'name' => 'Venezuela',
                 'iso3' => 'VEN',
@@ -10314,7 +8410,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'Bs',
                 'nationality' => 'Venezuelan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Caracas',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -10331,16 +8427,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '8',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            239 => [
+            [
                 'id' => '240',
                 'name' => 'Vietnam',
                 'iso3' => 'VNM',
@@ -10352,7 +8440,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₫',
                 'nationality' => 'Vietnamese',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Ho_Chi_Minh',
                         'gmtOffset' => 25200,
                         'gmtOffsetName' => 'UTC+07:00',
@@ -10369,16 +8457,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '13',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            240 => [
+            [
                 'id' => '241',
                 'name' => 'Virgin Islands (British)',
                 'iso3' => 'VGB',
@@ -10390,7 +8470,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'British Virgin Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Tortola',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -10407,16 +8487,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            241 => [
+            [
                 'id' => '242',
                 'name' => 'Virgin Islands (US)',
                 'iso3' => 'VIR',
@@ -10428,7 +8500,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'U.S. Virgin Island',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/St_Thomas',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -10445,16 +8517,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            242 => [
+            [
                 'id' => '243',
                 'name' => 'Wallis And Futuna Islands',
                 'iso3' => 'WLF',
@@ -10466,7 +8530,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '₣',
                 'nationality' => 'Wallis and Futuna, Wallisian or Futunan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Pacific/Wallis',
                         'gmtOffset' => 43200,
                         'gmtOffsetName' => 'UTC+12:00',
@@ -10483,16 +8547,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '5',
                 'subregion_id' => '22',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            243 => [
+            [
                 'id' => '244',
                 'name' => 'Western Sahara',
                 'iso3' => 'ESH',
@@ -10504,7 +8560,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'MAD',
                 'nationality' => 'Sahrawi, Sahrawian, Sahraouian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/El_Aaiun',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -10521,16 +8577,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '1',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            244 => [
+            [
                 'id' => '245',
                 'name' => 'Yemen',
                 'iso3' => 'YEM',
@@ -10542,7 +8590,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '﷼',
                 'nationality' => 'Yemeni',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Asia/Aden',
                         'gmtOffset' => 10800,
                         'gmtOffsetName' => 'UTC+03:00',
@@ -10559,16 +8607,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '3',
                 'subregion_id' => '11',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            245 => [
+            [
                 'id' => '246',
                 'name' => 'Zambia',
                 'iso3' => 'ZMB',
@@ -10580,7 +8620,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ZK',
                 'nationality' => 'Zambian',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Lusaka',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -10597,16 +8637,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            246 => [
+            [
                 'id' => '247',
                 'name' => 'Zimbabwe',
                 'iso3' => 'ZWE',
@@ -10618,7 +8650,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '$',
                 'nationality' => 'Zimbabwean',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Africa/Harare',
                         'gmtOffset' => 7200,
                         'gmtOffsetName' => 'UTC+02:00',
@@ -10635,16 +8667,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '1',
                 'subregion_id' => '4',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2018-07-21 15:11:03',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            247 => [
+            [
                 'id' => '248',
                 'name' => 'Kosovo',
                 'iso3' => 'XKX',
@@ -10656,7 +8680,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => '€',
                 'nationality' => 'Kosovar, Kosovan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'Europe/Belgrade',
                         'gmtOffset' => 3600,
                         'gmtOffsetName' => 'UTC+01:00',
@@ -10673,16 +8697,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '4',
                 'subregion_id' => '15',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2020-08-16 10:33:50',
-                'updated_at' => '2023-08-11 23:46:28',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            248 => [
+            [
                 'id' => '249',
                 'name' => 'Curaçao',
                 'iso3' => 'CUW',
@@ -10694,7 +8710,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ƒ',
                 'nationality' => 'Curacaoan',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Curacao',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -10711,16 +8727,8 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2020-10-26 08:54:20',
-                'updated_at' => '2023-08-11 23:45:55',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
-            249 => [
+            [
                 'id' => '250',
                 'name' => 'Sint Maarten (Dutch part)',
                 'iso3' => 'SXM',
@@ -10732,7 +8740,7 @@ class CountrySeeder extends Seeder
                 'currency_symbol' => 'ƒ',
                 'nationality' => 'Sint Maarten',
                 'timezones' => [
-                    0 => [
+                    [
                         'zoneName' => 'America/Anguilla',
                         'gmtOffset' => -14400,
                         'gmtOffsetName' => 'UTC-04:00',
@@ -10749,14 +8757,6 @@ class CountrySeeder extends Seeder
                 'language' => '',
                 'region_id' => '2',
                 'subregion_id' => '7',
-                'creator_id' => null,
-                'editor_id' => null,
-                'destroyer_id' => null,
-                'restorer_id' => null,
-                'created_at' => '2020-12-06 07:03:39',
-                'updated_at' => '2023-08-10 03:23:19',
-                'deleted_at' => null,
-                'restored_at' => null,
             ],
         ];
     }
