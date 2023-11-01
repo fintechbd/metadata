@@ -38,10 +38,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1 =>
   array(
@@ -56,10 +52,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   2 =>
   array(
@@ -74,10 +66,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   3 =>
   array(
@@ -92,10 +80,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   4 =>
   array(
@@ -110,10 +94,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   5 =>
   array(
@@ -128,10 +108,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   6 =>
   array(
@@ -146,10 +122,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   7 =>
   array(
@@ -164,10 +136,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   8 =>
   array(
@@ -182,10 +150,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   9 =>
   array(
@@ -200,10 +164,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   10 =>
   array(
@@ -218,10 +178,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   11 =>
   array(
@@ -236,10 +192,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   12 =>
   array(
@@ -254,10 +206,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   13 =>
   array(
@@ -272,10 +220,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   14 =>
   array(
@@ -290,10 +234,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   15 =>
   array(
@@ -308,10 +248,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   16 =>
   array(
@@ -326,10 +262,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   17 =>
   array(
@@ -344,10 +276,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   18 =>
   array(
@@ -362,10 +290,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   19 =>
   array(
@@ -380,10 +304,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   20 =>
   array(
@@ -398,10 +318,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   21 =>
   array(
@@ -416,10 +332,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   22 =>
   array(
@@ -434,10 +346,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   23 =>
   array(
@@ -452,10 +360,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   24 =>
   array(
@@ -470,10 +374,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   25 =>
   array(
@@ -488,10 +388,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   26 =>
   array(
@@ -506,10 +402,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   27 =>
   array(
@@ -524,10 +416,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   28 =>
   array(
@@ -542,10 +430,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   29 =>
   array(
@@ -560,10 +444,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   30 =>
   array(
@@ -578,10 +458,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   31 =>
   array(
@@ -596,10 +472,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:40',
-    'updated_at' => '2019-10-06 06:09:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   32 =>
   array(
@@ -614,10 +486,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   33 =>
   array(
@@ -632,10 +500,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   34 =>
   array(
@@ -650,10 +514,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   35 =>
   array(
@@ -668,10 +528,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   36 =>
   array(
@@ -686,10 +542,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   37 =>
   array(
@@ -704,10 +556,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   38 =>
   array(
@@ -722,10 +570,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   39 =>
   array(
@@ -740,10 +584,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   40 =>
   array(
@@ -758,10 +598,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   41 =>
   array(
@@ -776,10 +612,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   42 =>
   array(
@@ -794,10 +626,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   43 =>
   array(
@@ -812,10 +640,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   44 =>
   array(
@@ -830,10 +654,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   45 =>
   array(
@@ -848,10 +668,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   46 =>
   array(
@@ -866,10 +682,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   47 =>
   array(
@@ -884,10 +696,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   48 =>
   array(
@@ -902,10 +710,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   49 =>
   array(
@@ -920,10 +724,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   50 =>
   array(
@@ -938,10 +738,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   51 =>
   array(
@@ -956,10 +752,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   52 =>
   array(
@@ -974,10 +766,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   53 =>
   array(
@@ -992,10 +780,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   54 =>
   array(
@@ -1010,10 +794,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   55 =>
   array(
@@ -1028,10 +808,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   56 =>
   array(
@@ -1046,10 +822,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   57 =>
   array(
@@ -1064,10 +836,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   58 =>
   array(
@@ -1082,10 +850,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   59 =>
   array(
@@ -1100,10 +864,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   60 =>
   array(
@@ -1118,10 +878,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   61 =>
   array(
@@ -1136,10 +892,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   62 =>
   array(
@@ -1154,10 +906,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   63 =>
   array(
@@ -1172,10 +920,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   64 =>
   array(
@@ -1190,10 +934,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   65 =>
   array(
@@ -1208,10 +948,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   66 =>
   array(
@@ -1226,10 +962,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   67 =>
   array(
@@ -1244,10 +976,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   68 =>
   array(
@@ -1262,10 +990,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   69 =>
   array(
@@ -1280,10 +1004,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   70 =>
   array(
@@ -1298,10 +1018,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   71 =>
   array(
@@ -1316,10 +1032,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   72 =>
   array(
@@ -1334,10 +1046,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   73 =>
   array(
@@ -1352,10 +1060,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   74 =>
   array(
@@ -1370,10 +1074,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   75 =>
   array(
@@ -1388,10 +1088,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   76 =>
   array(
@@ -1406,10 +1102,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   77 =>
   array(
@@ -1424,10 +1116,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   78 =>
   array(
@@ -1442,10 +1130,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   79 =>
   array(
@@ -1460,10 +1144,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   80 =>
   array(
@@ -1478,10 +1158,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   81 =>
   array(
@@ -1496,10 +1172,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   82 =>
   array(
@@ -1514,10 +1186,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   83 =>
   array(
@@ -1532,10 +1200,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   84 =>
   array(
@@ -1550,10 +1214,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   85 =>
   array(
@@ -1568,10 +1228,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   86 =>
   array(
@@ -1586,10 +1242,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   87 =>
   array(
@@ -1604,10 +1256,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   88 =>
   array(
@@ -1622,10 +1270,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   89 =>
   array(
@@ -1640,10 +1284,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   90 =>
   array(
@@ -1658,10 +1298,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   91 =>
   array(
@@ -1676,10 +1312,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   92 =>
   array(
@@ -1694,10 +1326,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   93 =>
   array(
@@ -1712,10 +1340,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   94 =>
   array(
@@ -1730,10 +1354,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   95 =>
   array(
@@ -1748,10 +1368,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   96 =>
   array(
@@ -1766,10 +1382,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   97 =>
   array(
@@ -1784,10 +1396,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   98 =>
   array(
@@ -1802,10 +1410,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   99 =>
   array(
@@ -1820,10 +1424,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   100 =>
   array(
@@ -1838,10 +1438,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   101 =>
   array(
@@ -1856,10 +1452,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   102 =>
   array(
@@ -1874,10 +1466,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   103 =>
   array(
@@ -1892,10 +1480,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   104 =>
   array(
@@ -1910,10 +1494,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   105 =>
   array(
@@ -1928,10 +1508,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   106 =>
   array(
@@ -1946,10 +1522,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   107 =>
   array(
@@ -1964,10 +1536,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   108 =>
   array(
@@ -1982,10 +1550,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   109 =>
   array(
@@ -2000,10 +1564,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   110 =>
   array(
@@ -2018,10 +1578,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   111 =>
   array(
@@ -2036,10 +1592,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   112 =>
   array(
@@ -2054,10 +1606,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   113 =>
   array(
@@ -2072,10 +1620,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   114 =>
   array(
@@ -2090,10 +1634,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   115 =>
   array(
@@ -2108,10 +1648,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   116 =>
   array(
@@ -2126,10 +1662,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   117 =>
   array(
@@ -2144,10 +1676,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   118 =>
   array(
@@ -2162,10 +1690,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   119 =>
   array(
@@ -2180,10 +1704,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   120 =>
   array(
@@ -2198,10 +1718,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   121 =>
   array(
@@ -2216,10 +1732,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   122 =>
   array(
@@ -2234,10 +1746,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   123 =>
   array(
@@ -2252,10 +1760,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   124 =>
   array(
@@ -2270,10 +1774,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   125 =>
   array(
@@ -2288,10 +1788,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   126 =>
   array(
@@ -2306,10 +1802,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   127 =>
   array(
@@ -2324,10 +1816,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   128 =>
   array(
@@ -2342,10 +1830,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   129 =>
   array(
@@ -2360,10 +1844,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   130 =>
   array(
@@ -2378,10 +1858,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   131 =>
   array(
@@ -2396,10 +1872,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   132 =>
   array(
@@ -2414,10 +1886,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   133 =>
   array(
@@ -2432,10 +1900,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   134 =>
   array(
@@ -2450,10 +1914,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   135 =>
   array(
@@ -2468,10 +1928,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   136 =>
   array(
@@ -2486,10 +1942,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   137 =>
   array(
@@ -2504,10 +1956,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   138 =>
   array(
@@ -2522,10 +1970,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   139 =>
   array(
@@ -2540,10 +1984,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   140 =>
   array(
@@ -2558,10 +1998,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   141 =>
   array(
@@ -2576,10 +2012,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   142 =>
   array(
@@ -2594,10 +2026,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   143 =>
   array(
@@ -2612,10 +2040,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   144 =>
   array(
@@ -2630,10 +2054,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:41',
-    'updated_at' => '2019-10-06 06:09:41',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   145 =>
   array(
@@ -2648,10 +2068,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   146 =>
   array(
@@ -2666,10 +2082,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   147 =>
   array(
@@ -2684,10 +2096,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   148 =>
   array(
@@ -2702,10 +2110,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   149 =>
   array(
@@ -2720,10 +2124,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   150 =>
   array(
@@ -2738,10 +2138,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   151 =>
   array(
@@ -2756,10 +2152,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   152 =>
   array(
@@ -2774,10 +2166,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   153 =>
   array(
@@ -2792,10 +2180,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   154 =>
   array(
@@ -2810,10 +2194,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   155 =>
   array(
@@ -2828,10 +2208,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   156 =>
   array(
@@ -2846,10 +2222,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   157 =>
   array(
@@ -2864,10 +2236,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   158 =>
   array(
@@ -2882,10 +2250,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   159 =>
   array(
@@ -2900,10 +2264,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   160 =>
   array(
@@ -2918,10 +2278,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   161 =>
   array(
@@ -2936,10 +2292,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   162 =>
   array(
@@ -2954,10 +2306,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   163 =>
   array(
@@ -2972,10 +2320,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   164 =>
   array(
@@ -2990,10 +2334,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   165 =>
   array(
@@ -3008,10 +2348,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   166 =>
   array(
@@ -3026,10 +2362,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   167 =>
   array(
@@ -3044,10 +2376,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   168 =>
   array(
@@ -3062,10 +2390,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   169 =>
   array(
@@ -3080,10 +2404,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   170 =>
   array(
@@ -3098,10 +2418,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   171 =>
   array(
@@ -3116,10 +2432,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   172 =>
   array(
@@ -3134,10 +2446,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   173 =>
   array(
@@ -3152,10 +2460,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   174 =>
   array(
@@ -3170,10 +2474,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   175 =>
   array(
@@ -3188,10 +2488,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   176 =>
   array(
@@ -3206,10 +2502,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   177 =>
   array(
@@ -3224,10 +2516,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   178 =>
   array(
@@ -3242,10 +2530,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   179 =>
   array(
@@ -3260,10 +2544,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   180 =>
   array(
@@ -3278,10 +2558,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   181 =>
   array(
@@ -3296,10 +2572,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   182 =>
   array(
@@ -3314,10 +2586,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   183 =>
   array(
@@ -3332,10 +2600,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   184 =>
   array(
@@ -3350,10 +2614,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   185 =>
   array(
@@ -3368,10 +2628,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   186 =>
   array(
@@ -3386,10 +2642,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   187 =>
   array(
@@ -3404,10 +2656,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   188 =>
   array(
@@ -3422,10 +2670,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   189 =>
   array(
@@ -3440,10 +2684,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   190 =>
   array(
@@ -3458,10 +2698,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   191 =>
   array(
@@ -3476,10 +2712,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   192 =>
   array(
@@ -3494,10 +2726,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   193 =>
   array(
@@ -3512,10 +2740,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   194 =>
   array(
@@ -3530,10 +2754,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   195 =>
   array(
@@ -3548,10 +2768,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   196 =>
   array(
@@ -3566,10 +2782,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   197 =>
   array(
@@ -3584,10 +2796,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   198 =>
   array(
@@ -3602,10 +2810,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   199 =>
   array(
@@ -3620,10 +2824,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   200 =>
   array(
@@ -3638,10 +2838,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   201 =>
   array(
@@ -3656,10 +2852,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   202 =>
   array(
@@ -3674,10 +2866,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   203 =>
   array(
@@ -3692,10 +2880,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   204 =>
   array(
@@ -3710,10 +2894,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   205 =>
   array(
@@ -3728,10 +2908,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   206 =>
   array(
@@ -3746,10 +2922,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   207 =>
   array(
@@ -3764,10 +2936,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   208 =>
   array(
@@ -3782,10 +2950,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   209 =>
   array(
@@ -3800,10 +2964,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   210 =>
   array(
@@ -3818,10 +2978,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   211 =>
   array(
@@ -3836,10 +2992,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   212 =>
   array(
@@ -3854,10 +3006,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   213 =>
   array(
@@ -3872,10 +3020,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   214 =>
   array(
@@ -3890,10 +3034,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   215 =>
   array(
@@ -3908,10 +3048,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   216 =>
   array(
@@ -3926,10 +3062,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   217 =>
   array(
@@ -3944,10 +3076,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   218 =>
   array(
@@ -3962,10 +3090,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   219 =>
   array(
@@ -3980,10 +3104,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   220 =>
   array(
@@ -3998,10 +3118,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   221 =>
   array(
@@ -4016,10 +3132,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   222 =>
   array(
@@ -4034,10 +3146,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   223 =>
   array(
@@ -4052,10 +3160,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   224 =>
   array(
@@ -4070,10 +3174,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   225 =>
   array(
@@ -4088,10 +3188,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   226 =>
   array(
@@ -4106,10 +3202,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   227 =>
   array(
@@ -4124,10 +3216,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   228 =>
   array(
@@ -4142,10 +3230,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   229 =>
   array(
@@ -4160,10 +3244,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   230 =>
   array(
@@ -4178,10 +3258,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   231 =>
   array(
@@ -4196,10 +3272,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   232 =>
   array(
@@ -4214,10 +3286,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   233 =>
   array(
@@ -4232,10 +3300,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   234 =>
   array(
@@ -4250,10 +3314,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   235 =>
   array(
@@ -4268,10 +3328,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   236 =>
   array(
@@ -4286,10 +3342,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   237 =>
   array(
@@ -4304,10 +3356,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   238 =>
   array(
@@ -4322,10 +3370,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   239 =>
   array(
@@ -4340,10 +3384,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   240 =>
   array(
@@ -4358,10 +3398,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   241 =>
   array(
@@ -4376,10 +3412,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   242 =>
   array(
@@ -4394,10 +3426,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   243 =>
   array(
@@ -4412,10 +3440,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   244 =>
   array(
@@ -4430,10 +3454,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   245 =>
   array(
@@ -4448,10 +3468,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   246 =>
   array(
@@ -4466,10 +3482,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   247 =>
   array(
@@ -4484,10 +3496,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   248 =>
   array(
@@ -4502,10 +3510,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   249 =>
   array(
@@ -4520,10 +3524,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   250 =>
   array(
@@ -4538,10 +3538,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   251 =>
   array(
@@ -4556,10 +3552,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   252 =>
   array(
@@ -4574,10 +3566,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   253 =>
   array(
@@ -4592,10 +3580,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   254 =>
   array(
@@ -4610,10 +3594,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   255 =>
   array(
@@ -4628,10 +3608,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   256 =>
   array(
@@ -4646,10 +3622,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   257 =>
   array(
@@ -4664,10 +3636,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   258 =>
   array(
@@ -4682,10 +3650,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   259 =>
   array(
@@ -4700,10 +3664,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   260 =>
   array(
@@ -4718,10 +3678,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   261 =>
   array(
@@ -4736,10 +3692,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   262 =>
   array(
@@ -4754,10 +3706,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   263 =>
   array(
@@ -4772,10 +3720,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   264 =>
   array(
@@ -4790,10 +3734,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   265 =>
   array(
@@ -4808,10 +3748,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   266 =>
   array(
@@ -4826,10 +3762,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   267 =>
   array(
@@ -4844,10 +3776,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   268 =>
   array(
@@ -4862,10 +3790,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   269 =>
   array(
@@ -4880,10 +3804,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   270 =>
   array(
@@ -4898,10 +3818,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   271 =>
   array(
@@ -4916,10 +3832,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   272 =>
   array(
@@ -4934,10 +3846,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   273 =>
   array(
@@ -4952,10 +3860,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   274 =>
   array(
@@ -4970,10 +3874,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   275 =>
   array(
@@ -4988,10 +3888,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   276 =>
   array(
@@ -5006,10 +3902,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   277 =>
   array(
@@ -5024,10 +3916,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   278 =>
   array(
@@ -5042,10 +3930,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   279 =>
   array(
@@ -5060,10 +3944,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2020-05-02 00:52:39',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   280 =>
   array(
@@ -5078,10 +3958,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   281 =>
   array(
@@ -5096,10 +3972,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   282 =>
   array(
@@ -5114,10 +3986,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   283 =>
   array(
@@ -5132,10 +4000,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:42',
-    'updated_at' => '2019-10-06 06:09:42',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   284 =>
   array(
@@ -5150,10 +4014,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   285 =>
   array(
@@ -5168,10 +4028,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   286 =>
   array(
@@ -5186,10 +4042,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   287 =>
   array(
@@ -5204,10 +4056,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   288 =>
   array(
@@ -5222,10 +4070,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   289 =>
   array(
@@ -5240,10 +4084,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   290 =>
   array(
@@ -5258,10 +4098,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   291 =>
   array(
@@ -5276,10 +4112,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   292 =>
   array(
@@ -5294,10 +4126,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   293 =>
   array(
@@ -5312,10 +4140,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   294 =>
   array(
@@ -5330,10 +4154,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   295 =>
   array(
@@ -5348,10 +4168,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   296 =>
   array(
@@ -5366,10 +4182,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   297 =>
   array(
@@ -5384,10 +4196,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   298 =>
   array(
@@ -5402,10 +4210,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   299 =>
   array(
@@ -5420,10 +4224,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   300 =>
   array(
@@ -5438,10 +4238,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   301 =>
   array(
@@ -5456,10 +4252,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   302 =>
   array(
@@ -5474,10 +4266,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   303 =>
   array(
@@ -5492,10 +4280,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   304 =>
   array(
@@ -5510,10 +4294,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   305 =>
   array(
@@ -5528,10 +4308,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   306 =>
   array(
@@ -5546,10 +4322,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   307 =>
   array(
@@ -5564,10 +4336,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   308 =>
   array(
@@ -5582,10 +4350,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   309 =>
   array(
@@ -5600,10 +4364,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   310 =>
   array(
@@ -5618,10 +4378,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   311 =>
   array(
@@ -5636,10 +4392,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   312 =>
   array(
@@ -5654,10 +4406,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   313 =>
   array(
@@ -5672,10 +4420,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   314 =>
   array(
@@ -5690,10 +4434,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   315 =>
   array(
@@ -5708,10 +4448,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   316 =>
   array(
@@ -5726,10 +4462,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   317 =>
   array(
@@ -5744,10 +4476,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   318 =>
   array(
@@ -5762,10 +4490,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   319 =>
   array(
@@ -5780,10 +4504,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   320 =>
   array(
@@ -5798,10 +4518,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   321 =>
   array(
@@ -5816,10 +4532,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   322 =>
   array(
@@ -5834,10 +4546,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   323 =>
   array(
@@ -5852,10 +4560,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   324 =>
   array(
@@ -5870,10 +4574,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   325 =>
   array(
@@ -5888,10 +4588,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   326 =>
   array(
@@ -5906,10 +4602,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   327 =>
   array(
@@ -5924,10 +4616,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   328 =>
   array(
@@ -5942,10 +4630,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   329 =>
   array(
@@ -5960,10 +4644,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   330 =>
   array(
@@ -5978,10 +4658,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   331 =>
   array(
@@ -5996,10 +4672,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   332 =>
   array(
@@ -6014,10 +4686,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   333 =>
   array(
@@ -6032,10 +4700,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   334 =>
   array(
@@ -6050,10 +4714,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   335 =>
   array(
@@ -6068,10 +4728,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   336 =>
   array(
@@ -6086,10 +4742,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   337 =>
   array(
@@ -6104,10 +4756,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   338 =>
   array(
@@ -6122,10 +4770,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   339 =>
   array(
@@ -6140,10 +4784,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   340 =>
   array(
@@ -6158,10 +4798,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   341 =>
   array(
@@ -6176,10 +4812,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   342 =>
   array(
@@ -6194,10 +4826,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   343 =>
   array(
@@ -6212,10 +4840,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   344 =>
   array(
@@ -6230,10 +4854,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   345 =>
   array(
@@ -6248,10 +4868,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   346 =>
   array(
@@ -6266,10 +4882,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   347 =>
   array(
@@ -6284,10 +4896,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   348 =>
   array(
@@ -6302,10 +4910,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   349 =>
   array(
@@ -6320,10 +4924,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   350 =>
   array(
@@ -6338,10 +4938,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   351 =>
   array(
@@ -6356,10 +4952,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   352 =>
   array(
@@ -6374,10 +4966,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   353 =>
   array(
@@ -6392,10 +4980,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   354 =>
   array(
@@ -6410,10 +4994,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   355 =>
   array(
@@ -6428,10 +5008,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   356 =>
   array(
@@ -6446,10 +5022,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   357 =>
   array(
@@ -6464,10 +5036,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   358 =>
   array(
@@ -6482,10 +5050,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   359 =>
   array(
@@ -6500,10 +5064,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   360 =>
   array(
@@ -6518,10 +5078,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   361 =>
   array(
@@ -6536,10 +5092,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   362 =>
   array(
@@ -6554,10 +5106,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   363 =>
   array(
@@ -6572,10 +5120,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   364 =>
   array(
@@ -6590,10 +5134,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   365 =>
   array(
@@ -6608,10 +5148,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   366 =>
   array(
@@ -6626,10 +5162,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   367 =>
   array(
@@ -6644,10 +5176,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   368 =>
   array(
@@ -6662,10 +5190,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   369 =>
   array(
@@ -6680,10 +5204,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   370 =>
   array(
@@ -6698,10 +5218,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   371 =>
   array(
@@ -6716,10 +5232,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   372 =>
   array(
@@ -6734,10 +5246,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   373 =>
   array(
@@ -6752,10 +5260,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   374 =>
   array(
@@ -6770,10 +5274,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   375 =>
   array(
@@ -6788,10 +5288,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   376 =>
   array(
@@ -6806,10 +5302,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   377 =>
   array(
@@ -6824,10 +5316,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   378 =>
   array(
@@ -6842,10 +5330,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   379 =>
   array(
@@ -6860,10 +5344,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   380 =>
   array(
@@ -6878,10 +5358,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   381 =>
   array(
@@ -6896,10 +5372,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   382 =>
   array(
@@ -6914,10 +5386,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   383 =>
   array(
@@ -6932,10 +5400,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   384 =>
   array(
@@ -6950,10 +5414,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   385 =>
   array(
@@ -6968,10 +5428,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   386 =>
   array(
@@ -6986,10 +5442,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   387 =>
   array(
@@ -7004,10 +5456,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   388 =>
   array(
@@ -7022,10 +5470,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   389 =>
   array(
@@ -7040,10 +5484,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   390 =>
   array(
@@ -7058,10 +5498,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   391 =>
   array(
@@ -7076,10 +5512,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   392 =>
   array(
@@ -7094,10 +5526,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   393 =>
   array(
@@ -7112,10 +5540,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   394 =>
   array(
@@ -7130,10 +5554,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   395 =>
   array(
@@ -7148,10 +5568,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   396 =>
   array(
@@ -7166,10 +5582,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   397 =>
   array(
@@ -7184,10 +5596,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:43',
-    'updated_at' => '2019-10-06 06:09:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   398 =>
   array(
@@ -7202,10 +5610,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   399 =>
   array(
@@ -7220,10 +5624,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   400 =>
   array(
@@ -7238,10 +5638,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   401 =>
   array(
@@ -7256,10 +5652,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   402 =>
   array(
@@ -7274,10 +5666,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   403 =>
   array(
@@ -7292,10 +5680,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   404 =>
   array(
@@ -7310,10 +5694,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   405 =>
   array(
@@ -7328,10 +5708,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   406 =>
   array(
@@ -7346,10 +5722,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   407 =>
   array(
@@ -7364,10 +5736,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   408 =>
   array(
@@ -7382,10 +5750,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   409 =>
   array(
@@ -7400,10 +5764,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   410 =>
   array(
@@ -7418,10 +5778,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   411 =>
   array(
@@ -7436,10 +5792,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   412 =>
   array(
@@ -7454,10 +5806,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   413 =>
   array(
@@ -7472,10 +5820,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   414 =>
   array(
@@ -7490,10 +5834,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   415 =>
   array(
@@ -7508,10 +5848,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   416 =>
   array(
@@ -7526,10 +5862,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   417 =>
   array(
@@ -7544,10 +5876,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   418 =>
   array(
@@ -7562,10 +5890,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   419 =>
   array(
@@ -7580,10 +5904,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   420 =>
   array(
@@ -7598,10 +5918,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   421 =>
   array(
@@ -7616,10 +5932,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   422 =>
   array(
@@ -7634,10 +5946,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   423 =>
   array(
@@ -7652,10 +5960,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   424 =>
   array(
@@ -7670,10 +5974,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   425 =>
   array(
@@ -7688,10 +5988,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   426 =>
   array(
@@ -7706,10 +6002,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   427 =>
   array(
@@ -7724,10 +6016,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   428 =>
   array(
@@ -7742,10 +6030,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   429 =>
   array(
@@ -7760,10 +6044,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   430 =>
   array(
@@ -7778,10 +6058,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   431 =>
   array(
@@ -7796,10 +6072,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   432 =>
   array(
@@ -7814,10 +6086,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   433 =>
   array(
@@ -7832,10 +6100,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   434 =>
   array(
@@ -7850,10 +6114,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   435 =>
   array(
@@ -7868,10 +6128,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   436 =>
   array(
@@ -7886,10 +6142,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   437 =>
   array(
@@ -7904,10 +6156,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   438 =>
   array(
@@ -7922,10 +6170,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   439 =>
   array(
@@ -7940,10 +6184,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   440 =>
   array(
@@ -7958,10 +6198,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   441 =>
   array(
@@ -7976,10 +6212,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   442 =>
   array(
@@ -7994,10 +6226,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   443 =>
   array(
@@ -8012,10 +6240,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   444 =>
   array(
@@ -8030,10 +6254,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   445 =>
   array(
@@ -8048,10 +6268,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   446 =>
   array(
@@ -8066,10 +6282,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   447 =>
   array(
@@ -8084,10 +6296,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   448 =>
   array(
@@ -8102,10 +6310,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   449 =>
   array(
@@ -8120,10 +6324,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   450 =>
   array(
@@ -8138,10 +6338,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   451 =>
   array(
@@ -8156,10 +6352,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   452 =>
   array(
@@ -8174,10 +6366,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   453 =>
   array(
@@ -8192,10 +6380,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   454 =>
   array(
@@ -8210,10 +6394,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   455 =>
   array(
@@ -8228,10 +6408,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   456 =>
   array(
@@ -8246,10 +6422,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   457 =>
   array(
@@ -8264,10 +6436,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   458 =>
   array(
@@ -8282,10 +6450,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:54',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   459 =>
   array(
@@ -8300,10 +6464,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   460 =>
   array(
@@ -8318,10 +6478,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   461 =>
   array(
@@ -8336,10 +6492,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   462 =>
   array(
@@ -8354,10 +6506,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   463 =>
   array(
@@ -8372,10 +6520,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   464 =>
   array(
@@ -8390,10 +6534,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   465 =>
   array(
@@ -8408,10 +6548,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   466 =>
   array(
@@ -8426,10 +6562,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   467 =>
   array(
@@ -8444,10 +6576,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   468 =>
   array(
@@ -8462,10 +6590,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   469 =>
   array(
@@ -8480,10 +6604,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   470 =>
   array(
@@ -8498,10 +6618,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   471 =>
   array(
@@ -8516,10 +6632,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   472 =>
   array(
@@ -8534,10 +6646,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   473 =>
   array(
@@ -8552,10 +6660,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   474 =>
   array(
@@ -8570,10 +6674,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   475 =>
   array(
@@ -8588,10 +6688,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   476 =>
   array(
@@ -8606,10 +6702,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   477 =>
   array(
@@ -8624,10 +6716,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   478 =>
   array(
@@ -8642,10 +6730,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   479 =>
   array(
@@ -8660,10 +6744,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   480 =>
   array(
@@ -8678,10 +6758,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   481 =>
   array(
@@ -8696,10 +6772,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   482 =>
   array(
@@ -8714,10 +6786,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   483 =>
   array(
@@ -8732,10 +6800,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   484 =>
   array(
@@ -8750,10 +6814,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   485 =>
   array(
@@ -8768,10 +6828,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   486 =>
   array(
@@ -8786,10 +6842,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   487 =>
   array(
@@ -8804,10 +6856,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   488 =>
   array(
@@ -8822,10 +6870,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   489 =>
   array(
@@ -8840,10 +6884,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   490 =>
   array(
@@ -8858,10 +6898,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   491 =>
   array(
@@ -8876,10 +6912,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   492 =>
   array(
@@ -8894,10 +6926,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   493 =>
   array(
@@ -8912,10 +6940,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   494 =>
   array(
@@ -8930,10 +6954,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   495 =>
   array(
@@ -8948,10 +6968,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   496 =>
   array(
@@ -8966,10 +6982,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   497 =>
   array(
@@ -8984,10 +6996,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:44',
-    'updated_at' => '2019-10-06 00:39:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   498 =>
   array(
@@ -9002,10 +7010,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   499 =>
   array(
@@ -9020,10 +7024,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   500 =>
   array(
@@ -9038,10 +7038,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   501 =>
   array(
@@ -9056,10 +7052,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   502 =>
   array(
@@ -9074,10 +7066,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2019-10-06 06:09:44',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   503 =>
   array(
@@ -9092,10 +7080,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   504 =>
   array(
@@ -9110,10 +7094,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:44',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   505 =>
   array(
@@ -9128,10 +7108,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:54',
-    'updated_at' => '2019-10-06 00:39:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   506 =>
   array(
@@ -9146,10 +7122,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   507 =>
   array(
@@ -9164,10 +7136,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   508 =>
   array(
@@ -9182,10 +7150,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   509 =>
   array(
@@ -9200,10 +7164,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   510 =>
   array(
@@ -9218,10 +7178,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   511 =>
   array(
@@ -9236,10 +7192,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   512 =>
   array(
@@ -9254,10 +7206,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   513 =>
   array(
@@ -9272,10 +7220,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   514 =>
   array(
@@ -9290,10 +7234,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   515 =>
   array(
@@ -9308,10 +7248,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   516 =>
   array(
@@ -9326,10 +7262,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   517 =>
   array(
@@ -9344,10 +7276,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   518 =>
   array(
@@ -9362,10 +7290,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   519 =>
   array(
@@ -9380,10 +7304,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   520 =>
   array(
@@ -9398,10 +7318,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   521 =>
   array(
@@ -9416,10 +7332,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   522 =>
   array(
@@ -9434,10 +7346,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   523 =>
   array(
@@ -9452,10 +7360,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   524 =>
   array(
@@ -9470,10 +7374,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   525 =>
   array(
@@ -9488,10 +7388,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   526 =>
   array(
@@ -9506,10 +7402,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   527 =>
   array(
@@ -9524,10 +7416,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   528 =>
   array(
@@ -9542,10 +7430,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   529 =>
   array(
@@ -9560,10 +7444,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   530 =>
   array(
@@ -9578,10 +7458,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   531 =>
   array(
@@ -9596,10 +7472,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   532 =>
   array(
@@ -9614,10 +7486,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   533 =>
   array(
@@ -9632,10 +7500,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   534 =>
   array(
@@ -9650,10 +7514,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   535 =>
   array(
@@ -9668,10 +7528,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   536 =>
   array(
@@ -9686,10 +7542,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   537 =>
   array(
@@ -9704,10 +7556,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:45',
-    'updated_at' => '2019-10-06 00:39:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   538 =>
   array(
@@ -9722,10 +7570,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   539 =>
   array(
@@ -9740,10 +7584,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   540 =>
   array(
@@ -9758,10 +7598,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   541 =>
   array(
@@ -9776,10 +7612,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   542 =>
   array(
@@ -9794,10 +7626,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   543 =>
   array(
@@ -9812,10 +7640,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   544 =>
   array(
@@ -9830,10 +7654,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   545 =>
   array(
@@ -9848,10 +7668,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   546 =>
   array(
@@ -9866,10 +7682,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   547 =>
   array(
@@ -9884,10 +7696,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:45',
-    'updated_at' => '2019-10-06 00:39:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   548 =>
   array(
@@ -9902,10 +7710,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   549 =>
   array(
@@ -9920,10 +7724,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   550 =>
   array(
@@ -9938,10 +7738,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   551 =>
   array(
@@ -9956,10 +7752,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   552 =>
   array(
@@ -9974,10 +7766,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   553 =>
   array(
@@ -9992,10 +7780,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   554 =>
   array(
@@ -10010,10 +7794,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   555 =>
   array(
@@ -10028,10 +7808,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   556 =>
   array(
@@ -10046,10 +7822,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   557 =>
   array(
@@ -10064,10 +7836,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   558 =>
   array(
@@ -10082,10 +7850,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   559 =>
   array(
@@ -10100,10 +7864,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   560 =>
   array(
@@ -10118,10 +7878,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   561 =>
   array(
@@ -10136,10 +7892,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   562 =>
   array(
@@ -10154,10 +7906,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   563 =>
   array(
@@ -10172,10 +7920,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   564 =>
   array(
@@ -10190,10 +7934,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   565 =>
   array(
@@ -10208,10 +7948,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   566 =>
   array(
@@ -10226,10 +7962,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   567 =>
   array(
@@ -10244,10 +7976,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   568 =>
   array(
@@ -10262,10 +7990,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   569 =>
   array(
@@ -10280,10 +8004,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   570 =>
   array(
@@ -10298,10 +8018,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   571 =>
   array(
@@ -10316,10 +8032,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   572 =>
   array(
@@ -10334,10 +8046,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   573 =>
   array(
@@ -10352,10 +8060,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   574 =>
   array(
@@ -10370,10 +8074,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   575 =>
   array(
@@ -10388,10 +8088,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   576 =>
   array(
@@ -10406,10 +8102,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   577 =>
   array(
@@ -10424,10 +8116,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   578 =>
   array(
@@ -10442,10 +8130,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   579 =>
   array(
@@ -10460,10 +8144,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   580 =>
   array(
@@ -10478,10 +8158,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   581 =>
   array(
@@ -10496,10 +8172,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   582 =>
   array(
@@ -10514,10 +8186,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   583 =>
   array(
@@ -10532,10 +8200,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   584 =>
   array(
@@ -10550,10 +8214,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   585 =>
   array(
@@ -10568,10 +8228,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   586 =>
   array(
@@ -10586,10 +8242,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   587 =>
   array(
@@ -10604,10 +8256,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   588 =>
   array(
@@ -10622,10 +8270,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   589 =>
   array(
@@ -10640,10 +8284,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   590 =>
   array(
@@ -10658,10 +8298,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   591 =>
   array(
@@ -10676,10 +8312,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   592 =>
   array(
@@ -10694,10 +8326,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   593 =>
   array(
@@ -10712,10 +8340,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   594 =>
   array(
@@ -10730,10 +8354,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:45',
-    'updated_at' => '2019-10-06 00:39:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   595 =>
   array(
@@ -10748,10 +8368,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:45',
-    'updated_at' => '2019-10-06 00:39:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   596 =>
   array(
@@ -10766,10 +8382,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   597 =>
   array(
@@ -10784,10 +8396,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:45',
-    'updated_at' => '2019-10-06 00:39:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   598 =>
   array(
@@ -10802,10 +8410,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   599 =>
   array(
@@ -10820,10 +8424,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   600 =>
   array(
@@ -10838,10 +8438,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   601 =>
   array(
@@ -10856,10 +8452,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   602 =>
   array(
@@ -10874,10 +8466,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   603 =>
   array(
@@ -10892,10 +8480,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   604 =>
   array(
@@ -10910,10 +8494,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   605 =>
   array(
@@ -10928,10 +8508,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   606 =>
   array(
@@ -10946,10 +8522,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   607 =>
   array(
@@ -10964,10 +8536,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   608 =>
   array(
@@ -10982,10 +8550,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   609 =>
   array(
@@ -11000,10 +8564,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   610 =>
   array(
@@ -11018,10 +8578,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   611 =>
   array(
@@ -11036,10 +8592,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   612 =>
   array(
@@ -11054,10 +8606,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   613 =>
   array(
@@ -11072,10 +8620,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   614 =>
   array(
@@ -11090,10 +8634,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   615 =>
   array(
@@ -11108,10 +8648,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   616 =>
   array(
@@ -11126,10 +8662,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   617 =>
   array(
@@ -11144,10 +8676,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   618 =>
   array(
@@ -11162,10 +8690,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   619 =>
   array(
@@ -11180,10 +8704,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   620 =>
   array(
@@ -11198,10 +8718,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   621 =>
   array(
@@ -11216,10 +8732,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:45',
-    'updated_at' => '2019-10-06 06:09:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   622 =>
   array(
@@ -11234,10 +8746,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   623 =>
   array(
@@ -11252,10 +8760,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   624 =>
   array(
@@ -11270,10 +8774,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   625 =>
   array(
@@ -11288,10 +8788,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   626 =>
   array(
@@ -11306,10 +8802,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   627 =>
   array(
@@ -11324,10 +8816,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   628 =>
   array(
@@ -11342,10 +8830,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   629 =>
   array(
@@ -11360,10 +8844,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   630 =>
   array(
@@ -11378,10 +8858,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   631 =>
   array(
@@ -11396,10 +8872,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   632 =>
   array(
@@ -11414,10 +8886,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   633 =>
   array(
@@ -11432,10 +8900,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   634 =>
   array(
@@ -11450,10 +8914,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:45',
-    'updated_at' => '2019-10-06 00:39:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   635 =>
   array(
@@ -11468,10 +8928,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   636 =>
   array(
@@ -11486,10 +8942,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   637 =>
   array(
@@ -11504,10 +8956,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   638 =>
   array(
@@ -11522,10 +8970,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   639 =>
   array(
@@ -11540,10 +8984,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   640 =>
   array(
@@ -11558,10 +8998,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   641 =>
   array(
@@ -11576,10 +9012,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   642 =>
   array(
@@ -11594,10 +9026,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   643 =>
   array(
@@ -11612,10 +9040,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   644 =>
   array(
@@ -11630,10 +9054,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   645 =>
   array(
@@ -11648,10 +9068,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   646 =>
   array(
@@ -11666,10 +9082,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   647 =>
   array(
@@ -11684,10 +9096,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   648 =>
   array(
@@ -11702,10 +9110,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   649 =>
   array(
@@ -11720,10 +9124,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   650 =>
   array(
@@ -11738,10 +9138,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   651 =>
   array(
@@ -11756,10 +9152,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   652 =>
   array(
@@ -11774,10 +9166,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   653 =>
   array(
@@ -11792,10 +9180,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   654 =>
   array(
@@ -11810,10 +9194,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   655 =>
   array(
@@ -11828,10 +9208,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   656 =>
   array(
@@ -11846,10 +9222,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   657 =>
   array(
@@ -11864,10 +9236,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   658 =>
   array(
@@ -11882,10 +9250,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   659 =>
   array(
@@ -11900,10 +9264,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   660 =>
   array(
@@ -11918,10 +9278,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   661 =>
   array(
@@ -11936,10 +9292,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   662 =>
   array(
@@ -11954,10 +9306,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   663 =>
   array(
@@ -11972,10 +9320,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   664 =>
   array(
@@ -11990,10 +9334,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   665 =>
   array(
@@ -12008,10 +9348,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   666 =>
   array(
@@ -12026,10 +9362,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   667 =>
   array(
@@ -12044,10 +9376,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   668 =>
   array(
@@ -12062,10 +9390,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   669 =>
   array(
@@ -12080,10 +9404,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   670 =>
   array(
@@ -12098,10 +9418,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   671 =>
   array(
@@ -12116,10 +9432,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   672 =>
   array(
@@ -12134,10 +9446,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   673 =>
   array(
@@ -12152,10 +9460,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   674 =>
   array(
@@ -12170,10 +9474,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   675 =>
   array(
@@ -12188,10 +9488,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   676 =>
   array(
@@ -12206,10 +9502,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   677 =>
   array(
@@ -12224,10 +9516,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   678 =>
   array(
@@ -12242,10 +9530,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:46',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   679 =>
   array(
@@ -12260,10 +9544,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   680 =>
   array(
@@ -12278,10 +9558,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   681 =>
   array(
@@ -12296,10 +9572,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   682 =>
   array(
@@ -12314,10 +9586,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   683 =>
   array(
@@ -12332,10 +9600,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   684 =>
   array(
@@ -12350,10 +9614,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   685 =>
   array(
@@ -12368,10 +9628,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   686 =>
   array(
@@ -12386,10 +9642,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   687 =>
   array(
@@ -12404,10 +9656,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   688 =>
   array(
@@ -12422,10 +9670,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   689 =>
   array(
@@ -12440,10 +9684,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   690 =>
   array(
@@ -12458,10 +9698,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2019-10-06 06:09:46',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   691 =>
   array(
@@ -12476,10 +9712,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:46',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   692 =>
   array(
@@ -12494,10 +9726,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   693 =>
   array(
@@ -12512,10 +9740,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   694 =>
   array(
@@ -12530,10 +9754,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   695 =>
   array(
@@ -12548,10 +9768,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   696 =>
   array(
@@ -12566,10 +9782,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   697 =>
   array(
@@ -12584,10 +9796,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   698 =>
   array(
@@ -12602,10 +9810,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   699 =>
   array(
@@ -12620,10 +9824,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   700 =>
   array(
@@ -12638,10 +9838,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   701 =>
   array(
@@ -12656,10 +9852,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   702 =>
   array(
@@ -12674,10 +9866,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   703 =>
   array(
@@ -12692,10 +9880,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   704 =>
   array(
@@ -12710,10 +9894,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   705 =>
   array(
@@ -12728,10 +9908,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   706 =>
   array(
@@ -12746,10 +9922,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   707 =>
   array(
@@ -12764,10 +9936,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   708 =>
   array(
@@ -12782,10 +9950,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   709 =>
   array(
@@ -12800,10 +9964,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   710 =>
   array(
@@ -12818,10 +9978,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   711 =>
   array(
@@ -12836,10 +9992,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   712 =>
   array(
@@ -12854,10 +10006,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   713 =>
   array(
@@ -12872,10 +10020,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   714 =>
   array(
@@ -12890,10 +10034,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   715 =>
   array(
@@ -12908,10 +10048,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   716 =>
   array(
@@ -12926,10 +10062,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   717 =>
   array(
@@ -12944,10 +10076,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   718 =>
   array(
@@ -12962,10 +10090,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   719 =>
   array(
@@ -12980,10 +10104,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   720 =>
   array(
@@ -12998,10 +10118,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   721 =>
   array(
@@ -13016,10 +10132,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   722 =>
   array(
@@ -13034,10 +10146,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   723 =>
   array(
@@ -13052,10 +10160,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   724 =>
   array(
@@ -13070,10 +10174,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   725 =>
   array(
@@ -13088,10 +10188,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   726 =>
   array(
@@ -13106,10 +10202,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   727 =>
   array(
@@ -13124,10 +10216,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   728 =>
   array(
@@ -13142,10 +10230,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   729 =>
   array(
@@ -13160,10 +10244,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   730 =>
   array(
@@ -13178,10 +10258,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   731 =>
   array(
@@ -13196,10 +10272,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:47',
-    'updated_at' => '2019-10-06 06:09:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   732 =>
   array(
@@ -13214,10 +10286,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2019-10-06 06:09:48',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   733 =>
   array(
@@ -13232,10 +10300,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2019-10-06 06:09:48',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   734 =>
   array(
@@ -13250,10 +10314,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2019-10-06 06:09:48',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   735 =>
   array(
@@ -13268,10 +10328,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   736 =>
   array(
@@ -13286,10 +10342,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   737 =>
   array(
@@ -13304,10 +10356,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   738 =>
   array(
@@ -13322,10 +10370,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   739 =>
   array(
@@ -13340,10 +10384,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   740 =>
   array(
@@ -13358,10 +10398,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   741 =>
   array(
@@ -13376,10 +10412,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2019-10-06 06:09:48',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   742 =>
   array(
@@ -13394,10 +10426,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   743 =>
   array(
@@ -13412,10 +10440,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2019-10-06 06:09:48',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   744 =>
   array(
@@ -13430,10 +10454,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2019-10-06 06:09:48',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   745 =>
   array(
@@ -13448,10 +10468,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2019-10-06 06:09:48',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   746 =>
   array(
@@ -13466,10 +10482,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:48',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   747 =>
   array(
@@ -13484,10 +10496,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2019-10-06 06:09:48',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   748 =>
   array(
@@ -13502,10 +10510,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:48',
-    'updated_at' => '2019-10-06 06:09:48',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   749 =>
   array(
@@ -13520,10 +10524,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:49',
-    'updated_at' => '2019-10-06 06:09:49',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   750 =>
   array(
@@ -13538,10 +10538,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:49',
-    'updated_at' => '2019-10-06 06:09:49',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   751 =>
   array(
@@ -13556,10 +10552,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:49',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   752 =>
   array(
@@ -13574,10 +10566,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:49',
-    'updated_at' => '2019-10-06 06:09:49',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   753 =>
   array(
@@ -13592,10 +10580,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:49',
-    'updated_at' => '2019-10-06 06:09:49',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   754 =>
   array(
@@ -13610,10 +10594,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:49',
-    'updated_at' => '2019-10-06 06:09:49',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   755 =>
   array(
@@ -13628,10 +10608,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   756 =>
   array(
@@ -13646,10 +10622,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   757 =>
   array(
@@ -13664,10 +10636,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   758 =>
   array(
@@ -13682,10 +10650,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   759 =>
   array(
@@ -13700,10 +10664,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   760 =>
   array(
@@ -13718,10 +10678,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   761 =>
   array(
@@ -13736,10 +10692,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   762 =>
   array(
@@ -13754,10 +10706,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   763 =>
   array(
@@ -13772,10 +10720,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   764 =>
   array(
@@ -13790,10 +10734,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   765 =>
   array(
@@ -13808,10 +10748,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   766 =>
   array(
@@ -13826,10 +10762,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   767 =>
   array(
@@ -13844,10 +10776,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   768 =>
   array(
@@ -13862,10 +10790,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   769 =>
   array(
@@ -13880,10 +10804,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   770 =>
   array(
@@ -13898,10 +10818,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:50',
-    'updated_at' => '2019-10-06 06:09:50',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   771 =>
   array(
@@ -13916,10 +10832,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   772 =>
   array(
@@ -13934,10 +10846,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   773 =>
   array(
@@ -13952,10 +10860,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:55',
-    'updated_at' => '2019-10-06 00:39:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   774 =>
   array(
@@ -13970,10 +10874,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   775 =>
   array(
@@ -13988,10 +10888,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   776 =>
   array(
@@ -14006,10 +10902,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   777 =>
   array(
@@ -14024,10 +10916,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   778 =>
   array(
@@ -14042,10 +10930,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   779 =>
   array(
@@ -14060,10 +10944,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   780 =>
   array(
@@ -14078,10 +10958,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   781 =>
   array(
@@ -14096,10 +10972,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   782 =>
   array(
@@ -14114,10 +10986,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   783 =>
   array(
@@ -14132,10 +11000,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   784 =>
   array(
@@ -14150,10 +11014,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   785 =>
   array(
@@ -14168,10 +11028,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   786 =>
   array(
@@ -14186,10 +11042,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   787 =>
   array(
@@ -14204,10 +11056,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   788 =>
   array(
@@ -14222,10 +11070,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   789 =>
   array(
@@ -14240,10 +11084,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   790 =>
   array(
@@ -14258,10 +11098,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   791 =>
   array(
@@ -14276,10 +11112,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   792 =>
   array(
@@ -14294,10 +11126,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   793 =>
   array(
@@ -14312,10 +11140,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   794 =>
   array(
@@ -14330,10 +11154,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   795 =>
   array(
@@ -14348,10 +11168,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   796 =>
   array(
@@ -14366,10 +11182,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   797 =>
   array(
@@ -14384,10 +11196,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   798 =>
   array(
@@ -14402,10 +11210,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   799 =>
   array(
@@ -14420,10 +11224,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   800 =>
   array(
@@ -14438,10 +11238,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   801 =>
   array(
@@ -14456,10 +11252,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   802 =>
   array(
@@ -14474,10 +11266,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   803 =>
   array(
@@ -14492,10 +11280,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   804 =>
   array(
@@ -14510,10 +11294,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   805 =>
   array(
@@ -14528,10 +11308,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   806 =>
   array(
@@ -14546,10 +11322,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   807 =>
   array(
@@ -14564,10 +11336,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   808 =>
   array(
@@ -14582,10 +11350,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   809 =>
   array(
@@ -14600,10 +11364,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   810 =>
   array(
@@ -14618,10 +11378,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   811 =>
   array(
@@ -14636,10 +11392,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   812 =>
   array(
@@ -14654,10 +11406,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   813 =>
   array(
@@ -14672,10 +11420,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   814 =>
   array(
@@ -14690,10 +11434,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   815 =>
   array(
@@ -14708,10 +11448,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   816 =>
   array(
@@ -14726,10 +11462,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   817 =>
   array(
@@ -14744,10 +11476,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   818 =>
   array(
@@ -14762,10 +11490,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   819 =>
   array(
@@ -14780,10 +11504,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   820 =>
   array(
@@ -14798,10 +11518,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   821 =>
   array(
@@ -14816,10 +11532,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   822 =>
   array(
@@ -14834,10 +11546,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   823 =>
   array(
@@ -14852,10 +11560,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   824 =>
   array(
@@ -14870,10 +11574,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   825 =>
   array(
@@ -14888,10 +11588,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   826 =>
   array(
@@ -14906,10 +11602,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   827 =>
   array(
@@ -14924,10 +11616,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   828 =>
   array(
@@ -14942,10 +11630,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   829 =>
   array(
@@ -14960,10 +11644,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   830 =>
   array(
@@ -14978,10 +11658,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   831 =>
   array(
@@ -14996,10 +11672,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   832 =>
   array(
@@ -15014,10 +11686,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   833 =>
   array(
@@ -15032,10 +11700,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   834 =>
   array(
@@ -15050,10 +11714,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   835 =>
   array(
@@ -15068,10 +11728,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   836 =>
   array(
@@ -15086,10 +11742,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   837 =>
   array(
@@ -15104,10 +11756,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   838 =>
   array(
@@ -15122,10 +11770,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   839 =>
   array(
@@ -15140,10 +11784,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   840 =>
   array(
@@ -15158,10 +11798,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   841 =>
   array(
@@ -15176,10 +11812,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:51',
-    'updated_at' => '2019-10-06 00:39:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   842 =>
   array(
@@ -15194,10 +11826,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   843 =>
   array(
@@ -15212,10 +11840,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   844 =>
   array(
@@ -15230,10 +11854,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   845 =>
   array(
@@ -15248,10 +11868,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   846 =>
   array(
@@ -15266,10 +11882,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   847 =>
   array(
@@ -15284,10 +11896,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   848 =>
   array(
@@ -15302,10 +11910,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   849 =>
   array(
@@ -15320,10 +11924,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   850 =>
   array(
@@ -15338,10 +11938,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   851 =>
   array(
@@ -15356,10 +11952,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   852 =>
   array(
@@ -15374,10 +11966,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   853 =>
   array(
@@ -15392,10 +11980,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   854 =>
   array(
@@ -15410,10 +11994,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   855 =>
   array(
@@ -15428,10 +12008,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   856 =>
   array(
@@ -15446,10 +12022,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   857 =>
   array(
@@ -15464,10 +12036,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   858 =>
   array(
@@ -15482,10 +12050,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   859 =>
   array(
@@ -15500,10 +12064,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   860 =>
   array(
@@ -15518,10 +12078,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   861 =>
   array(
@@ -15536,10 +12092,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   862 =>
   array(
@@ -15554,10 +12106,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   863 =>
   array(
@@ -15572,10 +12120,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   864 =>
   array(
@@ -15590,10 +12134,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   865 =>
   array(
@@ -15608,10 +12148,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   866 =>
   array(
@@ -15626,10 +12162,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   867 =>
   array(
@@ -15644,10 +12176,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   868 =>
   array(
@@ -15662,10 +12190,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   869 =>
   array(
@@ -15680,10 +12204,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   870 =>
   array(
@@ -15698,10 +12218,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   871 =>
   array(
@@ -15716,10 +12232,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   872 =>
   array(
@@ -15734,10 +12246,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   873 =>
   array(
@@ -15752,10 +12260,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   874 =>
   array(
@@ -15770,10 +12274,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   875 =>
   array(
@@ -15788,10 +12288,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   876 =>
   array(
@@ -15806,10 +12302,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   877 =>
   array(
@@ -15824,10 +12316,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   878 =>
   array(
@@ -15842,10 +12330,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:51',
-    'updated_at' => '2019-10-06 06:09:51',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   879 =>
   array(
@@ -15860,10 +12344,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   880 =>
   array(
@@ -15878,10 +12358,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   881 =>
   array(
@@ -15896,10 +12372,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   882 =>
   array(
@@ -15914,10 +12386,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   883 =>
   array(
@@ -15932,10 +12400,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   884 =>
   array(
@@ -15950,10 +12414,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   885 =>
   array(
@@ -15968,10 +12428,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   886 =>
   array(
@@ -15986,10 +12442,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   887 =>
   array(
@@ -16004,10 +12456,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   888 =>
   array(
@@ -16022,10 +12470,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   889 =>
   array(
@@ -16040,10 +12484,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   890 =>
   array(
@@ -16058,10 +12498,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   891 =>
   array(
@@ -16076,10 +12512,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   892 =>
   array(
@@ -16094,10 +12526,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   893 =>
   array(
@@ -16112,10 +12540,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   894 =>
   array(
@@ -16130,10 +12554,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   895 =>
   array(
@@ -16148,10 +12568,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   896 =>
   array(
@@ -16166,10 +12582,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   897 =>
   array(
@@ -16184,10 +12596,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   898 =>
   array(
@@ -16202,10 +12610,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   899 =>
   array(
@@ -16220,10 +12624,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   900 =>
   array(
@@ -16238,10 +12638,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   901 =>
   array(
@@ -16256,10 +12652,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   902 =>
   array(
@@ -16274,10 +12666,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   903 =>
   array(
@@ -16292,10 +12680,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   904 =>
   array(
@@ -16310,10 +12694,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   905 =>
   array(
@@ -16328,10 +12708,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   906 =>
   array(
@@ -16346,10 +12722,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   907 =>
   array(
@@ -16364,10 +12736,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   908 =>
   array(
@@ -16382,10 +12750,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   909 =>
   array(
@@ -16400,10 +12764,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   910 =>
   array(
@@ -16418,10 +12778,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   911 =>
   array(
@@ -16436,10 +12792,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   912 =>
   array(
@@ -16454,10 +12806,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   913 =>
   array(
@@ -16472,10 +12820,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   914 =>
   array(
@@ -16490,10 +12834,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   915 =>
   array(
@@ -16508,10 +12848,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   916 =>
   array(
@@ -16526,10 +12862,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   917 =>
   array(
@@ -16544,10 +12876,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   918 =>
   array(
@@ -16562,10 +12890,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   919 =>
   array(
@@ -16580,10 +12904,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   920 =>
   array(
@@ -16598,10 +12918,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   921 =>
   array(
@@ -16616,10 +12932,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:52',
-    'updated_at' => '2019-10-06 06:09:52',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   922 =>
   array(
@@ -16634,10 +12946,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   923 =>
   array(
@@ -16652,10 +12960,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   924 =>
   array(
@@ -16670,10 +12974,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   925 =>
   array(
@@ -16688,10 +12988,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   926 =>
   array(
@@ -16706,10 +13002,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   927 =>
   array(
@@ -16724,10 +13016,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:56',
-    'updated_at' => '2019-10-06 00:39:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   928 =>
   array(
@@ -16742,10 +13030,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   929 =>
   array(
@@ -16760,10 +13044,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   930 =>
   array(
@@ -16778,10 +13058,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   931 =>
   array(
@@ -16796,10 +13072,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   932 =>
   array(
@@ -16814,10 +13086,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   933 =>
   array(
@@ -16832,10 +13100,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   934 =>
   array(
@@ -16850,10 +13114,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   935 =>
   array(
@@ -16868,10 +13128,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   936 =>
   array(
@@ -16886,10 +13142,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:53',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   937 =>
   array(
@@ -16904,10 +13156,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   938 =>
   array(
@@ -16922,10 +13170,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   939 =>
   array(
@@ -16940,10 +13184,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   940 =>
   array(
@@ -16958,10 +13198,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   941 =>
   array(
@@ -16976,10 +13212,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   942 =>
   array(
@@ -16994,10 +13226,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   943 =>
   array(
@@ -17012,10 +13240,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   944 =>
   array(
@@ -17030,10 +13254,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   945 =>
   array(
@@ -17048,10 +13268,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   946 =>
   array(
@@ -17066,10 +13282,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   947 =>
   array(
@@ -17084,10 +13296,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:54',
-    'updated_at' => '2019-10-06 00:39:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   948 =>
   array(
@@ -17102,10 +13310,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   949 =>
   array(
@@ -17120,10 +13324,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   950 =>
   array(
@@ -17138,10 +13338,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   951 =>
   array(
@@ -17156,10 +13352,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   952 =>
   array(
@@ -17174,10 +13366,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   953 =>
   array(
@@ -17192,10 +13380,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   954 =>
   array(
@@ -17210,10 +13394,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   955 =>
   array(
@@ -17228,10 +13408,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   956 =>
   array(
@@ -17246,10 +13422,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   957 =>
   array(
@@ -17264,10 +13436,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   958 =>
   array(
@@ -17282,10 +13450,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   959 =>
   array(
@@ -17300,10 +13464,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   960 =>
   array(
@@ -17318,10 +13478,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   961 =>
   array(
@@ -17336,10 +13492,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   962 =>
   array(
@@ -17354,10 +13506,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   963 =>
   array(
@@ -17372,10 +13520,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   964 =>
   array(
@@ -17390,10 +13534,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   965 =>
   array(
@@ -17408,10 +13548,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   966 =>
   array(
@@ -17426,10 +13562,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   967 =>
   array(
@@ -17444,10 +13576,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   968 =>
   array(
@@ -17462,10 +13590,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   969 =>
   array(
@@ -17480,10 +13604,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   970 =>
   array(
@@ -17498,10 +13618,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   971 =>
   array(
@@ -17516,10 +13632,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   972 =>
   array(
@@ -17534,10 +13646,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   973 =>
   array(
@@ -17552,10 +13660,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   974 =>
   array(
@@ -17570,10 +13674,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   975 =>
   array(
@@ -17588,10 +13688,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   976 =>
   array(
@@ -17606,10 +13702,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   977 =>
   array(
@@ -17624,10 +13716,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   978 =>
   array(
@@ -17642,10 +13730,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   979 =>
   array(
@@ -17660,10 +13744,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   980 =>
   array(
@@ -17678,10 +13758,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   981 =>
   array(
@@ -17696,10 +13772,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   982 =>
   array(
@@ -17714,10 +13786,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   983 =>
   array(
@@ -17732,10 +13800,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   984 =>
   array(
@@ -17750,10 +13814,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   985 =>
   array(
@@ -17768,10 +13828,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   986 =>
   array(
@@ -17786,10 +13842,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   987 =>
   array(
@@ -17804,10 +13856,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   988 =>
   array(
@@ -17822,10 +13870,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   989 =>
   array(
@@ -17840,10 +13884,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   990 =>
   array(
@@ -17858,10 +13898,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   991 =>
   array(
@@ -17876,10 +13912,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   992 =>
   array(
@@ -17894,10 +13926,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   993 =>
   array(
@@ -17912,10 +13940,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   994 =>
   array(
@@ -17930,10 +13954,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   995 =>
   array(
@@ -17948,10 +13968,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   996 =>
   array(
@@ -17966,10 +13982,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   997 =>
   array(
@@ -17984,10 +13996,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   998 =>
   array(
@@ -18002,10 +14010,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   999 =>
   array(
@@ -18020,10 +14024,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1000 =>
   array(
@@ -18038,10 +14038,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1001 =>
   array(
@@ -18056,10 +14052,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1002 =>
   array(
@@ -18074,10 +14066,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1003 =>
   array(
@@ -18092,10 +14080,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1004 =>
   array(
@@ -18110,10 +14094,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:53',
-    'updated_at' => '2019-10-06 00:39:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1005 =>
   array(
@@ -18128,10 +14108,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1006 =>
   array(
@@ -18146,10 +14122,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1007 =>
   array(
@@ -18164,10 +14136,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1008 =>
   array(
@@ -18182,10 +14150,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1009 =>
   array(
@@ -18200,10 +14164,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1010 =>
   array(
@@ -18218,10 +14178,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1011 =>
   array(
@@ -18236,10 +14192,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1012 =>
   array(
@@ -18254,10 +14206,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1013 =>
   array(
@@ -18272,10 +14220,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1014 =>
   array(
@@ -18290,10 +14234,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1015 =>
   array(
@@ -18308,10 +14248,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1016 =>
   array(
@@ -18326,10 +14262,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1017 =>
   array(
@@ -18344,10 +14276,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:53',
-    'updated_at' => '2019-10-06 06:09:53',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1018 =>
   array(
@@ -18362,10 +14290,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1019 =>
   array(
@@ -18380,10 +14304,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1020 =>
   array(
@@ -18398,10 +14318,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1021 =>
   array(
@@ -18416,10 +14332,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1022 =>
   array(
@@ -18434,10 +14346,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1023 =>
   array(
@@ -18452,10 +14360,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1024 =>
   array(
@@ -18470,10 +14374,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1025 =>
   array(
@@ -18488,10 +14388,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1026 =>
   array(
@@ -18506,10 +14402,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1027 =>
   array(
@@ -18524,10 +14416,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1028 =>
   array(
@@ -18542,10 +14430,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1029 =>
   array(
@@ -18560,10 +14444,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1030 =>
   array(
@@ -18578,10 +14458,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1031 =>
   array(
@@ -18596,10 +14472,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1032 =>
   array(
@@ -18614,10 +14486,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1033 =>
   array(
@@ -18632,10 +14500,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1034 =>
   array(
@@ -18650,10 +14514,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1035 =>
   array(
@@ -18668,10 +14528,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1036 =>
   array(
@@ -18686,10 +14542,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1037 =>
   array(
@@ -18704,10 +14556,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1038 =>
   array(
@@ -18722,10 +14570,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1039 =>
   array(
@@ -18740,10 +14584,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1040 =>
   array(
@@ -18758,10 +14598,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1041 =>
   array(
@@ -18776,10 +14612,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1042 =>
   array(
@@ -18794,10 +14626,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1043 =>
   array(
@@ -18812,10 +14640,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1044 =>
   array(
@@ -18830,10 +14654,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1045 =>
   array(
@@ -18848,10 +14668,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:54',
-    'updated_at' => '2020-08-15 19:51:47',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1046 =>
   array(
@@ -18866,10 +14682,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1047 =>
   array(
@@ -18884,10 +14696,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1048 =>
   array(
@@ -18902,10 +14710,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:45',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1049 =>
   array(
@@ -18920,10 +14724,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1050 =>
   array(
@@ -18938,10 +14738,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1051 =>
   array(
@@ -18956,10 +14752,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1052 =>
   array(
@@ -18974,10 +14766,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1053 =>
   array(
@@ -18992,10 +14780,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1054 =>
   array(
@@ -19010,10 +14794,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1055 =>
   array(
@@ -19028,10 +14808,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1056 =>
   array(
@@ -19046,10 +14822,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1057 =>
   array(
@@ -19064,10 +14836,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1058 =>
   array(
@@ -19082,10 +14850,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1059 =>
   array(
@@ -19100,10 +14864,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1060 =>
   array(
@@ -19118,10 +14878,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1061 =>
   array(
@@ -19136,10 +14892,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1062 =>
   array(
@@ -19154,10 +14906,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1063 =>
   array(
@@ -19172,10 +14920,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1064 =>
   array(
@@ -19190,10 +14934,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1065 =>
   array(
@@ -19208,10 +14948,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1066 =>
   array(
@@ -19226,10 +14962,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1067 =>
   array(
@@ -19244,10 +14976,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1068 =>
   array(
@@ -19262,10 +14990,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1069 =>
   array(
@@ -19280,10 +15004,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1070 =>
   array(
@@ -19298,10 +15018,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1071 =>
   array(
@@ -19316,10 +15032,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1072 =>
   array(
@@ -19334,10 +15046,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:54',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1073 =>
   array(
@@ -19352,10 +15060,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1074 =>
   array(
@@ -19370,10 +15074,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1075 =>
   array(
@@ -19388,10 +15088,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1076 =>
   array(
@@ -19406,10 +15102,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1077 =>
   array(
@@ -19424,10 +15116,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1078 =>
   array(
@@ -19442,10 +15130,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1079 =>
   array(
@@ -19460,10 +15144,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1080 =>
   array(
@@ -19478,10 +15158,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1081 =>
   array(
@@ -19496,10 +15172,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1082 =>
   array(
@@ -19514,10 +15186,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1083 =>
   array(
@@ -19532,10 +15200,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1084 =>
   array(
@@ -19550,10 +15214,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1085 =>
   array(
@@ -19568,10 +15228,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1086 =>
   array(
@@ -19586,10 +15242,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1087 =>
   array(
@@ -19604,10 +15256,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1088 =>
   array(
@@ -19622,10 +15270,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1089 =>
   array(
@@ -19640,10 +15284,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1090 =>
   array(
@@ -19658,10 +15298,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1091 =>
   array(
@@ -19676,10 +15312,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1092 =>
   array(
@@ -19694,10 +15326,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1093 =>
   array(
@@ -19712,10 +15340,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1094 =>
   array(
@@ -19730,10 +15354,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1095 =>
   array(
@@ -19748,10 +15368,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1096 =>
   array(
@@ -19766,10 +15382,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1097 =>
   array(
@@ -19784,10 +15396,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1098 =>
   array(
@@ -19802,10 +15410,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1099 =>
   array(
@@ -19820,10 +15424,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1100 =>
   array(
@@ -19838,10 +15438,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1101 =>
   array(
@@ -19856,10 +15452,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1102 =>
   array(
@@ -19874,10 +15466,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1103 =>
   array(
@@ -19892,10 +15480,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1104 =>
   array(
@@ -19910,10 +15494,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1105 =>
   array(
@@ -19928,10 +15508,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1106 =>
   array(
@@ -19946,10 +15522,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1107 =>
   array(
@@ -19964,10 +15536,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1108 =>
   array(
@@ -19982,10 +15550,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1109 =>
   array(
@@ -20000,10 +15564,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1110 =>
   array(
@@ -20018,10 +15578,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1111 =>
   array(
@@ -20036,10 +15592,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1112 =>
   array(
@@ -20054,10 +15606,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1113 =>
   array(
@@ -20072,10 +15620,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1114 =>
   array(
@@ -20090,10 +15634,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1115 =>
   array(
@@ -20108,10 +15648,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1116 =>
   array(
@@ -20126,10 +15662,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1117 =>
   array(
@@ -20144,10 +15676,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1118 =>
   array(
@@ -20162,10 +15690,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1119 =>
   array(
@@ -20180,10 +15704,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1120 =>
   array(
@@ -20198,10 +15718,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1121 =>
   array(
@@ -20216,10 +15732,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1122 =>
   array(
@@ -20234,10 +15746,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1123 =>
   array(
@@ -20252,10 +15760,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1124 =>
   array(
@@ -20270,10 +15774,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1125 =>
   array(
@@ -20288,10 +15788,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1126 =>
   array(
@@ -20306,10 +15802,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1127 =>
   array(
@@ -20324,10 +15816,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1128 =>
   array(
@@ -20342,10 +15830,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2019-10-06 06:09:54',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1129 =>
   array(
@@ -20360,10 +15844,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:55',
-    'updated_at' => '2019-10-06 00:39:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1130 =>
   array(
@@ -20378,10 +15858,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:54',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1131 =>
   array(
@@ -20396,10 +15872,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1132 =>
   array(
@@ -20414,10 +15886,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1133 =>
   array(
@@ -20432,10 +15900,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1134 =>
   array(
@@ -20450,10 +15914,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1135 =>
   array(
@@ -20468,10 +15928,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1136 =>
   array(
@@ -20486,10 +15942,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1137 =>
   array(
@@ -20504,10 +15956,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1138 =>
   array(
@@ -20522,10 +15970,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1139 =>
   array(
@@ -20540,10 +15984,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1140 =>
   array(
@@ -20558,10 +15998,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1141 =>
   array(
@@ -20576,10 +16012,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:55',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1142 =>
   array(
@@ -20594,10 +16026,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1143 =>
   array(
@@ -20612,10 +16040,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1144 =>
   array(
@@ -20630,10 +16054,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1145 =>
   array(
@@ -20648,10 +16068,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1146 =>
   array(
@@ -20666,10 +16082,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1147 =>
   array(
@@ -20684,10 +16096,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1148 =>
   array(
@@ -20702,10 +16110,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1149 =>
   array(
@@ -20720,10 +16124,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1150 =>
   array(
@@ -20738,10 +16138,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1151 =>
   array(
@@ -20756,10 +16152,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1152 =>
   array(
@@ -20774,10 +16166,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1153 =>
   array(
@@ -20792,10 +16180,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1154 =>
   array(
@@ -20810,10 +16194,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1155 =>
   array(
@@ -20828,10 +16208,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1156 =>
   array(
@@ -20846,10 +16222,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1157 =>
   array(
@@ -20864,10 +16236,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1158 =>
   array(
@@ -20882,10 +16250,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1159 =>
   array(
@@ -20900,10 +16264,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1160 =>
   array(
@@ -20918,10 +16278,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1161 =>
   array(
@@ -20936,10 +16292,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1162 =>
   array(
@@ -20954,10 +16306,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1163 =>
   array(
@@ -20972,10 +16320,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1164 =>
   array(
@@ -20990,10 +16334,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1165 =>
   array(
@@ -21008,10 +16348,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1166 =>
   array(
@@ -21026,10 +16362,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1167 =>
   array(
@@ -21044,10 +16376,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1168 =>
   array(
@@ -21062,10 +16390,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1169 =>
   array(
@@ -21080,10 +16404,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1170 =>
   array(
@@ -21098,10 +16418,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1171 =>
   array(
@@ -21116,10 +16432,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1172 =>
   array(
@@ -21134,10 +16446,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1173 =>
   array(
@@ -21152,10 +16460,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1174 =>
   array(
@@ -21170,10 +16474,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1175 =>
   array(
@@ -21188,10 +16488,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1176 =>
   array(
@@ -21206,10 +16502,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1177 =>
   array(
@@ -21224,10 +16516,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1178 =>
   array(
@@ -21242,10 +16530,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1179 =>
   array(
@@ -21260,10 +16544,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1180 =>
   array(
@@ -21278,10 +16558,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1181 =>
   array(
@@ -21296,10 +16572,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1182 =>
   array(
@@ -21314,10 +16586,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1183 =>
   array(
@@ -21332,10 +16600,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1184 =>
   array(
@@ -21350,10 +16614,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1185 =>
   array(
@@ -21368,10 +16628,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1186 =>
   array(
@@ -21386,10 +16642,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1187 =>
   array(
@@ -21404,10 +16656,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1188 =>
   array(
@@ -21422,10 +16670,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1189 =>
   array(
@@ -21440,10 +16684,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1190 =>
   array(
@@ -21458,10 +16698,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1191 =>
   array(
@@ -21476,10 +16712,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1192 =>
   array(
@@ -21494,10 +16726,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1193 =>
   array(
@@ -21512,10 +16740,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1194 =>
   array(
@@ -21530,10 +16754,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1195 =>
   array(
@@ -21548,10 +16768,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1196 =>
   array(
@@ -21566,10 +16782,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1197 =>
   array(
@@ -21584,10 +16796,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1198 =>
   array(
@@ -21602,10 +16810,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1199 =>
   array(
@@ -21620,10 +16824,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1200 =>
   array(
@@ -21638,10 +16838,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1201 =>
   array(
@@ -21656,10 +16852,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1202 =>
   array(
@@ -21674,10 +16866,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1203 =>
   array(
@@ -21692,10 +16880,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:55',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1204 =>
   array(
@@ -21710,10 +16894,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1205 =>
   array(
@@ -21728,10 +16908,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1206 =>
   array(
@@ -21746,10 +16922,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:55',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1207 =>
   array(
@@ -21764,10 +16936,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1208 =>
   array(
@@ -21782,10 +16950,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1209 =>
   array(
@@ -21800,10 +16964,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1210 =>
   array(
@@ -21818,10 +16978,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1211 =>
   array(
@@ -21836,10 +16992,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1212 =>
   array(
@@ -21854,10 +17006,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1213 =>
   array(
@@ -21872,10 +17020,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1214 =>
   array(
@@ -21890,10 +17034,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1215 =>
   array(
@@ -21908,10 +17048,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1216 =>
   array(
@@ -21926,10 +17062,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1217 =>
   array(
@@ -21944,10 +17076,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1218 =>
   array(
@@ -21962,10 +17090,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1219 =>
   array(
@@ -21980,10 +17104,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1220 =>
   array(
@@ -21998,10 +17118,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1221 =>
   array(
@@ -22016,10 +17132,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1222 =>
   array(
@@ -22034,10 +17146,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1223 =>
   array(
@@ -22052,10 +17160,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1224 =>
   array(
@@ -22070,10 +17174,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1225 =>
   array(
@@ -22088,10 +17188,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1226 =>
   array(
@@ -22106,10 +17202,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1227 =>
   array(
@@ -22124,10 +17216,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1228 =>
   array(
@@ -22142,10 +17230,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1229 =>
   array(
@@ -22160,10 +17244,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1230 =>
   array(
@@ -22178,10 +17258,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1231 =>
   array(
@@ -22196,10 +17272,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1232 =>
   array(
@@ -22214,10 +17286,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1233 =>
   array(
@@ -22232,10 +17300,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1234 =>
   array(
@@ -22250,10 +17314,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1235 =>
   array(
@@ -22268,10 +17328,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1236 =>
   array(
@@ -22286,10 +17342,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:55',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1237 =>
   array(
@@ -22304,10 +17356,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1238 =>
   array(
@@ -22322,10 +17370,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1239 =>
   array(
@@ -22340,10 +17384,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1240 =>
   array(
@@ -22358,10 +17398,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1241 =>
   array(
@@ -22376,10 +17412,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1242 =>
   array(
@@ -22394,10 +17426,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1243 =>
   array(
@@ -22412,10 +17440,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1244 =>
   array(
@@ -22430,10 +17454,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1245 =>
   array(
@@ -22448,10 +17468,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1246 =>
   array(
@@ -22466,10 +17482,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1247 =>
   array(
@@ -22484,10 +17496,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1248 =>
   array(
@@ -22502,10 +17510,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1249 =>
   array(
@@ -22520,10 +17524,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1250 =>
   array(
@@ -22538,10 +17538,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1251 =>
   array(
@@ -22556,10 +17552,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1252 =>
   array(
@@ -22574,10 +17566,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1253 =>
   array(
@@ -22592,10 +17580,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1254 =>
   array(
@@ -22610,10 +17594,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1255 =>
   array(
@@ -22628,10 +17608,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1256 =>
   array(
@@ -22646,10 +17622,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1257 =>
   array(
@@ -22664,10 +17636,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1258 =>
   array(
@@ -22682,10 +17650,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1259 =>
   array(
@@ -22700,10 +17664,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1260 =>
   array(
@@ -22718,10 +17678,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:55',
-    'updated_at' => '2019-10-06 00:39:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1261 =>
   array(
@@ -22736,10 +17692,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1262 =>
   array(
@@ -22754,10 +17706,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1263 =>
   array(
@@ -22772,10 +17720,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1264 =>
   array(
@@ -22790,10 +17734,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1265 =>
   array(
@@ -22808,10 +17748,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1266 =>
   array(
@@ -22826,10 +17762,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1267 =>
   array(
@@ -22844,10 +17776,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1268 =>
   array(
@@ -22862,10 +17790,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:45',
-    'updated_at' => '2019-10-06 00:39:45',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1269 =>
   array(
@@ -22880,10 +17804,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1270 =>
   array(
@@ -22898,10 +17818,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1271 =>
   array(
@@ -22916,10 +17832,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1272 =>
   array(
@@ -22934,10 +17846,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1273 =>
   array(
@@ -22952,10 +17860,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1274 =>
   array(
@@ -22970,10 +17874,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:53',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1275 =>
   array(
@@ -22988,10 +17888,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1276 =>
   array(
@@ -23006,10 +17902,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1277 =>
   array(
@@ -23024,10 +17916,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1278 =>
   array(
@@ -23042,10 +17930,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1279 =>
   array(
@@ -23060,10 +17944,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1280 =>
   array(
@@ -23078,10 +17958,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1281 =>
   array(
@@ -23096,10 +17972,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1282 =>
   array(
@@ -23114,10 +17986,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1283 =>
   array(
@@ -23132,10 +18000,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1284 =>
   array(
@@ -23150,10 +18014,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1285 =>
   array(
@@ -23168,10 +18028,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1286 =>
   array(
@@ -23186,10 +18042,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 00:39:55',
-    'updated_at' => '2020-05-01 19:22:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1287 =>
   array(
@@ -23204,10 +18056,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1288 =>
   array(
@@ -23222,10 +18070,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1289 =>
   array(
@@ -23240,10 +18084,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1290 =>
   array(
@@ -23258,10 +18098,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1291 =>
   array(
@@ -23276,10 +18112,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1292 =>
   array(
@@ -23294,10 +18126,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1293 =>
   array(
@@ -23312,10 +18140,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1294 =>
   array(
@@ -23330,10 +18154,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1295 =>
   array(
@@ -23348,10 +18168,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:55',
-    'updated_at' => '2019-10-06 06:09:55',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1296 =>
   array(
@@ -23366,10 +18182,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1297 =>
   array(
@@ -23384,10 +18196,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1298 =>
   array(
@@ -23402,10 +18210,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1299 =>
   array(
@@ -23420,10 +18224,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1300 =>
   array(
@@ -23438,10 +18238,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1301 =>
   array(
@@ -23456,10 +18252,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1302 =>
   array(
@@ -23474,10 +18266,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1303 =>
   array(
@@ -23492,10 +18280,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1304 =>
   array(
@@ -23510,10 +18294,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1305 =>
   array(
@@ -23528,10 +18308,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1306 =>
   array(
@@ -23546,10 +18322,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1307 =>
   array(
@@ -23564,10 +18336,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1308 =>
   array(
@@ -23582,10 +18350,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1309 =>
   array(
@@ -23600,10 +18364,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1310 =>
   array(
@@ -23618,10 +18378,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1311 =>
   array(
@@ -23636,10 +18392,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1312 =>
   array(
@@ -23654,10 +18406,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1313 =>
   array(
@@ -23672,10 +18420,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1314 =>
   array(
@@ -23690,10 +18434,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1315 =>
   array(
@@ -23708,10 +18448,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1316 =>
   array(
@@ -23726,10 +18462,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1317 =>
   array(
@@ -23744,10 +18476,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1318 =>
   array(
@@ -23762,10 +18490,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1319 =>
   array(
@@ -23780,10 +18504,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1320 =>
   array(
@@ -23798,10 +18518,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1321 =>
   array(
@@ -23816,10 +18532,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1322 =>
   array(
@@ -23834,10 +18546,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1323 =>
   array(
@@ -23852,10 +18560,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1324 =>
   array(
@@ -23870,10 +18574,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1325 =>
   array(
@@ -23888,10 +18588,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1326 =>
   array(
@@ -23906,10 +18602,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1327 =>
   array(
@@ -23924,10 +18616,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1328 =>
   array(
@@ -23942,10 +18630,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1329 =>
   array(
@@ -23960,10 +18644,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1330 =>
   array(
@@ -23978,10 +18658,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1331 =>
   array(
@@ -23996,10 +18672,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1332 =>
   array(
@@ -24014,10 +18686,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1333 =>
   array(
@@ -24032,10 +18700,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1334 =>
   array(
@@ -24050,10 +18714,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1335 =>
   array(
@@ -24068,10 +18728,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1336 =>
   array(
@@ -24086,10 +18742,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1337 =>
   array(
@@ -24104,10 +18756,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1338 =>
   array(
@@ -24122,10 +18770,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1339 =>
   array(
@@ -24140,10 +18784,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1340 =>
   array(
@@ -24158,10 +18798,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1341 =>
   array(
@@ -24176,10 +18812,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1342 =>
   array(
@@ -24194,10 +18826,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1343 =>
   array(
@@ -24212,10 +18840,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1344 =>
   array(
@@ -24230,10 +18854,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1345 =>
   array(
@@ -24248,10 +18868,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1346 =>
   array(
@@ -24266,10 +18882,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1347 =>
   array(
@@ -24284,10 +18896,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1348 =>
   array(
@@ -24302,10 +18910,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1349 =>
   array(
@@ -24320,10 +18924,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1350 =>
   array(
@@ -24338,10 +18938,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1351 =>
   array(
@@ -24356,10 +18952,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1352 =>
   array(
@@ -24374,10 +18966,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1353 =>
   array(
@@ -24392,10 +18980,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1354 =>
   array(
@@ -24410,10 +18994,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1355 =>
   array(
@@ -24428,10 +19008,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1356 =>
   array(
@@ -24446,10 +19022,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1357 =>
   array(
@@ -24464,10 +19036,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1358 =>
   array(
@@ -24482,10 +19050,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1359 =>
   array(
@@ -24500,10 +19064,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1360 =>
   array(
@@ -24518,10 +19078,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2019-10-06 06:09:56',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1361 =>
   array(
@@ -24536,10 +19092,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1362 =>
   array(
@@ -24554,10 +19106,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:56',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1363 =>
   array(
@@ -24572,10 +19120,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1364 =>
   array(
@@ -24590,10 +19134,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1365 =>
   array(
@@ -24608,10 +19148,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1366 =>
   array(
@@ -24626,10 +19162,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1367 =>
   array(
@@ -24644,10 +19176,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1368 =>
   array(
@@ -24662,10 +19190,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1369 =>
   array(
@@ -24680,10 +19204,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1370 =>
   array(
@@ -24698,10 +19218,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1371 =>
   array(
@@ -24716,10 +19232,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1372 =>
   array(
@@ -24734,10 +19246,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1373 =>
   array(
@@ -24752,10 +19260,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1374 =>
   array(
@@ -24770,10 +19274,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1375 =>
   array(
@@ -24788,10 +19288,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1376 =>
   array(
@@ -24806,10 +19302,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1377 =>
   array(
@@ -24824,10 +19316,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1378 =>
   array(
@@ -24842,10 +19330,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1379 =>
   array(
@@ -24860,10 +19344,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1380 =>
   array(
@@ -24878,10 +19358,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1381 =>
   array(
@@ -24896,10 +19372,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1382 =>
   array(
@@ -24914,10 +19386,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1383 =>
   array(
@@ -24932,10 +19400,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1384 =>
   array(
@@ -24950,10 +19414,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1385 =>
   array(
@@ -24968,10 +19428,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1386 =>
   array(
@@ -24986,10 +19442,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1387 =>
   array(
@@ -25004,10 +19456,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1388 =>
   array(
@@ -25022,10 +19470,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1389 =>
   array(
@@ -25040,10 +19484,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1390 =>
   array(
@@ -25058,10 +19498,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1391 =>
   array(
@@ -25076,10 +19512,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1392 =>
   array(
@@ -25094,10 +19526,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1393 =>
   array(
@@ -25112,10 +19540,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1394 =>
   array(
@@ -25130,10 +19554,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1395 =>
   array(
@@ -25148,10 +19568,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1396 =>
   array(
@@ -25166,10 +19582,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1397 =>
   array(
@@ -25184,10 +19596,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1398 =>
   array(
@@ -25202,10 +19610,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1399 =>
   array(
@@ -25220,10 +19624,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1400 =>
   array(
@@ -25238,10 +19638,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1401 =>
   array(
@@ -25256,10 +19652,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1402 =>
   array(
@@ -25274,10 +19666,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1403 =>
   array(
@@ -25292,10 +19680,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1404 =>
   array(
@@ -25310,10 +19694,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1405 =>
   array(
@@ -25328,10 +19708,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1406 =>
   array(
@@ -25346,10 +19722,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1407 =>
   array(
@@ -25364,10 +19736,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1408 =>
   array(
@@ -25382,10 +19750,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1409 =>
   array(
@@ -25400,10 +19764,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1410 =>
   array(
@@ -25418,10 +19778,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1411 =>
   array(
@@ -25436,10 +19792,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1412 =>
   array(
@@ -25454,10 +19806,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1413 =>
   array(
@@ -25472,10 +19820,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1414 =>
   array(
@@ -25490,10 +19834,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1415 =>
   array(
@@ -25508,10 +19848,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1416 =>
   array(
@@ -25526,10 +19862,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1417 =>
   array(
@@ -25544,10 +19876,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1418 =>
   array(
@@ -25562,10 +19890,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1419 =>
   array(
@@ -25580,10 +19904,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1420 =>
   array(
@@ -25598,10 +19918,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1421 =>
   array(
@@ -25616,10 +19932,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1422 =>
   array(
@@ -25634,10 +19946,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1423 =>
   array(
@@ -25652,10 +19960,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1424 =>
   array(
@@ -25670,10 +19974,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1425 =>
   array(
@@ -25688,10 +19988,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1426 =>
   array(
@@ -25706,10 +20002,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1427 =>
   array(
@@ -25724,10 +20016,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:57',
-    'updated_at' => '2019-10-06 06:09:57',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1428 =>
   array(
@@ -25742,10 +20030,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1429 =>
   array(
@@ -25760,10 +20044,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1430 =>
   array(
@@ -25778,10 +20058,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1431 =>
   array(
@@ -25796,10 +20072,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1432 =>
   array(
@@ -25814,10 +20086,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1433 =>
   array(
@@ -25832,10 +20100,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1434 =>
   array(
@@ -25850,10 +20114,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1435 =>
   array(
@@ -25868,10 +20128,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1436 =>
   array(
@@ -25886,10 +20142,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1437 =>
   array(
@@ -25904,10 +20156,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1438 =>
   array(
@@ -25922,10 +20170,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1439 =>
   array(
@@ -25940,10 +20184,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1440 =>
   array(
@@ -25958,10 +20198,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1441 =>
   array(
@@ -25976,10 +20212,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1442 =>
   array(
@@ -25994,10 +20226,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1443 =>
   array(
@@ -26012,10 +20240,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1444 =>
   array(
@@ -26030,10 +20254,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1445 =>
   array(
@@ -26048,10 +20268,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1446 =>
   array(
@@ -26066,10 +20282,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1447 =>
   array(
@@ -26084,10 +20296,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1448 =>
   array(
@@ -26102,10 +20310,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1449 =>
   array(
@@ -26120,10 +20324,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1450 =>
   array(
@@ -26138,10 +20338,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1451 =>
   array(
@@ -26156,10 +20352,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1452 =>
   array(
@@ -26174,10 +20366,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1453 =>
   array(
@@ -26192,10 +20380,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1454 =>
   array(
@@ -26210,10 +20394,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1455 =>
   array(
@@ -26228,10 +20408,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1456 =>
   array(
@@ -26246,10 +20422,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1457 =>
   array(
@@ -26264,10 +20436,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1458 =>
   array(
@@ -26282,10 +20450,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1459 =>
   array(
@@ -26300,10 +20464,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1460 =>
   array(
@@ -26318,10 +20478,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1461 =>
   array(
@@ -26336,10 +20492,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1462 =>
   array(
@@ -26354,10 +20506,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1463 =>
   array(
@@ -26372,10 +20520,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1464 =>
   array(
@@ -26390,10 +20534,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1465 =>
   array(
@@ -26408,10 +20548,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1466 =>
   array(
@@ -26426,10 +20562,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1467 =>
   array(
@@ -26444,10 +20576,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1468 =>
   array(
@@ -26462,10 +20590,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1469 =>
   array(
@@ -26480,10 +20604,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1470 =>
   array(
@@ -26498,10 +20618,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1471 =>
   array(
@@ -26516,10 +20632,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1472 =>
   array(
@@ -26534,10 +20646,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1473 =>
   array(
@@ -26552,10 +20660,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1474 =>
   array(
@@ -26570,10 +20674,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1475 =>
   array(
@@ -26588,10 +20688,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1476 =>
   array(
@@ -26606,10 +20702,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1477 =>
   array(
@@ -26624,10 +20716,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1478 =>
   array(
@@ -26642,10 +20730,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1479 =>
   array(
@@ -26660,10 +20744,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1480 =>
   array(
@@ -26678,10 +20758,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2019-10-06 06:09:58',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1481 =>
   array(
@@ -26696,10 +20772,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:58',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1482 =>
   array(
@@ -26714,10 +20786,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1483 =>
   array(
@@ -26732,10 +20800,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1484 =>
   array(
@@ -26750,10 +20814,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1485 =>
   array(
@@ -26768,10 +20828,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1486 =>
   array(
@@ -26786,10 +20842,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1487 =>
   array(
@@ -26804,10 +20856,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1488 =>
   array(
@@ -26822,10 +20870,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1489 =>
   array(
@@ -26840,10 +20884,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1490 =>
   array(
@@ -26858,10 +20898,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1491 =>
   array(
@@ -26876,10 +20912,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1492 =>
   array(
@@ -26894,10 +20926,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1493 =>
   array(
@@ -26912,10 +20940,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1494 =>
   array(
@@ -26930,10 +20954,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1495 =>
   array(
@@ -26948,10 +20968,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1496 =>
   array(
@@ -26966,10 +20982,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1497 =>
   array(
@@ -26984,10 +20996,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1498 =>
   array(
@@ -27002,10 +21010,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1499 =>
   array(
@@ -27020,10 +21024,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1500 =>
   array(
@@ -27038,10 +21038,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1501 =>
   array(
@@ -27056,10 +21052,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1502 =>
   array(
@@ -27074,10 +21066,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1503 =>
   array(
@@ -27092,10 +21080,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1504 =>
   array(
@@ -27110,10 +21094,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1505 =>
   array(
@@ -27128,10 +21108,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1506 =>
   array(
@@ -27146,10 +21122,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1507 =>
   array(
@@ -27164,10 +21136,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1508 =>
   array(
@@ -27182,10 +21150,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1509 =>
   array(
@@ -27200,10 +21164,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1510 =>
   array(
@@ -27218,10 +21178,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1511 =>
   array(
@@ -27236,10 +21192,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1512 =>
   array(
@@ -27254,10 +21206,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1513 =>
   array(
@@ -27272,10 +21220,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1514 =>
   array(
@@ -27290,10 +21234,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1515 =>
   array(
@@ -27308,10 +21248,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1516 =>
   array(
@@ -27326,10 +21262,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1517 =>
   array(
@@ -27344,10 +21276,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1518 =>
   array(
@@ -27362,10 +21290,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1519 =>
   array(
@@ -27380,10 +21304,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1520 =>
   array(
@@ -27398,10 +21318,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1521 =>
   array(
@@ -27416,10 +21332,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1522 =>
   array(
@@ -27434,10 +21346,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1523 =>
   array(
@@ -27452,10 +21360,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1524 =>
   array(
@@ -27470,10 +21374,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1525 =>
   array(
@@ -27488,10 +21388,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1526 =>
   array(
@@ -27506,10 +21402,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1527 =>
   array(
@@ -27524,10 +21416,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1528 =>
   array(
@@ -27542,10 +21430,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1529 =>
   array(
@@ -27560,10 +21444,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1530 =>
   array(
@@ -27578,10 +21458,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1531 =>
   array(
@@ -27596,10 +21472,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1532 =>
   array(
@@ -27614,10 +21486,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2020-05-02 00:52:40',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1533 =>
   array(
@@ -27632,10 +21500,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1534 =>
   array(
@@ -27650,10 +21514,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1535 =>
   array(
@@ -27668,10 +21528,6 @@ class City14Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2019-10-06 06:09:59',
-    'updated_at' => '2019-10-06 06:09:59',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
 );
     }

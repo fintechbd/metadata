@@ -38,10 +38,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   1 =>
   array(
@@ -56,10 +52,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   2 =>
   array(
@@ -74,10 +66,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   3 =>
   array(
@@ -92,10 +80,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   4 =>
   array(
@@ -110,10 +94,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   5 =>
   array(
@@ -128,10 +108,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   6 =>
   array(
@@ -146,10 +122,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   7 =>
   array(
@@ -164,10 +136,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   8 =>
   array(
@@ -182,10 +150,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   9 =>
   array(
@@ -200,10 +164,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   10 =>
   array(
@@ -218,10 +178,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-29 00:38:22',
-    'updated_at' => '2023-07-29 00:38:22',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   11 =>
   array(
@@ -236,10 +192,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-07-05 19:51:00',
-    'updated_at' => '2023-07-05 19:51:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   12 =>
   array(
@@ -254,10 +206,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-16 06:23:43',
-    'updated_at' => '2023-09-16 06:23:43',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   13 =>
   array(
@@ -272,10 +220,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:21:00',
-    'updated_at' => '2023-09-06 18:21:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   14 =>
   array(
@@ -290,10 +234,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   15 =>
   array(
@@ -308,10 +248,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   16 =>
   array(
@@ -326,10 +262,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   17 =>
   array(
@@ -344,10 +276,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   18 =>
   array(
@@ -362,10 +290,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   19 =>
   array(
@@ -380,10 +304,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   20 =>
   array(
@@ -398,10 +318,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   21 =>
   array(
@@ -416,10 +332,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   22 =>
   array(
@@ -434,10 +346,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   23 =>
   array(
@@ -452,10 +360,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-06 18:55:00',
-    'updated_at' => '2023-09-06 18:55:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
   24 =>
   array(
@@ -470,10 +374,6 @@ class City99Seeder extends Seeder
     'editor_id' => null,
     'destroyer_id' => null,
     'restorer_id' => null,
-    'created_at' => '2023-09-20 01:35:00',
-    'updated_at' => '2023-09-20 01:35:00',
-    'deleted_at' => null,
-    'restored_at' => null,
   ),
 );
     }
