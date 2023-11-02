@@ -17,13 +17,13 @@ class LanguageRepository extends EloquentRepository implements InterfacesLanguag
 {
     public function __construct()
     {
-       $model = app(config('fintech.metadata.language_model', \Fintech\MetaData\Models\Language::class));
+        $model = app(config('fintech.metadata.language_model', \Fintech\MetaData\Models\Language::class));
 
-       if (!$model instanceof Model) {
-           throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-       }
+        if (!$model instanceof Model) {
+            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
+        }
 
-       $this->model = $model;
+        $this->model = $model;
     }
 
     /**

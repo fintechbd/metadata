@@ -17,13 +17,13 @@ class LanguageRepository extends MongodbRepository implements InterfacesLanguage
 {
     public function __construct()
     {
-       $model = app(config('fintech.metadata.language_model', \Fintech\MetaData\Models\Language::class));
+        $model = app(config('fintech.metadata.language_model', \Fintech\MetaData\Models\Language::class));
 
-       if (!$model instanceof Model) {
-           throw new InvalidArgumentException("Mongodb repository require model class to be `MongoDB\Laravel\Eloquent\Model` instance.");
-       }
+        if (!$model instanceof Model) {
+            throw new InvalidArgumentException("Mongodb repository require model class to be `MongoDB\Laravel\Eloquent\Model` instance.");
+        }
 
-       $this->model = $model;
+        $this->model = $model;
     }
 
     /**

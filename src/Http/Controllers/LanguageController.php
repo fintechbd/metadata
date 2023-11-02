@@ -1,6 +1,7 @@
 <?php
 
 namespace Fintech\MetaData\Http\Controllers;
+
 use Exception;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
@@ -75,7 +76,7 @@ class LanguageController extends Controller
             $language = MetaData::language()->create($inputs);
 
             if (!$language) {
-                throw (new StoreOperationException)->setModel(config('fintech.metadata.language_model'));
+                throw (new StoreOperationException())->setModel(config('fintech.metadata.language_model'));
             }
 
             return $this->created([
@@ -105,7 +106,7 @@ class LanguageController extends Controller
             $language = MetaData::language()->find($id);
 
             if (!$language) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.language_model'), $id);
             }
 
             return new LanguageResource($language);
@@ -138,14 +139,14 @@ class LanguageController extends Controller
             $language = MetaData::language()->find($id);
 
             if (!$language) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.language_model'), $id);
             }
 
             $inputs = $request->validated();
 
             if (!MetaData::language()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException)->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.language_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Language']));
@@ -177,7 +178,7 @@ class LanguageController extends Controller
             $language = MetaData::language()->find($id);
 
             if (!$language) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.language_model'), $id);
             }
 
             if (!MetaData::language()->destroy($id)) {
@@ -213,7 +214,7 @@ class LanguageController extends Controller
             $language = MetaData::language()->find($id, true);
 
             if (!$language) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.language_model'), $id);
             }
 
             if (!MetaData::language()->restore($id)) {

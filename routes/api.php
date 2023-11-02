@@ -44,8 +44,8 @@ if (Config::get('fintech.metadata.enabled')) {
         Route::post('remittance-purposes/{remittance_purpose}/restore', [\Fintech\MetaData\Http\Controllers\RemittancePurposeController::class, 'restore'])->name('remittance-purposes.restore');
 
         Route::apiResource('languages', \Fintech\MetaData\Http\Controllers\LanguageController::class);
-    Route::post('languages/{language}/restore', [\Fintech\MetaData\Http\Controllers\LanguageController::class, 'restore'])->name('languages.restore');
+        Route::post('languages/{language}/restore', [\Fintech\MetaData\Http\Controllers\LanguageController::class, 'restore'])->name('languages.restore');
 
-    //DO NOT REMOVE THIS LINE//
+        //DO NOT REMOVE THIS LINE//
     });
 }
