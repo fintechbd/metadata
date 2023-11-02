@@ -5,11 +5,15 @@ namespace Fintech\MetaData\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 
-class Country extends Model
+class Country extends Model implements HasMedia
 {
     use \Fintech\Core\Traits\AuditableTrait;
     use SoftDeletes;
+    use InteractsWithMedia;
+
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
@@ -31,6 +35,18 @@ class Country extends Model
     | FUNCTIONS
     |--------------------------------------------------------------------------
     */
+    public function registerMediaCollections(): void
+    {
+        $this->addMediaCollection('logo_png')
+            ->acceptsMimeTypes(['image/png'])
+            ->singleFile()
+            ->useDisk(config('filesystems.default', 'public'));
+
+        $this->addMediaCollection('logo_svg')
+            ->acceptsMimeTypes(['image/svg+xml'])
+            ->singleFile()
+            ->useDisk(config('filesystems.default', 'public'));
+    }
 
     /*
     |--------------------------------------------------------------------------
