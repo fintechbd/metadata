@@ -43,6 +43,14 @@ class CityRepository extends EloquentRepository implements InterfacesCityReposit
             }
         }
 
+        if(isset($filters['state_id']) && !empty($filters['state_id'])) {
+            $query->where('state_id', $filters['state_id']);
+        }
+
+        if(isset($filters['country_id']) && !empty($filters['country_id'])) {
+            $query->where('country_id', $filters['country_id']);
+        }
+
         //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();
