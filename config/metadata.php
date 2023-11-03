@@ -103,7 +103,7 @@ return [
     */
     'remittance_purpose_model' => \Fintech\MetaData\Models\RemittancePurpose::class,
 
-    
+
     /*
     |--------------------------------------------------------------------------
     | Language Model

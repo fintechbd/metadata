@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\LanguageRepository;
 
 /**
@@ -16,7 +15,8 @@ class LanguageService
      * LanguageService constructor.
      * @param LanguageRepository $languageRepository
      */
-    public function __construct(LanguageRepository $languageRepository) {
+    public function __construct(LanguageRepository $languageRepository)
+    {
         $this->languageRepository = $languageRepository;
     }
 
