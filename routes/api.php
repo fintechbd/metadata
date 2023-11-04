@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 if (Config::get('fintech.metadata.enabled')) {
-    Route::prefix('metadata')->name('metadata.')->group(function () {
+    Route::prefix('metadata')->name('metadata.')
+        ->middleware(config('fintech.auth.middleware'))
+        ->group(function () {
 
         Route::apiResource('regions', \Fintech\MetaData\Http\Controllers\RegionController::class);
         Route::post('regions/{region}/restore', [\Fintech\MetaData\Http\Controllers\RegionController::class, 'restore'])->name('regions.restore');
