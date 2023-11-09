@@ -69,7 +69,7 @@ class OccupationController extends Controller
 
             $occupation = MetaData::occupation()->create($inputs);
 
-            if (! $occupation) {
+            if (!$occupation) {
                 throw (new StoreOperationException())->setModel(config('fintech.metadata.occupation_model'));
             }
 
@@ -100,7 +100,7 @@ class OccupationController extends Controller
 
             $occupation = MetaData::occupation()->find($id);
 
-            if (! $occupation) {
+            if (!$occupation) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
@@ -131,13 +131,13 @@ class OccupationController extends Controller
 
             $occupation = MetaData::occupation()->find($id);
 
-            if (! $occupation) {
+            if (!$occupation) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! MetaData::occupation()->update($id, $inputs)) {
+            if (!MetaData::occupation()->update($id, $inputs)) {
 
                 throw (new UpdateOperationException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }
@@ -171,11 +171,11 @@ class OccupationController extends Controller
 
             $occupation = MetaData::occupation()->find($id);
 
-            if (! $occupation) {
+            if (!$occupation) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
-            if (! MetaData::occupation()->destroy($id)) {
+            if (!MetaData::occupation()->destroy($id)) {
 
                 throw (new DeleteOperationException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }
@@ -207,11 +207,11 @@ class OccupationController extends Controller
 
             $occupation = MetaData::occupation()->find($id, true);
 
-            if (! $occupation) {
+            if (!$occupation) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
-            if (! MetaData::occupation()->restore($id)) {
+            if (!MetaData::occupation()->restore($id)) {
 
                 throw (new RestoreOperationException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }

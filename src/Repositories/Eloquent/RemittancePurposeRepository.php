@@ -18,7 +18,7 @@ class RemittancePurposeRepository extends EloquentRepository implements Interfac
     {
         $model = app(config('fintech.metadata.remittance_purpose_model', \Fintech\MetaData\Models\RemittancePurpose::class));
 
-        if (! $model instanceof Model) {
+        if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -35,7 +35,7 @@ class RemittancePurposeRepository extends EloquentRepository implements Interfac
     {
         $query = $this->model->newQuery();
 
-        if (isset($filters['search']) && ! empty($filters['search'])) {
+        if (isset($filters['search']) && !empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
             } else {
