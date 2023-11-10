@@ -69,7 +69,7 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = MetaData::remittancePurpose()->create($inputs);
 
-            if (! $remittancePurpose) {
+            if (!$remittancePurpose) {
                 throw (new StoreOperationException())->setModel(config('fintech.metadata.remittance_purpose_model'));
             }
 
@@ -100,7 +100,7 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = MetaData::remittancePurpose()->find($id);
 
-            if (! $remittancePurpose) {
+            if (!$remittancePurpose) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
@@ -131,13 +131,13 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = MetaData::remittancePurpose()->find($id);
 
-            if (! $remittancePurpose) {
+            if (!$remittancePurpose) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! MetaData::remittancePurpose()->update($id, $inputs)) {
+            if (!MetaData::remittancePurpose()->update($id, $inputs)) {
 
                 throw (new UpdateOperationException())->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
@@ -171,11 +171,11 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = MetaData::remittancePurpose()->find($id);
 
-            if (! $remittancePurpose) {
+            if (!$remittancePurpose) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
-            if (! MetaData::remittancePurpose()->destroy($id)) {
+            if (!MetaData::remittancePurpose()->destroy($id)) {
 
                 throw (new DeleteOperationException())->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
@@ -207,11 +207,11 @@ class RemittancePurposeController extends Controller
 
             $remittancePurpose = MetaData::remittancePurpose()->find($id, true);
 
-            if (! $remittancePurpose) {
+            if (!$remittancePurpose) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
 
-            if (! MetaData::remittancePurpose()->restore($id)) {
+            if (!MetaData::remittancePurpose()->restore($id)) {
 
                 throw (new RestoreOperationException())->setModel(config('fintech.metadata.remittance_purpose_model'), $id);
             }
