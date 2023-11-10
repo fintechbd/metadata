@@ -52,8 +52,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -90,8 +90,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -99,8 +99,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '19.90000000',
                 'emoji' => '🇦🇽',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '4',
                 'subregion_id' => '18',
             ),
@@ -128,8 +128,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -166,8 +166,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -204,8 +204,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -242,8 +242,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -280,8 +280,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -318,8 +318,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -419,8 +419,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -431,7 +431,7 @@ class CountrySeeder extends Seeder
                 'logo_svg' => 'country_logo_8.svg',
                 'logo_png' => 'country_logo_8.png',
                 'region_id' => '6',
-                'subregion_id' => NULL,
+                'subregion_id' => null,
             ),
             array(
                 'id' => '10',
@@ -457,8 +457,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -572,8 +572,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -610,8 +610,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -648,8 +648,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -808,8 +808,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -846,8 +846,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -884,8 +884,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -922,8 +922,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -998,8 +998,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1036,8 +1036,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1074,8 +1074,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1112,8 +1112,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1150,8 +1150,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1188,8 +1188,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1226,8 +1226,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1264,8 +1264,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1302,8 +1302,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1340,8 +1340,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1378,8 +1378,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1387,10 +1387,10 @@ class CountrySeeder extends Seeder
                 'longitude' => '3.40000000',
                 'emoji' => '🇧🇻',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
-                'region_id' => NULL,
-                'subregion_id' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
+                'region_id' => null,
+                'subregion_id' => null,
             ),
             array(
                 'id' => '31',
@@ -1521,8 +1521,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1559,8 +1559,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1568,8 +1568,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '71.50000000',
                 'emoji' => '🇮🇴',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '1',
                 'subregion_id' => '4',
             ),
@@ -1597,8 +1597,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1635,8 +1635,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1673,8 +1673,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1711,8 +1711,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1749,8 +1749,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -1787,8 +1787,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2014,8 +2014,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2052,8 +2052,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2090,8 +2090,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2128,8 +2128,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2166,8 +2166,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2218,8 +2218,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2301,8 +2301,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2310,8 +2310,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '105.66666666',
                 'emoji' => '🇨🇽',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '5',
                 'subregion_id' => '19',
             ),
@@ -2339,8 +2339,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2348,8 +2348,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '96.83333333',
                 'emoji' => '🇨🇨',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '5',
                 'subregion_id' => '19',
             ),
@@ -2377,8 +2377,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2415,8 +2415,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2453,8 +2453,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2498,8 +2498,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2536,8 +2536,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2574,8 +2574,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2612,8 +2612,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2650,8 +2650,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2688,8 +2688,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2733,8 +2733,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2758,12 +2758,12 @@ class CountrySeeder extends Seeder
                 'currency_name' => 'Czech koruna',
                 'currency_symbol' => 'Kč',
                 'nationality' => 'Czech',
-                'timezones' => NULL,
+                'timezones' => null,
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2800,8 +2800,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2838,8 +2838,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2876,8 +2876,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2914,8 +2914,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2952,8 +2952,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -2961,8 +2961,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '125.91666666',
                 'emoji' => '🇹🇱',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '3',
                 'subregion_id' => '13',
             ),
@@ -2997,8 +2997,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3035,8 +3035,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3073,8 +3073,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3111,8 +3111,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3149,8 +3149,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3187,8 +3187,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3225,8 +3225,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3263,8 +3263,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3301,8 +3301,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3339,8 +3339,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3377,8 +3377,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3415,8 +3415,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3453,8 +3453,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3505,8 +3505,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3543,8 +3543,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3552,8 +3552,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '69.16700000',
                 'emoji' => '🇹🇫',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '1',
                 'subregion_id' => '5',
             ),
@@ -3581,8 +3581,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3619,8 +3619,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3657,8 +3657,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3702,8 +3702,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3740,8 +3740,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3778,8 +3778,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3816,8 +3816,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3875,8 +3875,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3913,8 +3913,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3951,8 +3951,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -3989,8 +3989,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4027,8 +4027,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4065,8 +4065,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4074,8 +4074,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '-2.58333333',
                 'emoji' => '🇬🇬',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '4',
                 'subregion_id' => '18',
             ),
@@ -4103,8 +4103,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4141,8 +4141,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4179,8 +4179,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4217,8 +4217,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4255,8 +4255,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4264,10 +4264,10 @@ class CountrySeeder extends Seeder
                 'longitude' => '72.51666666',
                 'emoji' => '🇭🇲',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
-                'region_id' => NULL,
-                'subregion_id' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
+                'region_id' => null,
+                'subregion_id' => null,
             ),
             array(
                 'id' => '97',
@@ -4293,8 +4293,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4331,8 +4331,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4369,8 +4369,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4407,8 +4407,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4445,8 +4445,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4542,8 +4542,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4580,8 +4580,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4618,8 +4618,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4656,8 +4656,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4694,8 +4694,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4732,8 +4732,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4770,8 +4770,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4808,8 +4808,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4817,8 +4817,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '-2.16666666',
                 'emoji' => '🇯🇪',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '4',
                 'subregion_id' => '18',
             ),
@@ -4846,8 +4846,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4926,8 +4926,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -4964,8 +4964,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5016,8 +5016,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5054,8 +5054,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5092,8 +5092,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5130,8 +5130,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5168,8 +5168,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5206,8 +5206,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5244,8 +5244,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5282,8 +5282,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5320,8 +5320,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5358,8 +5358,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5396,8 +5396,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5434,8 +5434,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5472,8 +5472,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5510,8 +5510,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5548,8 +5548,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5586,8 +5586,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5624,8 +5624,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5662,8 +5662,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5745,8 +5745,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5783,8 +5783,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5821,8 +5821,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5859,8 +5859,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5868,8 +5868,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '-4.50000000',
                 'emoji' => '🇮🇲',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '4',
                 'subregion_id' => '18',
             ),
@@ -5904,8 +5904,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5942,8 +5942,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -5980,8 +5980,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6018,8 +6018,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6056,8 +6056,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6065,8 +6065,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '45.16666666',
                 'emoji' => '🇾🇹',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '1',
                 'subregion_id' => '4',
             ),
@@ -6164,8 +6164,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6216,8 +6216,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6254,8 +6254,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6292,8 +6292,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6344,8 +6344,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6382,8 +6382,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6420,8 +6420,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6458,8 +6458,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6496,8 +6496,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6572,8 +6572,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6610,8 +6610,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6686,8 +6686,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6724,8 +6724,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6762,8 +6762,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6807,8 +6807,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6845,8 +6845,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6883,8 +6883,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6921,8 +6921,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6959,8 +6959,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -6997,8 +6997,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7035,8 +7035,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7073,8 +7073,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7111,8 +7111,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7149,8 +7149,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7187,8 +7187,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7232,8 +7232,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7241,8 +7241,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '35.20000000',
                 'emoji' => '🇵🇸',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '3',
                 'subregion_id' => '11',
             ),
@@ -7270,8 +7270,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7315,8 +7315,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7353,8 +7353,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7391,8 +7391,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7429,8 +7429,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7467,8 +7467,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7505,8 +7505,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7557,8 +7557,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7595,8 +7595,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7633,8 +7633,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7671,8 +7671,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7709,8 +7709,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7718,8 +7718,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '25.00000000',
                 'emoji' => '🇷🇴',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '4',
                 'subregion_id' => '15',
             ),
@@ -7922,8 +7922,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7960,8 +7960,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -7998,8 +7998,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8036,8 +8036,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8074,8 +8074,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8112,8 +8112,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8150,8 +8150,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8188,8 +8188,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8226,8 +8226,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8235,8 +8235,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '-63.95000000',
                 'emoji' => '🇲🇫',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '2',
                 'subregion_id' => '7',
             ),
@@ -8264,8 +8264,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8302,8 +8302,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8340,8 +8340,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8378,8 +8378,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8416,8 +8416,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8454,8 +8454,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8492,8 +8492,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8530,8 +8530,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8606,8 +8606,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8644,8 +8644,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8682,8 +8682,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8720,8 +8720,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8758,8 +8758,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8796,8 +8796,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8805,8 +8805,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '-37.00000000',
                 'emoji' => '🇬🇸',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '2',
                 'subregion_id' => '8',
             ),
@@ -8834,8 +8834,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8843,8 +8843,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '30.00000000',
                 'emoji' => '🇸🇸',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '1',
                 'subregion_id' => '2',
             ),
@@ -8886,8 +8886,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8924,8 +8924,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -8962,8 +8962,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9000,8 +9000,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9038,8 +9038,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9076,8 +9076,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9114,8 +9114,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9152,8 +9152,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9190,8 +9190,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9228,8 +9228,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9266,8 +9266,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9304,8 +9304,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9342,8 +9342,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9380,8 +9380,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9418,8 +9418,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9456,8 +9456,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9494,8 +9494,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9532,8 +9532,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9570,8 +9570,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9608,8 +9608,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9646,8 +9646,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9684,8 +9684,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9722,8 +9722,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9781,8 +9781,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9819,8 +9819,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -9857,8 +9857,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10091,8 +10091,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10136,8 +10136,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10145,8 +10145,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '0.00000000',
                 'emoji' => '🇺🇲',
                 'enabled' => true,
-                'logo_svg' => NULL,
-                'logo_png' => NULL,
+                'logo_svg' => null,
+                'logo_png' => null,
                 'region_id' => '2',
                 'subregion_id' => '6',
             ),
@@ -10174,8 +10174,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10219,8 +10219,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10257,8 +10257,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10295,8 +10295,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10333,8 +10333,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10371,8 +10371,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10409,8 +10409,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10447,8 +10447,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10485,8 +10485,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10523,8 +10523,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10561,8 +10561,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10599,8 +10599,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10637,8 +10637,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10675,8 +10675,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10713,8 +10713,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
@@ -10751,8 +10751,8 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => NULL,
-                        'language_name' => NULL,
+                        'language_code' => null,
+                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'service_enabled' => false,
                     ),
