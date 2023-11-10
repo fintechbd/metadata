@@ -13,10 +13,14 @@ class CountrySeeder extends Seeder
     public function run(): void
     {
         foreach ($this->data() as $country) {
-            $image_png = __DIR__ . '/../../resources/img/country_logo_png/';
-            $country['logo_png'] = 'data:image/png;base64,' . base64_encode(file_get_contents($image_png));
-//            $image_svg = __DIR__.'/../../resources/img/country_logo_png/country_logo_18.png';
-//            $country['logo_svg'] = 'data:image/svg+xml;base64,' . base64_encode(file_get_contents($image_png));
+            if ($country['logo_png'] != null) {
+                $image_png = __DIR__ . '/../../resources/img/country_logo_png/' . $country['logo_png'];
+                $country['logo_png'] = 'data:image/png;base64,' . base64_encode(file_get_contents($image_png));
+            }
+            if ($country['logo_svg'] != null) {
+                $image_svg = __DIR__ . '/../../resources/img/country_logo_svg/' . $country['logo_svg'];
+                $country['logo_svg'] = 'data:image/svg+xml;base64,' . base64_encode(file_get_contents($image_svg));
+            }
             MetaData::country()->create($country);
         }
     }
@@ -95,8 +99,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '19.90000000',
                 'emoji' => '🇦🇽',
                 'enabled' => true,
-                'logo_svg' => '',
-                'logo_png' => '',
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '18',
             ),
@@ -1383,7 +1387,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '3.40000000',
                 'emoji' => '🇧🇻',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => NULL,
                 'subregion_id' => NULL,
@@ -1564,7 +1568,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '71.50000000',
                 'emoji' => '🇮🇴',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '1',
                 'subregion_id' => '4',
@@ -2306,7 +2310,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '105.66666666',
                 'emoji' => '🇨🇽',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '5',
                 'subregion_id' => '19',
@@ -2344,7 +2348,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '96.83333333',
                 'emoji' => '🇨🇨',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '5',
                 'subregion_id' => '19',
@@ -2957,7 +2961,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '125.91666666',
                 'emoji' => '🇹🇱',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '3',
                 'subregion_id' => '13',
@@ -3548,7 +3552,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '69.16700000',
                 'emoji' => '🇹🇫',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '1',
                 'subregion_id' => '5',
@@ -4070,7 +4074,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '-2.58333333',
                 'emoji' => '🇬🇬',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '18',
@@ -4260,7 +4264,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '72.51666666',
                 'emoji' => '🇭🇲',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => NULL,
                 'subregion_id' => NULL,
@@ -4813,7 +4817,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '-2.16666666',
                 'emoji' => '🇯🇪',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '18',
@@ -5864,7 +5868,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '-4.50000000',
                 'emoji' => '🇮🇲',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '18',
@@ -6061,7 +6065,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '45.16666666',
                 'emoji' => '🇾🇹',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '1',
                 'subregion_id' => '4',
@@ -7237,7 +7241,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '35.20000000',
                 'emoji' => '🇵🇸',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '3',
                 'subregion_id' => '11',
@@ -7714,7 +7718,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '25.00000000',
                 'emoji' => '🇷🇴',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '15',
@@ -8231,8 +8235,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '-63.95000000',
                 'emoji' => '🇲🇫',
                 'enabled' => true,
-                'logo_svg' => '',
-                'logo_png' => '',
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '2',
                 'subregion_id' => '7',
             ),
@@ -8801,8 +8805,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '-37.00000000',
                 'emoji' => '🇬🇸',
                 'enabled' => true,
-                'logo_svg' => '',
-                'logo_png' => '',
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '2',
                 'subregion_id' => '8',
             ),
@@ -8839,8 +8843,8 @@ class CountrySeeder extends Seeder
                 'longitude' => '30.00000000',
                 'emoji' => '🇸🇸',
                 'enabled' => true,
-                'logo_svg' => '',
-                'logo_png' => '',
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '1',
                 'subregion_id' => '2',
             ),
@@ -10141,7 +10145,7 @@ class CountrySeeder extends Seeder
                 'longitude' => '0.00000000',
                 'emoji' => '🇺🇲',
                 'enabled' => true,
-                'logo_svg' => '',
+                'logo_svg' => NULL,
                 'logo_png' => NULL,
                 'region_id' => '2',
                 'subregion_id' => '6',
