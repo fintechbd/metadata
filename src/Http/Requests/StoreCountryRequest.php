@@ -33,7 +33,6 @@ class StoreCountryRequest extends FormRequest
             'nationality' => ['string', 'nullable'],
             'region_id' => ['integer', 'nullable'],
             'subregion_id' => ['integer', 'nullable'],
-            'language' => ['string', 'nullable'],
             'logo_svg' => ['string', 'nullable'],
             'logo_png' => ['string', 'nullable'],
             'enabled' => ['bool', 'nullable'],
