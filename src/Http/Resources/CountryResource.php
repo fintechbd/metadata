@@ -34,7 +34,6 @@ class CountryResource extends JsonResource
             'enabled' => $this->enabled,
             'logo_svg' => $this->getFirstMediaUrl('logo_svg'),
             'logo_png' => $this->getFirstMediaUrl('logo_png'),
-            'language' => $this->language,
             'region_id' => $this->region_id ?? null,
             'region_name' => ($this->region != null) ? $this->region->name : null,
             'subregion_id' => $this->subregion_id ?? null,
