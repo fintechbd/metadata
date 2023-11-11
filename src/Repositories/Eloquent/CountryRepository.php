@@ -76,6 +76,18 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
             $query->where('subregion_id', $filters['subregion_id']);
         }
 
+        if (isset($filters['language_enabled']) && !empty($filters['language_enabled'])) {
+            $query->whereJsonContains('country_data->language_enabled', true);
+        }
+
+        if (isset($filters['is_serving']) && !empty($filters['is_serving'])) {
+            $query->whereJsonContains('country_data->is_serving', true);
+        }
+
+        if (isset($filters['multi_currency_enabled']) && !empty($filters['multi_currency_enabled'])) {
+            $query->whereJsonContains('country_data->multi_currency_enabled', true);
+        }
+
         //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();
