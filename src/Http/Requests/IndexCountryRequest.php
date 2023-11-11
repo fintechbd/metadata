@@ -31,10 +31,36 @@ class IndexCountryRequest extends FormRequest
             'per_page' => ['integer', 'nullable', 'min:10', 'max:500'],
             'page' => ['integer', 'nullable', 'min:1'],
             'paginate' => ['boolean'],
+            'language_enabled' => ['boolean', 'nullable'],
+            'is_serving' => ['boolean', 'nullable'],
+            'multi_currency_enabled' => ['boolean', 'nullable'],
             'sort' => ['string', 'nullable', 'min:2', 'max:255'],
             'dir' => ['string', 'min:3', 'max:4'],
             'trashed' => ['boolean', 'nullable'],
             'enabled' => ['boolean', 'nullable'],
         ];
+    }
+
+    protected function prepareForValidation()
+    {
+        $options = [];
+
+        $languageEnabledInput = $this->input('language_enabled', '');
+        $isServingInput = $this->input('is_serving', '');
+        $multiCurrencyEnabledInput = $this->input('multi_currency_enabled', '');
+
+        if ($languageEnabledInput != null && strlen($languageEnabledInput) != 0) {
+            $options['language_enabled'] = $this->boolean('language_enabled', true);
+        }
+
+        if ($isServingInput != null && strlen($isServingInput) != 0) {
+            $options['is_serving'] = $this->boolean('is_serving', true);
+        }
+
+        if ($multiCurrencyEnabledInput != null && strlen($multiCurrencyEnabledInput) != 0) {
+            $options['multi_currency_enabled'] = $this->boolean('multi_currency_enabled', true);
+        }
+
+        $this->merge(array_merge($this->getPaginateOptions(), $options));
     }
 }

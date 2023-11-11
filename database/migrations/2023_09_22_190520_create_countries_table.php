@@ -28,7 +28,6 @@ return new class () extends Migration {
             $table->string('emoji')->nullable();
             $table->boolean('enabled')->nullable();
             $table->string('logo')->nullable();
-            $table->string('language')->nullable();
             $table->foreignId('region_id')->nullable();
             $table->foreignId('subregion_id')->nullable();
             $table->foreignId('creator_id')->nullable();

@@ -69,7 +69,7 @@ class FundSourceController extends Controller
 
             $fundSource = MetaData::fundSource()->create($inputs);
 
-            if (! $fundSource) {
+            if (!$fundSource) {
                 throw (new StoreOperationException())->setModel(config('fintech.metadata.fund_source_model'));
             }
 
@@ -100,7 +100,7 @@ class FundSourceController extends Controller
 
             $fundSource = MetaData::fundSource()->find($id);
 
-            if (! $fundSource) {
+            if (!$fundSource) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
@@ -131,13 +131,13 @@ class FundSourceController extends Controller
 
             $fundSource = MetaData::fundSource()->find($id);
 
-            if (! $fundSource) {
+            if (!$fundSource) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
             $inputs = $request->validated();
 
-            if (! MetaData::fundSource()->update($id, $inputs)) {
+            if (!MetaData::fundSource()->update($id, $inputs)) {
 
                 throw (new UpdateOperationException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
@@ -171,11 +171,11 @@ class FundSourceController extends Controller
 
             $fundSource = MetaData::fundSource()->find($id);
 
-            if (! $fundSource) {
+            if (!$fundSource) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
-            if (! MetaData::fundSource()->destroy($id)) {
+            if (!MetaData::fundSource()->destroy($id)) {
 
                 throw (new DeleteOperationException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
@@ -207,11 +207,11 @@ class FundSourceController extends Controller
 
             $fundSource = MetaData::fundSource()->find($id, true);
 
-            if (! $fundSource) {
+            if (!$fundSource) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }
 
-            if (! MetaData::fundSource()->restore($id)) {
+            if (!MetaData::fundSource()->restore($id)) {
 
                 throw (new RestoreOperationException())->setModel(config('fintech.metadata.fund_source_model'), $id);
             }

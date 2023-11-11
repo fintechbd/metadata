@@ -15,7 +15,7 @@ class SubRegionRepository implements InterfacesCountryRepository
     {
         $model = app(config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\Subregion::class));
 
-        if (! $model instanceof Model) {
+        if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -170,7 +170,7 @@ class SubRegionRepository implements InterfacesCountryRepository
      */
     public function restore(int|string $id)
     {
-        if (! method_exists($this->model, 'restore')) {
+        if (!method_exists($this->model, 'restore')) {
             throw new InvalidArgumentException('This model does not have `Illuminate\Database\Eloquent\SoftDeletes` trait to perform restoration.');
         }
 

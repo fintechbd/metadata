@@ -33,14 +33,19 @@ class UpdateCountryRequest extends FormRequest
             'nationality' => ['string', 'nullable'],
             'region_id' => ['integer', 'nullable'],
             'subregion_id' => ['integer', 'nullable'],
-            'language' => ['string', 'nullable'],
-            'logo' => ['image', 'nullable'],
+            'logo_svg' => ['string', 'nullable'],
+            'logo_png' => ['string', 'nullable'],
             'enabled' => ['bool', 'nullable'],
             'emoji' => ['string', 'nullable'],
             'latitude' => ['numeric', 'nullable'],
             'longitude' => ['numeric', 'nullable'],
             'timezones' => ['array', 'nullable'],
             'country_data' => ['array', 'nullable'],
+            'country_data.is_serving' => ['boolean', 'required'],
+            'country_data.multi_currency_enabled' => ['boolean', 'required'],
+            'country_data.language_enabled' => ['boolean', 'required'],
+            'country_data.language_code' => ['string', 'min:2', 'required_if:language_enabled,true'],
+            'country_data.language_name' => ['string', 'min:3', 'required_if:language_enabled,true'],
         ];
     }
 

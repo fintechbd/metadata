@@ -18,7 +18,7 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
     {
         $model = app(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
 
-        if (! $model instanceof Model) {
+        if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
         }
 
@@ -35,7 +35,7 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
     {
         $query = $this->model->newQuery();
 
-        if (isset($filters['search']) && ! empty($filters['search'])) {
+        if (isset($filters['search']) && !empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
             } else {
@@ -76,6 +76,18 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
             $query->where('subregion_id', $filters['subregion_id']);
         }
 
+        if (isset($filters['language_enabled']) && !empty($filters['language_enabled'])) {
+            $query->whereJsonContains('country_data->language_enabled', true);
+        }
+
+        if (isset($filters['is_serving']) && !empty($filters['is_serving'])) {
+            $query->whereJsonContains('country_data->is_serving', true);
+        }
+
+        if (isset($filters['multi_currency_enabled']) && !empty($filters['multi_currency_enabled'])) {
+            $query->whereJsonContains('country_data->multi_currency_enabled', true);
+        }
+
         //Display Trashed
         if (isset($filters['trashed']) && !empty($filters['trashed'])) {
             $query->onlyTrashed();
@@ -83,6 +95,8 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
 
         //Handle Sorting
         $query->orderBy($filters['sort'] ?? $this->model->getKeyName(), $filters['dir'] ?? 'asc');
+
+        logger($query->toSql());
 
         //Execute Output
         return $this->executeQuery($query, $filters);
