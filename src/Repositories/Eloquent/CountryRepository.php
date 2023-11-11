@@ -96,6 +96,8 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
         //Handle Sorting
         $query->orderBy($filters['sort'] ?? $this->model->getKeyName(), $filters['dir'] ?? 'asc');
 
+        logger($query->toSql());
+
         //Execute Output
         return $this->executeQuery($query, $filters);
 
