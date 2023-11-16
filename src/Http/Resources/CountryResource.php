@@ -5,15 +5,43 @@ namespace Fintech\MetaData\Http\Resources;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
+/**
+ * @method getKey()
+ * @method getFirstMediaUrl(string $string)
+ * @property mixed $name
+ * @property mixed $iso3
+ * @property mixed $iso2
+ * @property mixed $phone_code
+ * @property mixed $capital
+ * @property mixed $currency
+ * @property mixed $currency_name
+ * @property mixed $currency_symbol
+ * @property mixed $nationality
+ * @property mixed $timezones
+ * @property mixed $country_data
+ * @property mixed $latitude
+ * @property mixed $longitude
+ * @property mixed $emoji
+ * @property mixed $enabled
+ * @property mixed $region_id
+ * @property mixed $region
+ * @property mixed $subregion_id
+ * @property mixed $subregion
+ * @property mixed $created_at
+ * @property mixed $updated_at
+ * @property mixed $deleted_at
+ * @property mixed $restored_at
+ * @property mixed $links
+ */
 class CountryResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
      *
-     * @param Request
+     * @param Request $request
      * @return array
      */
-    public function toArray($request)
+    public function toArray(Request $request): array
     {
         return [
             'id' => $this->getKey(),

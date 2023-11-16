@@ -7,6 +7,34 @@ use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
+/**
+ * @method getKey()
+ * @method getFirstMediaUrl(string $string)
+ * @property mixed $name
+ * @property mixed $iso3
+ * @property mixed $iso2
+ * @property mixed $phone_code
+ * @property mixed $capital
+ * @property mixed $currency
+ * @property mixed $currency_name
+ * @property mixed $currency_symbol
+ * @property mixed $nationality
+ * @property mixed $timezones
+ * @property mixed $country_data
+ * @property mixed $latitude
+ * @property mixed $longitude
+ * @property mixed $emoji
+ * @property mixed $enabled
+ * @property mixed $region_id
+ * @property mixed $region
+ * @property mixed $subregion_id
+ * @property mixed $subregion
+ * @property mixed $created_at
+ * @property mixed $updated_at
+ * @property mixed $deleted_at
+ * @property mixed $restored_at
+ * @property mixed $links
+ */
 class CountryCollection extends ResourceCollection
 {
     /**
@@ -15,7 +43,7 @@ class CountryCollection extends ResourceCollection
      * @param Request $request
      * @return array
      */
-    public function toArray($request)
+    public function toArray(Request $request): array
     {
         return $this->collection->map(function ($country) {
             return [
@@ -24,9 +52,16 @@ class CountryCollection extends ResourceCollection
                 'iso3' => $country->iso3,
                 'iso2' => $country->iso2,
                 'phone_code' => $country->phone_code,
+                'capital' => $country->capital,
                 'currency' => $country->currency,
                 'currency_name' => $country->currency_name,
+                'currency_symbol' => $country->currency_symbol,
+                'nationality' => $country->nationality,
+                'timezones' => $country->timezones,
                 'country_data' => $country->country_data,
+                'latitude' => $country->latitude,
+                'longitude' => $country->longitude,
+                'emoji' => $country->emoji,
                 'enabled' => $country->enabled,
                 'logo_svg' => $country->getFirstMediaUrl('logo_svg'),
                 'logo_png' => $country->getFirstMediaUrl('logo_png'),
