@@ -32,7 +32,8 @@ class IndexStateRequest extends FormRequest
             'sort' => ['string', 'nullable', 'min:2', 'max:255'],
             'dir' => ['string', 'min:3', 'max:4'],
             'trashed' => ['boolean', 'nullable'],
-            'country_id' => ['nullable', 'integer', 'min:1']
+            'country_id' => ['nullable', 'integer', 'min:1'],
+            'enabled' => ['boolean', 'nullable'],
         ];
     }
 }

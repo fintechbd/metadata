@@ -32,6 +32,7 @@ class IndexRemittancePurposeRequest extends FormRequest
             'sort' => ['string', 'nullable', 'min:2', 'max:255'],
             'dir' => ['string', 'min:3', 'max:4'],
             'trashed' => ['boolean', 'nullable'],
+            'enabled' => ['boolean', 'nullable'],
         ];
     }
 

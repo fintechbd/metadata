@@ -25,7 +25,7 @@ class StoreCityRequest extends FormRequest
             'name' => ['string', 'required', 'min:3'],
             'latitude' => ['numeric', 'nullable'],
             'longitude' => ['numeric', 'nullable'],
-            'enabled' => ['bool', 'nullable'],
+            'enabled' => ['boolean', 'nullable'],
             'city_data' => ['array', 'nullable'],
             'state_id' => ['integer', 'required', 'min:1'],
             'country_id' => ['integer', 'required', 'min:1'],
