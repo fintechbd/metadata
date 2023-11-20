@@ -53,4 +53,17 @@ if (Config::get('fintech.metadata.enabled')) {
 
             //DO NOT REMOVE THIS LINE//
         });
+
+    Route::prefix('dropdown')->name('metadata.')->group(function () {
+        Route::get('regions', [\Fintech\MetaData\Http\Controllers\RegionController::class, 'dropdown'])->name('regions.dropdown');
+        Route::get('subregions', [\Fintech\MetaData\Http\Controllers\SubRegionController::class, 'dropdown'])->name('subregions.dropdown');
+        Route::get('countries', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'dropdown'])->name('countries.dropdown');
+        Route::get('languages', [\Fintech\MetaData\Http\Controllers\LanguageController::class, 'dropdown'])->name('languages.dropdown');
+        Route::get('states', [\Fintech\MetaData\Http\Controllers\StateController::class, 'dropdown'])->name('states.dropdown');
+        Route::get('cities', [\Fintech\MetaData\Http\Controllers\CityController::class, 'dropdown'])->name('cities.dropdown');
+        Route::get('fund-sources', [\Fintech\MetaData\Http\Controllers\FundSourceController::class, 'dropdown'])->name('fund-sources.dropdown');
+        Route::get('occupations', [\Fintech\MetaData\Http\Controllers\OccupationController::class, 'dropdown'])->name('occupations.dropdown');
+        Route::get('remittance-purposes', [\Fintech\MetaData\Http\Controllers\RemittancePurposeController::class, 'dropdown'])->name('remittance-purposes.dropdown');
+        Route::get('relations', [\Fintech\MetaData\Http\Controllers\RelationController::class, 'dropdown'])->name('relations.dropdown');
+    });
 }

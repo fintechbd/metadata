@@ -7,6 +7,8 @@ use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
 use Fintech\Core\Exceptions\DeleteOperationException;
 use Fintech\Core\Exceptions\RestoreOperationException;
+use Fintech\Core\Http\Requests\DropDownRequest;
+use Fintech\Core\Http\Resources\DropDownCollection;
 use Fintech\Core\Traits\ApiResponseTrait;
 use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Resources\LanguageResource;
@@ -29,7 +31,6 @@ use Illuminate\Routing\Controller;
  * @lrd:end
  *
  */
-
 class LanguageController extends Controller
 {
     use ApiResponseTrait;
@@ -82,7 +83,7 @@ class LanguageController extends Controller
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Language']),
                 'id' => $language->id
-             ]);
+            ]);
 
         } catch (Exception $exception) {
 
@@ -280,6 +281,47 @@ class LanguageController extends Controller
 
         } catch (Exception $exception) {
 
+            return $this->failed($exception->getMessage());
+        }
+    }
+
+    /**
+     * @param DropDownRequest $request
+     * @return DropDownCollection|JsonResponse
+     */
+    public function dropdown(DropDownRequest $request): DropDownCollection|JsonResponse
+    {
+        try {
+            $filters = $request->all();
+
+            $filters['language_enabled'] = true;
+
+            $label = 'name';
+
+            $attribute = 'id';
+
+            if (!empty($filters['label'])) {
+                $label = $filters['label'];
+                unset($filters['label']);
+            }
+
+            if (!empty($filters['attribute'])) {
+                $attribute = $filters['attribute'];
+                unset($filters['attribute']);
+            }
+
+            $entries = MetaData::country()->list($filters)->map(function ($entry) use ($label, $attribute) {
+                $json_data = $entry->country_data;
+
+                return [
+                    'attribute' => $json_data['language_code'] ?? 'en',
+                    'label' => $json_data['language_name'] ?? 'English',
+                ];
+            })->toArray();
+
+            return new DropDownCollection($entries);
+
+        } catch (Exception $exception) {
             return $this->failed($exception->getMessage());
         }
     }
