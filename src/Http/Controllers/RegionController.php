@@ -3,7 +3,6 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Exception;
-use Fintech\Auth\Facades\Auth;
 use Fintech\Core\Exceptions\DeleteOperationException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
