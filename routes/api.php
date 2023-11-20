@@ -26,6 +26,9 @@ if (Config::get('fintech.metadata.enabled')) {
 
             Route::apiResource('countries', \Fintech\MetaData\Http\Controllers\CountryController::class);
             Route::post('countries/{country}/restore', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'restore'])->name('countries.restore');
+            Route::get('countries/{country}/toggle-language', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'toggleLanguage'])->name('countries.toggle-language');
+            Route::get('countries/{country}/toggle-multi-currency', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'toggleMultiCurrency'])->name('countries.toggle-multi-currency');
+            Route::get('countries/{country}/toggle-serving', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'toggleServingCountry'])->name('countries.toggle-serving');
 
             Route::apiResource('states', \Fintech\MetaData\Http\Controllers\StateController::class);
             Route::post('states/{state}/restore', [\Fintech\MetaData\Http\Controllers\StateController::class, 'restore'])->name('states.restore');
