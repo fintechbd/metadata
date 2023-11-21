@@ -1,6 +1,7 @@
 <?php
 
 namespace Fintech\MetaData\Http\Controllers;
+
 use Exception;
 use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\Core\Exceptions\StoreOperationException;
@@ -78,7 +79,7 @@ class CatalogController extends Controller
             $catalog = MetaData::catalog()->create($inputs);
 
             if (!$catalog) {
-                throw (new StoreOperationException)->setModel(config('fintech.metadata.catalog_model'));
+                throw (new StoreOperationException())->setModel(config('fintech.metadata.catalog_model'));
             }
 
             return $this->created([
@@ -108,7 +109,7 @@ class CatalogController extends Controller
             $catalog = MetaData::catalog()->find($id);
 
             if (!$catalog) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.catalog_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.catalog_model'), $id);
             }
 
             return new CatalogResource($catalog);
@@ -141,14 +142,14 @@ class CatalogController extends Controller
             $catalog = MetaData::catalog()->find($id);
 
             if (!$catalog) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.catalog_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.catalog_model'), $id);
             }
 
             $inputs = $request->validated();
 
             if (!MetaData::catalog()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException)->setModel(config('fintech.metadata.catalog_model'), $id);
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.catalog_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Catalog']));
@@ -180,7 +181,7 @@ class CatalogController extends Controller
             $catalog = MetaData::catalog()->find($id);
 
             if (!$catalog) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.catalog_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.catalog_model'), $id);
             }
 
             if (!MetaData::catalog()->destroy($id)) {
@@ -216,7 +217,7 @@ class CatalogController extends Controller
             $catalog = MetaData::catalog()->find($id, true);
 
             if (!$catalog) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.catalog_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.catalog_model'), $id);
             }
 
             if (!MetaData::catalog()->restore($id)) {

@@ -113,7 +113,7 @@ return [
     */
     'language_model' => \Fintech\MetaData\Models\Language::class,
 
-    
+
     /*
     |--------------------------------------------------------------------------
     | Catalog Model

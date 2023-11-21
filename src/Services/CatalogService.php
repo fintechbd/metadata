@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Services;
 
-
 use Fintech\MetaData\Interfaces\CatalogRepository;
 
 /**
@@ -16,7 +15,8 @@ class CatalogService
      * CatalogService constructor.
      * @param CatalogRepository $catalogRepository
      */
-    public function __construct(CatalogRepository $catalogRepository) {
+    public function __construct(CatalogRepository $catalogRepository)
+    {
         $this->catalogRepository = $catalogRepository;
     }
 

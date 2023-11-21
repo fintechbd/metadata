@@ -17,13 +17,13 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
 {
     public function __construct()
     {
-       $model = app(config('fintech.metadata.catalog_model', \Fintech\MetaData\Models\Catalog::class));
+        $model = app(config('fintech.metadata.catalog_model', \Fintech\MetaData\Models\Catalog::class));
 
-       if (!$model instanceof Model) {
-           throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-       }
+        if (!$model instanceof Model) {
+            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
+        }
 
-       $this->model = $model;
+        $this->model = $model;
     }
 
     /**
@@ -37,7 +37,7 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
         $query = $this->model->newQuery();
 
         //Searching
-        if (isset($filters['search']) && ! empty($filters['search'])) {
+        if (isset($filters['search']) && !empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
             } else {
