@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Fintech\MetaData\Services\OccupationService occupation()
  * @method static \Fintech\MetaData\Services\RelationService relation()
  * @method static \Fintech\MetaData\Services\RemittancePurposeService remittancePurpose()
+ * @method static \Fintech\MetaData\Services\CatalogService catalog()
  * // Crud Service Method Point Do not Remove //
  *
  * @see \Fintech\MetaData\MetaData

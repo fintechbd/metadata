@@ -113,6 +113,16 @@ return [
     */
     'language_model' => \Fintech\MetaData\Models\Language::class,
 
+    
+    /*
+    |--------------------------------------------------------------------------
+    | Catalog Model
+    |--------------------------------------------------------------------------
+    |
+    | This value will be used to across system where model is needed
+    */
+    'catalog_model' => \Fintech\MetaData\Models\Catalog::class,
+
     //** Model Config Point Do not Remove **//
 
 
@@ -143,6 +153,8 @@ return [
         \Fintech\MetaData\Interfaces\SubRegionRepository::class => \Fintech\MetaData\Repositories\Eloquent\SubRegionRepository::class,
 
         \Fintech\MetaData\Interfaces\LanguageRepository::class => \Fintech\MetaData\Repositories\Eloquent\LanguageRepository::class,
+
+        \Fintech\MetaData\Interfaces\CatalogRepository::class => \Fintech\MetaData\Repositories\Eloquent\CatalogRepository::class,
 
         //** Repository Binding Config Point Do not Remove **//
     ],

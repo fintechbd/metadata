@@ -95,5 +95,14 @@ class MetaData
         return app(RemittancePurposeService::class);
     }
 
+    /**
+     * @return \Fintech\MetaData\Services\CatalogService
+     */
+    public function catalog()
+    {
+        return app(\Fintech\MetaData\Services\CatalogService::class);
+    }
+
     //** Crud Service Method Point Do not Remove **//
+
 }
