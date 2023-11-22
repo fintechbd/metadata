@@ -430,7 +430,7 @@ class CountryController extends Controller
             }
 
             if ($countryData['is_serving'] === true) {
-                DB::transaction(fn() => $this->configureSystemUserForServingCountry($country));
+                DB::transaction(fn () => $this->configureSystemUserForServingCountry($country));
             }
 
             return $this->updated(__('metadata::messages.country.status_changed', ['field' => 'Serving Country']));
