@@ -14,9 +14,9 @@ class RemittancePurposeService
      * RemittancePurposeService constructor.
      * @param RemittancePurposeRepository $remittancePurposeRepository
      */
-    public function __construct(RemittancePurposeRepository $remittancePurposeRepository)
+    public function __construct(private readonly RemittancePurposeRepository $remittancePurposeRepository)
     {
-        $this->remittancePurposeRepository = $remittancePurposeRepository;
+
     }
 
     /**

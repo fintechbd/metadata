@@ -14,9 +14,8 @@ class RegionService
      * RegionService constructor.
      * @param RegionRepository $regionRepository
      */
-    public function __construct(RegionRepository $regionRepository)
+    public function __construct(private readonly RegionRepository $regionRepository)
     {
-        $this->regionRepository = $regionRepository;
     }
 
     /**

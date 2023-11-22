@@ -6,8 +6,8 @@ use Fintech\Core\Repositories\MongodbRepository;
 use Fintech\MetaData\Interfaces\CatalogRepository as InterfacesCatalogRepository;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use MongoDB\Laravel\Eloquent\Model;
 use InvalidArgumentException;
+use MongoDB\Laravel\Eloquent\Model;
 
 /**
  * Class CatalogRepository

@@ -14,9 +14,8 @@ class RelationService
      * RelationService constructor.
      * @param RelationRepository $relationRepository
      */
-    public function __construct(RelationRepository $relationRepository)
+    public function __construct(private readonly RelationRepository $relationRepository)
     {
-        $this->relationRepository = $relationRepository;
     }
 
     /**

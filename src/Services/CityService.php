@@ -10,14 +10,12 @@ use Fintech\MetaData\Interfaces\CityRepository;
  */
 class CityService
 {
-    public $cityRepository;
-
     /**
      * CityService constructor.
      */
-    public function __construct(CityRepository $cityRepository)
+    public function __construct(private readonly CityRepository $cityRepository)
     {
-        $this->cityRepository = $cityRepository;
+
     }
 
     /**

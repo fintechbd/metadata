@@ -15,9 +15,8 @@ class CatalogService
      * CatalogService constructor.
      * @param CatalogRepository $catalogRepository
      */
-    public function __construct(CatalogRepository $catalogRepository)
+    public function __construct(private readonly CatalogRepository $catalogRepository)
     {
-        $this->catalogRepository = $catalogRepository;
     }
 
     /**

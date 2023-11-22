@@ -3,8 +3,8 @@
 namespace Fintech\MetaData\Seeders;
 
 use Fintech\Core\Enums\MetaData\CatalogType;
-use Illuminate\Database\Seeder;
 use Fintech\MetaData\Facades\MetaData;
+use Illuminate\Database\Seeder;
 
 class BloodGroupSeeder extends Seeder
 {

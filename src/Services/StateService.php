@@ -10,14 +10,11 @@ use Fintech\MetaData\Interfaces\StateRepository;
  */
 class StateService
 {
-    public $stateRepository;
-
     /**
      * StateService constructor.
      */
-    public function __construct(StateRepository $stateRepository)
+    public function __construct(private readonly StateRepository $stateRepository)
     {
-        $this->stateRepository = $stateRepository;
     }
 
     /**

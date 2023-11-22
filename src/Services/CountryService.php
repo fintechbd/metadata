@@ -10,15 +10,12 @@ use Fintech\MetaData\Interfaces\CountryRepository;
  */
 class CountryService
 {
-    public $countryRepository;
-
     /**
      * CountryService constructor.
      * @param CountryRepository $countryRepository
      */
-    public function __construct(CountryRepository $countryRepository)
+    public function __construct(private readonly CountryRepository $countryRepository)
     {
-        $this->countryRepository = $countryRepository;
     }
 
     /**

@@ -11,17 +11,11 @@ use Fintech\MetaData\Interfaces\FundSourceRepository;
 class FundSourceService
 {
     /**
-     * @var FundSourceRepository
-     */
-    private FundSourceRepository $fundSourceRepository;
-
-    /**
      * FundSourceService constructor.
      * @param FundSourceRepository $fundSourceRepository
      */
-    public function __construct(FundSourceRepository $fundSourceRepository)
+    public function __construct(private readonly FundSourceRepository $fundSourceRepository)
     {
-        $this->fundSourceRepository = $fundSourceRepository;
     }
 
     /**

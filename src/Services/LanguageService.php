@@ -15,9 +15,8 @@ class LanguageService
      * LanguageService constructor.
      * @param LanguageRepository $languageRepository
      */
-    public function __construct(LanguageRepository $languageRepository)
+    public function __construct(private readonly LanguageRepository $languageRepository)
     {
-        $this->languageRepository = $languageRepository;
     }
 
     /**

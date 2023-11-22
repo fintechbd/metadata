@@ -11,17 +11,11 @@ use Fintech\MetaData\Interfaces\OccupationRepository;
 class OccupationService
 {
     /**
-     * @var OccupationRepository
-     */
-    private OccupationRepository $occupationRepository;
-
-    /**
      * OccupationService constructor.
      * @param OccupationRepository $occupationRepository
      */
-    public function __construct(OccupationRepository $occupationRepository)
+    public function __construct(private readonly OccupationRepository $occupationRepository)
     {
-        $this->occupationRepository = $occupationRepository;
     }
 
     /**
