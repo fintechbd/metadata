@@ -35,7 +35,7 @@ class SubRegionRepository extends EloquentRepository implements InterfacesSubReg
     {
         $query = $this->model->newQuery();
 
-        if (isset($filters['search']) && !empty($filters['search'])) {
+        if (!empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
             } else {
@@ -44,7 +44,7 @@ class SubRegionRepository extends EloquentRepository implements InterfacesSubReg
             }
         }
 
-        if (isset($filters['region_id']) && !empty($filters['region_id'])) {
+        if (!empty($filters['region_id'])) {
             $query->where('region_id', "=", $filters['region_id']);
         }
 

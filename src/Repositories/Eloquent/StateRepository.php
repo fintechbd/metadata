@@ -35,7 +35,7 @@ class StateRepository extends EloquentRepository implements InterfacesStateRepos
     {
         $query = $this->model->newQuery();
 
-        if (isset($filters['search']) && !empty($filters['search'])) {
+        if (!empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
             } else {
@@ -43,7 +43,7 @@ class StateRepository extends EloquentRepository implements InterfacesStateRepos
             }
         }
 
-        if (isset($filters['country_id']) && !empty($filters['country_id'])) {
+        if (!empty($filters['country_id'])) {
             $query->where('country_id', $filters['country_id']);
         }
 

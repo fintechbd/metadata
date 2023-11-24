@@ -35,12 +35,16 @@ class OccupationRepository extends EloquentRepository implements InterfacesOccup
     {
         $query = $this->model->newQuery();
 
-        if (isset($filters['search']) && !empty($filters['search'])) {
+        if (!empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
             } else {
                 $query->where('name', 'like', "%{$filters['search']}%");
             }
+        }
+
+        if(!empty($filters['country_id'])) {
+            $query->where('country_id', $filters['country_id']);
         }
 
         //Display Trashed

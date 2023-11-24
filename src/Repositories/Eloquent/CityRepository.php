@@ -35,7 +35,7 @@ class CityRepository extends EloquentRepository implements InterfacesCityReposit
     {
         $query = $this->model->newQuery();
 
-        if (isset($filters['search']) && !empty($filters['search'])) {
+        if (!empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
             } else {
@@ -43,11 +43,11 @@ class CityRepository extends EloquentRepository implements InterfacesCityReposit
             }
         }
 
-        if(isset($filters['state_id']) && !empty($filters['state_id'])) {
+        if(!empty($filters['state_id'])) {
             $query->where('state_id', $filters['state_id']);
         }
 
-        if(isset($filters['country_id']) && !empty($filters['country_id'])) {
+        if(!empty($filters['country_id'])) {
             $query->where('country_id', $filters['country_id']);
         }
 
