@@ -44,7 +44,7 @@ class OccupationRepository extends EloquentRepository implements InterfacesOccup
         }
 
         //Display Trashed
-        if (isset($filters['trashed']) && !empty($filters['trashed'])) {
+        if (isset($filters['trashed']) && $filters['trashed'] === true) {
             $query->onlyTrashed();
         }
 

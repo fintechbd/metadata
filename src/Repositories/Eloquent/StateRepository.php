@@ -48,7 +48,7 @@ class StateRepository extends EloquentRepository implements InterfacesStateRepos
         }
 
         //Display Trashed
-        if (isset($filters['trashed']) && !empty($filters['trashed'])) {
+        if (isset($filters['trashed']) && $filters['trashed'] === true) {
             $query->onlyTrashed();
         }
 
