@@ -14,7 +14,9 @@ class CountryObserver
      */
     public function created($country): void
     {
-        if (isset($country->country_data['is_serving']) && $country->country_data['is_serving'] = true) {
+        $countryData = $country->country_data;
+
+        if (isset($countryData['is_serving']) && $countryData['is_serving'] === true) {
             $this->configureSystemUserForServingCountry($country);
         }
     }
@@ -24,7 +26,9 @@ class CountryObserver
      */
     public function updated($country): void
     {
-        if (isset($country->country_data['is_serving']) && $country->country_data['is_serving'] = true) {
+        $countryData = $country->country_data;
+
+        if (isset($countryData['is_serving']) && $countryData['is_serving'] === true) {
             $this->configureSystemUserForServingCountry($country);
         }
     }
