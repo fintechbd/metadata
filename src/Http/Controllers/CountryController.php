@@ -459,7 +459,7 @@ class CountryController extends Controller
 
                 $userFullName = "{$country->name} {$roleName}";
 
-                if (\Fintech\Auth\Facades\Auth::user()->list(['name' => $userFullName])->first() == null) {
+                if (!\Fintech\Auth\Facades\Auth::user()->list(['name' => $userFullName])->first()) {
 
                     $user = [
                         'user' => [
