@@ -64,7 +64,7 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
         }
 
         //Enabled
-        if (isset($filters['enabled']) && !empty($filters['enabled'])) {
+        if (isset($filters['enabled'])) {
             $query->where('enabled', $filters['enabled']);
         }
 
@@ -76,27 +76,27 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
             $query->where('subregion_id', $filters['subregion_id']);
         }
 
-        if (isset($filters['language_enabled']) && !empty($filters['language_enabled'])) {
-            $query->whereJsonContains('country_data->language_enabled', true);
+        if (isset($filters['language_enabled'])) {
+            $query->whereJsonContains('country_data->language_enabled', $filters['language_enabled']);
         }
 
-        if (isset($filters['is_serving']) && !empty($filters['is_serving'])) {
-            $query->whereJsonContains('country_data->is_serving', true);
+        if (isset($filters['is_serving'])) {
+            $query->whereJsonContains('country_data->is_serving', $filters['is_serving']);
         }
 
-        if (isset($filters['multi_currency_enabled']) && !empty($filters['multi_currency_enabled'])) {
-            $query->whereJsonContains('country_data->multi_currency_enabled', true);
+        if (isset($filters['multi_currency_enabled'])) {
+            $query->whereJsonContains('country_data->multi_currency_enabled', $filters['multi_currency_enabled']);
         }
 
         //Display Trashed
-        if (isset($filters['trashed']) && !empty($filters['trashed'])) {
+        if (isset($filters['trashed'])) {
             $query->onlyTrashed();
         }
 
         //Handle Sorting
         $query->orderBy($filters['sort'] ?? $this->model->getKeyName(), $filters['dir'] ?? 'asc');
 
-        logger($query->toSql());
+        logger("COUNTRY REPOSITORY QUERY : " . $query->toRawSql());
 
         //Execute Output
         return $this->executeQuery($query, $filters);
