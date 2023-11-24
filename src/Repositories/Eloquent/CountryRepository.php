@@ -35,7 +35,7 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
     {
         $query = $this->model->newQuery();
 
-        if (isset($filters['search']) && !empty($filters['search'])) {
+        if (!empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
             } else {
@@ -51,15 +51,15 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
             }
         }
 
-        if (isset($filters['iso3']) && !empty($filters['iso3'])) {
+        if (!empty($filters['iso3'])) {
             $query->where('iso3', $filters['iso3']);
         }
 
-        if (isset($filters['iso2']) && !empty($filters['iso2'])) {
+        if (!empty($filters['iso2'])) {
             $query->where('iso2', $filters['iso2']);
         }
 
-        if (isset($filters['currency']) && !empty($filters['currency'])) {
+        if (!empty($filters['currency'])) {
             $query->where('currency', $filters['currency']);
         }
 
@@ -68,35 +68,33 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
             $query->where('enabled', $filters['enabled']);
         }
 
-        if (isset($filters['region_id']) && !empty($filters['region_id'])) {
+        if (!empty($filters['region_id'])) {
             $query->where('region_id', $filters['region_id']);
         }
 
-        if (isset($filters['subregion_id']) && !empty($filters['subregion_id'])) {
+        if (!empty($filters['subregion_id'])) {
             $query->where('subregion_id', $filters['subregion_id']);
         }
 
-        if (isset($filters['language_enabled'])) {
-            $query->whereJsonContains('country_data->language_enabled', $filters['language_enabled']);
+        if (isset($filters['language_enabled']) && is_bool($filters['language_enabled'])) {
+            $query->where('country_data->language_enabled', $filters['language_enabled']);
         }
 
-        if (isset($filters['is_serving'])) {
-            $query->whereJsonContains('country_data->is_serving', $filters['is_serving']);
+        if (isset($filters['is_serving']) && is_bool($filters['is_serving'])) {
+            $query->where('country_data->is_serving', $filters['is_serving']);
         }
 
-        if (isset($filters['multi_currency_enabled'])) {
-            $query->whereJsonContains('country_data->multi_currency_enabled', $filters['multi_currency_enabled']);
+        if (isset($filters['multi_currency_enabled']) && is_bool($filters['multi_currency_enabled'])) {
+            $query->where('country_data->multi_currency_enabled', $filters['multi_currency_enabled']);
         }
 
         //Display Trashed
-        if (isset($filters['trashed'])) {
+        if (isset($filters['trashed']) && $filters['trashed'] === true) {
             $query->onlyTrashed();
         }
 
         //Handle Sorting
         $query->orderBy($filters['sort'] ?? $this->model->getKeyName(), $filters['dir'] ?? 'asc');
-
-        logger("COUNTRY REPOSITORY QUERY : " . $query->toRawSql());
 
         //Execute Output
         return $this->executeQuery($query, $filters);
