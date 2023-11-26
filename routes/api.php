@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 if (Config::get('fintech.metadata.enabled')) {
     Route::prefix('metadata')->name('metadata.')
-        ->middleware(config('fintech.auth.middleware'))
+//        ->middleware(config('fintech.auth.middleware'))
         ->group(function () {
 
             Route::apiResource('regions', \Fintech\MetaData\Http\Controllers\RegionController::class);
@@ -26,7 +26,6 @@ if (Config::get('fintech.metadata.enabled')) {
 
             Route::apiResource('countries', \Fintech\MetaData\Http\Controllers\CountryController::class);
             Route::post('countries/{country}/restore', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'restore'])->name('countries.restore');
-            Route::get('countries/{country}/toggle-language', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'toggleLanguage'])->name('countries.toggle-language');
             Route::get('countries/{country}/toggle-multi-currency', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'toggleMultiCurrency'])->name('countries.toggle-multi-currency');
             Route::get('countries/{country}/toggle-serving', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'toggleServingCountry'])->name('countries.toggle-serving');
 
@@ -48,8 +47,8 @@ if (Config::get('fintech.metadata.enabled')) {
             Route::apiResource('remittance-purposes', \Fintech\MetaData\Http\Controllers\RemittancePurposeController::class);
             Route::post('remittance-purposes/{remittance_purpose}/restore', [\Fintech\MetaData\Http\Controllers\RemittancePurposeController::class, 'restore'])->name('remittance-purposes.restore');
 
-            Route::apiResource('languages', \Fintech\MetaData\Http\Controllers\LanguageController::class);
-            Route::post('languages/{language}/restore', [\Fintech\MetaData\Http\Controllers\LanguageController::class, 'restore'])->name('languages.restore');
+            Route::apiResource('languages', \Fintech\MetaData\Http\Controllers\LanguageController::class)->only(['index', 'update', 'show']);
+            Route::get('languages/{language}/toggle', [\Fintech\MetaData\Http\Controllers\LanguageController::class, 'toggle'])->name('languages.toggle');
 
             Route::apiResource('catalogs', \Fintech\MetaData\Http\Controllers\CatalogController::class);
             Route::post('catalogs/{catalog}/restore', [\Fintech\MetaData\Http\Controllers\CatalogController::class, 'restore'])->name('catalogs.restore');

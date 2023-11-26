@@ -62,36 +62,6 @@ class LanguageController extends Controller
 
     /**
      * @lrd:start
-     * Create a new *Language* resource in storage.
-     * @lrd:end
-     *
-     * @param StoreLanguageRequest $request
-     * @return JsonResponse
-     */
-    public function store(StoreLanguageRequest $request): JsonResponse
-    {
-        try {
-            $inputs = $request->validated();
-
-            $language = MetaData::language()->create($inputs);
-
-            if (!$language) {
-                throw (new StoreOperationException())->setModel('Language');
-            }
-
-            return $this->created([
-                'message' => __('core::messages.resource.created', ['model' => 'Language']),
-                'id' => $language->id
-            ]);
-
-        } catch (Exception $exception) {
-
-            return $this->failed($exception->getMessage());
-        }
-    }
-
-    /**
-     * @lrd:start
      * Return a specified *Language* resource found by id.
      * @lrd:end
      *
@@ -162,15 +132,13 @@ class LanguageController extends Controller
 
     /**
      * @lrd:start
-     * Soft delete a specified *Language* resource using id.
+     * Update a specified country as localization/language enabled or not.
+     *
      * @lrd:end
      *
-     * @param string|int $id
-     * @return JsonResponse
      * @throws ModelNotFoundException
-     * @throws DeleteOperationException
      */
-    public function destroy(string|int $id)
+    public function toggle(string|int $id): JsonResponse
     {
         try {
 
@@ -180,102 +148,26 @@ class LanguageController extends Controller
                 throw (new ModelNotFoundException())->setModel('Language', $id);
             }
 
-            if (!MetaData::language()->destroy($id)) {
+            $countryData = $language->country_data;
 
-                throw (new DeleteOperationException())->setModel('Language', $id);
+            $language = $language->language;
+
+            if ($language['code'] == null || $language['name'] == null) {
+                throw new Exception(__('metadata::messages.country.language_field_missing'));
             }
 
-            return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Language']));
+            $countryData['language_enabled'] = !($countryData['language_enabled'] ?? false);
+
+            if (!MetaData::country()->update($id, ['country_data' => $countryData])) {
+
+                throw (new UpdateOperationException())->setModel('Language', $id);
+            }
+
+            return $this->updated(__('metadata::messages.country.status_changed', ['field' => 'Language']));
 
         } catch (ModelNotFoundException $exception) {
 
             return $this->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
-
-            return $this->failed($exception->getMessage());
-        }
-    }
-
-    /**
-     * @lrd:start
-     * Restore the specified *Language* resource from trash.
-     * ** ```Soft Delete``` needs to enabled to use this feature**
-     * @lrd:end
-     *
-     * @param string|int $id
-     * @return JsonResponse
-     */
-    public function restore(string|int $id)
-    {
-        try {
-
-            $language = MetaData::language()->find($id, true);
-
-            if (!$language) {
-                throw (new ModelNotFoundException())->setModel('Language', $id);
-            }
-
-            if (!MetaData::language()->restore($id)) {
-
-                throw (new RestoreOperationException())->setModel('Language', $id);
-            }
-
-            return $this->restored(__('core::messages.resource.restored', ['model' => 'Language']));
-
-        } catch (ModelNotFoundException $exception) {
-
-            return $this->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
-
-            return $this->failed($exception->getMessage());
-        }
-    }
-
-    /**
-     * @lrd:start
-     * Create a exportable list of the *Language* resource as document.
-     * After export job is done system will fire  export completed event
-     *
-     * @lrd:end
-     *
-     * @param IndexLanguageRequest $request
-     * @return JsonResponse
-     */
-    public function export(IndexLanguageRequest $request): JsonResponse
-    {
-        try {
-            $inputs = $request->validated();
-
-            $languagePaginate = MetaData::language()->export($inputs);
-
-            return $this->exported(__('core::messages.resource.exported', ['model' => 'Language']));
-
-        } catch (Exception $exception) {
-
-            return $this->failed($exception->getMessage());
-        }
-    }
-
-    /**
-     * @lrd:start
-     * Create a exportable list of the *Language* resource as document.
-     * After export job is done system will fire  export completed event
-     *
-     * @lrd:end
-     *
-     * @param ImportLanguageRequest $request
-     * @return LanguageCollection|JsonResponse
-     */
-    public function import(ImportLanguageRequest $request): LanguageCollection|JsonResponse
-    {
-        try {
-            $inputs = $request->validated();
-
-            $languagePaginate = MetaData::language()->list($inputs);
-
-            return new LanguageCollection($languagePaginate);
 
         } catch (Exception $exception) {
 
@@ -309,10 +201,7 @@ class LanguageController extends Controller
             }
 
             $entries = MetaData::language()->list($filters)->map(function ($entry) use ($label, $attribute) {
-                $json_data = $entry->languages;
-                $json_data = array_filter($json_data, fn($lang) => $lang['is_official'] == true);
-                $json_data = array_shift($json_data);
-
+                $json_data = $entry->language;
 
                 return [
                     'attribute' => $json_data[$attribute] ?? 'en',

@@ -25,7 +25,7 @@ class LanguageService
      */
     public function list(array $filters = [])
     {
-        $filters['language_enabled'] = $filters['enabled'] ?? true;
+//        $filters['language_enabled'] = $filters['enabled'] ?? true;
 
         return $this->countryRepository->list($filters);
 
@@ -43,6 +43,22 @@ class LanguageService
 
     public function update($id, array $inputs = [])
     {
+        $country = $this->find($id);
+
+        $country_data = $country->country_data;
+
+        $language = $country->language;
+
+        $language['code'] = $inputs['code'] ?? $language['code'];
+        $language['name'] = $inputs['name'] ?? $language['name'];
+        $language['native'] = $inputs['native'] ?? $language['native'];
+        $country_data['language_enabled'] = $inputs['enabled'] ?? $country_data['language_enabled'];
+
+        $inputs = [
+            'language' => $language,
+            'country_data' => $country_data
+        ];
+
         return $this->countryRepository->update($id, $inputs);
     }
 

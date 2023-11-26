@@ -22,7 +22,7 @@ return new class () extends Migration {
             $table->string('currency_symbol')->nullable();
             $table->string('nationality')->nullable();
             $table->json('timezones')->nullable();
-            $table->json('languages')->nullable();
+            $table->json('language')->nullable();
             $table->json('country_data')->nullable();
             $table->double('latitude', 11, 8)->nullable();
             $table->double('longitude', 11, 8)->nullable();

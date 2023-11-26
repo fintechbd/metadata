@@ -18,11 +18,15 @@ class LanguageCollection extends ResourceCollection
     {
         return $this->collection->map(function ($country) use ($request) {
             $data['id'] = $country->getKey();
-            $this->getOfficialLanguage($country->languages, $data);
+            $data['country_id'] = $country->getKey();
+            $data['country_name'] = $country->name ?? null;
+            $data['name'] = $country->language['name'] ?? null;
+            $data['code'] = $country->language['code'] ?? null;
+            $data['native'] = $country->language['native'] ?? null;
             $data['logo_svg'] = $country->getFirstMediaUrl('logo_svg');
             $data['logo_png'] = $country->getFirstMediaUrl('logo_png');
             $data['enabled'] = $country->country_data['language_enabled'] ?? false;
-            $data['language_data'] = $country->languages;
+            $data['language_data'] = $country->language;
             $data['created_at'] = $country->created_at;
             $data['updated_at'] = $country->updated_at;
 
@@ -46,15 +50,5 @@ class LanguageCollection extends ResourceCollection
             ],
             'query' => $request->all(),
         ];
-    }
-
-    private function getOfficialLanguage(array $languages, &$data): void
-    {
-        $officialLanguage = array_filter($languages, fn($language) => $language['is_official'] == true);
-        $officialLanguage = (!empty($officialLanguage)) ? array_shift($officialLanguage) : [];
-        $data['name'] = $officialLanguage['name'] ?? null;
-        $data['code'] = $officialLanguage['code'] ?? null;
-        $data['native'] = $officialLanguage['native'] ?? null;
-        $data['is_official'] = $officialLanguage['is_official'] ?? false;
     }
 }

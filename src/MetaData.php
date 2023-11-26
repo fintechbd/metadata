@@ -98,6 +98,13 @@ class MetaData
     /**
      * @return \Fintech\MetaData\Services\CatalogService
      */
+    public function language()
+    {
+        return app(\Fintech\MetaData\Services\LanguageService::class);
+    }
+    /**
+     * @return \Fintech\MetaData\Services\CatalogService
+     */
     public function catalog()
     {
         return app(\Fintech\MetaData\Services\CatalogService::class);
