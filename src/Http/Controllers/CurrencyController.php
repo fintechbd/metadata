@@ -1,6 +1,7 @@
 <?php
 
 namespace Fintech\MetaData\Http\Controllers;
+
 use Exception;
 use Fintech\Core\Exceptions\UpdateOperationException;
 use Fintech\Core\Http\Requests\DropDownRequest;
@@ -71,7 +72,7 @@ class CurrencyController extends Controller
             $currency = MetaData::currency()->find($id);
 
             if (!$currency) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.currency_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.currency_model'), $id);
             }
 
             return new CurrencyResource($currency);
@@ -103,14 +104,14 @@ class CurrencyController extends Controller
             $currency = MetaData::currency()->find($id);
 
             if (!$currency) {
-                throw (new ModelNotFoundException)->setModel(config('fintech.metadata.currency_model'), $id);
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.currency_model'), $id);
             }
 
             $inputs = $request->validated();
 
             if (!MetaData::currency()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException)->setModel(config('fintech.metadata.currency_model'), $id);
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.currency_model'), $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Currency']));

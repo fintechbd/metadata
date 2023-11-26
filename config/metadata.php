@@ -131,7 +131,7 @@ return [
     */
     'catalog_model' => \Fintech\MetaData\Models\Catalog::class,
 
-    
+
     /*
     |--------------------------------------------------------------------------
     | Currency Model
