@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Fintech\MetaData\Services\RemittancePurposeService remittancePurpose()
  * @method static \Fintech\MetaData\Services\CatalogService catalog()
  * @method static \Fintech\MetaData\Services\LanguageService language()
+ * @method static \Fintech\MetaData\Services\CurrencyService currency()
  * // Crud Service Method Point Do not Remove //
  *
  * @see \Fintech\MetaData\MetaData

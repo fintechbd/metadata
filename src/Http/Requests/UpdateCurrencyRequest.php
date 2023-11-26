@@ -4,8 +4,9 @@ namespace Fintech\MetaData\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class StoreLanguageRequest extends FormRequest
+class UpdateCurrencyRequest extends FormRequest
 {
+
     /**
      * Determine if the user is authorized to make this request.
      */
@@ -22,7 +23,10 @@ class StoreLanguageRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => ['string', 'required', 'min:1'],
+            'code' => ['string', 'required', 'min:1'],
+            'symbol' => ['nullable', 'min:1'],
+            'enabled' => ['boolean', 'nullable'],
         ];
     }
 
@@ -34,10 +38,7 @@ class StoreLanguageRequest extends FormRequest
     public function attributes()
     {
         return [
-            'name' => ['required', 'string', 'min:3', 'max:255'],
-            'code' => ['required', 'string', 'min:2', 'max:4'],
-            'native' => ['nullable', 'min:3', 'max:255'],
-            'enabled' => ['nullable', 'boolean']
+            //
         ];
     }
 

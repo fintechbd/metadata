@@ -131,6 +131,16 @@ return [
     */
     'catalog_model' => \Fintech\MetaData\Models\Catalog::class,
 
+    
+    /*
+    |--------------------------------------------------------------------------
+    | Currency Model
+    |--------------------------------------------------------------------------
+    |
+    | This value will be used to across system where model is needed
+    */
+    'currency_model' => \Fintech\MetaData\Models\Currency::class,
+
     //** Model Config Point Do not Remove **//
 
 
@@ -163,6 +173,8 @@ return [
         \Fintech\MetaData\Interfaces\LanguageRepository::class => \Fintech\MetaData\Repositories\Eloquent\LanguageRepository::class,
 
         \Fintech\MetaData\Interfaces\CatalogRepository::class => \Fintech\MetaData\Repositories\Eloquent\CatalogRepository::class,
+
+        \Fintech\MetaData\Interfaces\CurrencyRepository::class => \Fintech\MetaData\Repositories\Eloquent\CurrencyRepository::class,
 
         //** Repository Binding Config Point Do not Remove **//
     ],

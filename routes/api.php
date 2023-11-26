@@ -26,7 +26,6 @@ if (Config::get('fintech.metadata.enabled')) {
 
             Route::apiResource('countries', \Fintech\MetaData\Http\Controllers\CountryController::class);
             Route::post('countries/{country}/restore', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'restore'])->name('countries.restore');
-            Route::get('countries/{country}/toggle-multi-currency', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'toggleMultiCurrency'])->name('countries.toggle-multi-currency');
             Route::get('countries/{country}/toggle-serving', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'toggleServingCountry'])->name('countries.toggle-serving');
 
             Route::apiResource('states', \Fintech\MetaData\Http\Controllers\StateController::class);
@@ -53,6 +52,9 @@ if (Config::get('fintech.metadata.enabled')) {
             Route::apiResource('catalogs', \Fintech\MetaData\Http\Controllers\CatalogController::class);
             Route::post('catalogs/{catalog}/restore', [\Fintech\MetaData\Http\Controllers\CatalogController::class, 'restore'])->name('catalogs.restore');
 
+            Route::apiResource('currencies', \Fintech\MetaData\Http\Controllers\CurrencyController::class)->only(['index', 'update', 'show']);
+            Route::get('currencies/{currency}/toggle', [\Fintech\MetaData\Http\Controllers\CurrencyController::class, 'toggle'])->name('currencies.toggle');
+
             //DO NOT REMOVE THIS LINE//
         });
 
@@ -61,7 +63,7 @@ if (Config::get('fintech.metadata.enabled')) {
         Route::get('subregions', [\Fintech\MetaData\Http\Controllers\SubRegionController::class, 'dropdown'])->name('subregions.dropdown');
         Route::get('countries', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'dropdown'])->name('countries.dropdown');
         Route::get('languages', [\Fintech\MetaData\Http\Controllers\LanguageController::class, 'dropdown'])->name('languages.dropdown');
-        Route::get('currencies', [\Fintech\MetaData\Http\Controllers\LanguageController::class, 'dropdown'])->name('languages.dropdown');
+        Route::get('currencies', [\Fintech\MetaData\Http\Controllers\CurrencyController::class, 'dropdown'])->name('currencies.dropdown');
         Route::get('states', [\Fintech\MetaData\Http\Controllers\StateController::class, 'dropdown'])->name('states.dropdown');
         Route::get('cities', [\Fintech\MetaData\Http\Controllers\CityController::class, 'dropdown'])->name('cities.dropdown');
         Route::get('fund-sources', [\Fintech\MetaData\Http\Controllers\FundSourceController::class, 'dropdown'])->name('fund-sources.dropdown');

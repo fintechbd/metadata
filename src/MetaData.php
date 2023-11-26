@@ -110,6 +110,15 @@ class MetaData
         return app(\Fintech\MetaData\Services\CatalogService::class);
     }
 
+    /**
+     * @return \Fintech\MetaData\Services\CurrencyService
+     */
+    public function currency()
+    {
+        return app(\Fintech\MetaData\Services\CurrencyService::class);
+    }
+
     //** Crud Service Method Point Do not Remove **//
+
 
 }

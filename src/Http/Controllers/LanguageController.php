@@ -150,15 +150,13 @@ class LanguageController extends Controller
 
             $countryData = $language->country_data;
 
-            $language = $language->language;
-
-            if ($language['code'] == null || $language['name'] == null) {
+            if ($language->language['code'] == null || $language->language['name'] == null) {
                 throw new Exception(__('metadata::messages.country.language_field_missing'));
             }
 
-            $countryData['language_enabled'] = !($countryData['language_enabled'] ?? false);
+            $inputs['enabled'] = !($countryData['language_enabled'] ?? false);
 
-            if (!MetaData::country()->update($id, ['country_data' => $countryData])) {
+            if (!MetaData::language()->update($id, $inputs)) {
 
                 throw (new UpdateOperationException())->setModel('Language', $id);
             }
