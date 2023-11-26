@@ -34,7 +34,10 @@ class StoreLanguageRequest extends FormRequest
     public function attributes()
     {
         return [
-            //
+            'name' => ['required', 'string', 'min:3', 'max:255'],
+            'code' => ['required', 'string', 'min:2', 'max:4'],
+            'native' => ['nullable', 'min:3', 'max:255'],
+            'is_official' => ['nullable', 'boolean']
         ];
     }
 

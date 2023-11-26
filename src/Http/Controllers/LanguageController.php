@@ -67,7 +67,6 @@ class LanguageController extends Controller
      *
      * @param StoreLanguageRequest $request
      * @return JsonResponse
-     * @throws StoreOperationException
      */
     public function store(StoreLanguageRequest $request): JsonResponse
     {
@@ -77,7 +76,7 @@ class LanguageController extends Controller
             $language = MetaData::language()->create($inputs);
 
             if (!$language) {
-                throw (new StoreOperationException())->setModel(config('fintech.metadata.language_model'));
+                throw (new StoreOperationException())->setModel('Language');
             }
 
             return $this->created([
@@ -107,7 +106,7 @@ class LanguageController extends Controller
             $language = MetaData::language()->find($id);
 
             if (!$language) {
-                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new ModelNotFoundException())->setModel('Language', $id);
             }
 
             return new LanguageResource($language);
@@ -131,7 +130,6 @@ class LanguageController extends Controller
      * @param string|int $id
      * @return JsonResponse
      * @throws ModelNotFoundException
-     * @throws UpdateOperationException
      */
     public function update(UpdateLanguageRequest $request, string|int $id): JsonResponse
     {
@@ -140,14 +138,14 @@ class LanguageController extends Controller
             $language = MetaData::language()->find($id);
 
             if (!$language) {
-                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new ModelNotFoundException())->setModel('Language', $id);
             }
 
             $inputs = $request->validated();
 
             if (!MetaData::language()->update($id, $inputs)) {
 
-                throw (new UpdateOperationException())->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new UpdateOperationException())->setModel('Language', $id);
             }
 
             return $this->updated(__('core::messages.resource.updated', ['model' => 'Language']));
@@ -179,12 +177,12 @@ class LanguageController extends Controller
             $language = MetaData::language()->find($id);
 
             if (!$language) {
-                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new ModelNotFoundException())->setModel('Language', $id);
             }
 
             if (!MetaData::language()->destroy($id)) {
 
-                throw (new DeleteOperationException())->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new DeleteOperationException())->setModel('Language', $id);
             }
 
             return $this->deleted(__('core::messages.resource.deleted', ['model' => 'Language']));
@@ -215,12 +213,12 @@ class LanguageController extends Controller
             $language = MetaData::language()->find($id, true);
 
             if (!$language) {
-                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new ModelNotFoundException())->setModel('Language', $id);
             }
 
             if (!MetaData::language()->restore($id)) {
 
-                throw (new RestoreOperationException())->setModel(config('fintech.metadata.language_model'), $id);
+                throw (new RestoreOperationException())->setModel('Language', $id);
             }
 
             return $this->restored(__('core::messages.resource.restored', ['model' => 'Language']));
@@ -270,7 +268,7 @@ class LanguageController extends Controller
      * @param ImportLanguageRequest $request
      * @return LanguageCollection|JsonResponse
      */
-    public function import(ImportLanguageRequest $request): JsonResponse
+    public function import(ImportLanguageRequest $request): LanguageCollection|JsonResponse
     {
         try {
             $inputs = $request->validated();
@@ -294,11 +292,11 @@ class LanguageController extends Controller
         try {
             $filters = $request->all();
 
-            $filters['language_enabled'] = true;
+            $filters['enabled'] = true;
 
             $label = 'name';
 
-            $attribute = 'id';
+            $attribute = 'code';
 
             if (!empty($filters['label'])) {
                 $label = $filters['label'];
@@ -310,12 +308,15 @@ class LanguageController extends Controller
                 unset($filters['attribute']);
             }
 
-            $entries = MetaData::country()->list($filters)->map(function ($entry) use ($label, $attribute) {
-                $json_data = $entry->country_data;
+            $entries = MetaData::language()->list($filters)->map(function ($entry) use ($label, $attribute) {
+                $json_data = $entry->languages;
+                $json_data = array_filter($json_data, fn($lang) => $lang['is_official'] == true);
+                $json_data = array_shift($json_data);
+
 
                 return [
-                    'attribute' => $json_data['language_code'] ?? 'en',
-                    'label' => $json_data['language_name'] ?? 'English',
+                    'attribute' => $json_data[$attribute] ?? 'en',
+                    'label' => $json_data[$label] ?? 'English',
                 ];
             })->toArray();
 

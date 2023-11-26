@@ -26,7 +26,7 @@ class Country extends Model implements HasMedia
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','timezones' => 'array', 'country_data' => 'array'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','timezones' => 'array', 'languages' => 'array', 'country_data' => 'array'];
 
     protected $appends = ['links'];
 

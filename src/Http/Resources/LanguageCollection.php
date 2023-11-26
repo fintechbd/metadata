@@ -16,7 +16,18 @@ class LanguageCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return $this->collection->map(function ($country) use ($request) {
+            $data['id'] = $country->getKey();
+            $this->getOfficialLanguage($country->languages, $data);
+            $data['logo_svg'] = $country->getFirstMediaUrl('logo_svg');
+            $data['logo_png'] = $country->getFirstMediaUrl('logo_png');
+            $data['enabled'] = $country->country_data['language_enabled'] ?? false;
+            $data['language_data'] = $country->languages;
+            $data['created_at'] = $country->created_at;
+            $data['updated_at'] = $country->updated_at;
+
+            return $data;
+        })->toArray();
     }
 
     /**
@@ -35,5 +46,15 @@ class LanguageCollection extends ResourceCollection
             ],
             'query' => $request->all(),
         ];
+    }
+
+    private function getOfficialLanguage(array $languages, &$data): void
+    {
+        $officialLanguage = array_filter($languages, fn($language) => $language['is_official'] == true);
+        $officialLanguage = (!empty($officialLanguage)) ? array_shift($officialLanguage) : [];
+        $data['name'] = $officialLanguage['name'] ?? null;
+        $data['code'] = $officialLanguage['code'] ?? null;
+        $data['native'] = $officialLanguage['native'] ?? null;
+        $data['is_official'] = $officialLanguage['is_official'] ?? false;
     }
 }

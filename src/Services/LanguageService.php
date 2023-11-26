@@ -2,7 +2,7 @@
 
 namespace Fintech\MetaData\Services;
 
-use Fintech\MetaData\Interfaces\LanguageRepository;
+use Fintech\MetaData\Interfaces\CountryRepository;
 
 /**
  * Class LanguageService
@@ -13,9 +13,9 @@ class LanguageService
 {
     /**
      * LanguageService constructor.
-     * @param LanguageRepository $languageRepository
+     * @param CountryRepository $countryRepository
      */
-    public function __construct(private readonly LanguageRepository $languageRepository)
+    public function __construct(private readonly CountryRepository $countryRepository)
     {
     }
 
@@ -25,42 +25,44 @@ class LanguageService
      */
     public function list(array $filters = [])
     {
-        return $this->languageRepository->list($filters);
+        $filters['language_enabled'] = $filters['enabled'] ?? true;
+
+        return $this->countryRepository->list($filters);
 
     }
 
     public function create(array $inputs = [])
     {
-        return $this->languageRepository->create($inputs);
+        return $this->countryRepository->create($inputs);
     }
 
     public function find($id, $onlyTrashed = false)
     {
-        return $this->languageRepository->find($id, $onlyTrashed);
+        return $this->countryRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])
     {
-        return $this->languageRepository->update($id, $inputs);
+        return $this->countryRepository->update($id, $inputs);
     }
 
     public function destroy($id)
     {
-        return $this->languageRepository->delete($id);
+        return $this->countryRepository->delete($id);
     }
 
     public function restore($id)
     {
-        return $this->languageRepository->restore($id);
+        return $this->countryRepository->restore($id);
     }
 
     public function export(array $filters)
     {
-        return $this->languageRepository->list($filters);
+        return $this->countryRepository->list($filters);
     }
 
     public function import(array $filters)
     {
-        return $this->languageRepository->create($filters);
+        return $this->countryRepository->create($filters);
     }
 }
