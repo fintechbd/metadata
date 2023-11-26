@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 if (Config::get('fintech.metadata.enabled')) {
     Route::prefix('metadata')->name('metadata.')
-//        ->middleware(config('fintech.auth.middleware'))
+        ->middleware(config('fintech.auth.middleware'))
         ->group(function () {
 
             Route::apiResource('regions', \Fintech\MetaData\Http\Controllers\RegionController::class);

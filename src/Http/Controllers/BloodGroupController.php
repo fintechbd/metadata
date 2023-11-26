@@ -2,7 +2,7 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller;
 use Exception;
 use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\Core\Http\Requests\DropDownRequest;
