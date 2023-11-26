@@ -22,12 +22,12 @@ return new class () extends Migration {
             $table->string('currency_symbol')->nullable();
             $table->string('nationality')->nullable();
             $table->json('timezones')->nullable();
+            $table->json('languages')->nullable();
             $table->json('country_data')->nullable();
             $table->double('latitude', 11, 8)->nullable();
             $table->double('longitude', 11, 8)->nullable();
             $table->string('emoji')->nullable();
             $table->boolean('enabled')->nullable();
-            $table->string('logo')->nullable();
             $table->foreignId('region_id')->nullable();
             $table->foreignId('subregion_id')->nullable();
             $table->foreignId('creator_id')->nullable();

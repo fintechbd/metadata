@@ -52,8 +52,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -65,6 +63,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_1.png',
                 'region_id' => '3',
                 'subregion_id' => '14',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Afghanistan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '2',
@@ -90,8 +97,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -99,10 +104,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '19.90000000',
                 'emoji' => '🇦🇽',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Aland Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '3',
@@ -128,8 +142,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -141,6 +153,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_2.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Albania',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '4',
@@ -166,8 +187,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -179,6 +198,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_3.png',
                 'region_id' => '1',
                 'subregion_id' => '1',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Algeria',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '5',
@@ -204,8 +232,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -217,6 +243,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_4.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'American Samoa',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '6',
@@ -242,8 +277,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -255,6 +288,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_5.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Andorra',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '7',
@@ -280,8 +322,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -293,6 +333,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_6.png',
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Angola',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '8',
@@ -318,8 +367,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -331,6 +378,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_7.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Anguilla',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '9',
@@ -419,8 +475,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -431,7 +485,16 @@ class CountrySeeder extends Seeder
                 'logo_svg' => 'country_logo_8.svg',
                 'logo_png' => 'country_logo_8.png',
                 'region_id' => '6',
-                'subregion_id' => null,
+                'subregion_id' => NULL,
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Antarctica',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '10',
@@ -457,8 +520,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -470,6 +531,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_9.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Antigua And Barbuda',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '11',
@@ -572,8 +642,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -585,6 +653,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_10.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Argentina',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '12',
@@ -610,8 +687,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -623,6 +698,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_11.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Armenia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '13',
@@ -648,8 +732,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -661,6 +743,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_12.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Aruba',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '14',
@@ -770,8 +861,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => true,
-                        'language_code' => 'en',
-                        'language_name' => 'en',
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -783,6 +872,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_13.png',
                 'region_id' => '5',
                 'subregion_id' => '19',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => 'en',
+                            'name' => 'Australia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '15',
@@ -808,8 +906,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -821,6 +917,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_14.png',
                 'region_id' => '4',
                 'subregion_id' => '17',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Austria',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '16',
@@ -846,8 +951,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -859,6 +962,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_15.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Azerbaijan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '17',
@@ -884,8 +996,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -897,6 +1007,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_16.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'The Bahamas',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '18',
@@ -922,8 +1041,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -935,6 +1052,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_17.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Bahrain',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '19',
@@ -960,8 +1086,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => true,
-                        'language_code' => 'bn',
-                        'language_name' => 'bn',
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -973,6 +1097,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_18.png',
                 'region_id' => '3',
                 'subregion_id' => '14',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => 'bn',
+                            'name' => 'Bangladesh',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '20',
@@ -998,8 +1131,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1011,6 +1142,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_19.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Barbados',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '21',
@@ -1036,8 +1176,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1049,6 +1187,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_20.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Belarus',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '22',
@@ -1074,8 +1221,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1087,6 +1232,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_21.png',
                 'region_id' => '4',
                 'subregion_id' => '17',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Belgium',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '23',
@@ -1112,8 +1266,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1125,6 +1277,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_22.png',
                 'region_id' => '2',
                 'subregion_id' => '9',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Belize',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '24',
@@ -1150,8 +1311,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1163,6 +1322,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_23.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Benin',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '25',
@@ -1188,8 +1356,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1201,6 +1367,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_24.png',
                 'region_id' => '2',
                 'subregion_id' => '6',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Bermuda',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '26',
@@ -1226,8 +1401,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1239,6 +1412,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_25.png',
                 'region_id' => '3',
                 'subregion_id' => '14',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Bhutan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '27',
@@ -1264,8 +1446,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1277,6 +1457,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_26.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Bolivia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '28',
@@ -1302,8 +1491,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1315,6 +1502,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_27.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Bosnia and Herzegovina',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '29',
@@ -1340,8 +1536,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1353,6 +1547,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_28.png',
                 'region_id' => '1',
                 'subregion_id' => '5',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Botswana',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '30',
@@ -1378,8 +1581,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1387,10 +1588,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '3.40000000',
                 'emoji' => '🇧🇻',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
-                'region_id' => null,
-                'subregion_id' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
+                'region_id' => NULL,
+                'subregion_id' => NULL,
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Bouvet Island',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '31',
@@ -1521,8 +1731,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1534,6 +1742,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_30.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Brazil',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '32',
@@ -1559,8 +1776,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1568,10 +1783,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '71.50000000',
                 'emoji' => '🇮🇴',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'British Indian Ocean Territory',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '33',
@@ -1597,8 +1821,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1610,6 +1832,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_32.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Brunei',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '34',
@@ -1635,8 +1866,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1648,6 +1877,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_33.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Bulgaria',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '35',
@@ -1673,8 +1911,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1686,6 +1922,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_34.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Burkina Faso',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '36',
@@ -1711,8 +1956,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1724,6 +1967,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_35.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Burundi',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '37',
@@ -1749,8 +2001,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1762,6 +2012,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_36.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Cambodia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '38',
@@ -1787,8 +2046,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -1800,6 +2057,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_37.png',
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Cameroon',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '39',
@@ -2014,8 +2280,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2027,6 +2291,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_38.png',
                 'region_id' => '2',
                 'subregion_id' => '6',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Canada',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '40',
@@ -2052,8 +2325,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2065,6 +2336,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_39.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Cape Verde',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '41',
@@ -2090,8 +2370,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2103,6 +2381,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_40.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Cayman Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '42',
@@ -2128,8 +2415,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2141,6 +2426,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_41.png',
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Central African Republic',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '43',
@@ -2166,8 +2460,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2179,6 +2471,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_42.png',
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Chad',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '44',
@@ -2218,8 +2519,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2231,6 +2530,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_43.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Chile',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '45',
@@ -2263,8 +2571,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => true,
-                        'language_code' => 'zh',
-                        'language_name' => 'zh',
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2276,6 +2582,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_44.png',
                 'region_id' => '3',
                 'subregion_id' => '12',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => 'zh',
+                            'name' => 'China',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '46',
@@ -2301,8 +2616,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2310,10 +2623,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '105.66666666',
                 'emoji' => '🇨🇽',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '5',
                 'subregion_id' => '19',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Christmas Island',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '47',
@@ -2339,8 +2661,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2348,10 +2668,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '96.83333333',
                 'emoji' => '🇨🇨',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '5',
                 'subregion_id' => '19',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Cocos (Keeling) Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '48',
@@ -2377,8 +2706,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2390,6 +2717,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_47.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Colombia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '49',
@@ -2415,8 +2751,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2428,6 +2762,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_48.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Comoros',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '50',
@@ -2453,8 +2796,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2466,6 +2807,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_49.png',
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Congo',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '51',
@@ -2498,8 +2848,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2511,6 +2859,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_50.png',
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Democratic Republic of the Congo',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '52',
@@ -2536,8 +2893,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2549,6 +2904,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_51.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Cook Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '53',
@@ -2574,8 +2938,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2587,6 +2949,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_52.png',
                 'region_id' => '2',
                 'subregion_id' => '9',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Costa Rica',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '54',
@@ -2612,8 +2983,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2625,6 +2994,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_53.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Cote D\'Ivoire (Ivory Coast)',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '55',
@@ -2650,8 +3028,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2663,6 +3039,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_54.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Croatia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '56',
@@ -2688,8 +3073,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2701,6 +3084,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_55.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Cuba',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '57',
@@ -2733,8 +3125,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2746,6 +3136,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_56.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Cyprus',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '58',
@@ -2758,12 +3157,10 @@ class CountrySeeder extends Seeder
                 'currency_name' => 'Czech koruna',
                 'currency_symbol' => 'Kč',
                 'nationality' => 'Czech',
-                'timezones' => null,
+                'timezones' => NULL,
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2775,6 +3172,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_57.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Czech Republic',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '59',
@@ -2800,8 +3206,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2813,6 +3217,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_58.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Denmark',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '60',
@@ -2838,8 +3251,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2851,6 +3262,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_59.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Djibouti',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '61',
@@ -2876,8 +3296,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2889,6 +3307,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_60.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Dominica',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '62',
@@ -2914,8 +3341,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2927,6 +3352,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_61.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Dominican Republic',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '63',
@@ -2952,8 +3386,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -2961,10 +3393,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '125.91666666',
                 'emoji' => '🇹🇱',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'East Timor',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '64',
@@ -2997,8 +3438,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3010,6 +3449,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_62.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Ecuador',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '65',
@@ -3035,8 +3483,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3048,6 +3494,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_63.png',
                 'region_id' => '1',
                 'subregion_id' => '1',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Egypt',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '66',
@@ -3073,8 +3528,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3086,6 +3539,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_64.png',
                 'region_id' => '2',
                 'subregion_id' => '9',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'El Salvador',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '67',
@@ -3111,8 +3573,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3124,6 +3584,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_65.png',
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Equatorial Guinea',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '68',
@@ -3149,8 +3618,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3162,6 +3629,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_66.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Eritrea',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '69',
@@ -3187,8 +3663,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3200,6 +3674,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_67.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Estonia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '70',
@@ -3225,8 +3708,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3238,6 +3719,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_68.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Ethiopia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '71',
@@ -3263,8 +3753,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3276,6 +3764,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_69.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Falkland Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '72',
@@ -3301,8 +3798,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3314,6 +3809,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_70.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Faroe Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '73',
@@ -3339,8 +3843,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3352,6 +3854,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_71.png',
                 'region_id' => '5',
                 'subregion_id' => '20',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Fiji Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '74',
@@ -3377,8 +3888,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3390,6 +3899,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_72.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Finland',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '75',
@@ -3415,8 +3933,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3428,6 +3944,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_73.png',
                 'region_id' => '4',
                 'subregion_id' => '17',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'France',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '76',
@@ -3453,8 +3978,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3466,6 +3989,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_74.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'French Guiana',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '77',
@@ -3505,8 +4037,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3518,6 +4048,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_75.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'French Polynesia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '78',
@@ -3543,8 +4082,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3552,10 +4089,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '69.16700000',
                 'emoji' => '🇹🇫',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '1',
                 'subregion_id' => '5',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'French Southern Territories',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '79',
@@ -3581,8 +4127,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3594,6 +4138,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_77.png',
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Gabon',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '80',
@@ -3619,8 +4172,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3632,6 +4183,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_78.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Gambia The',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '81',
@@ -3657,8 +4217,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3670,6 +4228,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_79.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Georgia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '82',
@@ -3702,8 +4269,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3715,6 +4280,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_80.png',
                 'region_id' => '4',
                 'subregion_id' => '17',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Germany',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '83',
@@ -3740,8 +4314,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3753,6 +4325,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_81.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Ghana',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '84',
@@ -3778,8 +4359,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3791,6 +4370,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_82.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Gibraltar',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '85',
@@ -3816,8 +4404,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3829,6 +4415,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_83.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Greece',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '86',
@@ -3875,8 +4470,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3888,6 +4481,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_84.png',
                 'region_id' => '2',
                 'subregion_id' => '6',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Greenland',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '87',
@@ -3913,8 +4515,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3926,6 +4526,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_85.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Grenada',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '88',
@@ -3951,8 +4560,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -3964,6 +4571,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_86.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Guadeloupe',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '89',
@@ -3989,8 +4605,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4002,6 +4616,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_87.png',
                 'region_id' => '5',
                 'subregion_id' => '21',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Guam',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '90',
@@ -4027,8 +4650,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4040,6 +4661,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_88.png',
                 'region_id' => '2',
                 'subregion_id' => '9',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Guatemala',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '91',
@@ -4065,8 +4695,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4074,10 +4702,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '-2.58333333',
                 'emoji' => '🇬🇬',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Guernsey and Alderney',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '92',
@@ -4103,8 +4740,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4116,6 +4751,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_89.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Guinea',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '93',
@@ -4141,8 +4785,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4154,6 +4796,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_90.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Guinea-Bissau',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '94',
@@ -4179,8 +4830,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4192,6 +4841,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_91.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Guyana',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '95',
@@ -4217,8 +4875,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4230,6 +4886,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_92.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Haiti',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '96',
@@ -4255,8 +4920,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4264,10 +4927,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '72.51666666',
                 'emoji' => '🇭🇲',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
-                'region_id' => null,
-                'subregion_id' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
+                'region_id' => NULL,
+                'subregion_id' => NULL,
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Heard Island and McDonald Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '97',
@@ -4293,8 +4965,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4306,6 +4976,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_95.png',
                 'region_id' => '2',
                 'subregion_id' => '9',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Honduras',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '98',
@@ -4331,8 +5010,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4344,6 +5021,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_96.png',
                 'region_id' => '3',
                 'subregion_id' => '12',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Hong Kong S.A.R.',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '99',
@@ -4369,8 +5055,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4382,6 +5066,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_97.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Hungary',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '100',
@@ -4407,8 +5100,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4420,6 +5111,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_98.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Iceland',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '101',
@@ -4445,8 +5145,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4458,6 +5156,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_99.png',
                 'region_id' => '3',
                 'subregion_id' => '14',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'India',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '102',
@@ -4504,8 +5211,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => true,
-                        'language_code' => 'IND',
-                        'language_name' => 'IND',
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4517,6 +5222,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_100.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => 'IND',
+                            'name' => 'Indonesia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '103',
@@ -4542,8 +5256,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4555,6 +5267,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_101.png',
                 'region_id' => '3',
                 'subregion_id' => '14',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Iran',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '104',
@@ -4580,8 +5301,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4593,6 +5312,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_102.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Iraq',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '105',
@@ -4618,8 +5346,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4631,6 +5357,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_103.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Ireland',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '106',
@@ -4656,8 +5391,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4669,6 +5402,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_104.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Israel',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '107',
@@ -4694,8 +5436,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4707,6 +5447,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_105.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Italy',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '108',
@@ -4732,8 +5481,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4745,6 +5492,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_106.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Jamaica',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '109',
@@ -4770,8 +5526,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4783,6 +5537,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_107.png',
                 'region_id' => '3',
                 'subregion_id' => '12',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Japan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '110',
@@ -4808,8 +5571,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4817,10 +5578,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '-2.16666666',
                 'emoji' => '🇯🇪',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Jersey',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '111',
@@ -4846,8 +5616,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4859,6 +5627,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_108.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Jordan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '112',
@@ -4926,8 +5703,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4939,6 +5714,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_109.png',
                 'region_id' => '3',
                 'subregion_id' => '10',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Kazakhstan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '113',
@@ -4964,8 +5748,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -4977,6 +5759,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_110.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Kenya',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '114',
@@ -5016,8 +5807,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5029,6 +5818,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_111.png',
                 'region_id' => '5',
                 'subregion_id' => '21',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Kiribati',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '115',
@@ -5054,8 +5852,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5067,6 +5863,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_112.png',
                 'region_id' => '3',
                 'subregion_id' => '12',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'North Korea',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '116',
@@ -5092,8 +5897,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5105,6 +5908,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_113.png',
                 'region_id' => '3',
                 'subregion_id' => '12',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'South Korea',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '117',
@@ -5130,8 +5942,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5143,6 +5953,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_114.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Kuwait',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '118',
@@ -5168,8 +5987,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5181,6 +5998,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_115.png',
                 'region_id' => '3',
                 'subregion_id' => '10',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Kyrgyzstan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '119',
@@ -5206,8 +6032,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5219,6 +6043,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_116.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Laos',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '120',
@@ -5244,8 +6077,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5257,6 +6088,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_117.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Latvia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '121',
@@ -5282,8 +6122,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5295,6 +6133,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_118.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Lebanon',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '122',
@@ -5320,8 +6167,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5333,6 +6178,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_119.png',
                 'region_id' => '1',
                 'subregion_id' => '5',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Lesotho',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '123',
@@ -5358,8 +6212,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5371,6 +6223,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_120.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Liberia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '124',
@@ -5396,8 +6257,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5409,6 +6268,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_121.png',
                 'region_id' => '1',
                 'subregion_id' => '1',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Libya',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '125',
@@ -5434,8 +6302,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5447,6 +6313,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_122.png',
                 'region_id' => '4',
                 'subregion_id' => '17',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Liechtenstein',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '126',
@@ -5472,8 +6347,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5485,6 +6358,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_123.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Lithuania',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '127',
@@ -5510,8 +6392,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5523,6 +6403,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_124.png',
                 'region_id' => '4',
                 'subregion_id' => '17',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Luxembourg',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '128',
@@ -5548,8 +6437,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5561,6 +6448,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_125.png',
                 'region_id' => '3',
                 'subregion_id' => '12',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Macau S.A.R.',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '129',
@@ -5586,8 +6482,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5599,6 +6493,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_126.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'North Macedonia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '130',
@@ -5624,8 +6527,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5637,6 +6538,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_127.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Madagascar',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '131',
@@ -5662,8 +6572,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5675,6 +6583,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_128.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Malawi',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '132',
@@ -5707,8 +6624,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => true,
-                        'language_code' => 'ms',
-                        'language_name' => 'ms',
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5720,6 +6635,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_129.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => 'ms',
+                            'name' => 'Malaysia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '133',
@@ -5745,8 +6669,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5758,6 +6680,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_130.png',
                 'region_id' => '3',
                 'subregion_id' => '14',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Maldives',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '134',
@@ -5783,8 +6714,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5796,6 +6725,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_131.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Mali',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '135',
@@ -5821,8 +6759,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5834,6 +6770,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_132.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Malta',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '136',
@@ -5859,8 +6804,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5868,10 +6811,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '-4.50000000',
                 'emoji' => '🇮🇲',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Man (Isle of)',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '137',
@@ -5904,8 +6856,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5917,6 +6867,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_133.png',
                 'region_id' => '5',
                 'subregion_id' => '21',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Marshall Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '138',
@@ -5942,8 +6901,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5955,6 +6912,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_134.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Martinique',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '139',
@@ -5980,8 +6946,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -5993,6 +6957,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_135.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Mauritania',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '140',
@@ -6018,8 +6991,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6031,6 +7002,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_136.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Mauritius',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '141',
@@ -6056,8 +7036,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6065,10 +7043,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '45.16666666',
                 'emoji' => '🇾🇹',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Mayotte',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '142',
@@ -6164,8 +7151,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6177,6 +7162,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_138.png',
                 'region_id' => '2',
                 'subregion_id' => '9',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Mexico',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '143',
@@ -6216,8 +7210,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6229,6 +7221,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_139.png',
                 'region_id' => '5',
                 'subregion_id' => '21',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Micronesia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '144',
@@ -6254,8 +7255,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6267,6 +7266,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_140.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Moldova',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '145',
@@ -6292,8 +7300,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6305,6 +7311,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_141.png',
                 'region_id' => '4',
                 'subregion_id' => '17',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Monaco',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '146',
@@ -6344,8 +7359,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6357,6 +7370,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_142.png',
                 'region_id' => '3',
                 'subregion_id' => '12',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Mongolia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '147',
@@ -6382,8 +7404,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6395,6 +7415,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_244.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Montenegro',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '148',
@@ -6420,8 +7449,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6433,6 +7460,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_143.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Montserrat',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '149',
@@ -6458,8 +7494,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6471,6 +7505,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_144.png',
                 'region_id' => '1',
                 'subregion_id' => '1',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Morocco',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '150',
@@ -6496,8 +7539,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6509,6 +7550,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_145.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Mozambique',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '151',
@@ -6534,8 +7584,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => true,
-                        'language_code' => 'mm',
-                        'language_name' => 'mm',
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6547,6 +7595,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_146.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => 'mm',
+                            'name' => 'Myanmar',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '152',
@@ -6572,8 +7629,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6585,6 +7640,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_147.png',
                 'region_id' => '1',
                 'subregion_id' => '5',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Namibia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '153',
@@ -6610,8 +7674,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6623,6 +7685,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_148.png',
                 'region_id' => '5',
                 'subregion_id' => '21',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Nauru',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '154',
@@ -6648,8 +7719,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => true,
-                        'language_code' => 'ne',
-                        'language_name' => 'ne',
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6661,6 +7730,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_149.png',
                 'region_id' => '3',
                 'subregion_id' => '14',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => 'ne',
+                            'name' => 'Nepal',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '155',
@@ -6686,8 +7764,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6699,6 +7775,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_246.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Bonaire, Sint Eustatius and Saba',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '156',
@@ -6724,8 +7809,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6737,6 +7820,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_150.png',
                 'region_id' => '4',
                 'subregion_id' => '17',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Netherlands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '157',
@@ -6762,8 +7854,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6775,6 +7865,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_152.png',
                 'region_id' => '5',
                 'subregion_id' => '20',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'New Caledonia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '158',
@@ -6807,8 +7906,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6820,6 +7917,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_153.png',
                 'region_id' => '5',
                 'subregion_id' => '19',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'New Zealand',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '159',
@@ -6845,8 +7951,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6858,6 +7962,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_154.png',
                 'region_id' => '2',
                 'subregion_id' => '9',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Nicaragua',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '160',
@@ -6883,8 +7996,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6896,6 +8007,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_155.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Niger',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '161',
@@ -6921,8 +8041,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6934,6 +8052,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_156.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Nigeria',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '162',
@@ -6959,8 +8086,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -6972,6 +8097,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_157.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Niue',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '163',
@@ -6997,8 +8131,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7010,6 +8142,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_158.png',
                 'region_id' => '5',
                 'subregion_id' => '19',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Norfolk Island',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '164',
@@ -7035,8 +8176,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7048,6 +8187,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_159.png',
                 'region_id' => '5',
                 'subregion_id' => '21',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Northern Mariana Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '165',
@@ -7073,8 +8221,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7086,6 +8232,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_160.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Norway',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '166',
@@ -7111,8 +8266,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7124,6 +8277,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_161.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Oman',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '167',
@@ -7149,8 +8311,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7162,6 +8322,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_162.png',
                 'region_id' => '3',
                 'subregion_id' => '14',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Pakistan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '168',
@@ -7187,8 +8356,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7200,6 +8367,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_163.png',
                 'region_id' => '5',
                 'subregion_id' => '21',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Palau',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '169',
@@ -7232,8 +8408,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7241,10 +8415,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '35.20000000',
                 'emoji' => '🇵🇸',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Palestinian Territory Occupied',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '170',
@@ -7270,8 +8453,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7283,6 +8464,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_165.png',
                 'region_id' => '2',
                 'subregion_id' => '9',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Panama',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '171',
@@ -7315,8 +8505,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7328,6 +8516,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_166.png',
                 'region_id' => '5',
                 'subregion_id' => '20',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Papua new Guinea',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '172',
@@ -7353,8 +8550,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7366,6 +8561,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_167.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Paraguay',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '173',
@@ -7391,8 +8595,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7404,6 +8606,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_168.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Peru',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '174',
@@ -7429,8 +8640,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7442,6 +8651,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_169.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Philippines',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '175',
@@ -7467,8 +8685,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7480,6 +8696,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_170.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Pitcairn Island',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '176',
@@ -7505,8 +8730,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7518,6 +8741,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_171.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Poland',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '177',
@@ -7557,8 +8789,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7570,6 +8800,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_172.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Portugal',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '178',
@@ -7595,8 +8834,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7608,6 +8845,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_173.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Puerto Rico',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '179',
@@ -7633,8 +8879,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7646,6 +8890,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_174.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Qatar',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '180',
@@ -7671,8 +8924,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7684,6 +8935,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_175.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Reunion',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '181',
@@ -7709,8 +8969,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7718,10 +8976,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '25.00000000',
                 'emoji' => '🇷🇴',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Romania',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '182',
@@ -7922,8 +9189,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7935,6 +9200,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_177.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Russia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '183',
@@ -7960,8 +9234,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -7973,6 +9245,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_178.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Rwanda',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '184',
@@ -7998,8 +9279,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8011,6 +9290,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_179.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Saint Helena',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '185',
@@ -8036,8 +9324,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8049,6 +9335,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_180.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Saint Kitts And Nevis',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '186',
@@ -8074,8 +9369,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8087,6 +9380,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_181.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Saint Lucia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '187',
@@ -8112,8 +9414,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8125,6 +9425,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_182.png',
                 'region_id' => '2',
                 'subregion_id' => '6',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Saint Pierre and Miquelon',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '188',
@@ -8150,8 +9459,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8163,6 +9470,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_183.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Saint Vincent And The Grenadines',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '189',
@@ -8188,8 +9504,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8201,6 +9515,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_189.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Saint-Barthelemy',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '190',
@@ -8226,8 +9549,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8235,10 +9556,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '-63.95000000',
                 'emoji' => '🇲🇫',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Saint-Martin (French part)',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '191',
@@ -8264,8 +9594,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8277,6 +9605,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_184.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Samoa',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '192',
@@ -8302,8 +9639,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8315,6 +9650,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_185.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'San Marino',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '193',
@@ -8340,8 +9684,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8353,6 +9695,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_186.png',
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Sao Tome and Principe',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '194',
@@ -8378,8 +9729,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8391,6 +9740,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_187.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Saudi Arabia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '195',
@@ -8416,8 +9774,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8429,6 +9785,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_188.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Senegal',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '196',
@@ -8454,8 +9819,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8467,6 +9830,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_247.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Serbia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '197',
@@ -8492,8 +9864,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8505,6 +9875,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_190.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Seychelles',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '198',
@@ -8530,8 +9909,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8543,6 +9920,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_191.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Sierra Leone',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '199',
@@ -8568,8 +9954,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => true,
-                        'language_code' => 'en',
-                        'language_name' => 'en',
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8581,6 +9965,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_192.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => 'en',
+                            'name' => 'Singapore',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '200',
@@ -8606,8 +9999,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8619,6 +10010,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_193.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Slovakia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '201',
@@ -8644,8 +10044,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8657,6 +10055,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_194.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Slovenia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '202',
@@ -8682,8 +10089,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8695,6 +10100,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_195.png',
                 'region_id' => '5',
                 'subregion_id' => '20',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Solomon Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '203',
@@ -8720,8 +10134,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8733,6 +10145,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_196.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Somalia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '204',
@@ -8758,8 +10179,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8771,6 +10190,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_197.png',
                 'region_id' => '1',
                 'subregion_id' => '5',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'South Africa',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '205',
@@ -8796,8 +10224,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8805,10 +10231,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '-37.00000000',
                 'emoji' => '🇬🇸',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'South Georgia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '206',
@@ -8834,8 +10269,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8843,10 +10276,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '30.00000000',
                 'emoji' => '🇸🇸',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '1',
                 'subregion_id' => '2',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'South Sudan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '207',
@@ -8886,8 +10328,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8899,6 +10339,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_199.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Spain',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '208',
@@ -8924,8 +10373,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8937,6 +10384,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_200.png',
                 'region_id' => '3',
                 'subregion_id' => '14',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Sri Lanka',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '209',
@@ -8962,8 +10418,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -8975,6 +10429,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_201.png',
                 'region_id' => '1',
                 'subregion_id' => '1',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Sudan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '210',
@@ -9000,8 +10463,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9013,6 +10474,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_202.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Suriname',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '211',
@@ -9038,8 +10508,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9051,6 +10519,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_203.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Svalbard And Jan Mayen Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '212',
@@ -9076,8 +10553,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9089,6 +10564,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_204.png',
                 'region_id' => '1',
                 'subregion_id' => '5',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Swaziland',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '213',
@@ -9114,8 +10598,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9127,6 +10609,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_205.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Sweden',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '214',
@@ -9152,8 +10643,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9165,6 +10654,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_206.png',
                 'region_id' => '4',
                 'subregion_id' => '17',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Switzerland',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '215',
@@ -9190,8 +10688,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9203,6 +10699,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_207.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Syria',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '216',
@@ -9228,8 +10733,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9241,6 +10744,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_208.png',
                 'region_id' => '3',
                 'subregion_id' => '12',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Taiwan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '217',
@@ -9266,8 +10778,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9279,6 +10789,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_209.png',
                 'region_id' => '3',
                 'subregion_id' => '10',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Tajikistan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '218',
@@ -9304,8 +10823,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9317,6 +10834,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_210.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Tanzania',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '219',
@@ -9342,8 +10868,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9355,6 +10879,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_211.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Thailand',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '220',
@@ -9380,8 +10913,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9393,6 +10924,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_213.png',
                 'region_id' => '1',
                 'subregion_id' => '3',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Togo',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '221',
@@ -9418,8 +10958,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9431,6 +10969,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_214.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Tokelau',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '222',
@@ -9456,8 +11003,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9469,6 +11014,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_215.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Tonga',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '223',
@@ -9494,8 +11048,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9507,6 +11059,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_216.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Trinidad And Tobago',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '224',
@@ -9532,8 +11093,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9545,6 +11104,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_217.png',
                 'region_id' => '1',
                 'subregion_id' => '1',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Tunisia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '225',
@@ -9570,8 +11138,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9583,6 +11149,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_218.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Turkey',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '226',
@@ -9608,8 +11183,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9621,6 +11194,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_219.png',
                 'region_id' => '3',
                 'subregion_id' => '10',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Turkmenistan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '227',
@@ -9646,8 +11228,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9659,6 +11239,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_220.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Turks And Caicos Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '228',
@@ -9684,8 +11273,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9697,6 +11284,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_221.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Tuvalu',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '229',
@@ -9722,8 +11318,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9735,6 +11329,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_222.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Uganda',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '230',
@@ -9781,8 +11384,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9794,6 +11395,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_223.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Ukraine',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '231',
@@ -9819,8 +11429,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9832,6 +11440,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_224.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'United Arab Emirates',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '232',
@@ -9857,8 +11474,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -9870,6 +11485,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_225.png',
                 'region_id' => '4',
                 'subregion_id' => '18',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'United Kingdom',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '233',
@@ -10091,8 +11715,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10104,6 +11726,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_226.png',
                 'region_id' => '2',
                 'subregion_id' => '6',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'United States',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '234',
@@ -10136,8 +11767,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10145,10 +11774,19 @@ class CountrySeeder extends Seeder
                 'longitude' => '0.00000000',
                 'emoji' => '🇺🇲',
                 'enabled' => true,
-                'logo_svg' => null,
-                'logo_png' => null,
+                'logo_svg' => NULL,
+                'logo_png' => NULL,
                 'region_id' => '2',
                 'subregion_id' => '6',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'United States Minor Outlying Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '235',
@@ -10174,8 +11812,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10187,6 +11823,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_228.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Uruguay',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '236',
@@ -10219,8 +11864,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10232,6 +11875,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_229.png',
                 'region_id' => '3',
                 'subregion_id' => '10',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Uzbekistan',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '237',
@@ -10257,8 +11909,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10270,6 +11920,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_230.png',
                 'region_id' => '5',
                 'subregion_id' => '20',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Vanuatu',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '238',
@@ -10295,8 +11954,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10308,6 +11965,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_94.png',
                 'region_id' => '4',
                 'subregion_id' => '16',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Vatican City State (Holy See)',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '239',
@@ -10333,8 +11999,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10346,6 +12010,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_231.png',
                 'region_id' => '2',
                 'subregion_id' => '8',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Venezuela',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '240',
@@ -10371,8 +12044,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10384,6 +12055,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_232.png',
                 'region_id' => '3',
                 'subregion_id' => '13',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Vietnam',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '241',
@@ -10409,8 +12089,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10422,6 +12100,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_233.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Virgin Islands (British)',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '242',
@@ -10447,8 +12134,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10460,6 +12145,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_234.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Virgin Islands (US)',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '243',
@@ -10485,8 +12179,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10498,6 +12190,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_235.png',
                 'region_id' => '5',
                 'subregion_id' => '22',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Wallis And Futuna Islands',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '244',
@@ -10523,8 +12224,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10536,6 +12235,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_236.png',
                 'region_id' => '1',
                 'subregion_id' => '1',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Western Sahara',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '245',
@@ -10561,8 +12269,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10574,6 +12280,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_237.png',
                 'region_id' => '3',
                 'subregion_id' => '11',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Yemen',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '246',
@@ -10599,8 +12314,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10612,6 +12325,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_238.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Zambia',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '247',
@@ -10637,8 +12359,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10650,6 +12370,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_239.png',
                 'region_id' => '1',
                 'subregion_id' => '4',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Zimbabwe',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '248',
@@ -10675,8 +12404,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10688,6 +12415,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_248.png',
                 'region_id' => '4',
                 'subregion_id' => '15',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Kosovo',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '249',
@@ -10713,8 +12449,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10726,6 +12460,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_249.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Curaçao',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
             array(
                 'id' => '250',
@@ -10751,8 +12494,6 @@ class CountrySeeder extends Seeder
                 'country_data' =>
                     array(
                         'language_enabled' => false,
-                        'language_code' => null,
-                        'language_name' => null,
                         'multi_currency_enabled' => false,
                         'is_serving' => false,
                     ),
@@ -10764,6 +12505,15 @@ class CountrySeeder extends Seeder
                 'logo_png' => 'country_logo_250.png',
                 'region_id' => '2',
                 'subregion_id' => '7',
+                'languages' =>
+                    array(
+                        array(
+                            'code' => NULL,
+                            'name' => 'Sint Maarten (Dutch part)',
+                            'native' => NULL,
+                            'is_official' => true,
+                        ),
+                    ),
             ),
         );
     }
