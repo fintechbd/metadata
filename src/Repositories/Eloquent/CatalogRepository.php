@@ -46,6 +46,22 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
             }
         }
 
+        if (!empty($filters['type'])) {
+            $query->where('type', $filters['type']);
+        }
+
+        if (!empty($filters['name'])) {
+            $query->where('name', $filters['name']);
+        }
+
+        if (!empty($filters['code'])) {
+            $query->where('code', $filters['code']);
+        }
+
+        if (is_bool($filters['enabled'])) {
+            $query->where('enabled', $filters['enabled']);
+        }
+
         //Display Trashed
         if (isset($filters['trashed']) && $filters['trashed'] === true) {
             $query->onlyTrashed();
