@@ -197,6 +197,8 @@ class CurrencyController extends Controller
                 return [
                     'attribute' => $entry->{$attribute} ?? 'USD',
                     'label' => $entry->{$label} ?? 'US Dollar',
+                    'logo_svg' => $entry->getFirstMediaUrl('logo_svg'),
+                    'logo_png' => $entry->getFirstMediaUrl('logo_png'),
                 ];
             })->toArray();
 
