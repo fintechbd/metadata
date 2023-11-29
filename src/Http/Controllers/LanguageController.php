@@ -197,8 +197,10 @@ class LanguageController extends Controller
                 $json_data = $entry->language;
 
                 return [
-                    'attribute' => $json_data[$attribute] ?? 'en',
-                    'label' => $json_data[$label] ?? 'English',
+                    'attribute' => $json_data[$attribute] ?? null,
+                    'label' => $json_data[$label] ?? null,
+                    'logo_svg' => $entry->getFirstMediaUrl('logo_svg'),
+                    'logo_png' => $entry->getFirstMediaUrl('logo_png'),
                 ];
             })->toArray();
 
