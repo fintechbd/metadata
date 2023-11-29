@@ -70,7 +70,7 @@ if (Config::get('fintech.metadata.enabled')) {
         Route::get('occupations', [\Fintech\MetaData\Http\Controllers\OccupationController::class, 'dropdown'])->name('occupations.dropdown');
         Route::get('remittance-purposes', [\Fintech\MetaData\Http\Controllers\RemittancePurposeController::class, 'dropdown'])->name('remittance-purposes.dropdown');
         Route::get('relations', [\Fintech\MetaData\Http\Controllers\RelationController::class, 'dropdown'])->name('relations.dropdown');
-
+        Route::get('phone-codes', \Fintech\MetaData\Http\Controllers\PhoneCodeDropDownController::class)->name('phone-codes.dropdown');
         Route::get('catalog-types', [\Fintech\MetaData\Http\Controllers\CatalogController::class, 'catalogTypeDropdown'])->name('catalog-types.dropdown');
         Route::get('genders', \Fintech\MetaData\Http\Controllers\GenderController::class)->name('genders.dropdown');
         Route::get('blood-groups', \Fintech\MetaData\Http\Controllers\BloodGroupController::class)->name('blood-groups.dropdown');
