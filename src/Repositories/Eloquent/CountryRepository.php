@@ -55,6 +55,10 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
             $query->where('id', $filters['country_id']);
         }
 
+        if (!empty($filters['in_array_country_id'])) {
+            $query->whereIn('id', $filters['in_array_country_id']);
+        }
+
         if (!empty($filters['iso3'])) {
             $query->where('iso3', $filters['iso3']);
         }
