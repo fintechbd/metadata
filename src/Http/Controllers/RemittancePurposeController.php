@@ -300,7 +300,7 @@ class RemittancePurposeController extends Controller
                 unset($filters['attribute']);
             }
 
-            $entries = MetaData::fundSource()->list($filters)->map(function ($entry) use ($label, $attribute) {
+            $entries = MetaData::remittancePurpose()->list($filters)->map(function ($entry) use ($label, $attribute) {
                 return [
                     'attribute' => $entry->{$attribute} ?? 'id',
                     'label' => $entry->{$label} ?? 'name',
