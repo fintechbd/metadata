@@ -58,7 +58,7 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
             $query->where('code', $filters['code']);
         }
 
-        if (is_bool($filters['enabled'])) {
+        if (isset($filters['enabled']) && is_bool($filters['enabled'])) {
             $query->where('enabled', $filters['enabled']);
         }
 
