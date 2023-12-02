@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
+use Fintech\Core\Traits\ApiResponseTrait;
 use Illuminate\Routing\Controller;
 use Exception;
 use Fintech\Core\Enums\MetaData\CatalogType;
@@ -12,6 +13,8 @@ use Illuminate\Http\JsonResponse;
 
 class GenderController extends Controller
 {
+    use ApiResponseTrait;
+
     /**
      * Handle the incoming request.
      */
