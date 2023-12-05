@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Models;
 
+use Fintech\MetaData\Traits\BusinessRelations;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -13,6 +14,7 @@ class Country extends Model implements HasMedia
     use \Fintech\Core\Traits\AuditableTrait;
     use SoftDeletes;
     use InteractsWithMedia;
+    use BusinessRelations;
 
     /*
     |--------------------------------------------------------------------------
