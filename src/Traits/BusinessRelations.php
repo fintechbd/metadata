@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Traits;
 
-
 use Fintech\Core\Facades\Core;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
@@ -18,6 +17,5 @@ if (Core::packageExists('Business')) {
 } else {
     trait BusinessRelations
     {
-
     }
 }
