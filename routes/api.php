@@ -62,6 +62,7 @@ if (Config::get('fintech.metadata.enabled')) {
         Route::get('regions', [\Fintech\MetaData\Http\Controllers\RegionController::class, 'dropdown'])->name('regions.dropdown');
         Route::get('subregions', [\Fintech\MetaData\Http\Controllers\SubRegionController::class, 'dropdown'])->name('subregions.dropdown');
         Route::get('countries', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'dropdown'])->name('countries.dropdown');
+        Route::get('nationalities', [\Fintech\MetaData\Http\Controllers\CountryController::class, 'nationalityDropdown'])->name('nationalities.dropdown');
         Route::get('languages', [\Fintech\MetaData\Http\Controllers\LanguageController::class, 'dropdown'])->name('languages.dropdown');
         Route::get('currencies', [\Fintech\MetaData\Http\Controllers\CurrencyController::class, 'dropdown'])->name('currencies.dropdown');
         Route::get('states', [\Fintech\MetaData\Http\Controllers\StateController::class, 'dropdown'])->name('states.dropdown');

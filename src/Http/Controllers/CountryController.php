@@ -7,6 +7,7 @@ use Fintech\Core\Exceptions\DeleteOperationException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
+use Fintech\Core\Facades\Core;
 use Fintech\Core\Http\Requests\DropDownRequest;
 use Fintech\Core\Http\Resources\DropDownCollection;
 use Fintech\Core\Traits\ApiResponseTrait;
@@ -289,6 +290,54 @@ class CountryController extends Controller
             $label = 'name';
 
             $attribute = 'id';
+
+            if (!empty($filters['label'])) {
+                $label = $filters['label'];
+                unset($filters['label']);
+            }
+
+            if (!empty($filters['attribute'])) {
+                $attribute = $filters['attribute'];
+                unset($filters['attribute']);
+            }
+
+            $entries = MetaData::country()->list($filters)->map(function ($entry) use ($label, $attribute) {
+                return [
+                    'attribute' => $entry->{$attribute} ?? 'id',
+                    'label' => $entry->{$label} ?? 'name',
+                ];
+            })->toArray();
+
+            return new DropDownCollection($entries);
+
+        } catch (Exception $exception) {
+            return $this->failed($exception->getMessage());
+        }
+    }
+
+    /**
+     * @param DropDownRequest $request
+     * @return DropDownCollection|JsonResponse
+     */
+    public function nationalityDropdown(DropDownRequest $request): DropDownCollection|JsonResponse
+    {
+        try {
+            $filters = $request->all();
+            if (Core::packageExists('Business')) {
+                $filters['in_array_country_id'] = \Fintech\Business\Facades\Business::serviceStat()->list([
+                    'sort' => 'destination_country_id',
+                    'dir' => 'asc',
+                    'paginate' => false,
+                ])?->pluck('destination_country_id')->toArray() ?? [];
+
+                $filters['in_array_country_id'] = array_values(array_unique($filters['in_array_country_id']));
+            } else {
+                $filters['is_serving'] = true;
+            }
+
+
+            $label = 'nationality';
+            $attribute = 'nationality';
 
             if (!empty($filters['label'])) {
                 $label = $filters['label'];
