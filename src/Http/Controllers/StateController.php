@@ -63,7 +63,6 @@ class StateController extends Controller
      *
      * @lrd:end
      *
-     * @throws StoreOperationException
      */
     public function store(StoreStateRequest $request): JsonResponse
     {
@@ -126,7 +125,6 @@ class StateController extends Controller
      * @lrd:end
      *
      * @throws ModelNotFoundException
-     * @throws UpdateOperationException
      */
     public function update(UpdateStateRequest $request, string|int $id): JsonResponse
     {
@@ -278,6 +276,10 @@ class StateController extends Controller
     }
 
     /**
+     * @LRDparam country_id required|integer|min:1
+     * @lrd:start
+     *
+     * @lrd:end
      * @param DropDownRequest $request
      * @return DropDownCollection|JsonResponse
      */
