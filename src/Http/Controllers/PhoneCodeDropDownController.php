@@ -2,13 +2,13 @@
 
 namespace Fintech\MetaData\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Exception;
 use Fintech\Core\Http\Requests\DropDownRequest;
 use Fintech\Core\Http\Resources\DropDownCollection;
 use Fintech\Core\Traits\ApiResponseTrait;
 use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Http\JsonResponse;
+use Illuminate\Routing\Controller;
 
 class PhoneCodeDropDownController extends Controller
 {
