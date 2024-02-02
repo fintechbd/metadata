@@ -65,7 +65,9 @@ class Country extends Model implements HasMedia
     {
         return $this->belongsToMany(
             config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class),
-            'country_currency', 'country_id', 'currency_id'
+            'country_currency',
+            'country_id',
+            'currency_id'
         )->withTimestamps();
     }
 
