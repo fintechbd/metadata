@@ -27,7 +27,6 @@ class CountryCurrencyCollection extends ResourceCollection
         $availableCurrencies = $this->collection['availableCurrencies'];
         $enabledCurrencies = $this->collection['enabledCurrencies'];
 
-
         return $availableCurrencies->map(function ($currency) use ($enabledCurrencies) {
             return [
                 'id' => $currency->getKey(),

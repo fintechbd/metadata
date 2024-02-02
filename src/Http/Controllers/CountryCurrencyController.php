@@ -38,7 +38,7 @@ class CountryCurrencyController extends Controller
 
             $enabledCurrencies = MetaData::currency()
                 ->list(['enabled' => true, 'paginate' => false, 'multi_currency_country_id' => $country->getKey()])
-                ->pluck('id')->toArray();
+                ->pluck('currency_id')->toArray();
 
             return new CountryCurrencyCollection(['availableCurrencies' => $availableCurrencies, 'enabledCurrencies' => $enabledCurrencies]);
 
