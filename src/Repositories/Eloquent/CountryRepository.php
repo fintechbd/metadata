@@ -7,6 +7,7 @@ use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Query\JoinClause;
 use InvalidArgumentException;
 
 /**
@@ -94,6 +95,12 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
 
         if (isset($filters['multi_currency_enabled']) && is_bool($filters['multi_currency_enabled'])) {
             $query->where('country_data->multi_currency_enabled', $filters['multi_currency_enabled']);
+        }
+        if (!empty($filters['multi_currency_country_id'])) {
+            $query->join('country_currency', function (JoinClause $joinClause) use ($filters) {
+                    return $joinClause->on('countries.id', '=', 'country_currency.country_id')
+                        ->where('country_currency.country_id', '=', $filters['multi_currency_country_id']);
+                });
         }
 
         //Display Trashed

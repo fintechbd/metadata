@@ -23,11 +23,7 @@ class CountryService
      */
     public function list(array $filters = [])
     {
-        $countryList = $this->countryRepository->list($filters);
-
-        //Do Business Stuff
-
-        return $countryList;
+        return $this->countryRepository->list($filters);
 
     }
 

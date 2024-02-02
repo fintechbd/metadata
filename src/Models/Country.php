@@ -5,6 +5,7 @@ namespace Fintech\MetaData\Models;
 use Fintech\MetaData\Traits\BusinessRelations;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -58,6 +59,14 @@ class Country extends Model implements HasMedia
     public function region(): BelongsTo
     {
         return $this->belongsTo(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
+    }
+
+    public function currencies(): BelongsToMany
+    {
+        return $this->belongsToMany(
+            config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class),
+            'country_currency', 'country_id', 'currency_id'
+        )->withTimestamps();
     }
 
     public function subregion(): BelongsTo

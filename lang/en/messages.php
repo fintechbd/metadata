@@ -14,5 +14,6 @@ return [
         'status_changed' => ':field feature status changed.',
         'language_field_missing' => 'Language required field (code/name) is missing/empty, use update request to populate data',
         'currency_field_missing' => 'Currency required field (code/name/symbol) is missing/empty, use update request to populate data',
+        'currency_assigned' => 'Assigning currencies to :country country successful.',
     ],
 ];

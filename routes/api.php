@@ -55,6 +55,7 @@ if (Config::get('fintech.metadata.enabled')) {
             Route::apiResource('currencies', \Fintech\MetaData\Http\Controllers\CurrencyController::class)->only(['index', 'update', 'show']);
             Route::get('currencies/{currency}/toggle', [\Fintech\MetaData\Http\Controllers\CurrencyController::class, 'toggle'])->name('currencies.toggle');
 
+            Route::apiResource('country-currencies', \Fintech\MetaData\Http\Controllers\CountryCurrencyController::class)->only(['show', 'update']);
             //DO NOT REMOVE THIS LINE//
         });
 
