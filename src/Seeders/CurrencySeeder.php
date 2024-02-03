@@ -2,8 +2,8 @@
 
 namespace Fintech\MetaData\Seeders;
 
-use Illuminate\Database\Seeder;
 use Fintech\MetaData\Facades\MetaData;
+use Illuminate\Database\Seeder;
 
 class CurrencySeeder extends Seeder
 {
