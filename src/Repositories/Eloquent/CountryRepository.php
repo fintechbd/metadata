@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Repositories\Eloquent;
 
-use Fintech\Core\Facades\Core;
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
 use Illuminate\Contracts\Pagination\Paginator;
@@ -96,7 +95,7 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
 
         if (isset($filters['is_destination']) && is_bool($filters['is_destination'])) {
             $query->select('countries.*')->groupBy('countries.id')
-                ->join('service_stats', 'countries.id', '=' ,'service_stats.destination_country_id');
+                ->join('service_stats', 'countries.id', '=', 'service_stats.destination_country_id');
         }
 
         if (isset($filters['multi_currency_enabled']) && is_bool($filters['multi_currency_enabled'])) {
