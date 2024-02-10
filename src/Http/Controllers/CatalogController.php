@@ -291,7 +291,7 @@ class CatalogController extends Controller
      * @param DropDownRequest $request
      * @return DropDownCollection|JsonResponse
      */
-    public function catalogTypeDropdown(DropDownRequest $request): DropDownCollection|JsonResponse
+    public function dropdown(DropDownRequest $request): DropDownCollection|JsonResponse
     {
         try {
             $entries = collect();
