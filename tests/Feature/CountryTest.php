@@ -1,7 +1,7 @@
 <?php
 
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Support\Str;
-
 use function Pest\Laravel\deleteJson;
 use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
@@ -9,7 +9,7 @@ use function Pest\Laravel\putJson;
 
 function createCountry()
 {
-    return \Fintech\MetaData\Facades\MetaData::country()->create([
+    return MetaData::country()->create([
         "name" => Str::random(20),
         "iso2" => "BD",
         "iso3" => "BGD",

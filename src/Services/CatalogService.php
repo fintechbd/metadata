@@ -19,21 +19,6 @@ class CatalogService
     {
     }
 
-    /**
-     * @param array $filters
-     * @return mixed
-     */
-    public function list(array $filters = [])
-    {
-        return $this->catalogRepository->list($filters);
-
-    }
-
-    public function create(array $inputs = [])
-    {
-        return $this->catalogRepository->create($inputs);
-    }
-
     public function find($id, $onlyTrashed = false)
     {
         return $this->catalogRepository->find($id, $onlyTrashed);
@@ -59,8 +44,23 @@ class CatalogService
         return $this->catalogRepository->list($filters);
     }
 
+    /**
+     * @param array $filters
+     * @return mixed
+     */
+    public function list(array $filters = [])
+    {
+        return $this->catalogRepository->list($filters);
+
+    }
+
     public function import(array $filters)
     {
         return $this->catalogRepository->create($filters);
+    }
+
+    public function create(array $inputs = [])
+    {
+        return $this->catalogRepository->create($inputs);
     }
 }

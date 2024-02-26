@@ -1,16 +1,16 @@
 <?php
 
-use Illuminate\Database\Eloquent\Model;
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Support\Str;
-
+use MongoDB\Laravel\Eloquent\Model;
 use function Pest\Laravel\deleteJson;
 use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
 use function Pest\Laravel\putJson;
 
-function createOccupations(): Model|\MongoDB\Laravel\Eloquent\Model|null
+function createOccupations(): Model|Model|null
 {
-    return \Fintech\MetaData\Facades\MetaData::occupation()->create([
+    return MetaData::occupation()->create([
         "name" => Str::random(20),
         "code" => "SOF-SOF",
         "country_id" => 1,

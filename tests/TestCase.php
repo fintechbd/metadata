@@ -11,26 +11,6 @@ class TestCase extends Orchestra
     use DatabaseMigrations;
 
     /**
-     * @return void
-     */
-    protected function setUp(): void
-    {
-        parent::setUp();
-    }
-
-
-    /**
-     * @param $app
-     * @return string[]
-     */
-    protected function getPackageProviders($app): array
-    {
-        return [
-            MetaDataServiceProvider::class,
-        ];
-    }
-
-    /**
      * @param $app
      * @return void
      */
@@ -58,5 +38,24 @@ class TestCase extends Orchestra
         foreach ($migrations as $migration) {
             $migration->up();
         }
+    }
+
+    /**
+     * @return void
+     */
+    protected function setUp(): void
+    {
+        parent::setUp();
+    }
+
+    /**
+     * @param $app
+     * @return string[]
+     */
+    protected function getPackageProviders($app): array
+    {
+        return [
+            MetaDataServiceProvider::class,
+        ];
     }
 }

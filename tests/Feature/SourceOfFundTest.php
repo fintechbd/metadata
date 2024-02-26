@@ -1,7 +1,7 @@
 <?php
 
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Support\Str;
-
 use function Pest\Laravel\deleteJson;
 use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
@@ -9,7 +9,7 @@ use function Pest\Laravel\putJson;
 
 function createFundSources()
 {
-    return \Fintech\MetaData\Facades\MetaData::fundSource()->create([
+    return MetaData::fundSource()->create([
         "name" => Str::random(20),
         "code" => "SOF-SOF",
         "country_id" => 1,

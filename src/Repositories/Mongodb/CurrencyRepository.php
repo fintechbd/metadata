@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Repositories\Mongodb;
 
 use Fintech\Core\Repositories\MongodbRepository;
 use Fintech\MetaData\Interfaces\CurrencyRepository as InterfacesCurrencyRepository;
+use Fintech\MetaData\Models\Currency;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use InvalidArgumentException;
@@ -17,7 +18,7 @@ class CurrencyRepository extends MongodbRepository implements InterfacesCurrency
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.currency_model', \Fintech\MetaData\Models\Currency::class));
+        $model = app(config('fintech.metadata.currency_model', Currency::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Mongodb repository require model class to be `MongoDB\Laravel\Eloquent\Model` instance.");

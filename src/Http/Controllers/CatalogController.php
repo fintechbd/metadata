@@ -32,7 +32,6 @@ use Illuminate\Routing\Controller;
  * @lrd:end
  *
  */
-
 class CatalogController extends Controller
 {
     use ApiResponseTrait;
@@ -85,7 +84,7 @@ class CatalogController extends Controller
             return $this->created([
                 'message' => __('core::messages.resource.created', ['model' => 'Catalog']),
                 'id' => $catalog->id
-             ]);
+            ]);
 
         } catch (Exception $exception) {
 

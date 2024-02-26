@@ -1,7 +1,7 @@
 <?php
 
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Support\Str;
-
 use function Pest\Laravel\deleteJson;
 use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
@@ -9,7 +9,7 @@ use function Pest\Laravel\putJson;
 
 function createFreshSubRegion()
 {
-    return \Fintech\MetaData\Facades\MetaData::subregion()->create([
+    return MetaData::subregion()->create([
         'name' => Str::random(20),
         'subregion_data' => ['vendors' => 'emq'],
         'region_id' => 1

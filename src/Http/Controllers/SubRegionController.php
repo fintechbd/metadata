@@ -51,7 +51,7 @@ class SubRegionController extends Controller
 
             return new SubRegionCollection($subRegionPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -81,7 +81,7 @@ class SubRegionController extends Controller
                 'id' => $subRegion->getKey(),
             ]);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -113,7 +113,7 @@ class SubRegionController extends Controller
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -151,7 +151,7 @@ class SubRegionController extends Controller
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -189,7 +189,7 @@ class SubRegionController extends Controller
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -225,7 +225,7 @@ class SubRegionController extends Controller
 
             return $this->notfound($exception->getMessage());
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -247,7 +247,7 @@ class SubRegionController extends Controller
 
             return $this->exported(__('core::messages.resource.exported', ['model' => 'Sub-Region']));
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }
@@ -271,7 +271,7 @@ class SubRegionController extends Controller
 
             return new SubRegionCollection($subRegionPaginate);
 
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
 
             return $this->failed($exception->getMessage());
         }

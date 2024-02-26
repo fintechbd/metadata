@@ -4,9 +4,9 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\OccupationRepository as InterfacesOccupationRepository;
+use Fintech\MetaData\Models\Occupation;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 
 /**
@@ -16,7 +16,7 @@ class OccupationRepository extends EloquentRepository implements InterfacesOccup
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.occupation_model', \Fintech\MetaData\Models\Occupation::class));
+        $model = app(config('fintech.metadata.occupation_model', Occupation::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
@@ -43,7 +43,7 @@ class OccupationRepository extends EloquentRepository implements InterfacesOccup
             }
         }
 
-        if(!empty($filters['country_id'])) {
+        if (!empty($filters['country_id'])) {
             $query->where('country_id', $filters['country_id']);
         }
 

@@ -4,9 +4,9 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\CityRepository as InterfacesCityRepository;
+use Fintech\MetaData\Models\City;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 
 /**
@@ -16,7 +16,7 @@ class CityRepository extends EloquentRepository implements InterfacesCityReposit
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.city_model', \Fintech\MetaData\Models\City::class));
+        $model = app(config('fintech.metadata.city_model', City::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
@@ -43,11 +43,11 @@ class CityRepository extends EloquentRepository implements InterfacesCityReposit
             }
         }
 
-        if(!empty($filters['state_id'])) {
+        if (!empty($filters['state_id'])) {
             $query->where('state_id', $filters['state_id']);
         }
 
-        if(!empty($filters['country_id'])) {
+        if (!empty($filters['country_id'])) {
             $query->where('country_id', $filters['country_id']);
         }
 

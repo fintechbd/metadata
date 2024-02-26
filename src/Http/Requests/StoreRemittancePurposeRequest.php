@@ -2,6 +2,8 @@
 
 namespace Fintech\MetaData\Http\Requests;
 
+use Fintech\MetaData\Models\RemittancePurpose;
+use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class StoreRemittancePurposeRequest extends FormRequest
@@ -17,11 +19,11 @@ class StoreRemittancePurposeRequest extends FormRequest
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string>
+     * @return array<string, ValidationRule|array|string>
      */
     public function rules(): array
     {
-        $uniqueRule = 'unique:'.config('fintech.metadata.remittance_purpose_model', \Fintech\MetaData\Models\RemittancePurpose::class).',name';
+        $uniqueRule = 'unique:' . config('fintech.metadata.remittance_purpose_model', RemittancePurpose::class) . ',name';
 
         return [
             'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],

@@ -105,7 +105,7 @@ class StateRepository implements InterfacesCountryRepository
     /**
      * find and delete a entry from records
      *
-     * @param  bool  $onlyTrashed
+     * @param bool $onlyTrashed
      * @return bool|null
      *
      * @throws StateRepositoryException

@@ -2,12 +2,13 @@
 
 namespace Fintech\MetaData\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Fintech\Core\Abstracts\BaseModel;
+use Fintech\Core\Traits\AuditableTrait;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Region extends Model
+class Region extends BaseModel
 {
-    use \Fintech\Core\Traits\AuditableTrait;
+    use AuditableTrait;
     use SoftDeletes;
 
     /*
@@ -22,7 +23,7 @@ class Region extends Model
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','region_data' => 'array'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'region_data' => 'array'];
 
     protected $appends = ['links'];
 

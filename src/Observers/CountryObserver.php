@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Observers;
 
+use Fintech\Auth\Facades\Auth;
 use Fintech\Core\Enums\Auth\SystemRole;
 use Fintech\Core\Facades\Core;
 use Fintech\MetaData\Facades\MetaData;
@@ -21,25 +22,13 @@ class CountryObserver
         }
     }
 
-    /**
-     * Handle the Country "updated" event.
-     */
-    public function updated($country): void
-    {
-        $countryData = $country->country_data;
-
-        if (isset($countryData['is_serving']) && $countryData['is_serving'] === true) {
-            $this->configureSystemUserForServingCountry($country);
-        }
-    }
-
     private function configureSystemUserForServingCountry($country): void
     {
         if (Core::packageExists('Auth')) {
 
             foreach (SystemRole::values() as $roleName) {
 
-                $roleModel = \Fintech\Auth\Facades\Auth::role()->list(['name' => $roleName])->first();
+                $roleModel = Auth::role()->list(['name' => $roleName])->first();
 
                 if (!$roleModel) {
                     throw (new ModelNotFoundException())->setModel(config('fintech.auth.role_model'), $roleName);
@@ -47,7 +36,7 @@ class CountryObserver
 
                 $userFullName = "{$country->name} {$roleName}";
 
-                if (!\Fintech\Auth\Facades\Auth::user()->list(['name' => $userFullName])->first()) {
+                if (!Auth::user()->list(['name' => $userFullName])->first()) {
 
                     $user = [
                         'user' => [
@@ -109,12 +98,24 @@ class CountryObserver
                         }
                     }
 
-                    $userModel = \Fintech\Auth\Facades\Auth::user()->create($user['user']);
+                    $userModel = Auth::user()->create($user['user']);
 
-                    $profileModel = \Fintech\Auth\Facades\Auth::profile()->create($userModel->getKey(), $user['profile']);
+                    $profileModel = Auth::profile()->create($userModel->getKey(), $user['profile']);
 
                 }
             }
+        }
+    }
+
+    /**
+     * Handle the Country "updated" event.
+     */
+    public function updated($country): void
+    {
+        $countryData = $country->country_data;
+
+        if (isset($countryData['is_serving']) && $countryData['is_serving'] === true) {
+            $this->configureSystemUserForServingCountry($country);
         }
     }
 

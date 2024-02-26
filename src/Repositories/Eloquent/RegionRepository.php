@@ -4,9 +4,9 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\RegionRepository as InterfacesRegionRepository;
+use Fintech\MetaData\Models\Region;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 
 /**
@@ -16,7 +16,7 @@ class RegionRepository extends EloquentRepository implements InterfacesRegionRep
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
+        $model = app(config('fintech.metadata.region_model', Region::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
@@ -44,7 +44,7 @@ class RegionRepository extends EloquentRepository implements InterfacesRegionRep
             }
         }
 
-        if(!empty($filters['country_id'])) {
+        if (!empty($filters['country_id'])) {
             $query->where('country_id', $filters['country_id']);
         }
 

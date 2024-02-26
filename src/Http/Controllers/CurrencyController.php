@@ -26,7 +26,6 @@ use Illuminate\Routing\Controller;
  * @lrd:end
  *
  */
-
 class CurrencyController extends Controller
 {
     use ApiResponseTrait;
@@ -89,45 +88,6 @@ class CurrencyController extends Controller
 
     /**
      * @lrd:start
-     * Update a specified *Currency* resource using id.
-     * @lrd:end
-     *
-     * @param UpdateCurrencyRequest $request
-     * @param string|int $id
-     * @return JsonResponse
-     * @throws ModelNotFoundException
-     */
-    public function update(UpdateCurrencyRequest $request, string|int $id): JsonResponse
-    {
-        try {
-
-            $currency = MetaData::currency()->find($id);
-
-            if (!$currency) {
-                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.currency_model'), $id);
-            }
-
-            $inputs = $request->validated();
-
-            if (!MetaData::currency()->update($id, $inputs)) {
-
-                throw (new UpdateOperationException())->setModel(config('fintech.metadata.currency_model'), $id);
-            }
-
-            return $this->updated(__('core::messages.resource.updated', ['model' => 'Currency']));
-
-        } catch (ModelNotFoundException $exception) {
-
-            return $this->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
-
-            return $this->failed($exception->getMessage());
-        }
-    }
-
-    /**
-     * @lrd:start
      * Update a specified country as multi currency enabled or not.
      *
      * @lrd:end
@@ -156,6 +116,45 @@ class CurrencyController extends Controller
             }
 
             return $this->updated(__('metadata::messages.country.status_changed', ['field' => 'Currency']));
+
+        } catch (ModelNotFoundException $exception) {
+
+            return $this->notfound($exception->getMessage());
+
+        } catch (Exception $exception) {
+
+            return $this->failed($exception->getMessage());
+        }
+    }
+
+    /**
+     * @lrd:start
+     * Update a specified *Currency* resource using id.
+     * @lrd:end
+     *
+     * @param UpdateCurrencyRequest $request
+     * @param string|int $id
+     * @return JsonResponse
+     * @throws ModelNotFoundException
+     */
+    public function update(UpdateCurrencyRequest $request, string|int $id): JsonResponse
+    {
+        try {
+
+            $currency = MetaData::currency()->find($id);
+
+            if (!$currency) {
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.currency_model'), $id);
+            }
+
+            $inputs = $request->validated();
+
+            if (!MetaData::currency()->update($id, $inputs)) {
+
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.currency_model'), $id);
+            }
+
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Currency']));
 
         } catch (ModelNotFoundException $exception) {
 

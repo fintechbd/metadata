@@ -4,9 +4,9 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\CatalogRepository as InterfacesCatalogRepository;
+use Fintech\MetaData\Models\Catalog;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 
 /**
@@ -17,7 +17,7 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.catalog_model', \Fintech\MetaData\Models\Catalog::class));
+        $model = app(config('fintech.metadata.catalog_model', Catalog::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

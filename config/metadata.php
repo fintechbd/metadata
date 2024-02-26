@@ -1,5 +1,26 @@
 <?php
 
+use Fintech\MetaData\Models\Catalog;
+use Fintech\MetaData\Models\City;
+use Fintech\MetaData\Models\Country;
+use Fintech\MetaData\Models\FundSource;
+use Fintech\MetaData\Models\Occupation;
+use Fintech\MetaData\Models\Region;
+use Fintech\MetaData\Models\Relation;
+use Fintech\MetaData\Models\RemittancePurpose;
+use Fintech\MetaData\Models\State;
+use Fintech\MetaData\Models\Subregion;
+use Fintech\MetaData\Repositories\Eloquent\CatalogRepository;
+use Fintech\MetaData\Repositories\Eloquent\CityRepository;
+use Fintech\MetaData\Repositories\Eloquent\CountryRepository;
+use Fintech\MetaData\Repositories\Eloquent\FundSourceRepository;
+use Fintech\MetaData\Repositories\Eloquent\OccupationRepository;
+use Fintech\MetaData\Repositories\Eloquent\RegionRepository;
+use Fintech\MetaData\Repositories\Eloquent\RelationRepository;
+use Fintech\MetaData\Repositories\Eloquent\RemittancePurposeRepository;
+use Fintech\MetaData\Repositories\Eloquent\StateRepository;
+use Fintech\MetaData\Repositories\Eloquent\SubRegionRepository;
+
 return [
 
     /*
@@ -37,7 +58,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'region_model' => \Fintech\MetaData\Models\Region::class,
+    'region_model' => Region::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -46,7 +67,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'subregion_model' => \Fintech\MetaData\Models\Subregion::class,
+    'subregion_model' => Subregion::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +76,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'country_model' => \Fintech\MetaData\Models\Country::class,
+    'country_model' => Country::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +85,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'state_model' => \Fintech\MetaData\Models\State::class,
+    'state_model' => State::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -73,7 +94,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'city_model' => \Fintech\MetaData\Models\City::class,
+    'city_model' => City::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -82,7 +103,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'fund_source_model' => \Fintech\MetaData\Models\FundSource::class,
+    'fund_source_model' => FundSource::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +112,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'occupation_model' => \Fintech\MetaData\Models\Occupation::class,
+    'occupation_model' => Occupation::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -100,7 +121,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'relation_model' => \Fintech\MetaData\Models\Relation::class,
+    'relation_model' => Relation::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -109,7 +130,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'remittance_purpose_model' => \Fintech\MetaData\Models\RemittancePurpose::class,
+    'remittance_purpose_model' => RemittancePurpose::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -118,7 +139,7 @@ return [
     |
     | This value will be used to across system where model is needed
     */
-    'catalog_model' => \Fintech\MetaData\Models\Catalog::class,
+    'catalog_model' => Catalog::class,
 
     //** Model Config Point Do not Remove **//
 
@@ -131,25 +152,25 @@ return [
     | This value will be used to across system where model is needed
     */
     'repositories' => [
-        \Fintech\MetaData\Interfaces\CityRepository::class => \Fintech\MetaData\Repositories\Eloquent\CityRepository::class,
+        \Fintech\MetaData\Interfaces\CityRepository::class => CityRepository::class,
 
-        \Fintech\MetaData\Interfaces\CountryRepository::class => \Fintech\MetaData\Repositories\Eloquent\CountryRepository::class,
+        \Fintech\MetaData\Interfaces\CountryRepository::class => CountryRepository::class,
 
-        \Fintech\MetaData\Interfaces\FundSourceRepository::class => \Fintech\MetaData\Repositories\Eloquent\FundSourceRepository::class,
+        \Fintech\MetaData\Interfaces\FundSourceRepository::class => FundSourceRepository::class,
 
-        \Fintech\MetaData\Interfaces\OccupationRepository::class => \Fintech\MetaData\Repositories\Eloquent\OccupationRepository::class,
+        \Fintech\MetaData\Interfaces\OccupationRepository::class => OccupationRepository::class,
 
-        \Fintech\MetaData\Interfaces\RegionRepository::class => \Fintech\MetaData\Repositories\Eloquent\RegionRepository::class,
+        \Fintech\MetaData\Interfaces\RegionRepository::class => RegionRepository::class,
 
-        \Fintech\MetaData\Interfaces\RelationRepository::class => \Fintech\MetaData\Repositories\Eloquent\RelationRepository::class,
+        \Fintech\MetaData\Interfaces\RelationRepository::class => RelationRepository::class,
 
-        \Fintech\MetaData\Interfaces\RemittancePurposeRepository::class => \Fintech\MetaData\Repositories\Eloquent\RemittancePurposeRepository::class,
+        \Fintech\MetaData\Interfaces\RemittancePurposeRepository::class => RemittancePurposeRepository::class,
 
-        \Fintech\MetaData\Interfaces\StateRepository::class => \Fintech\MetaData\Repositories\Eloquent\StateRepository::class,
+        \Fintech\MetaData\Interfaces\StateRepository::class => StateRepository::class,
 
-        \Fintech\MetaData\Interfaces\SubRegionRepository::class => \Fintech\MetaData\Repositories\Eloquent\SubRegionRepository::class,
+        \Fintech\MetaData\Interfaces\SubRegionRepository::class => SubRegionRepository::class,
 
-        \Fintech\MetaData\Interfaces\CatalogRepository::class => \Fintech\MetaData\Repositories\Eloquent\CatalogRepository::class,
+        \Fintech\MetaData\Interfaces\CatalogRepository::class => CatalogRepository::class,
 
         //** Repository Binding Config Point Do not Remove **//
     ],

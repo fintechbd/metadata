@@ -3,8 +3,10 @@
 namespace Fintech\MetaData\Repositories\Mongodb;
 
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Fintech\MetaData\Models\Country;
 use Illuminate\Contracts\Pagination\Paginator;
 use InvalidArgumentException;
+use Throwable;
 
 /**
  * Class CountryRepository
@@ -13,7 +15,7 @@ class CountryRepository implements InterfacesCountryRepository
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
+        $model = app(config('fintech.metadata.country_model', Country::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
@@ -59,7 +61,7 @@ class CountryRepository implements InterfacesCountryRepository
 
                 return $this->model;
             }
-        } catch (\Throwable $e) {
+        } catch (Throwable $e) {
 
             throw new CountryRepositoryException($e->getMessage(), 0, $e);
         }
@@ -80,7 +82,7 @@ class CountryRepository implements InterfacesCountryRepository
 
             $this->model = $this->model->findOrFail($id);
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
         }
@@ -92,7 +94,7 @@ class CountryRepository implements InterfacesCountryRepository
 
                 return $this->model;
             }
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new CountryRepositoryException($exception->getMessage(), 0, $exception);
         }
@@ -103,7 +105,7 @@ class CountryRepository implements InterfacesCountryRepository
     /**
      * find and delete a entry from records
      *
-     * @param  bool  $onlyTrashed
+     * @param bool $onlyTrashed
      * @return bool|null
      *
      * @throws CountryRepositoryException
@@ -114,7 +116,7 @@ class CountryRepository implements InterfacesCountryRepository
 
             $this->model = $this->model->findOrFail($id);
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
         }
@@ -123,7 +125,7 @@ class CountryRepository implements InterfacesCountryRepository
 
             return $this->model->deleteOrFail();
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new CountryRepositoryException($exception->getMessage(), 0, $exception);
         }
@@ -144,7 +146,7 @@ class CountryRepository implements InterfacesCountryRepository
 
             $this->model = $this->model->findOrFail($id);
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
         }
@@ -153,7 +155,7 @@ class CountryRepository implements InterfacesCountryRepository
 
             return $this->model->deleteOrFail();
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new CountryRepositoryException($exception->getMessage(), 0, $exception);
         }
@@ -178,7 +180,7 @@ class CountryRepository implements InterfacesCountryRepository
 
             $this->model = $this->model->onlyTrashed()->findOrFail($id);
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new ModelNotFoundException($exception->getMessage(), 0, $exception);
         }
@@ -187,7 +189,7 @@ class CountryRepository implements InterfacesCountryRepository
 
             return $this->model->deleteOrFail();
 
-        } catch (\Throwable $exception) {
+        } catch (Throwable $exception) {
 
             throw new CountryRepositoryException($exception->getMessage(), 0, $exception);
         }

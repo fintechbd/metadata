@@ -88,45 +88,6 @@ class LanguageController extends Controller
 
     /**
      * @lrd:start
-     * Update a specified *Language* resource using id.
-     * @lrd:end
-     *
-     * @param UpdateLanguageRequest $request
-     * @param string|int $id
-     * @return JsonResponse
-     * @throws ModelNotFoundException
-     */
-    public function update(UpdateLanguageRequest $request, string|int $id): JsonResponse
-    {
-        try {
-
-            $language = MetaData::language()->find($id);
-
-            if (!$language) {
-                throw (new ModelNotFoundException())->setModel('Language', $id);
-            }
-
-            $inputs = $request->validated();
-
-            if (!MetaData::language()->update($id, $inputs)) {
-
-                throw (new UpdateOperationException())->setModel('Language', $id);
-            }
-
-            return $this->updated(__('core::messages.resource.updated', ['model' => 'Language']));
-
-        } catch (ModelNotFoundException $exception) {
-
-            return $this->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
-
-            return $this->failed($exception->getMessage());
-        }
-    }
-
-    /**
-     * @lrd:start
      * Update a specified country as localization/language enabled or not.
      *
      * @lrd:end
@@ -157,6 +118,45 @@ class LanguageController extends Controller
             }
 
             return $this->updated(__('metadata::messages.country.status_changed', ['field' => 'Language']));
+
+        } catch (ModelNotFoundException $exception) {
+
+            return $this->notfound($exception->getMessage());
+
+        } catch (Exception $exception) {
+
+            return $this->failed($exception->getMessage());
+        }
+    }
+
+    /**
+     * @lrd:start
+     * Update a specified *Language* resource using id.
+     * @lrd:end
+     *
+     * @param UpdateLanguageRequest $request
+     * @param string|int $id
+     * @return JsonResponse
+     * @throws ModelNotFoundException
+     */
+    public function update(UpdateLanguageRequest $request, string|int $id): JsonResponse
+    {
+        try {
+
+            $language = MetaData::language()->find($id);
+
+            if (!$language) {
+                throw (new ModelNotFoundException())->setModel('Language', $id);
+            }
+
+            $inputs = $request->validated();
+
+            if (!MetaData::language()->update($id, $inputs)) {
+
+                throw (new UpdateOperationException())->setModel('Language', $id);
+            }
+
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Language']));
 
         } catch (ModelNotFoundException $exception) {
 

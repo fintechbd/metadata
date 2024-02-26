@@ -19,28 +19,6 @@ class LanguageService
     {
     }
 
-    /**
-     * @param array $filters
-     * @return mixed
-     */
-    public function list(array $filters = [])
-    {
-        $filters['language_enabled'] = $filters['enabled'] ?? true;
-
-        return $this->countryRepository->list($filters);
-
-    }
-
-    public function create(array $inputs = [])
-    {
-        return $this->countryRepository->create($inputs);
-    }
-
-    public function find($id, $onlyTrashed = false)
-    {
-        return $this->countryRepository->find($id, $onlyTrashed);
-    }
-
     public function update($id, array $inputs = [])
     {
         $country = $this->find($id);
@@ -62,6 +40,11 @@ class LanguageService
         return $this->countryRepository->update($id, $inputs);
     }
 
+    public function find($id, $onlyTrashed = false)
+    {
+        return $this->countryRepository->find($id, $onlyTrashed);
+    }
+
     public function destroy($id)
     {
         return $this->countryRepository->delete($id);
@@ -77,8 +60,25 @@ class LanguageService
         return $this->countryRepository->list($filters);
     }
 
+    /**
+     * @param array $filters
+     * @return mixed
+     */
+    public function list(array $filters = [])
+    {
+        $filters['language_enabled'] = $filters['enabled'] ?? true;
+
+        return $this->countryRepository->list($filters);
+
+    }
+
     public function import(array $filters)
     {
         return $this->countryRepository->create($filters);
+    }
+
+    public function create(array $inputs = [])
+    {
+        return $this->countryRepository->create($inputs);
     }
 }

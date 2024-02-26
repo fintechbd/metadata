@@ -2,13 +2,14 @@
 
 namespace Fintech\MetaData\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Fintech\Core\Abstracts\BaseModel;
+use Fintech\Core\Traits\AuditableTrait;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class State extends Model
+class State extends BaseModel
 {
-    use \Fintech\Core\Traits\AuditableTrait;
+    use AuditableTrait;
     use SoftDeletes;
 
     /*
@@ -23,7 +24,7 @@ class State extends Model
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','state_data' => 'array'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'state_data' => 'array'];
 
     protected $appends = ['links'];
 
@@ -41,7 +42,7 @@ class State extends Model
 
     public function country(): BelongsTo
     {
-        return $this->belongsTo(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
+        return $this->belongsTo(config('fintech.metadata.country_model', Country::class));
     }
 
     /*

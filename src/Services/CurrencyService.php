@@ -25,17 +25,12 @@ class CurrencyService
      */
     public function list(array $filters = [])
     {
-        if(isset($filters['enabled'])) {
+        if (isset($filters['enabled'])) {
             $filters['multi_currency_enabled'] = $filters['enabled'];
             unset($filters['enabled']);
         }
         return $this->countryRepository->list($filters);
 
-    }
-
-    public function find($id, $onlyTrashed = false)
-    {
-        return $this->countryRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])
@@ -65,5 +60,10 @@ class CurrencyService
 
 
         return $this->countryRepository->update($id, $inputs);
+    }
+
+    public function find($id, $onlyTrashed = false)
+    {
+        return $this->countryRepository->find($id, $onlyTrashed);
     }
 }

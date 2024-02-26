@@ -2,6 +2,8 @@
 
 namespace Fintech\MetaData\Http\Requests;
 
+use Fintech\MetaData\Models\SubRegion;
+use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class UpdateSubRegionRequest extends FormRequest
@@ -17,11 +19,11 @@ class UpdateSubRegionRequest extends FormRequest
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string>
+     * @return array<string, ValidationRule|array|string>
      */
     public function rules(): array
     {
-        $uniqueRule = 'unique:'.config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\SubRegion::class).',name';
+        $uniqueRule = 'unique:' . config('fintech.metadata.subregion_model', SubRegion::class) . ',name';
 
         return [
             'region_id' => ['integer', 'nullable'],

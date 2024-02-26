@@ -1,7 +1,7 @@
 <?php
 
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Support\Str;
-
 use function Pest\Laravel\deleteJson;
 use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
@@ -9,7 +9,7 @@ use function Pest\Laravel\putJson;
 
 function createCity()
 {
-    return \Fintech\MetaData\Facades\MetaData::city()->create([
+    return MetaData::city()->create([
         "name" => Str::random(20),
         "country_id" => 1,
         "enabled" => "1",

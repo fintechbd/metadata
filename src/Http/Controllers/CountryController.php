@@ -3,6 +3,7 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Exception;
+use Fintech\Business\Facades\Business;
 use Fintech\Core\Exceptions\DeleteOperationException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
@@ -109,44 +110,6 @@ class CountryController extends Controller
             }
 
             return new CountryResource($country);
-
-        } catch (ModelNotFoundException $exception) {
-
-            return $this->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
-
-            return $this->failed($exception->getMessage());
-        }
-    }
-
-    /**
-     * @lrd:start
-     * Update a specified country resource using id.
-     *
-     * @lrd:end
-     *
-     * @throws ModelNotFoundException
-     * @throws UpdateOperationException
-     */
-    public function update(UpdateCountryRequest $request, string|int $id): JsonResponse
-    {
-        try {
-
-            $country = MetaData::country()->find($id);
-
-            if (!$country) {
-                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.country_model'), $id);
-            }
-
-            $inputs = $request->validated();
-
-            if (!MetaData::country()->update($id, $inputs)) {
-
-                throw (new UpdateOperationException())->setModel(config('fintech.metadata.country_model'), $id);
-            }
-
-            return $this->updated(__('core::messages.resource.updated', ['model' => 'Country']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -324,7 +287,7 @@ class CountryController extends Controller
         try {
             $filters = $request->all();
             if (Core::packageExists('Business')) {
-                $filters['in_array_country_id'] = \Fintech\Business\Facades\Business::serviceStat()->list([
+                $filters['in_array_country_id'] = Business::serviceStat()->list([
                     'sort' => 'destination_country_id',
                     'dir' => 'asc',
                     'paginate' => false,
@@ -393,6 +356,44 @@ class CountryController extends Controller
             }
 
             return $this->updated(__('metadata::messages.country.status_changed', ['field' => 'Serving Country']));
+
+        } catch (ModelNotFoundException $exception) {
+
+            return $this->notfound($exception->getMessage());
+
+        } catch (Exception $exception) {
+
+            return $this->failed($exception->getMessage());
+        }
+    }
+
+    /**
+     * @lrd:start
+     * Update a specified country resource using id.
+     *
+     * @lrd:end
+     *
+     * @throws ModelNotFoundException
+     * @throws UpdateOperationException
+     */
+    public function update(UpdateCountryRequest $request, string|int $id): JsonResponse
+    {
+        try {
+
+            $country = MetaData::country()->find($id);
+
+            if (!$country) {
+                throw (new ModelNotFoundException())->setModel(config('fintech.metadata.country_model'), $id);
+            }
+
+            $inputs = $request->validated();
+
+            if (!MetaData::country()->update($id, $inputs)) {
+
+                throw (new UpdateOperationException())->setModel(config('fintech.metadata.country_model'), $id);
+            }
+
+            return $this->updated(__('core::messages.resource.updated', ['model' => 'Country']));
 
         } catch (ModelNotFoundException $exception) {
 

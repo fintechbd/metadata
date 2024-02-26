@@ -26,9 +26,9 @@ class GenderSeeder extends Seeder
     private function data()
     {
         return [
-            ['name' => 'Male',  'code' => 'male', 'type' => CatalogType::Gender->value, 'enabled' => true],
-            ['name' => 'Female',  'code' => 'female', 'type' => CatalogType::Gender->value, 'enabled' => true],
-            ['name' => 'Other',  'code' => 'other', 'type' => CatalogType::Gender->value, 'enabled' => true],
+            ['name' => 'Male', 'code' => 'male', 'type' => CatalogType::Gender->value, 'enabled' => true],
+            ['name' => 'Female', 'code' => 'female', 'type' => CatalogType::Gender->value, 'enabled' => true],
+            ['name' => 'Other', 'code' => 'other', 'type' => CatalogType::Gender->value, 'enabled' => true],
         ];
     }
 }

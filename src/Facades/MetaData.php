@@ -2,21 +2,33 @@
 
 namespace Fintech\MetaData\Facades;
 
+use Fintech\MetaData\Services\CatalogService;
+use Fintech\MetaData\Services\CityService;
+use Fintech\MetaData\Services\CountryService;
+use Fintech\MetaData\Services\CurrencyService;
+use Fintech\MetaData\Services\FundSourceService;
+use Fintech\MetaData\Services\LanguageService;
+use Fintech\MetaData\Services\OccupationService;
+use Fintech\MetaData\Services\RegionService;
+use Fintech\MetaData\Services\RelationService;
+use Fintech\MetaData\Services\RemittancePurposeService;
+use Fintech\MetaData\Services\StateService;
+use Fintech\MetaData\Services\SubRegionService;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static \Fintech\MetaData\Services\RegionService region()
- * @method static \Fintech\MetaData\Services\SubRegionService subregion()
- * @method static \Fintech\MetaData\Services\CountryService country()
- * @method static \Fintech\MetaData\Services\StateService state()
- * @method static \Fintech\MetaData\Services\CityService city()
- * @method static \Fintech\MetaData\Services\FundSourceService fundSource()
- * @method static \Fintech\MetaData\Services\OccupationService occupation()
- * @method static \Fintech\MetaData\Services\RelationService relation()
- * @method static \Fintech\MetaData\Services\RemittancePurposeService remittancePurpose()
- * @method static \Fintech\MetaData\Services\CatalogService catalog()
- * @method static \Fintech\MetaData\Services\LanguageService language()
- * @method static \Fintech\MetaData\Services\CurrencyService currency()
+ * @method static RegionService region()
+ * @method static SubRegionService subregion()
+ * @method static CountryService country()
+ * @method static StateService state()
+ * @method static CityService city()
+ * @method static FundSourceService fundSource()
+ * @method static OccupationService occupation()
+ * @method static RelationService relation()
+ * @method static RemittancePurposeService remittancePurpose()
+ * @method static CatalogService catalog()
+ * @method static LanguageService language()
+ * @method static CurrencyService currency()
  * // Crud Service Method Point Do not Remove //
  *
  * @see \Fintech\MetaData\MetaData

@@ -2,14 +2,15 @@
 
 namespace Fintech\MetaData\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Fintech\Core\Abstracts\BaseModel;
+use Fintech\Core\Traits\AuditableTrait;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Translatable\HasTranslations;
 
-class FundSource extends Model
+class FundSource extends BaseModel
 {
-    use \Fintech\Core\Traits\AuditableTrait;
+    use AuditableTrait;
     use SoftDeletes;
     use HasTranslations;
 
@@ -19,17 +20,12 @@ class FundSource extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $primaryKey = 'id';
-
-    protected $guarded = ['id'];
-
-    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
-
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','fund_source_data' => 'array'];
-
-    protected $appends = ['links'];
-
     public $translatable = ['name'];
+    protected $primaryKey = 'id';
+    protected $guarded = ['id'];
+    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'fund_source_data' => 'array'];
+    protected $appends = ['links'];
 
     /*
     |--------------------------------------------------------------------------
@@ -42,9 +38,10 @@ class FundSource extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
+
     public function country(): BelongsTo
     {
-        return $this->belongsTo(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
+        return $this->belongsTo(config('fintech.metadata.country_model', Country::class));
     }
     /*
     |--------------------------------------------------------------------------

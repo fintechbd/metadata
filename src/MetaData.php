@@ -2,9 +2,12 @@
 
 namespace Fintech\MetaData;
 
+use Fintech\MetaData\Services\CatalogService;
 use Fintech\MetaData\Services\CityService;
 use Fintech\MetaData\Services\CountryService;
+use Fintech\MetaData\Services\CurrencyService;
 use Fintech\MetaData\Services\FundSourceService;
+use Fintech\MetaData\Services\LanguageService;
 use Fintech\MetaData\Services\OccupationService;
 use Fintech\MetaData\Services\RegionService;
 use Fintech\MetaData\Services\RelationService;
@@ -96,26 +99,27 @@ class MetaData
     }
 
     /**
-     * @return \Fintech\MetaData\Services\CatalogService
+     * @return CatalogService
      */
     public function language()
     {
-        return app(\Fintech\MetaData\Services\LanguageService::class);
-    }
-    /**
-     * @return \Fintech\MetaData\Services\CatalogService
-     */
-    public function catalog()
-    {
-        return app(\Fintech\MetaData\Services\CatalogService::class);
+        return app(LanguageService::class);
     }
 
     /**
-     * @return \Fintech\MetaData\Services\CurrencyService
+     * @return CatalogService
+     */
+    public function catalog()
+    {
+        return app(CatalogService::class);
+    }
+
+    /**
+     * @return CurrencyService
      */
     public function currency()
     {
-        return app(\Fintech\MetaData\Services\CurrencyService::class);
+        return app(CurrencyService::class);
     }
 
     //** Crud Service Method Point Do not Remove **//

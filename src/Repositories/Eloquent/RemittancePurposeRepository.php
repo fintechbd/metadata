@@ -4,9 +4,9 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\RemittancePurposeRepository as InterfacesRemittancePurposeRepository;
+use Fintech\MetaData\Models\RemittancePurpose;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 
 /**
@@ -16,7 +16,7 @@ class RemittancePurposeRepository extends EloquentRepository implements Interfac
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.remittance_purpose_model', \Fintech\MetaData\Models\RemittancePurpose::class));
+        $model = app(config('fintech.metadata.remittance_purpose_model', RemittancePurpose::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
@@ -43,7 +43,7 @@ class RemittancePurposeRepository extends EloquentRepository implements Interfac
             }
         }
 
-        if(!empty($filters['country_id'])) {
+        if (!empty($filters['country_id'])) {
             $query->where('country_id', $filters['country_id']);
         }
 

@@ -2,11 +2,11 @@
 
 namespace Fintech\MetaData\Models;
 
+use Fintech\Core\Abstracts\BaseModel;
 use Fintech\Core\Traits\AuditableTrait;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Catalog extends Model
+class Catalog extends BaseModel
 {
     use AuditableTrait;
     use SoftDeletes;

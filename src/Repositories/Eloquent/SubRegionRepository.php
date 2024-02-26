@@ -4,9 +4,9 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\SubRegionRepository as InterfacesSubRegionRepository;
+use Fintech\MetaData\Models\Subregion;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 
 /**
@@ -16,7 +16,7 @@ class SubRegionRepository extends EloquentRepository implements InterfacesSubReg
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\Subregion::class));
+        $model = app(config('fintech.metadata.subregion_model', Subregion::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

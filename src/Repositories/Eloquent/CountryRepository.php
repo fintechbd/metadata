@@ -4,9 +4,9 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\CountryRepository as InterfacesCountryRepository;
+use Fintech\MetaData\Models\Country;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\JoinClause;
 use InvalidArgumentException;
 
@@ -17,7 +17,7 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class));
+        $model = app(config('fintech.metadata.country_model', Country::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

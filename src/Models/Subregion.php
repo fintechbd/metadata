@@ -2,13 +2,14 @@
 
 namespace Fintech\MetaData\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Fintech\Core\Abstracts\BaseModel;
+use Fintech\Core\Traits\AuditableTrait;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Subregion extends Model
+class Subregion extends BaseModel
 {
-    use \Fintech\Core\Traits\AuditableTrait;
+    use AuditableTrait;
     use SoftDeletes;
 
     /*
@@ -23,7 +24,7 @@ class Subregion extends Model
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','subregion_data' => 'array'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'subregion_data' => 'array'];
 
     protected $appends = ['links'];
 
@@ -40,7 +41,7 @@ class Subregion extends Model
     */
     public function region(): BelongsTo
     {
-        return $this->belongsTo(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
+        return $this->belongsTo(config('fintech.metadata.region_model', Region::class));
     }
     /*
     |--------------------------------------------------------------------------

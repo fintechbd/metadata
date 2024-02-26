@@ -1,7 +1,7 @@
 <?php
 
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Support\Str;
-
 use function Pest\Laravel\deleteJson;
 use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
@@ -9,7 +9,7 @@ use function Pest\Laravel\putJson;
 
 function createFreshRegion()
 {
-    return \Fintech\MetaData\Facades\MetaData::region()->create([
+    return MetaData::region()->create([
         'name' => Str::random(20),
         'region_data' => ['vendors' => 'emq'],
     ]);

@@ -4,9 +4,9 @@ namespace Fintech\MetaData\Repositories\Eloquent;
 
 use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\StateRepository as InterfacesStateRepository;
+use Fintech\MetaData\Models\State;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 
 /**
@@ -16,7 +16,7 @@ class StateRepository extends EloquentRepository implements InterfacesStateRepos
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.state_model', \Fintech\MetaData\Models\State::class));
+        $model = app(config('fintech.metadata.state_model', State::class));
 
         if (!$model instanceof Model) {
             throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");

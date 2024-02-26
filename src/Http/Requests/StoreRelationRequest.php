@@ -2,6 +2,8 @@
 
 namespace Fintech\MetaData\Http\Requests;
 
+use Fintech\MetaData\Models\Relation;
+use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class StoreRelationRequest extends FormRequest
@@ -17,11 +19,11 @@ class StoreRelationRequest extends FormRequest
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string>
+     * @return array<string, ValidationRule|array|string>
      */
     public function rules(): array
     {
-        $uniqueRule = 'unique:'.config('fintech.metadata.relation_model', \Fintech\MetaData\Models\Relation::class).',name';
+        $uniqueRule = 'unique:' . config('fintech.metadata.relation_model', Relation::class) . ',name';
 
         return [
             'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],

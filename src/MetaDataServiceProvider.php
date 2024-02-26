@@ -16,7 +16,7 @@ class MetaDataServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/metadata.php',
+            __DIR__ . '/../config/metadata.php',
             'fintech.metadata'
         );
 
@@ -32,21 +32,21 @@ class MetaDataServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__.'/../config/metadata.php' => config_path('fintech/metadata.php'),
+            __DIR__ . '/../config/metadata.php' => config_path('fintech/metadata.php'),
         ]);
 
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
 
-        $this->loadTranslationsFrom(__DIR__.'/../lang', 'metadata');
+        $this->loadTranslationsFrom(__DIR__ . '/../lang', 'metadata');
 
         $this->publishes([
-            __DIR__.'/../lang' => $this->app->langPath('vendor/metadata'),
+            __DIR__ . '/../lang' => $this->app->langPath('vendor/metadata'),
         ]);
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'metadata');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'metadata');
 
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/metadata'),
+            __DIR__ . '/../resources/views' => resource_path('views/vendor/metadata'),
         ]);
 
         if ($this->app->runningInConsole()) {

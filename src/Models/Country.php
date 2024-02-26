@@ -2,17 +2,18 @@
 
 namespace Fintech\MetaData\Models;
 
+use Fintech\Core\Abstracts\BaseModel;
+use Fintech\Core\Traits\AuditableTrait;
 use Fintech\MetaData\Traits\BusinessRelations;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
-class Country extends Model implements HasMedia
+class Country extends BaseModel implements HasMedia
 {
-    use \Fintech\Core\Traits\AuditableTrait;
+    use AuditableTrait;
     use SoftDeletes;
     use InteractsWithMedia;
     use BusinessRelations;
@@ -29,7 +30,7 @@ class Country extends Model implements HasMedia
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime','timezones' => 'array', 'language' => 'array', 'country_data' => 'array'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'timezones' => 'array', 'language' => 'array', 'country_data' => 'array'];
 
     protected $appends = ['links'];
 
@@ -58,13 +59,13 @@ class Country extends Model implements HasMedia
     */
     public function region(): BelongsTo
     {
-        return $this->belongsTo(config('fintech.metadata.region_model', \Fintech\MetaData\Models\Region::class));
+        return $this->belongsTo(config('fintech.metadata.region_model', Region::class));
     }
 
     public function currencies(): BelongsToMany
     {
         return $this->belongsToMany(
-            config('fintech.metadata.country_model', \Fintech\MetaData\Models\Country::class),
+            config('fintech.metadata.country_model', Country::class),
             'country_currency',
             'country_id',
             'currency_id'
@@ -73,7 +74,7 @@ class Country extends Model implements HasMedia
 
     public function subregion(): BelongsTo
     {
-        return $this->belongsTo(config('fintech.metadata.subregion_model', \Fintech\MetaData\Models\SubRegion::class));
+        return $this->belongsTo(config('fintech.metadata.subregion_model', SubRegion::class));
     }
 
     /*

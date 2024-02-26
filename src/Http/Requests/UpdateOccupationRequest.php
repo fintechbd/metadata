@@ -2,6 +2,8 @@
 
 namespace Fintech\MetaData\Http\Requests;
 
+use Fintech\MetaData\Models\Occupation;
+use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class UpdateOccupationRequest extends FormRequest
@@ -17,11 +19,11 @@ class UpdateOccupationRequest extends FormRequest
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string>
+     * @return array<string, ValidationRule|array|string>
      */
     public function rules(): array
     {
-        $uniqueRule = 'unique:'.config('fintech.metadata.occupation_model', \Fintech\MetaData\Models\Occupation::class).',name';
+        $uniqueRule = 'unique:' . config('fintech.metadata.occupation_model', Occupation::class) . ',name';
 
         return [
             'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],

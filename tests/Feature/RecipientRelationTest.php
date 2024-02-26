@@ -1,19 +1,19 @@
 <?php
 
-use Illuminate\Database\Eloquent\Model;
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Support\Str;
-
+use MongoDB\Laravel\Eloquent\Model;
 use function Pest\Laravel\deleteJson;
 use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
 use function Pest\Laravel\putJson;
 
 /**
- * @return Model|\MongoDB\Laravel\Eloquent\Model|null
+ * @return Model|Model|null
  */
-function createRelations(): Model|\MongoDB\Laravel\Eloquent\Model|null
+function createRelations(): Model|Model|null
 {
-    return \Fintech\MetaData\Facades\MetaData::relation()->create([
+    return MetaData::relation()->create([
         "name" => Str::random(20),
         "code" => "SOF-SOF",
         "country_id" => 1,
