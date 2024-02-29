@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\CityRepository as InterfacesCityRepository;
 use Fintech\MetaData\Models\City;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use InvalidArgumentException;
 
 /**
  * Class CityRepository

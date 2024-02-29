@@ -8,7 +8,6 @@ use Fintech\MetaData\Models\Country;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Query\JoinClause;
-use InvalidArgumentException;
 
 /**
  * Class CountryRepository

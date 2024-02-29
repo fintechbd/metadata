@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\CatalogRepository as InterfacesCatalogRepository
 use Fintech\MetaData\Models\Catalog;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use InvalidArgumentException;
 
 /**
  * Class CatalogRepository

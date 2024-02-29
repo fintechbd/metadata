@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\RelationRepository as InterfacesRelationReposito
 use Fintech\MetaData\Models\Relation;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use InvalidArgumentException;
 
 /**
  * Class RelationRepository
