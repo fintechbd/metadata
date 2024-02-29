@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\RemittancePurposeRepository as InterfacesRemitta
 use Fintech\MetaData\Models\RemittancePurpose;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use InvalidArgumentException;
 
 /**
  * Class RemittancePurposeRepository

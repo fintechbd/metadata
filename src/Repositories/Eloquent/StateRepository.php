@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\StateRepository as InterfacesStateRepository;
 use Fintech\MetaData\Models\State;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use InvalidArgumentException;
 
 /**
  * Class StateRepository

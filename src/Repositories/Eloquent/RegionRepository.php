@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\RegionRepository as InterfacesRegionRepository;
 use Fintech\MetaData\Models\Region;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use InvalidArgumentException;
 
 /**
  * Class RegionRepository

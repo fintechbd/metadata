@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\OccupationRepository as InterfacesOccupationRepo
 use Fintech\MetaData\Models\Occupation;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use InvalidArgumentException;
 
 /**
  * Class OccupationRepository

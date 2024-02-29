@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\FundSourceRepository as InterfacesFundSourceRepo
 use Fintech\MetaData\Models\FundSource;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use InvalidArgumentException;
 
 /**
  * Class FundSourceRepository
