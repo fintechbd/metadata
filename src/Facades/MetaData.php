@@ -13,12 +13,12 @@ use Fintech\MetaData\Services\RegionService;
 use Fintech\MetaData\Services\RelationService;
 use Fintech\MetaData\Services\RemittancePurposeService;
 use Fintech\MetaData\Services\StateService;
-use Fintech\MetaData\Services\SubRegionService;
+use Fintech\MetaData\Services\SubregionService;
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static RegionService region()
- * @method static SubRegionService subregion()
+ * @method static SubregionService subregion()
  * @method static CountryService country()
  * @method static StateService state()
  * @method static CityService city()

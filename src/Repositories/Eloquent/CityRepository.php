@@ -16,13 +16,7 @@ class CityRepository extends EloquentRepository implements InterfacesCityReposit
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.city_model', City::class));
-
-        if (!$model instanceof Model) {
-            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-        }
-
-        $this->model = $model;
+        parent::__construct(config('fintech.metadata.city_model', City::class));
     }
 
     /**

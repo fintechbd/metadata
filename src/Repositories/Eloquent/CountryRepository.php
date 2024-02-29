@@ -17,13 +17,7 @@ class CountryRepository extends EloquentRepository implements InterfacesCountryR
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.country_model', Country::class));
-
-        if (!$model instanceof Model) {
-            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-        }
-
-        $this->model = $model;
+        parent::__construct(config('fintech.metadata.country_model', Country::class));
     }
 
     /**

@@ -19,7 +19,7 @@ use Fintech\MetaData\Repositories\Eloquent\RegionRepository;
 use Fintech\MetaData\Repositories\Eloquent\RelationRepository;
 use Fintech\MetaData\Repositories\Eloquent\RemittancePurposeRepository;
 use Fintech\MetaData\Repositories\Eloquent\StateRepository;
-use Fintech\MetaData\Repositories\Eloquent\SubRegionRepository;
+use Fintech\MetaData\Repositories\Eloquent\SubregionRepository;
 
 return [
 
@@ -168,7 +168,7 @@ return [
 
         \Fintech\MetaData\Interfaces\StateRepository::class => StateRepository::class,
 
-        \Fintech\MetaData\Interfaces\SubRegionRepository::class => SubRegionRepository::class,
+        \Fintech\MetaData\Interfaces\SubregionRepository::class => SubregionRepository::class,
 
         \Fintech\MetaData\Interfaces\CatalogRepository::class => CatalogRepository::class,
 

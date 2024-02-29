@@ -11,7 +11,7 @@ use MongoDB\Laravel\Eloquent\Model as MongodbModel;
 /**
  * Interface SubRegionRepository
  */
-interface SubRegionRepository
+interface SubregionRepository
 {
     /**
      * return a list or pagination of items from

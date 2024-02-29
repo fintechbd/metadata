@@ -16,13 +16,7 @@ class StateRepository extends EloquentRepository implements InterfacesStateRepos
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.state_model', State::class));
-
-        if (!$model instanceof Model) {
-            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-        }
-
-        $this->model = $model;
+        parent::__construct(config('fintech.metadata.state_model', State::class));
     }
 
     /**

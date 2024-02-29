@@ -17,13 +17,7 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
 {
     public function __construct()
     {
-        $model = app(config('fintech.metadata.catalog_model', Catalog::class));
-
-        if (!$model instanceof Model) {
-            throw new InvalidArgumentException("Eloquent repository require model class to be `Illuminate\Database\Eloquent\Model` instance.");
-        }
-
-        $this->model = $model;
+        parent::__construct(config('fintech.metadata.catalog_model', Catalog::class));
     }
 
     /**

@@ -13,7 +13,7 @@ use Fintech\MetaData\Services\RegionService;
 use Fintech\MetaData\Services\RelationService;
 use Fintech\MetaData\Services\RemittancePurposeService;
 use Fintech\MetaData\Services\StateService;
-use Fintech\MetaData\Services\SubRegionService;
+use Fintech\MetaData\Services\SubregionService;
 
 class MetaData
 {
@@ -27,12 +27,12 @@ class MetaData
     }
 
     /**
-     * @return SubRegionService
+     * @return SubregionService
      *
      */
     public function subregion()
     {
-        return app(SubRegionService::class);
+        return app(SubregionService::class);
     }
 
     /**

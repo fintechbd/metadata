@@ -2,18 +2,18 @@
 
 namespace Fintech\MetaData\Services;
 
-use Fintech\MetaData\Interfaces\SubRegionRepository;
+use Fintech\MetaData\Interfaces\SubregionRepository;
 
 /**
  * Class SubRegionService
  *
  */
-class SubRegionService
+class SubregionService
 {
     /**
      * SubRegionService constructor.
      */
-    public function __construct(private readonly SubRegionRepository $subRegionRepository)
+    public function __construct(private readonly SubregionRepository $subRegionRepository)
     {
     }
 
