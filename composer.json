@@ -62,8 +62,6 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fintech\\MetaData\\RouteServiceProvider",
-                "Fintech\\MetaData\\RepositoryServiceProvider",
                 "Fintech\\MetaData\\MetaDataServiceProvider"
             ],
             "aliases": {
