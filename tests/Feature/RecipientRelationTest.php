@@ -10,9 +10,9 @@ use function Pest\Laravel\postJson;
 use function Pest\Laravel\putJson;
 
 /**
- * @return Model|Model|null
+ * @return Model|null
  */
-function createRelations(): Model|Model|null
+function createRelations(): Model|null
 {
     return MetaData::relation()->create([
         "name" => Str::random(20),

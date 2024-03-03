@@ -9,7 +9,7 @@ use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
 use function Pest\Laravel\putJson;
 
-function createRemittancePurpose(): Model|Model|null
+function createRemittancePurpose(): Model|null
 {
     return MetaData::remittancePurpose()->create([
         "name" => Str::random(20),

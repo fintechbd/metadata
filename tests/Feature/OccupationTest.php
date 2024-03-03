@@ -9,7 +9,7 @@ use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;
 use function Pest\Laravel\putJson;
 
-function createOccupations(): Model|Model|null
+function createOccupations(): Model|null
 {
     return MetaData::occupation()->create([
         "name" => Str::random(20),
