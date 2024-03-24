@@ -4,6 +4,7 @@ use Fintech\MetaData\Models\Catalog;
 use Fintech\MetaData\Models\City;
 use Fintech\MetaData\Models\Country;
 use Fintech\MetaData\Models\FundSource;
+use Fintech\MetaData\Models\IdDocType;
 use Fintech\MetaData\Models\Occupation;
 use Fintech\MetaData\Models\Region;
 use Fintech\MetaData\Models\Relation;
@@ -130,6 +131,15 @@ return [
     | This value will be used to across system where model is needed
     */
     'catalog_model' => Catalog::class,
+
+    /*
+    |--------------------------------------------------------------------------
+    | IdDocType Model
+    |--------------------------------------------------------------------------
+    |
+    | This value will be used to across system where model is needed
+    */
+    'id_doc_type_model' => IdDocType::class,
 
     //** Model Config Point Do not Remove **//
 

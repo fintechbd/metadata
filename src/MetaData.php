@@ -2,7 +2,7 @@
 
 namespace Fintech\MetaData;
 
-use Fintech\Auth\Services\IdDocTypeService;
+use Fintech\MetaData\Services\IdDocTypeService;
 use Fintech\MetaData\Services\CatalogService;
 use Fintech\MetaData\Services\CityService;
 use Fintech\MetaData\Services\CountryService;

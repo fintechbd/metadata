@@ -3,16 +3,13 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Exception;
-use Fintech\Auth\Facades\Auth;
-use Fintech\Auth\Http\Requests\ImportIdDocTypeRequest;
-use Fintech\Auth\Http\Requests\VerifyIdDocTypeRequest;
+use Fintech\MetaData\Http\Requests\ImportIdDocTypeRequest;
 use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Requests\IndexIdDocTypeRequest;
 use Fintech\MetaData\Http\Requests\StoreIdDocTypeRequest;
 use Fintech\MetaData\Http\Requests\UpdateIdDocTypeRequest;
 use Fintech\MetaData\Http\Resources\IdDocTypeCollection;
 use Fintech\MetaData\Http\Resources\IdDocTypeResource;
-use Fintech\MetaData\Http\Resources\VerifyIdDocTypeResource;
 use Fintech\Core\Exceptions\DeleteOperationException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
@@ -26,7 +23,7 @@ use Illuminate\Routing\Controller;
 
 /**
  * Class IdDocTypeController
- * @package Fintech\Auth\Http\Controllers
+ * @package Fintech\MetaData\Http\Controllers
  *
  * @lrd:start
  * This class handle create, display, update, delete & restore
@@ -53,7 +50,7 @@ class IdDocTypeController extends Controller
         try {
             $inputs = $request->validated();
 
-            $idDocTypePaginate = Auth::idDocType()->list($inputs);
+            $idDocTypePaginate = MetaData::idDocType()->list($inputs);
 
             return new IdDocTypeCollection($idDocTypePaginate);
 
@@ -77,7 +74,7 @@ class IdDocTypeController extends Controller
         try {
             $inputs = $request->validated();
 
-            $idDocType = Auth::idDocType()->create($inputs);
+            $idDocType = MetaData::idDocType()->create($inputs);
 
             if (!$idDocType) {
                 throw (new StoreOperationException())->setModel(config('fintech.auth.id_doc_type_model'));
@@ -107,7 +104,7 @@ class IdDocTypeController extends Controller
     {
         try {
 
-            $idDocType = Auth::idDocType()->find($id);
+            $idDocType = MetaData::idDocType()->find($id);
 
             if (!$idDocType) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
@@ -140,7 +137,7 @@ class IdDocTypeController extends Controller
     {
         try {
 
-            $idDocType = Auth::idDocType()->find($id);
+            $idDocType = MetaData::idDocType()->find($id);
 
             if (!$idDocType) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
@@ -148,7 +145,7 @@ class IdDocTypeController extends Controller
 
             $inputs = $request->validated();
 
-            if (!Auth::idDocType()->update($id, $inputs)) {
+            if (!MetaData::idDocType()->update($id, $inputs)) {
 
                 throw (new UpdateOperationException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
             }
@@ -179,13 +176,13 @@ class IdDocTypeController extends Controller
     {
         try {
 
-            $idDocType = Auth::idDocType()->find($id);
+            $idDocType = MetaData::idDocType()->find($id);
 
             if (!$idDocType) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
             }
 
-            if (!Auth::idDocType()->destroy($id)) {
+            if (!MetaData::idDocType()->destroy($id)) {
 
                 throw (new DeleteOperationException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
             }
@@ -215,13 +212,13 @@ class IdDocTypeController extends Controller
     {
         try {
 
-            $idDocType = Auth::idDocType()->find($id, true);
+            $idDocType = MetaData::idDocType()->find($id, true);
 
             if (!$idDocType) {
                 throw (new ModelNotFoundException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
             }
 
-            if (!Auth::idDocType()->restore($id)) {
+            if (!MetaData::idDocType()->restore($id)) {
 
                 throw (new RestoreOperationException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
             }
@@ -253,7 +250,7 @@ class IdDocTypeController extends Controller
         try {
             $inputs = $request->validated();
 
-            $idDocTypePaginate = Auth::idDocType()->export($inputs);
+            $idDocTypePaginate = MetaData::idDocType()->export($inputs);
 
             return $this->exported(__('core::messages.resource.exported', ['model' => 'Id Doc Type']));
 
@@ -278,7 +275,7 @@ class IdDocTypeController extends Controller
         try {
             $inputs = $request->validated();
 
-            $idDocTypePaginate = Auth::idDocType()->list($inputs);
+            $idDocTypePaginate = MetaData::idDocType()->list($inputs);
 
             return new IdDocTypeCollection($idDocTypePaginate);
 
@@ -316,7 +313,7 @@ class IdDocTypeController extends Controller
                 unset($filters['attribute']);
             }
 
-            $entries = Auth::idDocType()->list($filters)->map(function ($entry) use ($label, $attribute) {
+            $entries = MetaData::idDocType()->list($filters)->map(function ($entry) use ($label, $attribute) {
                 return [
                     'label' => $entry->{$label} ?? 'name',
                     'attribute' => $entry->{$attribute} ?? 'id',

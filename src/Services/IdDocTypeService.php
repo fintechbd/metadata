@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Services;
 
-use Fintech\Auth\Interfaces\ProfileRepository;
 use Fintech\MetaData\Interfaces\IdDocTypeRepository;
 
 /**
@@ -15,11 +14,9 @@ class IdDocTypeService
     /**
      * IdDocTypeService constructor.
      * @param IdDocTypeRepository $idDocTypeRepository
-     * @param ProfileRepository $profileRepository
      */
     public function __construct(
-        private readonly IdDocTypeRepository $idDocTypeRepository,
-        private readonly ProfileRepository   $profileRepository
+        private readonly IdDocTypeRepository $idDocTypeRepository
     ) {
     }
 
