@@ -75,12 +75,14 @@ if (Config::get('fintech.metadata.enabled')) {
 
             Route::apiResource('country-currencies', CountryCurrencyController::class)->only(['show', 'update']);
 
-            Route::apiResource('id-doc-types', IdDocTypeController::class);
-            Route::post('id-doc-types/{id_doc_type}/restore', [IdDocTypeController::class, 'restore'])->name('id-doc-types.restore');
-            Route::withoutMiddleware('auth:sanctum')->post('id-doc-verification', [IdDocTypeController::class, 'verification'])->name('id-doc-verification');
             //DO NOT REMOVE THIS LINE//
         });
-
+    Route::prefix('auth')->name('metadata.')
+        ->middleware(config('fintech.auth.middleware'))
+        ->group(function () {
+            Route::post('id-doc-types/{id_doc_type}/restore', [IdDocTypeController::class, 'restore'])->name('id-doc-types.restore');
+            Route::apiResource('id-doc-types', IdDocTypeController::class);
+        });
     Route::prefix('dropdown')->name('metadata.')->group(function () {
         Route::get('regions', [RegionController::class, 'dropdown'])->name('regions.dropdown');
         Route::get('subregions', [SubRegionController::class, 'dropdown'])->name('subregions.dropdown');

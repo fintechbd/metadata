@@ -6,6 +6,7 @@ use Exception;
 use Fintech\Auth\Facades\Auth;
 use Fintech\Auth\Http\Requests\ImportIdDocTypeRequest;
 use Fintech\Auth\Http\Requests\VerifyIdDocTypeRequest;
+use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Requests\IndexIdDocTypeRequest;
 use Fintech\MetaData\Http\Requests\StoreIdDocTypeRequest;
 use Fintech\MetaData\Http\Requests\UpdateIdDocTypeRequest;
@@ -327,29 +328,6 @@ class IdDocTypeController extends Controller
             return new DropDownCollection($entries);
 
         } catch (Exception $exception) {
-            return $this->failed($exception->getMessage());
-        }
-    }
-
-    /**
-     * @lrd:start
-     * Verify *IdDocType* is already exists or not in storage.
-     * @lrd:end
-     *
-     * @param VerifyIdDocTypeRequest $request
-     * @return VerifyIdDocTypeResource|JsonResponse
-     */
-    public function verification(VerifyIdDocTypeRequest $request): VerifyIdDocTypeResource|JsonResponse
-    {
-        try {
-            $inputs = $request->validated();
-
-            $idDocType = Auth::idDocType()->verify($inputs);
-
-            return new VerifyIdDocTypeResource($idDocType);
-
-        } catch (Exception $exception) {
-
             return $this->failed($exception->getMessage());
         }
     }
