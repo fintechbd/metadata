@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Facades;
 
+use Fintech\MetaData\Services\IdDocTypeService;
 use Fintech\MetaData\Services\CatalogService;
 use Fintech\MetaData\Services\CityService;
 use Fintech\MetaData\Services\CountryService;
@@ -29,6 +30,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static CatalogService catalog()
  * @method static LanguageService language()
  * @method static CurrencyService currency()
+ * @method static IdDocTypeService idDocType()
  * // Crud Service Method Point Do not Remove //
  *
  * @see \Fintech\MetaData\MetaData

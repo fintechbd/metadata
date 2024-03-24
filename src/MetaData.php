@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData;
 
+use Fintech\Auth\Services\IdDocTypeService;
 use Fintech\MetaData\Services\CatalogService;
 use Fintech\MetaData\Services\CityService;
 use Fintech\MetaData\Services\CountryService;
@@ -120,6 +121,14 @@ class MetaData
     public function currency()
     {
         return app(CurrencyService::class);
+    }
+
+    /**
+     * @return IdDocTypeService
+     */
+    public function idDocType()
+    {
+        return app(IdDocTypeService::class);
     }
 
     //** Crud Service Method Point Do not Remove **//
