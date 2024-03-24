@@ -23,7 +23,7 @@ class UpdateRemittancePurposeRequest extends FormRequest
      */
     public function rules(): array
     {
-        $uniqueRule = 'unique:' . config('fintech.metadata.remittance_purpose_model', RemittancePurpose::class) . ',name';
+        $uniqueRule = 'unique:remittance_purposes,name';
 
         return [
             'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],

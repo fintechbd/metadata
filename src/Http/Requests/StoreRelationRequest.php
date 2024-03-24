@@ -23,7 +23,7 @@ class StoreRelationRequest extends FormRequest
      */
     public function rules(): array
     {
-        $uniqueRule = 'unique:' . config('fintech.metadata.relation_model', Relation::class) . ',name';
+        $uniqueRule = 'unique:relations,name';
 
         return [
             'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],

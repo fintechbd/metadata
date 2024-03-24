@@ -172,7 +172,7 @@ class IdDocTypeController extends Controller
      * @throws ModelNotFoundException
      * @throws DeleteOperationException
      */
-    public function destroy(string|int $id)
+    public function destroy(string|int $id): JsonResponse
     {
         try {
 
@@ -208,7 +208,7 @@ class IdDocTypeController extends Controller
      * @param string|int $id
      * @return JsonResponse
      */
-    public function restore(string|int $id)
+    public function restore(string|int $id): JsonResponse
     {
         try {
 

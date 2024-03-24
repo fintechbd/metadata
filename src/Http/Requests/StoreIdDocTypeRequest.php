@@ -23,7 +23,7 @@ class StoreIdDocTypeRequest extends FormRequest
      */
     public function rules(): array
     {
-        $uniqueRule = 'unique:' . config('fintech.auth.id_doc_type_model', IdDocType::class) . ',code,null,country_id,' . $this->input('country_id');
+        $uniqueRule = 'unique:id_doc_types,code,null,country_id,' . $this->input('country_id');
         return [
             'country_id' => ['required', 'integer', 'min:1', 'max:255'],
             'name' => ['required', 'string', 'min:1', 'max:255'],
