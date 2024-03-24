@@ -4,11 +4,11 @@ namespace Fintech\MetaData\Http\Controllers;
 
 use Exception;
 use Fintech\Auth\Facades\Auth;
-use Fintech\MetaData\Http\Requests\ImportIdDocTypeRequest;
+use Fintech\Auth\Http\Requests\ImportIdDocTypeRequest;
+use Fintech\Auth\Http\Requests\VerifyIdDocTypeRequest;
 use Fintech\MetaData\Http\Requests\IndexIdDocTypeRequest;
 use Fintech\MetaData\Http\Requests\StoreIdDocTypeRequest;
 use Fintech\MetaData\Http\Requests\UpdateIdDocTypeRequest;
-use Fintech\MetaData\Http\Requests\VerifyIdDocTypeRequest;
 use Fintech\MetaData\Http\Resources\IdDocTypeCollection;
 use Fintech\MetaData\Http\Resources\IdDocTypeResource;
 use Fintech\MetaData\Http\Resources\VerifyIdDocTypeResource;

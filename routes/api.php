@@ -8,6 +8,7 @@ use Fintech\MetaData\Http\Controllers\CountryCurrencyController;
 use Fintech\MetaData\Http\Controllers\CurrencyController;
 use Fintech\MetaData\Http\Controllers\FundSourceController;
 use Fintech\MetaData\Http\Controllers\GenderController;
+use Fintech\MetaData\Http\Controllers\IdDocTypeController;
 use Fintech\MetaData\Http\Controllers\LanguageController;
 use Fintech\MetaData\Http\Controllers\MaritalStatusController;
 use Fintech\MetaData\Http\Controllers\OccupationController;
@@ -73,6 +74,10 @@ if (Config::get('fintech.metadata.enabled')) {
             Route::get('currencies/{currency}/toggle', [CurrencyController::class, 'toggle'])->name('currencies.toggle');
 
             Route::apiResource('country-currencies', CountryCurrencyController::class)->only(['show', 'update']);
+
+            Route::apiResource('id-doc-types', IdDocTypeController::class);
+            Route::post('id-doc-types/{id_doc_type}/restore', [IdDocTypeController::class, 'restore'])->name('id-doc-types.restore');
+            Route::withoutMiddleware('auth:sanctum')->post('id-doc-verification', [IdDocTypeController::class, 'verification'])->name('id-doc-verification');
             //DO NOT REMOVE THIS LINE//
         });
 
@@ -94,5 +99,6 @@ if (Config::get('fintech.metadata.enabled')) {
         Route::get('genders', GenderController::class)->name('genders.dropdown');
         Route::get('blood-groups', BloodGroupController::class)->name('blood-groups.dropdown');
         Route::get('marital-statuses', MaritalStatusController::class)->name('marital-statuses.dropdown');
+        Route::get('id-doc-types', [IdDocTypeController::class, 'dropdown'])->name('id-doc-types.dropdown');
     });
 }
