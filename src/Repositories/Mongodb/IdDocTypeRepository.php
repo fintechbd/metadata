@@ -2,9 +2,9 @@
 
 namespace Fintech\MetaData\Repositories\Mongodb;
 
-use Fintech\Auth\Interfaces\IdDocTypeRepository as InterfacesIdDocTypeRepository;
 use Fintech\Auth\Models\IdDocType;
 use Fintech\Core\Repositories\MongodbRepository;
+use Fintech\MetaData\Interfaces\IdDocTypeRepository as InterfacesIdDocTypeRepository;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
 use InvalidArgumentException;

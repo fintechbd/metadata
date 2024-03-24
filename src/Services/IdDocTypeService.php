@@ -2,8 +2,8 @@
 
 namespace Fintech\MetaData\Services;
 
-use Fintech\Auth\Interfaces\IdDocTypeRepository;
 use Fintech\Auth\Interfaces\ProfileRepository;
+use Fintech\MetaData\Interfaces\IdDocTypeRepository;
 
 /**
  * Class IdDocTypeService

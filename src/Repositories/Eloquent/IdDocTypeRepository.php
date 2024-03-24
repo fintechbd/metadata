@@ -2,9 +2,9 @@
 
 namespace Fintech\MetaData\Repositories\Eloquent;
 
-use Fintech\Auth\Interfaces\IdDocTypeRepository as InterfacesIdDocTypeRepository;
-use Fintech\Auth\Models\IdDocType;
+use Fintech\MetaData\Models\IdDocType;
 use Fintech\Core\Repositories\EloquentRepository;
+use Fintech\MetaData\Interfaces\IdDocTypeRepository as InterfacesIdDocTypeRepository;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
