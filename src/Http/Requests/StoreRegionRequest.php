@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Http\Requests;
 
-use Fintech\MetaData\Models\Region;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
