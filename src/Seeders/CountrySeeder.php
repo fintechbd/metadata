@@ -1064,8 +1064,8 @@ class CountrySeeder extends Seeder
                 'language' =>
                     array(
                         'code' => 'bn',
-                        'name' => 'Bangladesh',
-                        'native' => null,
+                        'name' => 'Bangla',
+                        'native' => "বাংলা",
 
                     ),
             ),
