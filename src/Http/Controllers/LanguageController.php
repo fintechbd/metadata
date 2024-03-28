@@ -201,7 +201,7 @@ class LanguageController extends Controller
                     'label' => $json_data[$label] ?? null,
                     'logo_svg' => $entry->getFirstMediaUrl('logo_svg'),
                     'logo_png' => $entry->getFirstMediaUrl('logo_png'),
-                    'county_id' => $entry->id ?? null,
+                    'country_id' => $entry->id ?? null,
                     'phone_code' => $entry->phone_code ?? null,
                 ];
             })->toArray();
