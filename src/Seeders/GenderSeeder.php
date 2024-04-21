@@ -38,7 +38,7 @@ class GenderSeeder extends Seeder
                         'islami_bank' => null
                     ),
                     'ekyc' => array(
-                        'shufti_pro' => null,
+                        'shufti_pro' => 'M',
                         'signzy' => null,
                         'onfido' => null
                     )
@@ -58,7 +58,7 @@ class GenderSeeder extends Seeder
                         'islami_bank' => null
                     ),
                     'ekyc' => array(
-                        'shufti_pro' => null,
+                        'shufti_pro' => 'F',
                         'signzy' => null,
                         'onfido' => null
                     )
