@@ -30,7 +30,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '1',
                             'emq_api' => null,
                             'trans_fast' => 'passport',
                             'valyou' => null,
@@ -56,7 +56,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '9',
                             'emq_api' => null,
                             'trans_fast' => 'driving_license',
                             'valyou' => null,
@@ -82,7 +82,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '3',
                             'emq_api' => null,
                             'trans_fast' => 'id_card',
                             'valyou' => null,
@@ -108,7 +108,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '5',
                             'emq_api' => null,
                             'trans_fast' => 'residence_permit',
                             'valyou' => null,
@@ -134,7 +134,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '9',
                             'emq_api' => null,
                             'trans_fast' => 'voter_id',
                             'valyou' => null,
@@ -160,7 +160,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '9',
                             'emq_api' => null,
                             'trans_fast' => 'tax_id',
                             'valyou' => null,
@@ -186,7 +186,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '4',
                             'emq_api' => null,
                             'trans_fast' => 'social_security_card',
                             'valyou' => null,
@@ -212,7 +212,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '9',
                             'emq_api' => null,
                             'trans_fast' => 'postal_identity_card',
                             'valyou' => null,
@@ -238,7 +238,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '9',
                             'emq_api' => null,
                             'trans_fast' => 'professional_qualification_card',
                             'valyou' => null,
@@ -264,7 +264,7 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => null,
+                            'city_bank' => '2',
                             'emq_api' => null,
                             'trans_fast' => 'work_permit',
                             'valyou' => null,
