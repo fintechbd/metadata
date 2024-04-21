@@ -16,6 +16,7 @@ return new class () extends Migration {
             $table->string('name');
             $table->string('code')->nullable();
             $table->boolean('enabled')->default(true);
+            $table->json('vendor_code')->nullable();
             $table->json('catalog_data')->nullable();
             $table->foreignId('creator_id')->nullable();
             $table->foreignId('editor_id')->nullable();

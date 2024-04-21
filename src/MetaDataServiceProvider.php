@@ -2,12 +2,15 @@
 
 namespace Fintech\MetaData;
 
+use Fintech\Core\Traits\RegisterPackageTrait;
 use Fintech\MetaData\Commands\InstallCommand;
 use Fintech\MetaData\Commands\MetaDataCommand;
 use Illuminate\Support\ServiceProvider;
 
 class MetaDataServiceProvider extends ServiceProvider
 {
+    use RegisterPackageTrait;
+
     /**
      * Register any application services.
      *
@@ -15,6 +18,8 @@ class MetaDataServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->packageCode = 'metadata';
+
         $this->mergeConfigFrom(
             __DIR__ . '/../config/metadata.php',
             'fintech.metadata'
@@ -31,6 +36,8 @@ class MetaDataServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        $this->injectOnConfig();
+
         $this->publishes([
             __DIR__ . '/../config/metadata.php' => config_path('fintech/metadata.php'),
         ]);

@@ -13,22 +13,19 @@ class GenderSeeder extends Seeder
      */
     public function run(): void
     {
-        $data = $this->data();
-
-        foreach (array_chunk($data, 200) as $block) {
-            set_time_limit(2100);
-            foreach ($block as $entry) {
-                MetaData::catalog()->create($entry);
-            }
+        $countryIds = range(1, 250);
+        foreach ($this->data() as $entry) {
+            $entry['countries'] = $countryIds;
+            MetaData::catalog()->create($entry);
         }
     }
 
     private function data()
     {
         return [
-            ['name' => 'Male', 'code' => 'male', 'type' => CatalogType::Gender->value, 'enabled' => true],
-            ['name' => 'Female', 'code' => 'female', 'type' => CatalogType::Gender->value, 'enabled' => true],
-            ['name' => 'Other', 'code' => 'other', 'type' => CatalogType::Gender->value, 'enabled' => true],
+            ['type' => CatalogType::Gender->value, 'name' => 'Male', 'code' => 'male', 'enabled' => true],
+            ['type' => CatalogType::Gender->value, 'name' => 'Female', 'code' => 'female', 'enabled' => true],
+            ['type' => CatalogType::Gender->value, 'name' => 'Other', 'code' => 'other', 'enabled' => true],
         ];
     }
 }
