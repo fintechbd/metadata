@@ -25,14 +25,166 @@ class BloodGroupSeeder extends Seeder
     private function data(): array
     {
         return array(
-            array('name' => 'A+ve', 'code' => 'a+', 'vendor_code' => array('remit' => array('argani' => null, 'city_bank' => null, 'emq_api' => null, 'trans_fast' => null, 'valyou' => null, 'islami_bank' => null), 'ekyc' => array('shufti_pro' => null, 'signzy' => null, 'onfido' => null)), 'catalog_data' => []),
-            array('name' => 'A-ve', 'code' => 'a-', 'vendor_code' => array('remit' => array('argani' => null, 'city_bank' => null, 'emq_api' => null, 'trans_fast' => null, 'valyou' => null, 'islami_bank' => null), 'ekyc' => array('shufti_pro' => null, 'signzy' => null, 'onfido' => null)), 'catalog_data' => []),
-            array('name' => 'B+ve', 'code' => 'b+', 'vendor_code' => array('remit' => array('argani' => null, 'city_bank' => null, 'emq_api' => null, 'trans_fast' => null, 'valyou' => null, 'islami_bank' => null), 'ekyc' => array('shufti_pro' => null, 'signzy' => null, 'onfido' => null)), 'catalog_data' => []),
-            array('name' => 'B-ve', 'code' => 'b-', 'vendor_code' => array('remit' => array('argani' => null, 'city_bank' => null, 'emq_api' => null, 'trans_fast' => null, 'valyou' => null, 'islami_bank' => null), 'ekyc' => array('shufti_pro' => null, 'signzy' => null, 'onfido' => null)), 'catalog_data' => []),
-            array('name' => 'O+ve', 'code' => 'o+', 'vendor_code' => array('remit' => array('argani' => null, 'city_bank' => null, 'emq_api' => null, 'trans_fast' => null, 'valyou' => null, 'islami_bank' => null), 'ekyc' => array('shufti_pro' => null, 'signzy' => null, 'onfido' => null)), 'catalog_data' => []),
-            array('name' => 'O-ve', 'code' => 'o-', 'vendor_code' => array('remit' => array('argani' => null, 'city_bank' => null, 'emq_api' => null, 'trans_fast' => null, 'valyou' => null, 'islami_bank' => null), 'ekyc' => array('shufti_pro' => null, 'signzy' => null, 'onfido' => null)), 'catalog_data' => []),
-            array('name' => 'AB+ve', 'code' => 'ab+', 'vendor_code' => array('remit' => array('argani' => null, 'city_bank' => null, 'emq_api' => null, 'trans_fast' => null, 'valyou' => null, 'islami_bank' => null), 'ekyc' => array('shufti_pro' => null, 'signzy' => null, 'onfido' => null)), 'catalog_data' => []),
-            array('name' => 'AB-ve', 'code' => 'ab-', 'vendor_code' => array('remit' => array('argani' => null, 'city_bank' => null, 'emq_api' => null, 'trans_fast' => null, 'valyou' => null, 'islami_bank' => null), 'ekyc' => array('shufti_pro' => null, 'signzy' => null, 'onfido' => null)), 'catalog_data' => []),
+            array(
+                'name' => 'A+ve',
+                'code' => 'a+',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+            array(
+                'name' => 'A-ve',
+                'code' => 'a-',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+            array(
+                'name' => 'B+ve',
+                'code' => 'b+',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+            array(
+                'name' => 'B-ve',
+                'code' => 'b-',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+            array(
+                'name' => 'O+ve',
+                'code' => 'o+',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+            array(
+                'name' => 'O-ve',
+                'code' => 'o-',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+            array(
+                'name' => 'AB+ve',
+                'code' => 'ab+',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+            array(
+                'name' => 'AB-ve',
+                'code' => 'ab-',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
         );
     }
 }

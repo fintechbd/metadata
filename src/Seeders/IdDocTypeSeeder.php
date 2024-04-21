@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Seeders;
 
+use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Database\Seeder;
 
@@ -12,13 +13,12 @@ class IdDocTypeSeeder extends Seeder
      */
     public function run(): void
     {
-        $data = $this->data();
-
-        foreach (array_chunk($data, 200) as $block) {
-            set_time_limit(2100);
-            foreach ($block as $entry) {
-                MetaData::idDocType()->create($entry);
-            }
+        $countryIds = range(1, 250);
+        foreach ($this->data() as $entry) {
+            $entry['countries'] = $countryIds;
+            $entry['type'] = CatalogType::IdentityDocument->value;
+            $entry['enabled'] = false;
+            MetaData::idDocType()->create($entry);
         }
     }
 

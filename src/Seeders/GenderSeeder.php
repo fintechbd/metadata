@@ -16,16 +16,75 @@ class GenderSeeder extends Seeder
         $countryIds = range(1, 250);
         foreach ($this->data() as $entry) {
             $entry['countries'] = $countryIds;
+            $entry['type'] = CatalogType::Gender->value;
+            $entry['enabled'] = false;
             MetaData::catalog()->create($entry);
         }
     }
 
     private function data()
     {
-        return [
-            ['type' => CatalogType::Gender->value, 'name' => 'Male', 'code' => 'male', 'enabled' => true],
-            ['type' => CatalogType::Gender->value, 'name' => 'Female', 'code' => 'female', 'enabled' => true],
-            ['type' => CatalogType::Gender->value, 'name' => 'Other', 'code' => 'other', 'enabled' => true],
-        ];
+        return array(
+            array(
+                'name' => 'Male',
+                'code' => 'male',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+            array(
+                'name' => 'Female',
+                'code' => 'female',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+            array(
+                'name' => 'Other',
+                'code' => 'other',
+                'vendor_code' => array(
+                    'remit' => array(
+                        'argani' => null,
+                        'city_bank' => null,
+                        'emq_api' => null,
+                        'trans_fast' => null,
+                        'valyou' => null,
+                        'islami_bank' => null
+                    ),
+                    'ekyc' => array(
+                        'shufti_pro' => null,
+                        'signzy' => null,
+                        'onfido' => null
+                    )
+                ),
+                'catalog_data' => array()
+            ),
+        );
     }
 }
