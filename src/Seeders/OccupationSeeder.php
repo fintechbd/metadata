@@ -22,7 +22,7 @@ class OccupationSeeder extends Seeder
         }
     }
 
-    private function data()
+    private function data(): array
     {
         return array(
             array(

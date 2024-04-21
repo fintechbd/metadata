@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Seeders;
 
+use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Database\Seeder;
 
@@ -12,52 +13,930 @@ class RelationSeeder extends Seeder
      */
     public function run(): void
     {
-        foreach ($this->data() as $relation) {
-            MetaData::relation()->create($relation);
+        $countryIds = range(1, 250);
+        foreach ($this->data() as $entry) {
+            $entry['countries'] = $countryIds;
+            $entry['type'] = CatalogType::Relation->value;
+            $entry['enabled'] = false;
+            MetaData::relation()->create($entry);
         }
     }
 
-    private function data()
+    private function data(): array
     {
         return array(
-            array('id' => '1', 'country_id' => null, 'name' => 'Aunt', 'code' => 'aunt', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-11-22 22:16:29', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '2', 'country_id' => null, 'name' => 'Brother', 'code' => 'brother', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-11-22 22:16:54', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '3', 'country_id' => null, 'name' => 'Brother In Law', 'code' => 'brother-in-law', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:55:56', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '4', 'country_id' => null, 'name' => 'Business Associate', 'code' => 'business-associate', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:56:00', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '5', 'country_id' => null, 'name' => 'Cousin', 'code' => 'cousin', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-11-22 22:17:19', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '6', 'country_id' => null, 'name' => 'Daughter', 'code' => 'daughter', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-08-28 07:48:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '7', 'country_id' => null, 'name' => 'Employee', 'code' => 'employee', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2022-01-01 13:45:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '8', 'country_id' => null, 'name' => 'Father', 'code' => 'father', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-08-28 07:48:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '9', 'country_id' => null, 'name' => 'Father In Law', 'code' => 'father-in-law', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-08-28 07:48:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '10', 'country_id' => null, 'name' => 'Friend', 'code' => 'friend', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-08-28 07:48:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '11', 'country_id' => null, 'name' => 'Grand Father', 'code' => 'grand-father', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:56:05', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '12', 'country_id' => null, 'name' => 'Grand Mother', 'code' => 'grand-mother', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:56:10', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '13', 'country_id' => null, 'name' => 'Husband', 'code' => 'husband', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-08-28 07:48:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '14', 'country_id' => null, 'name' => 'Mother', 'code' => 'mother', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-08-28 07:48:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '15', 'country_id' => null, 'name' => 'Mother In Law', 'code' => 'mother-in-law', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-08-28 07:48:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '16', 'country_id' => null, 'name' => 'Nephew', 'code' => 'nephew', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:56:14', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '17', 'country_id' => null, 'name' => 'Niece', 'code' => 'niece', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:56:18', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '18', 'country_id' => null, 'name' => 'Non Related', 'code' => 'non-related', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:56:22', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '19', 'country_id' => null, 'name' => 'Relative', 'code' => 'relative', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:56:26', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '20', 'country_id' => null, 'name' => 'Self', 'code' => 'self', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2022-01-01 13:45:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '21', 'country_id' => null, 'name' => 'Sister', 'code' => 'sister', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-08-28 07:48:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '22', 'country_id' => null, 'name' => 'Sister In Law', 'code' => 'sister-in-law', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:56:31', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '23', 'country_id' => null, 'name' => 'Son', 'code' => 'son', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-08-28 07:48:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '24', 'country_id' => null, 'name' => 'Uncle', 'code' => 'uncle', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-09-15 16:56:36', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '25', 'country_id' => null, 'name' => 'Wife', 'code' => 'wife', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2020-08-28 07:48:52', 'updated_at' => '2020-11-22 22:17:52', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '26', 'country_id' => null, 'name' => 'Parents', 'code' => 'parents', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-01 13:45:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '27', 'country_id' => null, 'name' => 'Siblings', 'code' => 'siblings', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-01 13:45:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '28', 'country_id' => null, 'name' => 'Other Relatives', 'code' => 'other-relatives', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-01 13:45:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '29', 'country_id' => null, 'name' => 'Vendor', 'code' => 'vendor', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-02 12:46:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '30', 'country_id' => null, 'name' => 'Supplier', 'code' => 'supplier', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-01 13:45:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '31', 'country_id' => null, 'name' => 'Spouse', 'code' => 'spouse', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-01 13:45:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '32', 'country_id' => null, 'name' => 'Friends', 'code' => 'friends', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-01 13:45:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '33', 'country_id' => null, 'name' => 'Employer', 'code' => 'employer', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-02 12:47:00', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '34', 'country_id' => null, 'name' => 'Child', 'code' => 'child', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-01 13:45:21', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '35', 'country_id' => null, 'name' => 'Business Partner', 'code' => 'business-partner', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-02 12:47:08', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '36', 'country_id' => null, 'name' => 'Agent', 'code' => 'agent', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:21', 'updated_at' => '2022-01-02 12:47:13', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '37', 'country_id' => null, 'name' => 'Creditor', 'code' => 'creditor', 'enabled' => '0', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:22', 'updated_at' => '2022-01-02 12:47:23', 'deleted_at' => null, 'restored_at' => null),
-            array('id' => '38', 'country_id' => null, 'name' => 'Others', 'code' => 'others', 'enabled' => '1', 'relation_data' => null, 'creator_id' => null, 'editor_id' => null, 'destroyer_id' => null, 'restorer_id' => null, 'created_at' => '2022-01-01 13:45:22', 'updated_at' => '2022-01-01 13:45:22', 'deleted_at' => null, 'restored_at' => null)
+            array(
+                'name' => 'Aunt',
+                'code' => 'aunt',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Brother',
+                'code' => 'brother',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Brother In Law',
+                'code' => 'brother-in-law',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Business Associate',
+                'code' => 'business-associate',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Cousin',
+                'code' => 'cousin',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Daughter',
+                'code' => 'daughter',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Employee',
+                'code' => 'employee',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Father',
+                'code' => 'father',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Father In Law',
+                'code' => 'father-in-law',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Friend',
+                'code' => 'friend',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Grand Father',
+                'code' => 'grand-father',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Grand Mother',
+                'code' => 'grand-mother',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Husband',
+                'code' => 'husband',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Mother',
+                'code' => 'mother',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Mother In Law',
+                'code' => 'mother-in-law',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Nephew',
+                'code' => 'nephew',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Niece',
+                'code' => 'niece',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Non Related',
+                'code' => 'non-related',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Relative',
+                'code' => 'relative',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Self',
+                'code' => 'self',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Sister',
+                'code' => 'sister',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Sister In Law',
+                'code' => 'sister-in-law',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Son',
+                'code' => 'son',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Uncle',
+                'code' => 'uncle',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Wife',
+                'code' => 'wife',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Parents',
+                'code' => 'parents',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Siblings',
+                'code' => 'siblings',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Other Relatives',
+                'code' => 'other-relatives',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Vendor',
+                'code' => 'vendor',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Supplier',
+                'code' => 'supplier',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Spouse',
+                'code' => 'spouse',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Friends',
+                'code' => 'friends',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Employer',
+                'code' => 'employer',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Child',
+                'code' => 'child',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Business Partner',
+                'code' => 'business-partner',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Agent',
+                'code' => 'agent',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Creditor',
+                'code' => 'creditor',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
+            array(
+                'name' => 'Others',
+                'code' => 'other',
+                'vendor_code' =>
+                    array(
+                        'remit' =>
+                            array(
+                                'argani' => null,
+                                'city_bank' => null,
+                                'emq_api' => null,
+                                'trans_fast' => null,
+                                'valyou' => null,
+                                'islami_bank' => null,
+                            ),
+                        'ekyc' =>
+                            array(
+                                'shufti_pro' => null,
+                                'signzy' => null,
+                                'onfido' => null,
+                            ),
+                    ),
+                'catalog_data' =>
+                    array(),
+            ),
         );
     }
 }
