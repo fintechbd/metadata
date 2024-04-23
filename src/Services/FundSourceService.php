@@ -3,7 +3,6 @@
 namespace Fintech\MetaData\Services;
 
 use Fintech\MetaData\Interfaces\CatalogRepository;
-use Fintech\MetaData\Interfaces\FundSourceRepository;
 
 /**
  * Class FundSourceService

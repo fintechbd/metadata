@@ -19,10 +19,10 @@ class FundSourceCollection extends ResourceCollection
         return $this->collection->map(function ($item) {
 
             $links = [
-                'show' => action_link(route('metadata.fund-sources.show',  $item->getKey()), __('core::messages.action.show'), 'get'),
-                'update' => action_link(route('metadata.fund-sources.update',  $item->getKey()), __('core::messages.action.update'), 'put'),
-                'destroy' => action_link(route('metadata.fund-sources.destroy',  $item->getKey()), __('core::messages.action.destroy'), 'delete'),
-                'restore' => action_link(route('metadata.fund-sources.restore',  $item->getKey()), __('core::messages.action.restore'), 'post'),
+                'show' => action_link(route('metadata.fund-sources.show', $item->getKey()), __('core::messages.action.show'), 'get'),
+                'update' => action_link(route('metadata.fund-sources.update', $item->getKey()), __('core::messages.action.update'), 'put'),
+                'destroy' => action_link(route('metadata.fund-sources.destroy', $item->getKey()), __('core::messages.action.destroy'), 'delete'),
+                'restore' => action_link(route('metadata.fund-sources.restore', $item->getKey()), __('core::messages.action.restore'), 'post'),
             ];
 
             if ($this->getAttribute('deleted_at') == null) {
