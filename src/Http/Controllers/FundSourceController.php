@@ -63,7 +63,6 @@ class FundSourceController extends Controller
      *
      * @lrd:end
      *
-     * @throws StoreOperationException
      */
     public function store(StoreFundSourceRequest $request): JsonResponse
     {
@@ -166,7 +165,6 @@ class FundSourceController extends Controller
      * @return JsonResponse
      *
      * @throws ModelNotFoundException
-     * @throws DeleteOperationException
      */
     public function destroy(string|int $id)
     {
@@ -260,9 +258,10 @@ class FundSourceController extends Controller
      *
      * @lrd:end
      *
-     * @return FundSourceCollection|JsonResponse
+     * @param ImportFundSourceRequest $request
+     * @return JsonResponse|FundSourceCollection
      */
-    public function import(ImportFundSourceRequest $request): JsonResponse
+    public function import(ImportFundSourceRequest $request): JsonResponse|FundSourceCollection
     {
         try {
             $inputs = $request->validated();

@@ -17,6 +17,20 @@ class FundSourceCollection extends ResourceCollection
     public function toArray($request)
     {
         return $this->collection->map(function ($item) {
+
+            $links = [
+                'show' => action_link(route('metadata.fund-sources.show',  $item->getKey()), __('core::messages.action.show'), 'get'),
+                'update' => action_link(route('metadata.fund-sources.update',  $item->getKey()), __('core::messages.action.update'), 'put'),
+                'destroy' => action_link(route('metadata.fund-sources.destroy',  $item->getKey()), __('core::messages.action.destroy'), 'delete'),
+                'restore' => action_link(route('metadata.fund-sources.restore',  $item->getKey()), __('core::messages.action.restore'), 'post'),
+            ];
+
+            if ($this->getAttribute('deleted_at') == null) {
+                unset($links['restore']);
+            } else {
+                unset($links['destroy']);
+            }
+
             return [
                 "id" => $item->getKey(),
                 "name" => $item->name,
@@ -29,7 +43,7 @@ class FundSourceCollection extends ResourceCollection
                 "updated_at" => $item->updated_at,
                 "deleted_at" => $item->deleted_at,
                 "restored_at" => $item->restored_at,
-                "links" => $item->links
+                "links" => $links
             ];
         })->toArray();
     }
