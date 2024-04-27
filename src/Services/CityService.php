@@ -23,11 +23,9 @@ class CityService
      */
     public function list(array $filters = [])
     {
-        $countryList = $this->cityRepository->list($filters);
-
         //Do Business Stuff
 
-        return $countryList;
+        return $this->cityRepository->list($filters);
 
     }
 

@@ -22,11 +22,7 @@ class StateService
      */
     public function list(array $filters = [])
     {
-        $countryList = $this->stateRepository->list($filters);
-
-        //Do Business Stuff
-
-        return $countryList;
+        return $this->stateRepository->list($filters);
 
     }
 

@@ -23,11 +23,9 @@ class RegionService
      */
     public function list(array $filters = [])
     {
-        $regionList = $this->regionRepository->list($filters);
-
         //Do Business Stuff
 
-        return $regionList;
+        return $this->regionRepository->list($filters);
 
     }
 

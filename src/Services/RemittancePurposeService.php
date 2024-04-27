@@ -2,6 +2,8 @@
 
 namespace Fintech\MetaData\Services;
 
+use Fintech\Core\Enums\MetaData\CatalogType;
+use Fintech\MetaData\Interfaces\CatalogRepository;
 use Fintech\MetaData\Interfaces\RemittancePurposeRepository;
 
 /**
@@ -12,48 +14,64 @@ class RemittancePurposeService
 {
     /**
      * RemittancePurposeService constructor.
-     * @param RemittancePurposeRepository $remittancePurposeRepository
+     * @param CatalogRepository $catalogRepository
      */
-    public function __construct(private readonly RemittancePurposeRepository $remittancePurposeRepository)
+    public function __construct(private readonly CatalogRepository $catalogRepository)
     {
-
     }
 
     /**
+     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])
     {
-        $countryList = $this->remittancePurposeRepository->list($filters);
+        $filters['type'] = CatalogType::RemittancePurpose->value;
 
-        //Do Business Stuff
-
-        return $countryList;
+        return $this->catalogRepository->list($filters);
 
     }
 
     public function create(array $inputs = [])
     {
-        return $this->remittancePurposeRepository->create($inputs);
+        $inputs['type'] = CatalogType::RemittancePurpose->value;
+
+        return $this->catalogRepository->create($inputs);
     }
 
     public function find($id, $onlyTrashed = false)
     {
-        return $this->remittancePurposeRepository->find($id, $onlyTrashed);
+        return $this->catalogRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])
     {
-        return $this->remittancePurposeRepository->update($id, $inputs);
+        $inputs['type'] = CatalogType::RemittancePurpose->value;
+
+        return $this->catalogRepository->update($id, $inputs);
     }
 
     public function destroy($id)
     {
-        return $this->remittancePurposeRepository->delete($id);
+        return $this->catalogRepository->delete($id);
     }
 
     public function restore($id)
     {
-        return $this->remittancePurposeRepository->restore($id);
+        return $this->catalogRepository->restore($id);
+    }
+
+    public function export(array $filters)
+    {
+        $filters['type'] = CatalogType::RemittancePurpose->value;
+
+        return $this->catalogRepository->list($filters);
+    }
+
+    public function import(array $filters)
+    {
+        $filters['type'] = CatalogType::RemittancePurpose->value;
+
+        return $this->catalogRepository->create($filters);
     }
 }

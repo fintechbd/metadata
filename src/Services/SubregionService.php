@@ -22,11 +22,9 @@ class SubregionService
      */
     public function list(array $filters = [])
     {
-        $subRegionList = $this->subRegionRepository->list($filters);
-
         //Do Business Stuff
 
-        return $subRegionList;
+        return $this->subRegionRepository->list($filters);
 
     }
 

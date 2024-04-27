@@ -2,6 +2,8 @@
 
 namespace Fintech\MetaData\Services;
 
+use Fintech\Core\Enums\MetaData\CatalogType;
+use Fintech\MetaData\Interfaces\CatalogRepository;
 use Fintech\MetaData\Interfaces\RelationRepository;
 
 /**
@@ -12,47 +14,64 @@ class RelationService
 {
     /**
      * RelationService constructor.
-     * @param RelationRepository $relationRepository
+     * @param CatalogRepository $catalogRepository
      */
-    public function __construct(private readonly RelationRepository $relationRepository)
+    public function __construct(private readonly CatalogRepository $catalogRepository)
     {
     }
 
     /**
+     * @param array $filters
      * @return mixed
      */
     public function list(array $filters = [])
     {
-        $countryList = $this->relationRepository->list($filters);
+        $filters['type'] = CatalogType::Relation->value;
 
-        //Do Business Stuff
-
-        return $countryList;
+        return $this->catalogRepository->list($filters);
 
     }
 
     public function create(array $inputs = [])
     {
-        return $this->relationRepository->create($inputs);
+        $inputs['type'] = CatalogType::Relation->value;
+
+        return $this->catalogRepository->create($inputs);
     }
 
     public function find($id, $onlyTrashed = false)
     {
-        return $this->relationRepository->find($id, $onlyTrashed);
+        return $this->catalogRepository->find($id, $onlyTrashed);
     }
 
     public function update($id, array $inputs = [])
     {
-        return $this->relationRepository->update($id, $inputs);
+        $inputs['type'] = CatalogType::Relation->value;
+
+        return $this->catalogRepository->update($id, $inputs);
     }
 
     public function destroy($id)
     {
-        return $this->relationRepository->delete($id);
+        return $this->catalogRepository->delete($id);
     }
 
     public function restore($id)
     {
-        return $this->relationRepository->restore($id);
+        return $this->catalogRepository->restore($id);
+    }
+
+    public function export(array $filters)
+    {
+        $filters['type'] = CatalogType::Relation->value;
+
+        return $this->catalogRepository->list($filters);
+    }
+
+    public function import(array $filters)
+    {
+        $filters['type'] = CatalogType::Relation->value;
+
+        return $this->catalogRepository->create($filters);
     }
 }

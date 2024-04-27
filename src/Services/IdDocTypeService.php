@@ -2,6 +2,8 @@
 
 namespace Fintech\MetaData\Services;
 
+use Fintech\Core\Enums\MetaData\CatalogType;
+use Fintech\MetaData\Interfaces\CatalogRepository;
 use Fintech\MetaData\Interfaces\IdDocTypeRepository;
 
 /**
@@ -13,36 +15,10 @@ class IdDocTypeService
 {
     /**
      * IdDocTypeService constructor.
-     * @param IdDocTypeRepository $idDocTypeRepository
+     * @param CatalogRepository $catalogRepository
      */
-    public function __construct(
-        private readonly IdDocTypeRepository $idDocTypeRepository
-    ) {
-    }
-
-    public function find($id, $onlyTrashed = false)
+    public function __construct(private readonly CatalogRepository $catalogRepository)
     {
-        return $this->idDocTypeRepository->find($id, $onlyTrashed);
-    }
-
-    public function update($id, array $inputs = [])
-    {
-        return $this->idDocTypeRepository->update($id, $inputs);
-    }
-
-    public function destroy($id)
-    {
-        return $this->idDocTypeRepository->delete($id);
-    }
-
-    public function restore($id)
-    {
-        return $this->idDocTypeRepository->restore($id);
-    }
-
-    public function export(array $filters)
-    {
-        return $this->idDocTypeRepository->list($filters);
     }
 
     /**
@@ -51,17 +27,52 @@ class IdDocTypeService
      */
     public function list(array $filters = [])
     {
-        return $this->idDocTypeRepository->list($filters);
+        $filters['type'] = CatalogType::IdentityDocument->value;
 
-    }
+        return $this->catalogRepository->list($filters);
 
-    public function import(array $filters)
-    {
-        return $this->idDocTypeRepository->create($filters);
     }
 
     public function create(array $inputs = [])
     {
-        return $this->idDocTypeRepository->create($inputs);
+        $inputs['type'] = CatalogType::IdentityDocument->value;
+
+        return $this->catalogRepository->create($inputs);
+    }
+
+    public function find($id, $onlyTrashed = false)
+    {
+        return $this->catalogRepository->find($id, $onlyTrashed);
+    }
+
+    public function update($id, array $inputs = [])
+    {
+        $inputs['type'] = CatalogType::IdentityDocument->value;
+
+        return $this->catalogRepository->update($id, $inputs);
+    }
+
+    public function destroy($id)
+    {
+        return $this->catalogRepository->delete($id);
+    }
+
+    public function restore($id)
+    {
+        return $this->catalogRepository->restore($id);
+    }
+
+    public function export(array $filters)
+    {
+        $filters['type'] = CatalogType::IdentityDocument->value;
+
+        return $this->catalogRepository->list($filters);
+    }
+
+    public function import(array $filters)
+    {
+        $filters['type'] = CatalogType::IdentityDocument->value;
+
+        return $this->catalogRepository->create($filters);
     }
 }

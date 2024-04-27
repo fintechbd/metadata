@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Services;
 
+use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\MetaData\Interfaces\CatalogRepository;
 
 /**
@@ -18,6 +19,25 @@ class FundSourceService
     {
     }
 
+    /**
+     * @param array $filters
+     * @return mixed
+     */
+    public function list(array $filters = [])
+    {
+        $filters['type'] = CatalogType::FundSource->value;
+
+        return $this->catalogRepository->list($filters);
+
+    }
+
+    public function create(array $inputs = [])
+    {
+        $inputs['type'] = CatalogType::FundSource->value;
+
+        return $this->catalogRepository->create($inputs);
+    }
+
     public function find($id, $onlyTrashed = false)
     {
         return $this->catalogRepository->find($id, $onlyTrashed);
@@ -25,6 +45,8 @@ class FundSourceService
 
     public function update($id, array $inputs = [])
     {
+        $inputs['type'] = CatalogType::FundSource->value;
+
         return $this->catalogRepository->update($id, $inputs);
     }
 
@@ -40,26 +62,15 @@ class FundSourceService
 
     public function export(array $filters)
     {
-        return $this->catalogRepository->list($filters);
-    }
+        $filters['type'] = CatalogType::FundSource->value;
 
-    /**
-     * @param array $filters
-     * @return mixed
-     */
-    public function list(array $filters = [])
-    {
         return $this->catalogRepository->list($filters);
-
     }
 
     public function import(array $filters)
     {
-        return $this->catalogRepository->create($filters);
-    }
+        $filters['type'] = CatalogType::FundSource->value;
 
-    public function create(array $inputs = [])
-    {
-        return $this->catalogRepository->create($inputs);
+        return $this->catalogRepository->create($filters);
     }
 }
