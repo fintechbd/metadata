@@ -2,8 +2,10 @@
 
 namespace Fintech\MetaData\Http\Requests;
 
+use Fintech\Core\Enums\MetaData\CatalogType;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class UpdateFundSourceRequest extends FormRequest
 {
@@ -22,38 +24,32 @@ class UpdateFundSourceRequest extends FormRequest
      */
     public function rules(): array
     {
-        $uniqueRule = 'unique:fund_sources,name';
+        $modelId = $this->route('fund_source', null);
 
         return [
-            'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
-            'code' => ['required', 'string', 'min:5', 'max:255'],
-            'country_id' => ['nullable', 'integer'],
-            'fund_source_data' => ['nullable', 'array'],
+            'name' => [
+                'required',
+                'string',
+                'min:5',
+                'max:255',
+                Rule::unique('catalogs', 'name')
+                    ->ignore($modelId)
+                    ->where(fn($query) => $query->where('type', CatalogType::FundSource->value))
+            ],
+            'code' => [
+                'required',
+                'string',
+                'min:5',
+                'max:255',
+                Rule::unique('catalogs', 'code')
+                    ->ignore($modelId)
+                    ->where(fn($query) => $query->where('type', CatalogType::FundSource->value))
+            ],
+            'countries' => ['nullable', 'array'],
+            'countries.*' => ['required', 'integer'],
+            'vendor_code' => ['nullable', 'array'],
+            'catalog_data' => ['nullable', 'array'],
             'enabled' => ['boolean', 'nullable'],
-        ];
-    }
-
-    /**
-     * Get the validation attributes that apply to the request.
-     *
-     * @return array
-     */
-    public function attributes()
-    {
-        return [
-            //
-        ];
-    }
-
-    /**
-     * Get the validation messages that apply to the request.
-     *
-     * @return array
-     */
-    public function messages()
-    {
-        return [
-            //
         ];
     }
 }

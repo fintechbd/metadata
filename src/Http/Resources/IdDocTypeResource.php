@@ -16,23 +16,33 @@ class IdDocTypeResource extends JsonResource
      */
     public function toArray($request)
     {
-        $data = [
-            'id' => $this->getKey(),
-            'country_id' => $role->country_id ?? null,
-            'country_name' => null,
-            'name' => $this->name ?? null,
-            'code' => $this->code ?? null,
-            'sides' => $this->sides ?? null,
-            'enabled' => $this->enabled ?? null,
-            'id_doc_type_data' => $this->id_doc_type_data ?? null,
-            'links' => $this->links,
-            'created_at' => $this->created_at,
-            'updated_at' => $this->updated_at,
+        $links = [
+            'show' => action_link(route('metadata.fund-sources.show', $this->getKey()), __('core::messages.action.show'), 'get'),
+            'update' => action_link(route('metadata.fund-sources.update', $this->getKey()), __('core::messages.action.update'), 'put'),
+            'destroy' => action_link(route('metadata.fund-sources.destroy', $this->getKey()), __('core::messages.action.destroy'), 'delete'),
+            'restore' => action_link(route('metadata.fund-sources.restore', $this->getKey()), __('core::messages.action.restore'), 'post'),
         ];
 
-        if (Core::packageExists('MetaData')) {
-            $data['country_name'] = $this->country->name ?? null;
+        if ($this->getAttribute('deleted_at') == null) {
+            unset($links['restore']);
+        } else {
+            unset($links['destroy']);
         }
-        return $data;
+
+        return [
+            "id" => $this->getKey(),
+            "name" => $this->name,
+            "code" => $this->code,
+            "sides" => $this->sides,
+            "enabled" => $this->enabled,
+            "vendor_code" => $this->vendor_code,
+            "catalog_data" => $this->catalog_data,
+            "countries" => $this->countries != null ? $this->countries->pluck('name', 'id')->toArray() : [],
+            "created_at" => $this->created_at,
+            "updated_at" => $this->updated_at,
+            "deleted_at" => $this->deleted_at,
+            "restored_at" => $this->restored_at,
+            "links" => $links
+        ];
     }
 }
