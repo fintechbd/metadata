@@ -31,7 +31,7 @@ class StoreFundSourceRequest extends FormRequest
                 'min:5',
                 'max:255',
                 Rule::unique('catalogs', 'name')
-                    ->where(fn($query) => $query->where('type', CatalogType::FundSource->value))
+                    ->where(fn ($query) => $query->where('type', CatalogType::FundSource->value))
             ],
             'code' => [
                 'required',
@@ -39,7 +39,7 @@ class StoreFundSourceRequest extends FormRequest
                 'min:5',
                 'max:255',
                 Rule::unique('catalogs', 'code')
-                    ->where(fn($query) => $query->where('type', CatalogType::FundSource->value))
+                    ->where(fn ($query) => $query->where('type', CatalogType::FundSource->value))
             ],
             'countries' => ['nullable', 'array'],
             'countries.*' => ['required', 'integer'],

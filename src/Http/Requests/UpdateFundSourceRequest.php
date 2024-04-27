@@ -34,7 +34,7 @@ class UpdateFundSourceRequest extends FormRequest
                 'max:255',
                 Rule::unique('catalogs', 'name')
                     ->ignore($modelId)
-                    ->where(fn($query) => $query->where('type', CatalogType::FundSource->value))
+                    ->where(fn ($query) => $query->where('type', CatalogType::FundSource->value))
             ],
             'code' => [
                 'required',
@@ -43,7 +43,7 @@ class UpdateFundSourceRequest extends FormRequest
                 'max:255',
                 Rule::unique('catalogs', 'code')
                     ->ignore($modelId)
-                    ->where(fn($query) => $query->where('type', CatalogType::FundSource->value))
+                    ->where(fn ($query) => $query->where('type', CatalogType::FundSource->value))
             ],
             'countries' => ['nullable', 'array'],
             'countries.*' => ['required', 'integer'],

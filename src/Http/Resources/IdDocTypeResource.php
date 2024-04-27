@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Http\Resources;
 
-use Fintech\Core\Facades\Core;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
