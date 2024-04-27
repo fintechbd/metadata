@@ -24,7 +24,7 @@ class Catalog extends BaseModel
 
     protected $appends = ['links'];
 
-    protected $casts = ['vendor_code' => 'array','catalog_data' => 'array', 'restored_at' => 'datetime', 'enabled' => 'bool'];
+    protected $casts = ['vendor_code' => 'array', 'catalog_data' => 'array', 'restored_at' => 'datetime', 'enabled' => 'bool'];
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
@@ -76,6 +76,15 @@ class Catalog extends BaseModel
         }
 
         return $links;
+    }
+
+    public function getSidesAttribute()
+    {
+        if (isset($this->catalog_data['sides'])) {
+            return intval($this->catalog_data['sides']);
+        }
+
+        return 1;
     }
 
     /*

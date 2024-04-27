@@ -296,7 +296,7 @@ class CatalogController extends Controller
             $entries = collect();
 
             foreach (CatalogType::toArray() as $key => $status) {
-                $entries->push(['label' => $status, 'attribute' => $key]);
+                $entries->push(['label' => trim(preg_replace('/([A-Z])/', ' $1', $status)), 'attribute' => $key]);
             }
 
             return new DropDownCollection($entries);
