@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Abstracts\BaseModel;
 use Fintech\Core\Traits\AuditableTrait;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Catalog extends BaseModel
@@ -23,7 +24,7 @@ class Catalog extends BaseModel
 
     protected $appends = ['links'];
 
-    protected $casts = ['catalog_data' => 'array', 'restored_at' => 'datetime', 'enabled' => 'bool'];
+    protected $casts = ['vendor_code' => 'array','catalog_data' => 'array', 'restored_at' => 'datetime', 'enabled' => 'bool'];
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
@@ -38,7 +39,10 @@ class Catalog extends BaseModel
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
+    public function countries(): BelongsToMany
+    {
+        return $this->belongsToMany(config('fintech.metadata.country_model', Country::class));
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES
