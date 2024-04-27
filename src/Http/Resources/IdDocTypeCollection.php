@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Http\Resources;
 
-use Fintech\Core\Facades\Core;
 use Fintech\Core\Supports\Constant;
 use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Http\Request;
