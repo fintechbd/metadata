@@ -3,6 +3,7 @@
 namespace Fintech\MetaData\Http\Resources;
 
 use Fintech\Core\Supports\Constant;
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
@@ -25,7 +26,7 @@ class FundSourceCollection extends ResourceCollection
                 'restore' => action_link(route('metadata.fund-sources.restore', $item->getKey()), __('core::messages.action.restore'), 'post'),
             ];
 
-            if ($this->getAttribute('deleted_at') == null) {
+            if ($item->getAttribute('deleted_at') == null) {
                 unset($links['restore']);
             } else {
                 unset($links['destroy']);
@@ -36,9 +37,6 @@ class FundSourceCollection extends ResourceCollection
                 "name" => $item->name,
                 "code" => $item->code,
                 "enabled" => $item->enabled,
-                "country_id" => $item->country_id,
-                "country_name" => $item->country != null ? $item->country->name : null,
-                "fund_source_data" => $item->fund_source_data,
                 "created_at" => $item->created_at,
                 "updated_at" => $item->updated_at,
                 "deleted_at" => $item->deleted_at,
@@ -58,8 +56,9 @@ class FundSourceCollection extends ResourceCollection
         return [
             'options' => [
                 'dir' => Constant::SORT_DIRECTIONS,
+                'countries' => MetaData::country()->list(['paginate' => false])->pluck('name', 'id')->toArray(),
                 'per_page' => Constant::PAGINATE_LENGTHS,
-                'sort' => ['id', 'name', 'created_at', 'updated_at'],
+                'sort' => ['id', 'name', 'code', 'enabled', 'created_at', 'updated_at'],
             ],
             'query' => $request->all(),
         ];

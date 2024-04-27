@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Http\Resources;
 
 use Fintech\Core\Facades\Core;
 use Fintech\Core\Supports\Constant;
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
@@ -17,32 +18,39 @@ class IdDocTypeCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return $this->collection->map(function ($idDoc) {
-            $data = [
-                'id' => $idDoc->getKey(),
-                'country_id' => $idDoc->country_id ?? null,
-                'country_name' => null,
-                'name' => $idDoc->name ?? null,
-                'code' => $idDoc->code ?? null,
-                'sides' => $idDoc->sides ?? null,
-                'enabled' => $idDoc->enabled ?? null,
-                'id_doc_type_data' => $idDoc->id_doc_type_data ?? null,
-                'links' => $idDoc->links,
-                'created_at' => $idDoc->created_at,
-                'updated_at' => $idDoc->updated_at,
+        return $this->collection->map(function ($item) {
+
+            $links = [
+                'show' => action_link(route('metadata.id-doc-types.show', $item->getKey()), __('core::messages.action.show'), 'get'),
+                'update' => action_link(route('metadata.id-doc-types.update', $item->getKey()), __('core::messages.action.update'), 'put'),
+                'destroy' => action_link(route('metadata.id-doc-types.destroy', $item->getKey()), __('core::messages.action.destroy'), 'delete'),
+                'restore' => action_link(route('metadata.id-doc-types.restore', $item->getKey()), __('core::messages.action.restore'), 'post'),
             ];
 
-            if (Core::packageExists('MetaData')) {
-                $data['country_name'] = $idDoc->country->name ?? null;
+            if ($item->getAttribute('deleted_at') == null) {
+                unset($links['restore']);
+            } else {
+                unset($links['destroy']);
             }
-            return $data;
+
+            return [
+                "id" => $item->getKey(),
+                "name" => $item->name,
+                "code" => $item->code,
+                "sides" => $item->sides,
+                "enabled" => $item->enabled,
+                "created_at" => $item->created_at,
+                "updated_at" => $item->updated_at,
+                "deleted_at" => $item->deleted_at,
+                "restored_at" => $item->restored_at,
+                "links" => $links
+            ];
         })->toArray();
     }
 
     /**
      * Get additional data that should be returned with the resource array.
      *
-     * @param Request $request
      * @return array<string, mixed>
      */
     public function with(Request $request): array
@@ -50,8 +58,9 @@ class IdDocTypeCollection extends ResourceCollection
         return [
             'options' => [
                 'dir' => Constant::SORT_DIRECTIONS,
+                'countries' => MetaData::country()->list(['paginate' => false])->pluck('name', 'id')->toArray(),
                 'per_page' => Constant::PAGINATE_LENGTHS,
-                'sort' => ['id', 'name', 'created_at', 'updated_at'],
+                'sort' => ['id', 'name', 'code', 'enabled', 'created_at', 'updated_at'],
             ],
             'query' => $request->all(),
         ];
