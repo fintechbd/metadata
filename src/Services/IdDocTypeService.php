@@ -4,7 +4,6 @@ namespace Fintech\MetaData\Services;
 
 use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\MetaData\Interfaces\CatalogRepository;
-use Fintech\MetaData\Interfaces\IdDocTypeRepository;
 
 /**
  * Class IdDocTypeService
