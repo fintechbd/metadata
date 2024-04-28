@@ -14,6 +14,7 @@ return new class () extends Migration {
             $table->id();
             $table->string('name')->nullable();
             $table->json('subregion_data')->nullable();
+            $table->json('vendor_code')->nullable();
             $table->foreignId('region_id')->nullable();
             $table->foreignId('creator_id')->nullable();
             $table->foreignId('editor_id')->nullable();

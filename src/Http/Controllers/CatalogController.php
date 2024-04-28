@@ -285,25 +285,4 @@ class CatalogController extends Controller
             return $this->failed($exception->getMessage());
         }
     }
-
-    /**
-     * @param DropDownRequest $request
-     * @return DropDownCollection|JsonResponse
-     */
-    public function dropdown(DropDownRequest $request): DropDownCollection|JsonResponse
-    {
-        try {
-            $entries = collect();
-
-            foreach (CatalogType::toArray() as $key => $status) {
-                $entries->push(['label' => trim(preg_replace('/([A-Z])/', ' $1', $status)), 'attribute' => $key]);
-            }
-
-            return new DropDownCollection($entries);
-
-        } catch (Exception $exception) {
-            return $this->failed($exception->getMessage());
-        }
-    }
-
 }

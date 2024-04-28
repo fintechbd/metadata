@@ -18,6 +18,7 @@ return new class () extends Migration {
             $table->double('longitude', 11, 8)->nullable();
             $table->boolean('enabled')->nullable();
             $table->json('state_data')->nullable();
+            $table->json('vendor_code')->nullable();
             $table->foreignId('country_id')->nullable();
             $table->foreignId('creator_id')->nullable();
             $table->foreignId('editor_id')->nullable();

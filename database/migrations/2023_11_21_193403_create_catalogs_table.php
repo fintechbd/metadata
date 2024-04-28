@@ -17,6 +17,7 @@ return new class () extends Migration {
             $table->string('code')->nullable();
             $table->boolean('enabled')->default(true);
             $table->json('catalog_data')->nullable();
+            $table->json('vendor_code')->nullable();
             $table->foreignId('creator_id')->nullable();
             $table->foreignId('editor_id')->nullable();
             $table->foreignId('destroyer_id')->nullable();
@@ -24,6 +25,11 @@ return new class () extends Migration {
             $table->timestamps();
             $table->softDeletes();
             $table->timestamp('restored_at')->nullable();
+        });
+
+        Schema::create('catalog_country', function (Blueprint $table) {
+            $table->foreignId('catalog_id')->nullable();
+            $table->foreignId('country_id')->nullable();
         });
     }
 
@@ -33,5 +39,7 @@ return new class () extends Migration {
     public function down(): void
     {
         Schema::dropIfExists('catalogs');
+
+        Schema::dropIfExists('catalog_country');
     }
 };

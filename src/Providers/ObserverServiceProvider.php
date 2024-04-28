@@ -1,6 +1,6 @@
 <?php
 
-namespace Fintech\MetaData;
+namespace Fintech\MetaData\Providers;
 
 use Fintech\MetaData\Models\Country;
 use Fintech\MetaData\Observers\CountryObserver;

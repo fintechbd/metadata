@@ -5,6 +5,9 @@ namespace Fintech\MetaData;
 use Fintech\Core\Traits\RegisterPackageTrait;
 use Fintech\MetaData\Commands\InstallCommand;
 use Fintech\MetaData\Commands\MetaDataCommand;
+use Fintech\MetaData\Providers\ObserverServiceProvider;
+use Fintech\MetaData\Providers\RepositoryServiceProvider;
+use Fintech\MetaData\Providers\RouteServiceProvider;
 use Illuminate\Support\ServiceProvider;
 
 class MetaDataServiceProvider extends ServiceProvider

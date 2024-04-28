@@ -24,6 +24,7 @@ return new class () extends Migration {
             $table->json('timezones')->nullable();
             $table->json('language')->nullable();
             $table->json('country_data')->nullable();
+            $table->json('vendor_code')->nullable();
             $table->double('latitude', 11, 8)->nullable();
             $table->double('longitude', 11, 8)->nullable();
             $table->string('emoji')->nullable();
