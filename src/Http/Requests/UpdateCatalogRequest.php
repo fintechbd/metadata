@@ -24,12 +24,35 @@ class UpdateCatalogRequest extends FormRequest
      */
     public function rules(): array
     {
+        $modelId = $this->route('catalog', null);
+
+        $type = $this->input('type');
+
         return [
-            'type' => ['string', 'min:1', Rule::in(CatalogType::values())],
-            'name' => ['string', 'min:1'],
-            'code' => ['string', 'min:1'],
+            'type' => ['required', 'string', Rule::in(CatalogType::values())],
+            'name' => [
+                'required',
+                'string',
+                'min:5',
+                'max:255',
+                Rule::unique('catalogs', 'name')
+                    ->ignore($modelId)
+                    ->where(fn ($query) => $query->where('type', $type))
+            ],
+            'code' => [
+                'required',
+                'string',
+                'min:5',
+                'max:255',
+                Rule::unique('catalogs', 'code')
+                    ->ignore($modelId)
+                    ->where(fn ($query) => $query->where('type', $type))
+            ],
+            'countries' => ['nullable', 'array'],
+            'countries.*' => ['required', 'integer'],
+            'vendor_code' => ['nullable', 'array'],
+            'catalog_data' => ['nullable', 'array'],
             'enabled' => ['boolean', 'nullable'],
-            'catalog_data' => ['array', 'nullable'],
         ];
     }
 
