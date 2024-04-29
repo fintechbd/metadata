@@ -68,10 +68,10 @@ class Catalog extends BaseModel
         $primaryKey = $this->getKey();
 
         $links = [
-            'show' => action_link(route('metadata.catalog.show', $primaryKey), __('core::messages.action.show'), 'get'),
-            'update' => action_link(route('metadata.catalog.update', $primaryKey), __('core::messages.action.update'), 'put'),
-            'destroy' => action_link(route('metadata.catalog.destroy', $primaryKey), __('core::messages.action.destroy'), 'delete'),
-            'restore' => action_link(route('metadata.catalog.restore', $primaryKey), __('core::messages.action.restore'), 'post'),
+            'show' => action_link(route('metadata.catalogs.show', $primaryKey), __('core::messages.action.show'), 'get'),
+            'update' => action_link(route('metadata.catalogs.update', $primaryKey), __('core::messages.action.update'), 'put'),
+            'destroy' => action_link(route('metadata.catalogs.destroy', $primaryKey), __('core::messages.action.destroy'), 'delete'),
+            'restore' => action_link(route('metadata.catalogs.restore', $primaryKey), __('core::messages.action.restore'), 'post'),
         ];
 
         if ($this->getAttribute('deleted_at') == null) {

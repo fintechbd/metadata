@@ -16,7 +16,21 @@ class CatalogCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return $this->collection->map(function ($item) {
+
+            return [
+                "id" => $item->getKey(),
+                "name" => $item->name,
+                "code" => $item->code,
+                "type" => $item->type,
+                "enabled" => $item->enabled,
+                "created_at" => $item->created_at,
+                "updated_at" => $item->updated_at,
+                "deleted_at" => $item->deleted_at,
+                "restored_at" => $item->restored_at,
+                "links" => $item->links
+            ];
+        })->toArray();
     }
 
     /**
