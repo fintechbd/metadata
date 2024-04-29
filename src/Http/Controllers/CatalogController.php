@@ -3,13 +3,10 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Exception;
-use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\Core\Exceptions\DeleteOperationException;
 use Fintech\Core\Exceptions\RestoreOperationException;
 use Fintech\Core\Exceptions\StoreOperationException;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Http\Requests\DropDownRequest;
-use Fintech\Core\Http\Resources\DropDownCollection;
 use Fintech\Core\Traits\ApiResponseTrait;
 use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Requests\ImportCatalogRequest;
