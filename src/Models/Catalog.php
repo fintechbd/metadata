@@ -4,9 +4,14 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Abstracts\BaseModel;
 use Fintech\Core\Traits\AuditableTrait;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
+/**
+ * @property-read Collection $countries
+ * @property-read int|string $sides
+ */
 class Catalog extends BaseModel
 {
     use AuditableTrait;
