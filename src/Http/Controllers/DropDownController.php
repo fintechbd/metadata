@@ -450,4 +450,47 @@ class DropDownController extends Controller
             return $this->failed($exception->getMessage());
         }
     }
+
+    /**
+     * Handle the incoming request.
+     *
+     * @param DropDownRequest $request
+     * @return DropDownCollection|JsonResponse
+     */
+    public function proofOfAddress(DropDownRequest $request): DropDownCollection|JsonResponse
+    {
+        try {
+            $filters = $request->all();
+
+            $label = 'name';
+
+            $attribute = 'code';
+
+            if (!empty($filters['label'])) {
+                $label = $filters['label'];
+                unset($filters['label']);
+            }
+
+            if (!empty($filters['attribute'])) {
+                $attribute = $filters['attribute'];
+                unset($filters['attribute']);
+            }
+
+            $filters['type'] = CatalogType::ProofOfAddress->value;
+
+            $entries = MetaData::catalog()->list($filters)->map(function ($entry) use ($label, $attribute) {
+                return [
+                    'label' => $entry->{$label} ?? 'name',
+                    'attribute' => $entry->{$attribute} ?? 'id',
+                    'sides' => $entry->sides ?? 1,
+                    'id' => $entry->getKey() ?? null
+                ];
+            });
+
+            return new DropDownCollection($entries);
+
+        } catch (Exception $exception) {
+            return $this->failed($exception->getMessage());
+        }
+    }
 }
