@@ -28,9 +28,9 @@ class MetaDataServiceProvider extends ServiceProvider
             'fintech.metadata'
         );
 
-        $this->app->register(RouteServiceProvider::class);
-        $this->app->register(ObserverServiceProvider::class);
-        $this->app->register(RepositoryServiceProvider::class);
+        $this->app->register(\Fintech\MetaData\Providers\RouteServiceProvider::class);
+        $this->app->register(\Fintech\MetaData\Providers\ObserverServiceProvider::class);
+        $this->app->register(\Fintech\MetaData\Providers\RepositoryServiceProvider::class);
 
     }
 
