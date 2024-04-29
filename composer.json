@@ -37,7 +37,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Fintech\\MetaData\\": "src/"
+            "Fintech\\MetaData\\": "src/",
+            "Fintech\\MetaData\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
