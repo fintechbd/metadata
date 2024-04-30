@@ -28,8 +28,8 @@ class DropDownController extends Controller
         try {
             $entries = collect();
 
-            foreach (CatalogType::toArray() as $key => $status) {
-                $entries->push(['label' => trim(preg_replace('/([A-Z])/', ' $1', $status)), 'attribute' => $key]);
+            foreach (CatalogType::cases() as $catalogType) {
+                $entries->push(['label' => $catalogType->label(), 'attribute' => $catalogType->value]);
             }
 
             return new DropDownCollection($entries);

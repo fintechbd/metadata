@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Http\Resources;
 
+use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\Core\Supports\Constant;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
@@ -23,13 +24,18 @@ class CatalogCollection extends ResourceCollection
                 "name" => $item->name,
                 "code" => $item->code,
                 "type" => $item->type,
+                "type_name" => CatalogType::value($item->type)->label(),
                 "enabled" => $item->enabled,
+                "countries" => $item->countries ? $item->countries->pluck('id')->toArray() : [],
+                "vendor_code" => $item->vendor_code ?: [],
+                "catalog_data" => $item->catalog_data ?: [],
                 "created_at" => $item->created_at,
                 "updated_at" => $item->updated_at,
                 "deleted_at" => $item->deleted_at,
                 "restored_at" => $item->restored_at,
                 "links" => $item->links
             ];
+
         })->toArray();
     }
 
