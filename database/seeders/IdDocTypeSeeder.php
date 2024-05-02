@@ -70,7 +70,7 @@ class IdDocTypeSeeder extends Seeder
                         ),
                 ),
                 'catalog_data' => array(
-                    'sides' => '1',
+                    'sides' => '2',
                 ),
                 'countries' => array(
                     11, 15, 18, 32, 44, 56, 79, 96, 100, 104, 107, 108, 113, 114, 129, 142, 161, 162, 169, 174, 187, 192, 200, 208, 211, 224, 232, 237, 19,),
