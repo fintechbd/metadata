@@ -16,23 +16,24 @@ class CityCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return $this->collection->map(function ($state) {
+        return $this->collection->map(function ($city) {
             return [
-                'id' => $state->getKey(),
-                'name' => $state->name,
-                'latitude' => $state->latitude,
-                'longitude' => $state->longitude,
-                'enabled' => $state->enabled,
-                'city_data' => $state->city_data,
-                'country_id' => $state->country_id ?? null,
-                'country_name' => ($state->country != null) ? $state->country->name : null,
-                'state_id' => $state->state_id ?? null,
-                'state_name' => ($state->state != null) ? $state->state->name : null,
-                'created_at' => $state->created_at,
-                'updated_at' => $state->updated_at,
-                'deleted_at' => $state->deleted_at,
-                'restored_at' => $state->restored_at,
-                'links' => $state->links,
+                'id' => $city->getKey(),
+                'name' => $city->name,
+                'latitude' => $city->latitude,
+                'longitude' => $city->longitude,
+                'enabled' => $city->enabled,
+                'vendor_code' => $city->vendor_code ?? (object)[],
+                'city_data' => $city->city_data,
+                'country_id' => $city->country_id ?? null,
+                'country_name' => ($city->country != null) ? $city->country->name : null,
+                'state_id' => $city->state_id ?? null,
+                'state_name' => ($city->state != null) ? $city->state->name : null,
+                'created_at' => $city->created_at,
+                'updated_at' => $city->updated_at,
+                'deleted_at' => $city->deleted_at,
+                'restored_at' => $city->restored_at,
+                'links' => $city->links,
             ];
         })->toArray();
     }

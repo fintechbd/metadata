@@ -20,6 +20,7 @@ class StateCollection extends ResourceCollection
             return [
                 'id' => $state->getKey(),
                 'name' => $state->name,
+                'vendor_code' => $state->vendor_code ?? (object)[],
                 'state_data' => $state->state_data,
                 'latitude' => $state->latitude,
                 'longitude' => $state->longitude,
