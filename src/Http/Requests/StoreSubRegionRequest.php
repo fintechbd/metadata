@@ -27,7 +27,8 @@ class StoreSubRegionRequest extends FormRequest
         return [
             'region_id' => ['integer', 'nullable'],
             'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
-            'subregion_data' => ['nullable', 'array']
+            'subregion_data' => ['nullable', 'array'],
+            'vendor_code' => ['nullable', 'array'],
         ];
 
     }

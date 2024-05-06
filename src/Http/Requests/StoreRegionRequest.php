@@ -26,7 +26,8 @@ class StoreRegionRequest extends FormRequest
 
         return [
             'name' => ['required', 'string', 'min:5', 'max:255', $uniqueRule],
-            'region_data' => ['nullable', 'array']
+            'region_data' => ['nullable', 'array'],
+            'vendor_code' => ['nullable', 'array'],
         ];
     }
 

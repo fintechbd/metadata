@@ -42,6 +42,7 @@ class StoreCountryRequest extends FormRequest
             'longitude' => ['numeric', 'nullable'],
             'timezones' => ['array', 'nullable'],
             'country_data' => ['array', 'nullable'],
+            'vendor_code' => ['nullable', 'array'],
             'country_data.language_enabled' => ['boolean', 'required'],
             'country_data.language_code' => ['string', 'min:2', 'required_if:language_enabled,true'],
             'country_data.language_name' => ['string', 'min:3', 'required_if:language_enabled,true'],

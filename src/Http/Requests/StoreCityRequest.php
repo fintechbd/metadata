@@ -28,6 +28,7 @@ class StoreCityRequest extends FormRequest
             'longitude' => ['numeric', 'nullable'],
             'enabled' => ['boolean', 'nullable'],
             'city_data' => ['array', 'nullable'],
+            'vendor_code' => ['nullable', 'array'],
             'state_id' => ['integer', 'required', 'min:1'],
             'country_id' => ['integer', 'required', 'min:1'],
         ];

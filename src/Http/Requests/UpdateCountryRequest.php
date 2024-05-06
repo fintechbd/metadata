@@ -42,6 +42,7 @@ class UpdateCountryRequest extends FormRequest
             'longitude' => ['numeric', 'nullable'],
             'timezones' => ['array', 'nullable'],
             'country_data' => ['array', 'nullable'],
+            'vendor_code' => ['nullable', 'array'],
             'country_data.is_serving' => ['boolean', 'required'],
             'country_data.multi_currency_enabled' => ['boolean', 'required'],
             'country_data.language_enabled' => ['boolean', 'required'],
