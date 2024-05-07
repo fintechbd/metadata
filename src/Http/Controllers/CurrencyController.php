@@ -4,14 +4,14 @@ namespace Fintech\MetaData\Http\Controllers;
 
 use Exception;
 use Fintech\Core\Exceptions\UpdateOperationException;
-use Fintech\Core\Http\Requests\DropDownRequest;
-use Fintech\Core\Http\Resources\DropDownCollection;
 use Fintech\Core\Traits\ApiResponseTrait;
 use Fintech\MetaData\Facades\MetaData;
 use Fintech\MetaData\Http\Requests\IndexCurrencyRequest;
 use Fintech\MetaData\Http\Requests\UpdateCurrencyRequest;
 use Fintech\MetaData\Http\Resources\CurrencyCollection;
 use Fintech\MetaData\Http\Resources\CurrencyResource;
+use Fintech\RestApi\Http\Requests\Core\DropDownRequest;
+use Fintech\RestApi\Http\Resources\Core\DropDownCollection;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;

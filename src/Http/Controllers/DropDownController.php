@@ -6,10 +6,10 @@ use Exception;
 use Fintech\Business\Facades\Business;
 use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\Core\Facades\Core;
-use Fintech\Core\Http\Requests\DropDownRequest;
-use Fintech\Core\Http\Resources\DropDownCollection;
 use Fintech\Core\Traits\ApiResponseTrait;
 use Fintech\MetaData\Facades\MetaData;
+use Fintech\RestApi\Http\Requests\Core\DropDownRequest;
+use Fintech\RestApi\Http\Resources\Core\DropDownCollection;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
