@@ -4,6 +4,8 @@ namespace Fintech\MetaData;
 
 use Fintech\Core\Traits\RegisterPackageTrait;
 use Fintech\MetaData\Commands\InstallCommand;
+use Fintech\MetaData\Providers\ObserverServiceProvider;
+use Fintech\MetaData\Providers\RepositoryServiceProvider;
 use Illuminate\Support\ServiceProvider;
 
 class MetaDataServiceProvider extends ServiceProvider
@@ -24,8 +26,8 @@ class MetaDataServiceProvider extends ServiceProvider
             'fintech.metadata'
         );
 
-        $this->app->register(\Fintech\MetaData\Providers\ObserverServiceProvider::class);
-        $this->app->register(\Fintech\MetaData\Providers\RepositoryServiceProvider::class);
+        $this->app->register(ObserverServiceProvider::class);
+        $this->app->register(RepositoryServiceProvider::class);
 
     }
 

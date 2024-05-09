@@ -2,9 +2,9 @@
 
 namespace Fintech\MetaData\Interfaces;
 
+use Fintech\Core\Abstracts\BaseModel;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Fintech\Core\Abstracts\BaseModel;
 use InvalidArgumentException;
 
 /**

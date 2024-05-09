@@ -19,25 +19,6 @@ class RelationService
     {
     }
 
-    /**
-     * @param array $filters
-     * @return mixed
-     */
-    public function list(array $filters = [])
-    {
-        $filters['type'] = CatalogType::Relation->value;
-
-        return $this->catalogRepository->list($filters);
-
-    }
-
-    public function create(array $inputs = [])
-    {
-        $inputs['type'] = CatalogType::Relation->value;
-
-        return $this->catalogRepository->create($inputs);
-    }
-
     public function find($id, $onlyTrashed = false)
     {
         return $this->catalogRepository->find($id, $onlyTrashed);
@@ -67,10 +48,29 @@ class RelationService
         return $this->catalogRepository->list($filters);
     }
 
+    /**
+     * @param array $filters
+     * @return mixed
+     */
+    public function list(array $filters = [])
+    {
+        $filters['type'] = CatalogType::Relation->value;
+
+        return $this->catalogRepository->list($filters);
+
+    }
+
     public function import(array $filters)
     {
         $filters['type'] = CatalogType::Relation->value;
 
         return $this->catalogRepository->create($filters);
+    }
+
+    public function create(array $inputs = [])
+    {
+        $inputs['type'] = CatalogType::Relation->value;
+
+        return $this->catalogRepository->create($inputs);
     }
 }

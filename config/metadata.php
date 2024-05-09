@@ -6,6 +6,12 @@ use Fintech\MetaData\Models\Country;
 use Fintech\MetaData\Models\Region;
 use Fintech\MetaData\Models\State;
 use Fintech\MetaData\Models\Subregion;
+use Fintech\MetaData\Repositories\Eloquent\CatalogRepository;
+use Fintech\MetaData\Repositories\Eloquent\CityRepository;
+use Fintech\MetaData\Repositories\Eloquent\CountryRepository;
+use Fintech\MetaData\Repositories\Eloquent\RegionRepository;
+use Fintech\MetaData\Repositories\Eloquent\StateRepository;
+use Fintech\MetaData\Repositories\Eloquent\SubregionRepository;
 
 return [
 
@@ -102,17 +108,17 @@ return [
     | This value will be used to across system where model is needed
     */
     'repositories' => [
-        \Fintech\MetaData\Interfaces\CityRepository::class => \Fintech\MetaData\Repositories\Eloquent\CityRepository::class,
+        \Fintech\MetaData\Interfaces\CityRepository::class => CityRepository::class,
 
-        \Fintech\MetaData\Interfaces\CountryRepository::class => \Fintech\MetaData\Repositories\Eloquent\CountryRepository::class,
+        \Fintech\MetaData\Interfaces\CountryRepository::class => CountryRepository::class,
 
-        \Fintech\MetaData\Interfaces\RegionRepository::class => \Fintech\MetaData\Repositories\Eloquent\RegionRepository::class,
+        \Fintech\MetaData\Interfaces\RegionRepository::class => RegionRepository::class,
 
-        \Fintech\MetaData\Interfaces\StateRepository::class => \Fintech\MetaData\Repositories\Eloquent\StateRepository::class,
+        \Fintech\MetaData\Interfaces\StateRepository::class => StateRepository::class,
 
-        \Fintech\MetaData\Interfaces\SubregionRepository::class => \Fintech\MetaData\Repositories\Eloquent\SubregionRepository::class,
+        \Fintech\MetaData\Interfaces\SubregionRepository::class => SubregionRepository::class,
 
-        \Fintech\MetaData\Interfaces\CatalogRepository::class => \Fintech\MetaData\Repositories\Eloquent\CatalogRepository::class,
+        \Fintech\MetaData\Interfaces\CatalogRepository::class => CatalogRepository::class,
 
         //** Repository Binding Config Point Do not Remove **//
     ],
