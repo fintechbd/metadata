@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Abstracts\BaseModel;
 use Fintech\Core\Traits\AuditableTrait;
+use Fintech\Core\Traits\HasVendorCode;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -11,7 +12,7 @@ class City extends BaseModel
 {
     use AuditableTrait;
     use SoftDeletes;
-
+    use HasVendorCode;
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
@@ -22,7 +23,7 @@ class City extends BaseModel
 
     protected $guarded = ['id'];
 
-    protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
+    protected $hidden = ['creator_id', 'vendor_code' => 'array', 'editor_id', 'destroyer_id', 'restorer_id'];
 
     protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'city_data' => 'array'];
 

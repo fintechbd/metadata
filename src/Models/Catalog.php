@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Abstracts\BaseModel;
 use Fintech\Core\Traits\AuditableTrait;
+use Fintech\Core\Traits\HasVendorCode;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -16,7 +17,7 @@ class Catalog extends BaseModel
 {
     use AuditableTrait;
     use SoftDeletes;
-
+    use HasVendorCode;
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES

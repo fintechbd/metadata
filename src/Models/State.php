@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Abstracts\BaseModel;
 use Fintech\Core\Traits\AuditableTrait;
+use Fintech\Core\Traits\HasVendorCode;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -11,7 +12,7 @@ class State extends BaseModel
 {
     use AuditableTrait;
     use SoftDeletes;
-
+    use HasVendorCode;
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
@@ -24,7 +25,7 @@ class State extends BaseModel
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'state_data' => 'array'];
+    protected $casts = ['enabled' => 'bool', 'vendor_code' => 'array', 'restored_at' => 'datetime', 'state_data' => 'array'];
 
     protected $appends = ['links'];
 

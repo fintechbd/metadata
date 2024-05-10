@@ -4,6 +4,7 @@ namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Abstracts\BaseModel;
 use Fintech\Core\Traits\AuditableTrait;
+use Fintech\Core\Traits\HasVendorCode;
 use Fintech\MetaData\Traits\BusinessRelations;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -17,7 +18,7 @@ class Country extends BaseModel implements HasMedia
     use SoftDeletes;
     use InteractsWithMedia;
     use BusinessRelations;
-
+    use HasVendorCode;
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
@@ -30,7 +31,7 @@ class Country extends BaseModel implements HasMedia
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'timezones' => 'array', 'language' => 'array', 'country_data' => 'array'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'timezones' => 'array', 'language' => 'array', 'vendor_code' => 'array', 'country_data' => 'array'];
 
     protected $appends = ['links'];
 
