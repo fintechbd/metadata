@@ -6,6 +6,7 @@ use Fintech\Core\Repositories\EloquentRepository;
 use Fintech\MetaData\Interfaces\CatalogRepository as InterfacesCatalogRepository;
 use Fintech\MetaData\Models\Catalog;
 use Illuminate\Contracts\Pagination\Paginator;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Query\JoinClause;
 
@@ -30,7 +31,6 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
     {
         $query = $this->model->newQuery();
 
-        //Searching
         if (!empty($filters['search'])) {
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
@@ -38,10 +38,6 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
                 $query->where('name', 'like', "%{$filters['search']}%");
                 $query->orWhere('catalog_data', 'like', "%{$filters['search']}%");
             }
-        }
-
-        if (!empty($filters['type'])) {
-            $query->where('type', $filters['type']);
         }
 
         if (!empty($filters['name'])) {
@@ -56,10 +52,10 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
             $query->where('enabled', $filters['enabled']);
         }
 
-        if (isset($filters['country_id']) && is_bool($filters['country_id'])) {
-            $query->join('catalog_country', function (JoinClause $join) use (&$filters) {
+        if (!empty($filters['country_id'])) {
+            $query->join('catalog_country', function (JoinClause $join) use ($filters) {
                 return $join->on('catalogs.id', '=', 'catalog_country.catalog_id')
-                    ->where('catalog_country.country_id', "=", $filters['country_id']);
+                    ->where('catalog_country.country_id', "=", intval($filters['country_id']));
             });
         }
 
@@ -69,7 +65,9 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
         }
 
         if (!empty($filters['type'])) {
-            $query->where('type', $filters['type']);
+            $query->where(function (Builder $query) use ($filters) {
+                return $query->where('type', $filters['type']);
+            });
         }
 
         //Handle Sorting
