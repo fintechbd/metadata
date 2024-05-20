@@ -7,6 +7,7 @@ use Fintech\MetaData\Interfaces\CatalogRepository as InterfacesCatalogRepository
 use Fintech\MetaData\Models\Catalog;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Query\JoinClause;
 
 /**
  * Class CatalogRepository
@@ -53,6 +54,13 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
 
         if (isset($filters['enabled']) && is_bool($filters['enabled'])) {
             $query->where('enabled', $filters['enabled']);
+        }
+
+        if (isset($filters['country_id']) && is_bool($filters['country_id'])) {
+            $query->join('catalog_country', function (JoinClause $join) use (&$filters) {
+                return $join->on('catalogs.id', '=', 'catalog_country.catalog_id')
+                    ->where('catalog_country.country_id', "=", $filters['country_id']);
+            });
         }
 
         //Display Trashed
