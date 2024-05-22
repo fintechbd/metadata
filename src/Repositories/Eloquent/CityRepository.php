@@ -32,7 +32,7 @@ class CityRepository extends EloquentRepository implements InterfacesCityReposit
             if (is_numeric($filters['search'])) {
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
             } else {
-                $query->where('name', 'like', "%{$filters['search']}%");
+                $query->whereRaw('LOWER(`name`) like ?', [strtolower("%{$filters['search']}%")]);
             }
         }
 
