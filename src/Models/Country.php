@@ -33,7 +33,7 @@ class Country extends BaseModel implements HasMedia
 
     protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'timezones' => 'array', 'language' => 'array', 'vendor_code' => 'array', 'country_data' => 'array'];
 
-    protected $appends = ['links'];
+
 
     /*
     |--------------------------------------------------------------------------

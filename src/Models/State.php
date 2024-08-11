@@ -27,7 +27,7 @@ class State extends BaseModel
 
     protected $casts = ['enabled' => 'bool', 'vendor_code' => 'array', 'restored_at' => 'datetime', 'state_data' => 'array'];
 
-    protected $appends = ['links'];
+
 
     /*
     |--------------------------------------------------------------------------

@@ -27,7 +27,7 @@ class Subregion extends BaseModel
 
     protected $casts = ['enabled' => 'bool', 'vendor_code' => 'array', 'restored_at' => 'datetime', 'subregion_data' => 'array'];
 
-    protected $appends = ['links'];
+
 
     /*
     |--------------------------------------------------------------------------

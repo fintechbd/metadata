@@ -26,7 +26,7 @@ class Region extends BaseModel
 
     protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'vendor_code' => 'array', 'region_data' => 'array'];
 
-    protected $appends = ['links'];
+
 
     /*
     |--------------------------------------------------------------------------
