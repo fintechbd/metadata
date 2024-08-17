@@ -31,11 +31,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -51,11 +51,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -71,11 +71,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -91,11 +91,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -111,11 +111,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -131,11 +131,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -151,11 +151,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -171,11 +171,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -191,11 +191,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -211,11 +211,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -231,11 +231,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -251,11 +251,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -271,11 +271,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -291,11 +291,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -311,11 +311,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -331,11 +331,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -351,11 +351,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -375,11 +375,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -395,11 +395,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -415,11 +415,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -435,11 +435,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -455,11 +455,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -475,11 +475,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -495,11 +495,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -515,11 +515,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -535,11 +535,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -555,11 +555,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -575,11 +575,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -595,11 +595,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -615,11 +615,11 @@ class FundSourceSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => null,
-                        'city_bank' => null,
-                        'emq_api' => null,
-                        'trans_fast' => null,
+                        'citybank' => null,
+                        'emqapi' => null,
+                        'transfast' => null,
                         'valyou' => null,
-                        'islami_bank' => null
+                        'islamibank' => null
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,

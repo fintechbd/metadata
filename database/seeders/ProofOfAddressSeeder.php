@@ -30,11 +30,11 @@ class ProofOfAddressSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '1',
-                            'emq_api' => null,
-                            'trans_fast' => 'tenancy-contract',
+                            'citybank' => '1',
+                            'emqapi' => null,
+                            'transfast' => 'tenancy-contract',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -55,11 +55,11 @@ class ProofOfAddressSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '9',
-                            'emq_api' => null,
-                            'trans_fast' => 'utility-bill',
+                            'citybank' => '9',
+                            'emqapi' => null,
+                            'transfast' => 'utility-bill',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -80,11 +80,11 @@ class ProofOfAddressSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '3',
-                            'emq_api' => null,
-                            'trans_fast' => 'bank-statement',
+                            'citybank' => '3',
+                            'emqapi' => null,
+                            'transfast' => 'bank-statement',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -105,11 +105,11 @@ class ProofOfAddressSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '5',
-                            'emq_api' => null,
-                            'trans_fast' => 'credit-card-statement',
+                            'citybank' => '5',
+                            'emqapi' => null,
+                            'transfast' => 'credit-card-statement',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -131,11 +131,11 @@ class ProofOfAddressSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '9',
-                            'emq_api' => null,
-                            'trans_fast' => 'telephone-bill',
+                            'citybank' => '9',
+                            'emqapi' => null,
+                            'transfast' => 'telephone-bill',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(

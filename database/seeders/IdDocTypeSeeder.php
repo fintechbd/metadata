@@ -30,11 +30,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '1',
-                            'emq_api' => null,
-                            'trans_fast' => 'passport',
+                            'citybank' => '1',
+                            'emqapi' => null,
+                            'transfast' => 'passport',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -56,11 +56,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '9',
-                            'emq_api' => null,
-                            'trans_fast' => 'driving_license',
+                            'citybank' => '9',
+                            'emqapi' => null,
+                            'transfast' => 'driving_license',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -82,11 +82,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '3',
-                            'emq_api' => null,
-                            'trans_fast' => 'id_card',
+                            'citybank' => '3',
+                            'emqapi' => null,
+                            'transfast' => 'id_card',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -108,11 +108,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '5',
-                            'emq_api' => null,
-                            'trans_fast' => 'residence_permit',
+                            'citybank' => '5',
+                            'emqapi' => null,
+                            'transfast' => 'residence_permit',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -134,11 +134,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '9',
-                            'emq_api' => null,
-                            'trans_fast' => 'voter_id',
+                            'citybank' => '9',
+                            'emqapi' => null,
+                            'transfast' => 'voter_id',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -160,11 +160,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '9',
-                            'emq_api' => null,
-                            'trans_fast' => 'tax_id',
+                            'citybank' => '9',
+                            'emqapi' => null,
+                            'transfast' => 'tax_id',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -186,11 +186,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '4',
-                            'emq_api' => null,
-                            'trans_fast' => 'social_security_card',
+                            'citybank' => '4',
+                            'emqapi' => null,
+                            'transfast' => 'social_security_card',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -212,11 +212,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '9',
-                            'emq_api' => null,
-                            'trans_fast' => 'postal_identity_card',
+                            'citybank' => '9',
+                            'emqapi' => null,
+                            'transfast' => 'postal_identity_card',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -238,11 +238,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '9',
-                            'emq_api' => null,
-                            'trans_fast' => 'professional_qualification_card',
+                            'citybank' => '9',
+                            'emqapi' => null,
+                            'transfast' => 'professional_qualification_card',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(
@@ -264,11 +264,11 @@ class IdDocTypeSeeder extends Seeder
                     'remit' =>
                         array(
                             'argani' => null,
-                            'city_bank' => '2',
-                            'emq_api' => null,
-                            'trans_fast' => 'work_permit',
+                            'citybank' => '2',
+                            'emqapi' => null,
+                            'transfast' => 'work_permit',
                             'valyou' => null,
-                            'islami_bank' => null,
+                            'islamibank' => null,
                         ),
                     'ekyc' =>
                         array(

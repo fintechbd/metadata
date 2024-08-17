@@ -32,11 +32,11 @@ class MaritalStatusSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => 'unmarried',
-                        'city_bank' => 'unmarried',
-                        'emq_api' => 'unmarried',
-                        'trans_fast' => 'unmarried',
+                        'citybank' => 'unmarried',
+                        'emqapi' => 'unmarried',
+                        'transfast' => 'unmarried',
                         'valyou' => 'unmarried',
-                        'islami_bank' => 'unmarried',
+                        'islamibank' => 'unmarried',
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
@@ -52,11 +52,11 @@ class MaritalStatusSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' => array(
                         'argani' => 'married',
-                        'city_bank' => 'married',
-                        'emq_api' => 'married',
-                        'trans_fast' => 'married',
+                        'citybank' => 'married',
+                        'emqapi' => 'married',
+                        'transfast' => 'married',
                         'valyou' => 'married',
-                        'islami_bank' => 'married',
+                        'islamibank' => 'married',
                     ),
                     'ekyc' => array(
                         'shufti_pro' => null,
