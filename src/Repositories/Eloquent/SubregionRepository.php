@@ -37,6 +37,14 @@ class SubregionRepository extends EloquentRepository implements InterfacesSubReg
             }
         }
 
+        if (!empty($filters['id_not_in'])) {
+            $query->whereNotIn($this->model->getKeyName(), (array)$filters['id_not_in']);
+        }
+
+        if (!empty($filters['id_in'])) {
+            $query->whereIn($this->model->getKeyName(), (array)$filters['id_in']);
+        }
+
         if (!empty($filters['region_id'])) {
             $query->where('region_id', "=", $filters['region_id']);
         }

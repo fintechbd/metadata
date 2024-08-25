@@ -52,6 +52,14 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
             $query->where('enabled', $filters['enabled']);
         }
 
+        if (!empty($filters['id_not_in'])) {
+            $query->whereNotIn($this->model->getKeyName(), (array)$filters['id_not_in']);
+        }
+
+        if (!empty($filters['id_in'])) {
+            $query->whereIn($this->model->getKeyName(), (array)$filters['id_in']);
+        }
+
         if (!empty($filters['country_id'])) {
             $query->join('catalog_country', function (JoinClause $join) use ($filters) {
                 return $join->on('catalogs.id', '=', 'catalog_country.catalog_id')
