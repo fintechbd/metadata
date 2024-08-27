@@ -31,7 +31,7 @@ class Currency extends BaseModel implements HasMedia
 
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
-    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'timezones' => 'array', 'language' => 'array', 'vendor_code' => 'array', 'country_data' => 'array'];
+    protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'vendor_code' => 'array', 'currency_data' => 'array'];
 
 
 

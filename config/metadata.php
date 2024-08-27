@@ -3,12 +3,14 @@
 use Fintech\MetaData\Models\Catalog;
 use Fintech\MetaData\Models\City;
 use Fintech\MetaData\Models\Country;
+use Fintech\MetaData\Models\Currency;
 use Fintech\MetaData\Models\Region;
 use Fintech\MetaData\Models\State;
 use Fintech\MetaData\Models\Subregion;
 use Fintech\MetaData\Repositories\Eloquent\CatalogRepository;
 use Fintech\MetaData\Repositories\Eloquent\CityRepository;
 use Fintech\MetaData\Repositories\Eloquent\CountryRepository;
+use Fintech\MetaData\Repositories\Eloquent\CurrencyRepository;
 use Fintech\MetaData\Repositories\Eloquent\RegionRepository;
 use Fintech\MetaData\Repositories\Eloquent\StateRepository;
 use Fintech\MetaData\Repositories\Eloquent\SubregionRepository;
@@ -97,6 +99,15 @@ return [
     */
     'catalog_model' => Catalog::class,
 
+    /*
+    |--------------------------------------------------------------------------
+    | Currency Model
+    |--------------------------------------------------------------------------
+    |
+    | This value will be used to across system where model is needed
+    */
+    'currency_model' => Currency::class,
+
     //** Model Config Point Do not Remove **//
 
 
@@ -119,6 +130,8 @@ return [
         \Fintech\MetaData\Interfaces\SubregionRepository::class => SubregionRepository::class,
 
         \Fintech\MetaData\Interfaces\CatalogRepository::class => CatalogRepository::class,
+
+        \Fintech\MetaData\Interfaces\CurrencyRepository::class => CurrencyRepository::class,
 
         //** Repository Binding Config Point Do not Remove **//
     ],
