@@ -12,7 +12,16 @@ class CurrencySeeder extends Seeder
      */
     public function run(): void
     {
-        foreach ($this->data() as $entry) {
+        foreach ($this->data() as $currency) {
+            if ($currency['logo_png'] != null) {
+                $image_png = __DIR__ . '/../../resources/img/currency_logo_png/' . $currency['logo_png'];
+                $currency['logo_png'] = 'data:image/png;base64,' . base64_encode(file_get_contents($image_png));
+            }
+            if ($currency['logo_svg'] != null) {
+                $image_svg = __DIR__ . '/../../resources/img/currency_logo_svg/' . $currency['logo_svg'];
+                $currency['logo_svg'] = 'data:image/svg+xml;base64,' . base64_encode(file_get_contents($image_svg));
+            }
+
 //            MetaData::currency()->create($entry);
         }
     }
