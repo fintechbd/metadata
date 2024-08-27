@@ -13,7 +13,7 @@ class CurrencySeeder extends Seeder
     public function run(): void
     {
         foreach ($this->data() as $entry) {
-//            MetaData::currency()->create($entry);
+            //            MetaData::currency()->create($entry);
         }
     }
 
