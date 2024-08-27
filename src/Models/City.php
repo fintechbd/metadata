@@ -27,7 +27,7 @@ class City extends BaseModel
 
     protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'city_data' => 'array'];
 
-
+    protected $attributes = ['enabled' => false];
 
     /*
     |--------------------------------------------------------------------------

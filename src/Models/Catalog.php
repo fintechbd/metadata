@@ -28,7 +28,7 @@ class Catalog extends BaseModel
 
     protected $guarded = ['id'];
 
-
+    protected $attributes = ['enabled' => false];
 
     protected $casts = ['vendor_code' => 'array', 'catalog_data' => 'array', 'restored_at' => 'datetime', 'enabled' => 'bool'];
 
