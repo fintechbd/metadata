@@ -7,7 +7,6 @@ use Fintech\MetaData\Interfaces\CurrencyRepository as InterfacesCurrencyReposito
 use Fintech\MetaData\Models\Currency;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Query\JoinClause;
 
 /**
  * Class CurrencyRepository
