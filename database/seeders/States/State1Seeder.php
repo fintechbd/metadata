@@ -8190,7 +8190,7 @@ class State1Seeder extends Seeder
             742 =>
                 array(
                     'id' => '750',
-                    'name' => 'Rangpur'country_id' => '6',',
+                    'name' => 'Rangpur Division',
                     'type' => 'division',
                     'latitude' => '25.84833880',
                     'longitude' => '88.94138650',
