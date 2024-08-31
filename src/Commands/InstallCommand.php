@@ -66,10 +66,11 @@ class InstallCommand extends Command
     {
         if ($this->components->confirm("[<fg=yellow;options=bold>{$this->module}</>] Import all states data", true)) {
             for ($i = 1; $i <= 4; $i++) {
-                $this->components->task("[<fg=yellow;options=bold>{$this->module}</>] Populated ".$this->progress($i, 4)." states data", function () use ($i) {
+                $this->components->task("[<fg=yellow;options=bold>{$this->module}</>] Populating states data progress: ".$this->progress($i, 4), function () use ($i) {
                     Artisan::call("db:seed --class=" . addslashes("Fintech\MetaData\Seeders\States\State{$i}Seeder") . " --quiet");
                 });
             }
+            $this->components->twoColumnDetail("[<fg=yellow;options=bold>{$this->module}</>] Populating states data progress: 100%", "<fg=green;options=bold>DONE</>");
         }
     }
 
@@ -77,14 +78,17 @@ class InstallCommand extends Command
     {
         if ($this->components->confirm("[<fg=yellow;options=bold>{$this->module}</>] Import all cities data", true)) {
             for ($i = 1; $i <= 99; $i++) {
-                $this->components->task("[<fg=yellow;options=bold>{$this->module}</>] Populating ".$this->progress($i, 99)." cities data", function () use ($i) {
+                $this->components->task("[<fg=yellow;options=bold>{$this->module}</>] Populating cities data progress: ".$this->progress($i, 99), function () use ($i) {
                     Artisan::call("db:seed --class=" . addslashes("Fintech\MetaData\Seeders\Cities\City{$i}Seeder") . " --quiet");
                 });
             }
+            $this->components->twoColumnDetail("[<fg=yellow;options=bold>{$this->module}</>] Populating cities data progress: 100%", "<fg=green;options=bold>DONE</>");
         }
     }
 
     private function progress($current, $total): string {
+        $current--;
+        if ($current == 0) return "0%";
         return round(($current / $total) * 100). "%";
     }
 }
