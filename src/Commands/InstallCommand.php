@@ -88,7 +88,9 @@ class InstallCommand extends Command
     private function progress($current, $total): string
     {
         $current--;
-        if ($current == 0) return "0%";
+        if ($current == 0) {
+            return "0%";
+        }
         return round(($current / $total) * 100) . "%";
     }
 }
