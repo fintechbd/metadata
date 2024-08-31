@@ -35,6 +35,16 @@ class InstallCommand extends Command
 
             $this->addLocations();
 
+            $this->call('db:seed', ['--class' => IdDocTypeSeeder::class]);
+            $this->call('db:seed', ['--class' => FundSourceSeeder::class]);
+            $this->call('db:seed', ['--class' => RelationSeeder::class]);
+            $this->call('db:seed', ['--class' => OccupationSeeder::class]);
+            $this->call('db:seed', ['--class' => RemittancePurposeSeeder::class]);
+            $this->call('db:seed', ['--class' => BloodGroupSeeder::class]);
+            $this->call('db:seed', ['--class' => GenderSeeder::class]);
+            $this->call('db:seed', ['--class' => MaritalStatusSeeder::class]);
+            $this->call('db:seed', ['--class' => ProofOfAddressSeeder::class]);
+
             return self::SUCCESS;
 
         } catch (\Exception $e) {
@@ -59,23 +69,13 @@ class InstallCommand extends Command
             $this->call('db:seed', ['--class' => \Fintech\MetaData\Seeders\States\State4Seeder::class]);
         }
 
-        $this->call('db:seed', ['--class' => IdDocTypeSeeder::class]);
-        $this->call('db:seed', ['--class' => FundSourceSeeder::class]);
-        $this->call('db:seed', ['--class' => RelationSeeder::class]);
-        $this->call('db:seed', ['--class' => OccupationSeeder::class]);
-        $this->call('db:seed', ['--class' => RemittancePurposeSeeder::class]);
-        $this->call('db:seed', ['--class' => BloodGroupSeeder::class]);
-        $this->call('db:seed', ['--class' => GenderSeeder::class]);
-        $this->call('db:seed', ['--class' => MaritalStatusSeeder::class]);
-        $this->call('db:seed', ['--class' => ProofOfAddressSeeder::class]);
-
         if ($this->option('city') != null) {
             $this->citySeeders();
         }
 
         $this->components->twoColumnDetail(
             "<fg=yellow;options=bold>`{$this->module}`</> module system geo-locations synced.",
-            '<fg=red;options=bold>SUCCESS</>');
+            '<fg=green;options=bold>SUCCESS</>');
     }
     private function citySeeders(): void
     {
@@ -178,39 +178,5 @@ class InstallCommand extends Command
             $this->call('db:seed', ['--class' => \Fintech\MetaData\Seeders\Cities\City97Seeder::class]);
             $this->call('db:seed', ['--class' => \Fintech\MetaData\Seeders\Cities\City98Seeder::class]);
             $this->call('db:seed', ['--class' => \Fintech\MetaData\Seeders\Cities\City99Seeder::class]);
-    }
-    private function addRoles(): void
-    {
-        $roles = [
-            [
-                'name' => SystemRole::SuperAdmin->value,
-                'guard_name' => 'web',
-                'permissions' => Auth::permission()->list()->pluck('id')->toArray()
-            ],
-            [
-                'name' => SystemRole::MasterUser->value,
-                'guard_name' => 'web',
-                'permissions' => []
-            ],
-        ];
-
-        foreach ($roles as $role) {
-            DB::beginTransaction();
-            try {
-                if ($roleModel = Auth::role()->create($role)) {
-                    $this->components->twoColumnDetail(
-                        "ID {$roleModel->getKey()}: {$roleModel->name} role created.",
-                        '<fg=green;options=bold>SUCCESS</>');
-                    DB::commit();
-                }
-            } catch (\Exception $exception) {
-                DB::rollBack();
-                $this->components->twoColumnDetail($exception->getMessage(), '<fg=red;options=bold>ERROR</>');
-            }
-        }
-
-        $this->components->twoColumnDetail(
-            "<fg=yellow;options=bold>`{$this->module}`</> module system roles/groups created.",
-            '<fg=red;options=bold>SUCCESS</>');
     }
 }
