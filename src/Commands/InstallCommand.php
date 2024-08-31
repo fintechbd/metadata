@@ -69,7 +69,8 @@ class InstallCommand extends Command
 
         $this->components->twoColumnDetail(
             "<fg=yellow;options=bold>`{$this->module}`</> module system geo-locations synced.",
-            '<fg=green;options=bold>SUCCESS</>');
+            '<fg=green;options=bold>SUCCESS</>'
+        );
     }
 
     private function citySeeders(): void
