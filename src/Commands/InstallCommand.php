@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Artisan;
 
 class InstallCommand extends Command
 {
-    public $signature = 'metadata:install {--state : Install All States} {--city : Install All Cities}';
+    public $signature = 'metadata:install';
     public $description = 'Configure the system for the `fintech/metadata` module';
     private string $module = 'MetaData';
 
