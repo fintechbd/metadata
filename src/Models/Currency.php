@@ -19,6 +19,7 @@ class Currency extends BaseModel implements HasMedia
     use InteractsWithMedia;
     use BusinessRelations;
     use HasVendorCode;
+
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
@@ -32,7 +33,6 @@ class Currency extends BaseModel implements HasMedia
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
     protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'vendor_code' => 'array', 'currency_data' => 'array'];
-
 
 
     /*

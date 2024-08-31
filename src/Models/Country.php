@@ -19,6 +19,7 @@ class Country extends BaseModel implements HasMedia
     use InteractsWithMedia;
     use BusinessRelations;
     use HasVendorCode;
+
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
@@ -32,7 +33,6 @@ class Country extends BaseModel implements HasMedia
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
     protected $casts = ['enabled' => 'bool', 'restored_at' => 'datetime', 'timezones' => 'array', 'language' => 'array', 'vendor_code' => 'array', 'country_data' => 'array'];
-
 
 
     /*

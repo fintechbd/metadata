@@ -13,6 +13,7 @@ class Subregion extends BaseModel
     use AuditableTrait;
     use SoftDeletes;
     use HasVendorCode;
+
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
@@ -26,7 +27,6 @@ class Subregion extends BaseModel
     protected $hidden = ['creator_id', 'editor_id', 'destroyer_id', 'restorer_id'];
 
     protected $casts = ['enabled' => 'bool', 'vendor_code' => 'array', 'restored_at' => 'datetime', 'subregion_data' => 'array'];
-
 
 
     /*

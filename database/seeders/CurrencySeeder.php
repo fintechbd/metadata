@@ -56,12 +56,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_1.svg',
                     'logo_png' => 'country_logo_1.png',
                 ),
@@ -92,12 +90,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -128,12 +124,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_2.svg',
                     'logo_png' => 'country_logo_2.png',
                 ),
@@ -164,12 +158,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_3.svg',
                     'logo_png' => 'country_logo_3.png',
                 ),
@@ -200,12 +192,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_4.svg',
                     'logo_png' => 'country_logo_4.png',
                 ),
@@ -236,12 +226,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_5.svg',
                     'logo_png' => 'country_logo_5.png',
                 ),
@@ -272,12 +260,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_6.svg',
                     'logo_png' => 'country_logo_6.png',
                 ),
@@ -308,12 +294,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_7.svg',
                     'logo_png' => 'country_logo_7.png',
                 ),
@@ -344,12 +328,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_8.svg',
                     'logo_png' => 'country_logo_8.png',
                 ),
@@ -380,12 +362,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_9.svg',
                     'logo_png' => 'country_logo_9.png',
                 ),
@@ -416,12 +396,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_10.svg',
                     'logo_png' => 'country_logo_10.png',
                 ),
@@ -452,12 +430,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_11.svg',
                     'logo_png' => 'country_logo_11.png',
                 ),
@@ -488,12 +464,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_12.svg',
                     'logo_png' => 'country_logo_12.png',
                 ),
@@ -524,12 +498,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_13.svg',
                     'logo_png' => 'country_logo_13.png',
                 ),
@@ -560,12 +532,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_14.svg',
                     'logo_png' => 'country_logo_14.png',
                 ),
@@ -596,12 +566,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_15.svg',
                     'logo_png' => 'country_logo_15.png',
                 ),
@@ -632,12 +600,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_16.svg',
                     'logo_png' => 'country_logo_16.png',
                 ),
@@ -668,12 +634,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_17.svg',
                     'logo_png' => 'country_logo_17.png',
                 ),
@@ -704,12 +668,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_18.svg',
                     'logo_png' => 'country_logo_18.png',
                 ),
@@ -740,12 +702,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_19.svg',
                     'logo_png' => 'country_logo_19.png',
                 ),
@@ -776,12 +736,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_20.svg',
                     'logo_png' => 'country_logo_20.png',
                 ),
@@ -812,12 +770,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_21.svg',
                     'logo_png' => 'country_logo_21.png',
                 ),
@@ -848,12 +804,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_22.svg',
                     'logo_png' => 'country_logo_22.png',
                 ),
@@ -884,12 +838,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_23.svg',
                     'logo_png' => 'country_logo_23.png',
                 ),
@@ -920,12 +872,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_24.svg',
                     'logo_png' => 'country_logo_24.png',
                 ),
@@ -956,12 +906,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_25.svg',
                     'logo_png' => 'country_logo_25.png',
                 ),
@@ -992,12 +940,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_26.svg',
                     'logo_png' => 'country_logo_26.png',
                 ),
@@ -1028,12 +974,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_27.svg',
                     'logo_png' => 'country_logo_27.png',
                 ),
@@ -1064,12 +1008,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_28.svg',
                     'logo_png' => 'country_logo_28.png',
                 ),
@@ -1100,12 +1042,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -1136,12 +1076,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_30.svg',
                     'logo_png' => 'country_logo_30.png',
                 ),
@@ -1172,12 +1110,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -1208,12 +1144,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_32.svg',
                     'logo_png' => 'country_logo_32.png',
                 ),
@@ -1244,12 +1178,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_33.svg',
                     'logo_png' => 'country_logo_33.png',
                 ),
@@ -1280,12 +1212,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_34.svg',
                     'logo_png' => 'country_logo_34.png',
                 ),
@@ -1316,12 +1246,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_35.svg',
                     'logo_png' => 'country_logo_35.png',
                 ),
@@ -1352,12 +1280,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_36.svg',
                     'logo_png' => 'country_logo_36.png',
                 ),
@@ -1388,12 +1314,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_37.svg',
                     'logo_png' => 'country_logo_37.png',
                 ),
@@ -1424,12 +1348,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_38.svg',
                     'logo_png' => 'country_logo_38.png',
                 ),
@@ -1460,12 +1382,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_39.svg',
                     'logo_png' => 'country_logo_39.png',
                 ),
@@ -1496,12 +1416,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_40.svg',
                     'logo_png' => 'country_logo_40.png',
                 ),
@@ -1532,12 +1450,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_41.svg',
                     'logo_png' => 'country_logo_41.png',
                 ),
@@ -1568,12 +1484,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_42.svg',
                     'logo_png' => 'country_logo_42.png',
                 ),
@@ -1604,12 +1518,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_43.svg',
                     'logo_png' => 'country_logo_43.png',
                 ),
@@ -1640,12 +1552,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_44.svg',
                     'logo_png' => 'country_logo_44.png',
                 ),
@@ -1676,12 +1586,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -1712,12 +1620,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -1748,12 +1654,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_47.svg',
                     'logo_png' => 'country_logo_47.png',
                 ),
@@ -1784,12 +1688,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_48.svg',
                     'logo_png' => 'country_logo_48.png',
                 ),
@@ -1820,12 +1722,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_49.svg',
                     'logo_png' => 'country_logo_49.png',
                 ),
@@ -1856,12 +1756,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_50.svg',
                     'logo_png' => 'country_logo_50.png',
                 ),
@@ -1892,12 +1790,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_51.svg',
                     'logo_png' => 'country_logo_51.png',
                 ),
@@ -1928,12 +1824,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_52.svg',
                     'logo_png' => 'country_logo_52.png',
                 ),
@@ -1964,12 +1858,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_53.svg',
                     'logo_png' => 'country_logo_53.png',
                 ),
@@ -2000,12 +1892,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_54.svg',
                     'logo_png' => 'country_logo_54.png',
                 ),
@@ -2036,12 +1926,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_55.svg',
                     'logo_png' => 'country_logo_55.png',
                 ),
@@ -2072,12 +1960,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_56.svg',
                     'logo_png' => 'country_logo_56.png',
                 ),
@@ -2108,12 +1994,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_57.svg',
                     'logo_png' => 'country_logo_57.png',
                 ),
@@ -2144,12 +2028,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_58.svg',
                     'logo_png' => 'country_logo_58.png',
                 ),
@@ -2180,12 +2062,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_59.svg',
                     'logo_png' => 'country_logo_59.png',
                 ),
@@ -2216,12 +2096,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_60.svg',
                     'logo_png' => 'country_logo_60.png',
                 ),
@@ -2252,12 +2130,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_61.svg',
                     'logo_png' => 'country_logo_61.png',
                 ),
@@ -2288,12 +2164,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -2324,12 +2198,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_62.svg',
                     'logo_png' => 'country_logo_62.png',
                 ),
@@ -2360,12 +2232,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_63.svg',
                     'logo_png' => 'country_logo_63.png',
                 ),
@@ -2396,12 +2266,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_64.svg',
                     'logo_png' => 'country_logo_64.png',
                 ),
@@ -2432,12 +2300,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_65.svg',
                     'logo_png' => 'country_logo_65.png',
                 ),
@@ -2468,12 +2334,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_66.svg',
                     'logo_png' => 'country_logo_66.png',
                 ),
@@ -2504,12 +2368,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_67.svg',
                     'logo_png' => 'country_logo_67.png',
                 ),
@@ -2540,12 +2402,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_68.svg',
                     'logo_png' => 'country_logo_68.png',
                 ),
@@ -2576,12 +2436,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_69.svg',
                     'logo_png' => 'country_logo_69.png',
                 ),
@@ -2612,12 +2470,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_70.svg',
                     'logo_png' => 'country_logo_70.png',
                 ),
@@ -2648,12 +2504,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_71.svg',
                     'logo_png' => 'country_logo_71.png',
                 ),
@@ -2684,12 +2538,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_72.svg',
                     'logo_png' => 'country_logo_72.png',
                 ),
@@ -2720,12 +2572,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_73.svg',
                     'logo_png' => 'country_logo_73.png',
                 ),
@@ -2756,12 +2606,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_74.svg',
                     'logo_png' => 'country_logo_74.png',
                 ),
@@ -2792,12 +2640,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_75.svg',
                     'logo_png' => 'country_logo_75.png',
                 ),
@@ -2828,12 +2674,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -2864,12 +2708,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_77.svg',
                     'logo_png' => 'country_logo_77.png',
                 ),
@@ -2900,12 +2742,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_78.svg',
                     'logo_png' => 'country_logo_78.png',
                 ),
@@ -2936,12 +2776,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_79.svg',
                     'logo_png' => 'country_logo_79.png',
                 ),
@@ -2972,12 +2810,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_80.svg',
                     'logo_png' => 'country_logo_80.png',
                 ),
@@ -3008,12 +2844,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_81.svg',
                     'logo_png' => 'country_logo_81.png',
                 ),
@@ -3044,12 +2878,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_82.svg',
                     'logo_png' => 'country_logo_82.png',
                 ),
@@ -3080,12 +2912,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_83.svg',
                     'logo_png' => 'country_logo_83.png',
                 ),
@@ -3116,12 +2946,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_84.svg',
                     'logo_png' => 'country_logo_84.png',
                 ),
@@ -3152,12 +2980,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_85.svg',
                     'logo_png' => 'country_logo_85.png',
                 ),
@@ -3188,12 +3014,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_86.svg',
                     'logo_png' => 'country_logo_86.png',
                 ),
@@ -3224,12 +3048,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_87.svg',
                     'logo_png' => 'country_logo_87.png',
                 ),
@@ -3260,12 +3082,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_88.svg',
                     'logo_png' => 'country_logo_88.png',
                 ),
@@ -3296,12 +3116,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -3332,12 +3150,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_89.svg',
                     'logo_png' => 'country_logo_89.png',
                 ),
@@ -3368,12 +3184,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_90.svg',
                     'logo_png' => 'country_logo_90.png',
                 ),
@@ -3404,12 +3218,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_91.svg',
                     'logo_png' => 'country_logo_91.png',
                 ),
@@ -3440,12 +3252,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_92.svg',
                     'logo_png' => 'country_logo_92.png',
                 ),
@@ -3476,12 +3286,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -3512,12 +3320,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_95.svg',
                     'logo_png' => 'country_logo_95.png',
                 ),
@@ -3548,12 +3354,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_96.svg',
                     'logo_png' => 'country_logo_96.png',
                 ),
@@ -3584,12 +3388,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_97.svg',
                     'logo_png' => 'country_logo_97.png',
                 ),
@@ -3620,12 +3422,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_98.svg',
                     'logo_png' => 'country_logo_98.png',
                 ),
@@ -3656,12 +3456,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_99.svg',
                     'logo_png' => 'country_logo_99.png',
                 ),
@@ -3692,12 +3490,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_100.svg',
                     'logo_png' => 'country_logo_100.png',
                 ),
@@ -3728,12 +3524,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_101.svg',
                     'logo_png' => 'country_logo_101.png',
                 ),
@@ -3764,12 +3558,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_102.svg',
                     'logo_png' => 'country_logo_102.png',
                 ),
@@ -3800,12 +3592,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_103.svg',
                     'logo_png' => 'country_logo_103.png',
                 ),
@@ -3836,12 +3626,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_104.svg',
                     'logo_png' => 'country_logo_104.png',
                 ),
@@ -3872,12 +3660,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_105.svg',
                     'logo_png' => 'country_logo_105.png',
                 ),
@@ -3908,12 +3694,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_106.svg',
                     'logo_png' => 'country_logo_106.png',
                 ),
@@ -3944,12 +3728,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_107.svg',
                     'logo_png' => 'country_logo_107.png',
                 ),
@@ -3980,12 +3762,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -4016,12 +3796,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_108.svg',
                     'logo_png' => 'country_logo_108.png',
                 ),
@@ -4052,12 +3830,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_109.svg',
                     'logo_png' => 'country_logo_109.png',
                 ),
@@ -4088,12 +3864,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_110.svg',
                     'logo_png' => 'country_logo_110.png',
                 ),
@@ -4124,12 +3898,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_111.svg',
                     'logo_png' => 'country_logo_111.png',
                 ),
@@ -4160,12 +3932,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_112.svg',
                     'logo_png' => 'country_logo_112.png',
                 ),
@@ -4196,12 +3966,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_113.svg',
                     'logo_png' => 'country_logo_113.png',
                 ),
@@ -4232,12 +4000,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_114.svg',
                     'logo_png' => 'country_logo_114.png',
                 ),
@@ -4268,12 +4034,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_115.svg',
                     'logo_png' => 'country_logo_115.png',
                 ),
@@ -4304,12 +4068,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_116.svg',
                     'logo_png' => 'country_logo_116.png',
                 ),
@@ -4340,12 +4102,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_117.svg',
                     'logo_png' => 'country_logo_117.png',
                 ),
@@ -4376,12 +4136,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_118.svg',
                     'logo_png' => 'country_logo_118.png',
                 ),
@@ -4412,12 +4170,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_119.svg',
                     'logo_png' => 'country_logo_119.png',
                 ),
@@ -4448,12 +4204,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_120.svg',
                     'logo_png' => 'country_logo_120.png',
                 ),
@@ -4484,12 +4238,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_121.svg',
                     'logo_png' => 'country_logo_121.png',
                 ),
@@ -4520,12 +4272,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_122.svg',
                     'logo_png' => 'country_logo_122.png',
                 ),
@@ -4556,12 +4306,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_123.svg',
                     'logo_png' => 'country_logo_123.png',
                 ),
@@ -4592,12 +4340,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_124.svg',
                     'logo_png' => 'country_logo_124.png',
                 ),
@@ -4628,12 +4374,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_125.svg',
                     'logo_png' => 'country_logo_125.png',
                 ),
@@ -4664,12 +4408,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_126.svg',
                     'logo_png' => 'country_logo_126.png',
                 ),
@@ -4700,12 +4442,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_127.svg',
                     'logo_png' => 'country_logo_127.png',
                 ),
@@ -4736,12 +4476,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_128.svg',
                     'logo_png' => 'country_logo_128.png',
                 ),
@@ -4772,12 +4510,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_129.svg',
                     'logo_png' => 'country_logo_129.png',
                 ),
@@ -4808,12 +4544,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_130.svg',
                     'logo_png' => 'country_logo_130.png',
                 ),
@@ -4844,12 +4578,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_131.svg',
                     'logo_png' => 'country_logo_131.png',
                 ),
@@ -4880,12 +4612,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_132.svg',
                     'logo_png' => 'country_logo_132.png',
                 ),
@@ -4916,12 +4646,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -4952,12 +4680,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_133.svg',
                     'logo_png' => 'country_logo_133.png',
                 ),
@@ -4988,12 +4714,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_134.svg',
                     'logo_png' => 'country_logo_134.png',
                 ),
@@ -5024,12 +4748,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_135.svg',
                     'logo_png' => 'country_logo_135.png',
                 ),
@@ -5060,12 +4782,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_136.svg',
                     'logo_png' => 'country_logo_136.png',
                 ),
@@ -5096,12 +4816,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -5132,12 +4850,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_138.svg',
                     'logo_png' => 'country_logo_138.png',
                 ),
@@ -5168,12 +4884,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_139.svg',
                     'logo_png' => 'country_logo_139.png',
                 ),
@@ -5204,12 +4918,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_140.svg',
                     'logo_png' => 'country_logo_140.png',
                 ),
@@ -5240,12 +4952,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_141.svg',
                     'logo_png' => 'country_logo_141.png',
                 ),
@@ -5276,12 +4986,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_142.svg',
                     'logo_png' => 'country_logo_142.png',
                 ),
@@ -5312,12 +5020,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_244.svg',
                     'logo_png' => 'country_logo_244.png',
                 ),
@@ -5348,12 +5054,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_143.svg',
                     'logo_png' => 'country_logo_143.png',
                 ),
@@ -5384,12 +5088,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_144.svg',
                     'logo_png' => 'country_logo_144.png',
                 ),
@@ -5420,12 +5122,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_145.svg',
                     'logo_png' => 'country_logo_145.png',
                 ),
@@ -5456,12 +5156,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_146.svg',
                     'logo_png' => 'country_logo_146.png',
                 ),
@@ -5492,12 +5190,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_147.svg',
                     'logo_png' => 'country_logo_147.png',
                 ),
@@ -5528,12 +5224,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_148.svg',
                     'logo_png' => 'country_logo_148.png',
                 ),
@@ -5564,12 +5258,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_149.svg',
                     'logo_png' => 'country_logo_149.png',
                 ),
@@ -5600,12 +5292,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_246.svg',
                     'logo_png' => 'country_logo_246.png',
                 ),
@@ -5636,12 +5326,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_150.svg',
                     'logo_png' => 'country_logo_150.png',
                 ),
@@ -5672,12 +5360,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_152.svg',
                     'logo_png' => 'country_logo_152.png',
                 ),
@@ -5708,12 +5394,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_153.svg',
                     'logo_png' => 'country_logo_153.png',
                 ),
@@ -5744,12 +5428,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_154.svg',
                     'logo_png' => 'country_logo_154.png',
                 ),
@@ -5780,12 +5462,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_155.svg',
                     'logo_png' => 'country_logo_155.png',
                 ),
@@ -5816,12 +5496,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_156.svg',
                     'logo_png' => 'country_logo_156.png',
                 ),
@@ -5852,12 +5530,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_157.svg',
                     'logo_png' => 'country_logo_157.png',
                 ),
@@ -5888,12 +5564,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_158.svg',
                     'logo_png' => 'country_logo_158.png',
                 ),
@@ -5924,12 +5598,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_159.svg',
                     'logo_png' => 'country_logo_159.png',
                 ),
@@ -5960,12 +5632,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_160.svg',
                     'logo_png' => 'country_logo_160.png',
                 ),
@@ -5996,12 +5666,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_161.svg',
                     'logo_png' => 'country_logo_161.png',
                 ),
@@ -6032,12 +5700,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_162.svg',
                     'logo_png' => 'country_logo_162.png',
                 ),
@@ -6068,12 +5734,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_163.svg',
                     'logo_png' => 'country_logo_163.png',
                 ),
@@ -6104,12 +5768,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -6140,12 +5802,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_165.svg',
                     'logo_png' => 'country_logo_165.png',
                 ),
@@ -6176,12 +5836,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_166.svg',
                     'logo_png' => 'country_logo_166.png',
                 ),
@@ -6212,12 +5870,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_167.svg',
                     'logo_png' => 'country_logo_167.png',
                 ),
@@ -6248,12 +5904,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_168.svg',
                     'logo_png' => 'country_logo_168.png',
                 ),
@@ -6284,12 +5938,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_169.svg',
                     'logo_png' => 'country_logo_169.png',
                 ),
@@ -6320,12 +5972,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_170.svg',
                     'logo_png' => 'country_logo_170.png',
                 ),
@@ -6356,12 +6006,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_171.svg',
                     'logo_png' => 'country_logo_171.png',
                 ),
@@ -6392,12 +6040,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_172.svg',
                     'logo_png' => 'country_logo_172.png',
                 ),
@@ -6428,12 +6074,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_173.svg',
                     'logo_png' => 'country_logo_173.png',
                 ),
@@ -6464,12 +6108,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_174.svg',
                     'logo_png' => 'country_logo_174.png',
                 ),
@@ -6500,12 +6142,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_175.svg',
                     'logo_png' => 'country_logo_175.png',
                 ),
@@ -6536,12 +6176,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -6572,12 +6210,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_177.svg',
                     'logo_png' => 'country_logo_177.png',
                 ),
@@ -6608,12 +6244,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_178.svg',
                     'logo_png' => 'country_logo_178.png',
                 ),
@@ -6644,12 +6278,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_179.svg',
                     'logo_png' => 'country_logo_179.png',
                 ),
@@ -6680,12 +6312,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_180.svg',
                     'logo_png' => 'country_logo_180.png',
                 ),
@@ -6716,12 +6346,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_181.svg',
                     'logo_png' => 'country_logo_181.png',
                 ),
@@ -6752,12 +6380,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_182.svg',
                     'logo_png' => 'country_logo_182.png',
                 ),
@@ -6788,12 +6414,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_183.svg',
                     'logo_png' => 'country_logo_183.png',
                 ),
@@ -6824,12 +6448,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_189.svg',
                     'logo_png' => 'country_logo_189.png',
                 ),
@@ -6860,12 +6482,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -6896,12 +6516,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_184.svg',
                     'logo_png' => 'country_logo_184.png',
                 ),
@@ -6932,12 +6550,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_185.svg',
                     'logo_png' => 'country_logo_185.png',
                 ),
@@ -6968,12 +6584,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_186.svg',
                     'logo_png' => 'country_logo_186.png',
                 ),
@@ -7004,12 +6618,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_187.svg',
                     'logo_png' => 'country_logo_187.png',
                 ),
@@ -7040,12 +6652,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_188.svg',
                     'logo_png' => 'country_logo_188.png',
                 ),
@@ -7076,12 +6686,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_247.svg',
                     'logo_png' => 'country_logo_247.png',
                 ),
@@ -7112,12 +6720,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_190.svg',
                     'logo_png' => 'country_logo_190.png',
                 ),
@@ -7148,12 +6754,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_191.svg',
                     'logo_png' => 'country_logo_191.png',
                 ),
@@ -7184,12 +6788,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_192.svg',
                     'logo_png' => 'country_logo_192.png',
                 ),
@@ -7220,12 +6822,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_193.svg',
                     'logo_png' => 'country_logo_193.png',
                 ),
@@ -7256,12 +6856,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_194.svg',
                     'logo_png' => 'country_logo_194.png',
                 ),
@@ -7292,12 +6890,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_195.svg',
                     'logo_png' => 'country_logo_195.png',
                 ),
@@ -7328,12 +6924,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_196.svg',
                     'logo_png' => 'country_logo_196.png',
                 ),
@@ -7364,12 +6958,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_197.svg',
                     'logo_png' => 'country_logo_197.png',
                 ),
@@ -7400,12 +6992,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -7436,12 +7026,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -7472,12 +7060,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_199.svg',
                     'logo_png' => 'country_logo_199.png',
                 ),
@@ -7508,12 +7094,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_200.svg',
                     'logo_png' => 'country_logo_200.png',
                 ),
@@ -7544,12 +7128,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_201.svg',
                     'logo_png' => 'country_logo_201.png',
                 ),
@@ -7580,12 +7162,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_202.svg',
                     'logo_png' => 'country_logo_202.png',
                 ),
@@ -7616,12 +7196,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_203.svg',
                     'logo_png' => 'country_logo_203.png',
                 ),
@@ -7652,12 +7230,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_204.svg',
                     'logo_png' => 'country_logo_204.png',
                 ),
@@ -7688,12 +7264,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_205.svg',
                     'logo_png' => 'country_logo_205.png',
                 ),
@@ -7724,12 +7298,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_206.svg',
                     'logo_png' => 'country_logo_206.png',
                 ),
@@ -7760,12 +7332,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_207.svg',
                     'logo_png' => 'country_logo_207.png',
                 ),
@@ -7796,12 +7366,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_208.svg',
                     'logo_png' => 'country_logo_208.png',
                 ),
@@ -7832,12 +7400,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_209.svg',
                     'logo_png' => 'country_logo_209.png',
                 ),
@@ -7868,12 +7434,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_210.svg',
                     'logo_png' => 'country_logo_210.png',
                 ),
@@ -7904,12 +7468,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_211.svg',
                     'logo_png' => 'country_logo_211.png',
                 ),
@@ -7940,12 +7502,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_213.svg',
                     'logo_png' => 'country_logo_213.png',
                 ),
@@ -7976,12 +7536,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_214.svg',
                     'logo_png' => 'country_logo_214.png',
                 ),
@@ -8012,12 +7570,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_215.svg',
                     'logo_png' => 'country_logo_215.png',
                 ),
@@ -8048,12 +7604,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_216.svg',
                     'logo_png' => 'country_logo_216.png',
                 ),
@@ -8084,12 +7638,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_217.svg',
                     'logo_png' => 'country_logo_217.png',
                 ),
@@ -8120,12 +7672,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_218.svg',
                     'logo_png' => 'country_logo_218.png',
                 ),
@@ -8156,12 +7706,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_219.svg',
                     'logo_png' => 'country_logo_219.png',
                 ),
@@ -8192,12 +7740,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_220.svg',
                     'logo_png' => 'country_logo_220.png',
                 ),
@@ -8228,12 +7774,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_221.svg',
                     'logo_png' => 'country_logo_221.png',
                 ),
@@ -8264,12 +7808,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_222.svg',
                     'logo_png' => 'country_logo_222.png',
                 ),
@@ -8300,12 +7842,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_223.svg',
                     'logo_png' => 'country_logo_223.png',
                 ),
@@ -8336,12 +7876,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_224.svg',
                     'logo_png' => 'country_logo_224.png',
                 ),
@@ -8372,12 +7910,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_225.svg',
                     'logo_png' => 'country_logo_225.png',
                 ),
@@ -8408,12 +7944,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_226.svg',
                     'logo_png' => 'country_logo_226.png',
                 ),
@@ -8444,12 +7978,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => null,
                     'logo_png' => null,
                 ),
@@ -8480,12 +8012,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_228.svg',
                     'logo_png' => 'country_logo_228.png',
                 ),
@@ -8516,12 +8046,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_229.svg',
                     'logo_png' => 'country_logo_229.png',
                 ),
@@ -8552,12 +8080,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_230.svg',
                     'logo_png' => 'country_logo_230.png',
                 ),
@@ -8588,12 +8114,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_94.svg',
                     'logo_png' => 'country_logo_94.png',
                 ),
@@ -8624,12 +8148,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_231.svg',
                     'logo_png' => 'country_logo_231.png',
                 ),
@@ -8660,12 +8182,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_232.svg',
                     'logo_png' => 'country_logo_232.png',
                 ),
@@ -8696,12 +8216,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_233.svg',
                     'logo_png' => 'country_logo_233.png',
                 ),
@@ -8732,12 +8250,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_234.svg',
                     'logo_png' => 'country_logo_234.png',
                 ),
@@ -8768,12 +8284,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_235.svg',
                     'logo_png' => 'country_logo_235.png',
                 ),
@@ -8804,12 +8318,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_236.svg',
                     'logo_png' => 'country_logo_236.png',
                 ),
@@ -8840,12 +8352,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_237.svg',
                     'logo_png' => 'country_logo_237.png',
                 ),
@@ -8876,12 +8386,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_238.svg',
                     'logo_png' => 'country_logo_238.png',
                 ),
@@ -8912,12 +8420,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_239.svg',
                     'logo_png' => 'country_logo_239.png',
                 ),
@@ -8948,12 +8454,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_248.svg',
                     'logo_png' => 'country_logo_248.png',
                 ),
@@ -8984,12 +8488,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_249.svg',
                     'logo_png' => 'country_logo_249.png',
                 ),
@@ -9020,12 +8522,10 @@ class CurrencySeeder extends Seeder
                                     'meghnabank' => null,
                                 ),
                             'banco' =>
-                                array(
-                                ),
+                                array(),
                         ),
                     'currency_data' =>
-                        array(
-                        ),
+                        array(),
                     'logo_svg' => 'country_logo_250.svg',
                     'logo_png' => 'country_logo_250.png',
                 ),

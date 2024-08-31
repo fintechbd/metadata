@@ -3,7 +3,6 @@
 use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Support\Str;
 use MongoDB\Laravel\Eloquent\Model;
-
 use function Pest\Laravel\deleteJson;
 use function Pest\Laravel\getJson;
 use function Pest\Laravel\postJson;

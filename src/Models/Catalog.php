@@ -18,6 +18,7 @@ class Catalog extends BaseModel
     use AuditableTrait;
     use SoftDeletes;
     use HasVendorCode;
+
     /*
     |--------------------------------------------------------------------------
     | GLOBAL VARIABLES
