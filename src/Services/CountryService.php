@@ -27,6 +27,16 @@ class CountryService
 
     }
 
+    public function servingIds(array $filters = []) :array
+    {
+        $filters['enabled'] = true;
+        $filters['paginate'] = false;
+        $filters['is_serving'] = true;
+
+        return $this->list($filters)?->pluck('id')?->toArray() ?? [];
+
+    }
+
     public function create(array $inputs = [])
     {
         return $this->countryRepository->create($inputs);
