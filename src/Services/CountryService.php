@@ -27,7 +27,7 @@ class CountryService
 
     }
 
-    public function servingIds(array $filters = []) :array
+    public function servingIds(array $filters = []): array
     {
         $filters['enabled'] = true;
         $filters['paginate'] = false;
