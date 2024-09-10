@@ -12,8 +12,8 @@ class RemittancePurposeSeeder extends Seeder
      */
     public function run(): void
     {
-        foreach ($this->data() as $remittancePurpose) {
-            MetaData::remittancePurpose()->create($remittancePurpose);
+        foreach ($this->data() as $entry) {
+            MetaData::remittancePurpose()->create($entry);
         }
     }
 

@@ -13,11 +13,7 @@ class FundSourceSeeder extends Seeder
      */
     public function run(): void
     {
-        $countryIds = range(1, 250);
         foreach ($this->data() as $entry) {
-            $entry['countries'] = $countryIds;
-            $entry['type'] = CatalogType::FundSource->value;
-            $entry['enabled'] = false;
             MetaData::fundSource()->create($entry);
         }
     }

@@ -13,11 +13,7 @@ class MaritalStatusSeeder extends Seeder
      */
     public function run(): void
     {
-        $countryIds = range(1, 250);
         foreach ($this->data() as $entry) {
-            $entry['countries'] = $countryIds;
-            $entry['type'] = CatalogType::MaritalStatus->value;
-            $entry['enabled'] = false;
             MetaData::catalog()->create($entry);
         }
 

@@ -14,8 +14,6 @@ class IdDocTypeSeeder extends Seeder
     public function run(): void
     {
         foreach ($this->data() as $entry) {
-            $entry['type'] = CatalogType::IdentityDocument->value;
-            $entry['enabled'] = false;
             MetaData::idDocType()->create($entry);
         }
     }

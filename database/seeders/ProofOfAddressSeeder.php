@@ -14,8 +14,6 @@ class ProofOfAddressSeeder extends Seeder
     public function run(): void
     {
         foreach ($this->data() as $entry) {
-            $entry['type'] = CatalogType::ProofOfAddress->value;
-            $entry['enabled'] = false;
             MetaData::catalog()->create($entry);
         }
     }
