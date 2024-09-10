@@ -2,7 +2,6 @@
 
 namespace Fintech\MetaData\Seeders;
 
-use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Database\Seeder;
 
