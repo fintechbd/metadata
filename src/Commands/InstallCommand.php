@@ -32,7 +32,7 @@ class InstallCommand extends Command
 
         $this->addCities();
 
-        $this->components->twoColumnDetail("[<fg=yellow;options=bold>{$this->module}</>] Installation", "<fg=green;options=bold>COMPLETED</>");
+        $this->components->twoColumnDetail("<fg=black;bg=bright-yellow;options=bold> {$this->module} </> Installation", "<fg=green;options=bold>COMPLETED</>");
 
         return self::SUCCESS;
     }
@@ -55,7 +55,7 @@ class InstallCommand extends Command
             ProofOfAddressSeeder::class => 'proof of address',
         ];
         foreach ($seeders as $class => $label) {
-            $this->components->task("[<fg=yellow;options=bold>{$this->module}</>] Populating {$label} data", function () use ($class) {
+            $this->components->task("<fg=black;bg=bright-yellow;options=bold> {$this->module} </> Populating {$label} data", function () use ($class) {
                 Artisan::call('db:seed --class=' . addslashes($class) . ' --quiet');
             });
         }
@@ -63,25 +63,25 @@ class InstallCommand extends Command
 
     private function addStates(): void
     {
-        if ($this->components->confirm("[<fg=yellow;options=bold>{$this->module}</>] Import all states data", true)) {
+        if ($this->components->confirm("<fg=black;bg=bright-yellow;options=bold> {$this->module} </> Import all states data", true)) {
             for ($i = 1; $i <= 4; $i++) {
-                $this->components->task("[<fg=yellow;options=bold>{$this->module}</>] Populating states data progress: " . $this->progress($i, 4), function () use ($i) {
+                $this->components->task("<fg=black;bg=bright-yellow;options=bold> {$this->module} </> Populating states data progress: " . $this->progress($i, 4), function () use ($i) {
                     Artisan::call("db:seed --class=" . addslashes("Fintech\MetaData\Seeders\States\State{$i}Seeder") . " --quiet");
                 });
             }
-            $this->components->twoColumnDetail("[<fg=yellow;options=bold>{$this->module}</>] Populating states data progress: 100%", "<fg=green;options=bold>DONE</>");
+            $this->components->twoColumnDetail("<fg=black;bg=bright-yellow;options=bold> {$this->module} </> Populating states data progress: 100%", "<fg=green;options=bold>DONE</>");
         }
     }
 
     private function addCities(): void
     {
-        if ($this->components->confirm("[<fg=yellow;options=bold>{$this->module}</>] Import all cities data", true)) {
+        if ($this->components->confirm("<fg=black;bg=bright-yellow;options=bold> {$this->module} </> Import all cities data", true)) {
             for ($i = 1; $i <= 99; $i++) {
-                $this->components->task("[<fg=yellow;options=bold>{$this->module}</>] Populating cities data progress: " . $this->progress($i, 99), function () use ($i) {
+                $this->components->task("<fg=black;bg=bright-yellow;options=bold> {$this->module} </> Populating cities data progress: " . $this->progress($i, 99), function () use ($i) {
                     Artisan::call("db:seed --class=" . addslashes("Fintech\MetaData\Seeders\Cities\City{$i}Seeder") . " --quiet");
                 });
             }
-            $this->components->twoColumnDetail("[<fg=yellow;options=bold>{$this->module}</>] Populating cities data progress: 100%", "<fg=green;options=bold>DONE</>");
+            $this->components->twoColumnDetail("<fg=black;bg=bright-yellow;options=bold> {$this->module} </> Populating cities data progress: 100%", "<fg=green;options=bold>DONE</>");
         }
     }
 
