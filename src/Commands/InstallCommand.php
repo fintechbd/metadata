@@ -29,6 +29,8 @@ class InstallCommand extends Command
 
     public function handle(): int
     {
+        $this->infoMessage("Module Installation", 'RUNNING');
+
         $this->task("Module Installation", function () {
             $this->addUtilityOptions();
 
@@ -36,7 +38,7 @@ class InstallCommand extends Command
 
             $this->addCities();
 
-        }, "COMPETED");
+        });
 
         return self::SUCCESS;
     }
