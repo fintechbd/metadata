@@ -45,10 +45,6 @@ class RegionRepository extends EloquentRepository implements InterfacesRegionRep
             $query->whereIn($this->model->getKeyName(), (array)$filters['id_in']);
         }
 
-        if (!empty($filters['country_id'])) {
-            $query->where('country_id', $filters['country_id']);
-        }
-
         //Display Trashed
         if (isset($filters['trashed']) && $filters['trashed'] === true) {
             $query->onlyTrashed();

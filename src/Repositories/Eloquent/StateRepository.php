@@ -29,11 +29,12 @@ class StateRepository extends EloquentRepository implements InterfacesStateRepos
         $query = $this->model->newQuery();
 
         if (!empty($filters['search'])) {
-            if (is_numeric($filters['search'])) {
-                $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
-            } else {
-                $query->where('name', 'like', "%{$filters['search']}%");
-            }
+            $query->where(function ($query) use ($filters) {
+                $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%")
+                ->orWhere('name', 'like', "%{$filters['search']}%")
+                ->orWhere('type', 'like', "%{$filters['search']}%")
+                ->orWhere('state_data', 'like', "%{$filters['search']}%");
+            });
         }
 
         if (!empty($filters['id_not_in'])) {
