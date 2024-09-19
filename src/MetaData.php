@@ -22,113 +22,113 @@ class MetaData
      * @return RegionService
      *
      */
-    public function region()
-    {
-        return app(RegionService::class);
+    public function region($filters = null)
+{
+	return \singleton(RegionService::class, $filters);
     }
 
     /**
      * @return SubregionService
      *
      */
-    public function subregion()
-    {
-        return app(SubregionService::class);
+    public function subregion($filters = null)
+{
+	return \singleton(SubregionService::class, $filters);
     }
 
     /**
      * @return CountryService
      *
      */
-    public function country()
-    {
-        return app(CountryService::class);
+    public function country($filters = null)
+{
+	return \singleton(CountryService::class, $filters);
     }
 
     /**
      * @return StateService
      *
      */
-    public function state()
-    {
-        return app(StateService::class);
+    public function state($filters = null)
+{
+	return \singleton(StateService::class, $filters);
     }
 
     /**
      * @return CityService
      *
      */
-    public function city()
-    {
-        return app(CityService::class);
+    public function city($filters = null)
+{
+	return \singleton(CityService::class, $filters);
     }
 
     /**
      * @return FundSourceService
      *
      */
-    public function fundSource()
-    {
-        return app(FundSourceService::class);
+    public function fundSource($filters = null)
+{
+	return \singleton(FundSourceService::class, $filters);
     }
 
     /**
      * @return OccupationService
      *
      */
-    public function occupation()
-    {
-        return app(OccupationService::class);
+    public function occupation($filters = null)
+{
+	return \singleton(OccupationService::class, $filters);
     }
 
     /**
      * @return RelationService
      *
      */
-    public function relation()
-    {
-        return app(RelationService::class);
+    public function relation($filters = null)
+{
+	return \singleton(RelationService::class, $filters);
     }
 
     /**
      * @return RemittancePurposeService
      *
      */
-    public function remittancePurpose()
-    {
-        return app(RemittancePurposeService::class);
+    public function remittancePurpose($filters = null)
+{
+	return \singleton(RemittancePurposeService::class, $filters);
     }
 
     /**
      * @return CatalogService
      */
-    public function language()
-    {
-        return app(LanguageService::class);
+    public function language($filters = null)
+{
+	return \singleton(LanguageService::class, $filters);
     }
 
     /**
      * @return CatalogService
      */
-    public function catalog()
-    {
-        return app(CatalogService::class);
+    public function catalog($filters = null)
+{
+	return \singleton(CatalogService::class, $filters);
     }
 
     /**
      * @return CurrencyService
      */
-    public function currency()
-    {
-        return app(CurrencyService::class);
+    public function currency($filters = null)
+{
+	return \singleton(CurrencyService::class, $filters);
     }
 
     /**
      * @return IdDocTypeService
      */
-    public function idDocType()
-    {
-        return app(IdDocTypeService::class);
+    public function idDocType($filters = null)
+{
+	return \singleton(IdDocTypeService::class, $filters);
     }
 
     //** Crud Service Method Point Do not Remove **//
