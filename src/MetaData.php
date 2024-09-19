@@ -23,8 +23,8 @@ class MetaData
      *
      */
     public function region($filters = null)
-{
-	return \singleton(RegionService::class, $filters);
+    {
+        return \singleton(RegionService::class, $filters);
     }
 
     /**
@@ -32,8 +32,8 @@ class MetaData
      *
      */
     public function subregion($filters = null)
-{
-	return \singleton(SubregionService::class, $filters);
+    {
+        return \singleton(SubregionService::class, $filters);
     }
 
     /**
@@ -41,8 +41,8 @@ class MetaData
      *
      */
     public function country($filters = null)
-{
-	return \singleton(CountryService::class, $filters);
+    {
+        return \singleton(CountryService::class, $filters);
     }
 
     /**
@@ -50,8 +50,8 @@ class MetaData
      *
      */
     public function state($filters = null)
-{
-	return \singleton(StateService::class, $filters);
+    {
+        return \singleton(StateService::class, $filters);
     }
 
     /**
@@ -59,8 +59,8 @@ class MetaData
      *
      */
     public function city($filters = null)
-{
-	return \singleton(CityService::class, $filters);
+    {
+        return \singleton(CityService::class, $filters);
     }
 
     /**
@@ -68,8 +68,8 @@ class MetaData
      *
      */
     public function fundSource($filters = null)
-{
-	return \singleton(FundSourceService::class, $filters);
+    {
+        return \singleton(FundSourceService::class, $filters);
     }
 
     /**
@@ -77,8 +77,8 @@ class MetaData
      *
      */
     public function occupation($filters = null)
-{
-	return \singleton(OccupationService::class, $filters);
+    {
+        return \singleton(OccupationService::class, $filters);
     }
 
     /**
@@ -86,8 +86,8 @@ class MetaData
      *
      */
     public function relation($filters = null)
-{
-	return \singleton(RelationService::class, $filters);
+    {
+        return \singleton(RelationService::class, $filters);
     }
 
     /**
@@ -95,40 +95,40 @@ class MetaData
      *
      */
     public function remittancePurpose($filters = null)
-{
-	return \singleton(RemittancePurposeService::class, $filters);
+    {
+        return \singleton(RemittancePurposeService::class, $filters);
     }
 
     /**
      * @return CatalogService
      */
     public function language($filters = null)
-{
-	return \singleton(LanguageService::class, $filters);
+    {
+        return \singleton(LanguageService::class, $filters);
     }
 
     /**
      * @return CatalogService
      */
     public function catalog($filters = null)
-{
-	return \singleton(CatalogService::class, $filters);
+    {
+        return \singleton(CatalogService::class, $filters);
     }
 
     /**
      * @return CurrencyService
      */
     public function currency($filters = null)
-{
-	return \singleton(CurrencyService::class, $filters);
+    {
+        return \singleton(CurrencyService::class, $filters);
     }
 
     /**
      * @return IdDocTypeService
      */
     public function idDocType($filters = null)
-{
-	return \singleton(IdDocTypeService::class, $filters);
+    {
+        return \singleton(IdDocTypeService::class, $filters);
     }
 
     //** Crud Service Method Point Do not Remove **//
