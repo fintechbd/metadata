@@ -9,8 +9,10 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * @package Fintech\MetaData\Services
  *
  */
-class CatalogService extends \Fintech\Core\Abstracts\Service
+class CatalogService
 {
+    use \Fintech\Core\Traits\HasFindWhereSearch;
+
     /**
      * CatalogService constructor.
      * @param CatalogRepository $catalogRepository

@@ -8,8 +8,10 @@ use Fintech\MetaData\Interfaces\RegionRepository;
  * Class RegionService
  *
  */
-class RegionService extends \Fintech\Core\Abstracts\Service
+class RegionService
 {
+    use \Fintech\Core\Traits\HasFindWhereSearch;
+
     /**
      * RegionService constructor.
      * @param RegionRepository $regionRepository

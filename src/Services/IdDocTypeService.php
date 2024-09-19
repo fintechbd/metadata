@@ -10,8 +10,10 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * @package Fintech\Auth\Services
  *
  */
-class IdDocTypeService extends \Fintech\Core\Abstracts\Service
+class IdDocTypeService
 {
+    use \Fintech\Core\Traits\HasFindWhereSearch;
+
     /**
      * IdDocTypeService constructor.
      * @param CatalogRepository $catalogRepository

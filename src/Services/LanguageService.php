@@ -9,8 +9,10 @@ use Fintech\MetaData\Interfaces\CountryRepository;
  * @package Fintech\MetaData\Services
  *
  */
-class LanguageService extends \Fintech\Core\Abstracts\Service
+class LanguageService
 {
+    use \Fintech\Core\Traits\HasFindWhereSearch;
+
     /**
      * LanguageService constructor.
      * @param CountryRepository $countryRepository

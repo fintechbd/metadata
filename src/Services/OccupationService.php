@@ -9,8 +9,10 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * Class OccupationService
  *
  */
-class OccupationService extends \Fintech\Core\Abstracts\Service
+class OccupationService
 {
+    use \Fintech\Core\Traits\HasFindWhereSearch;
+
     /**
      * OccupationService constructor.
      * @param CatalogRepository $catalogRepository

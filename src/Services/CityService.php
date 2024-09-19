@@ -8,8 +8,10 @@ use Fintech\MetaData\Interfaces\CityRepository;
  * Class CityService
  *
  */
-class CityService extends \Fintech\Core\Abstracts\Service
+class CityService
 {
+    use \Fintech\Core\Traits\HasFindWhereSearch;
+
     /**
      * CityService constructor.
      */

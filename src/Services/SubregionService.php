@@ -8,8 +8,10 @@ use Fintech\MetaData\Interfaces\SubregionRepository;
  * Class SubRegionService
  *
  */
-class SubregionService extends \Fintech\Core\Abstracts\Service
+class SubregionService
 {
+    use \Fintech\Core\Traits\HasFindWhereSearch;
+
     /**
      * SubRegionService constructor.
      */

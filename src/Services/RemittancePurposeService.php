@@ -9,8 +9,10 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * Class RemittancePurposeService
  *
  */
-class RemittancePurposeService extends \Fintech\Core\Abstracts\Service
+class RemittancePurposeService
 {
+    use \Fintech\Core\Traits\HasFindWhereSearch;
+
     /**
      * RemittancePurposeService constructor.
      * @param CatalogRepository $catalogRepository

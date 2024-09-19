@@ -8,8 +8,10 @@ use Fintech\MetaData\Interfaces\CountryRepository;
  * Class CountryService
  *
  */
-class CountryService extends \Fintech\Core\Abstracts\Service
+class CountryService
 {
+    use \Fintech\Core\Traits\HasFindWhereSearch;
+
     /**
      * CountryService constructor.
      * @param CountryRepository $countryRepository
