@@ -18,7 +18,6 @@ use Fintech\MetaData\Services\SubregionService;
 
 class MetaData
 {
-
     public function region($filters = null)
     {
         return \singleton(RegionService::class, $filters);
