@@ -28,7 +28,7 @@ class CountryObserver
 
             foreach (SystemRole::values() as $roleName) {
 
-                $roleModel = Auth::role()->list(['name' => $roleName])->first();
+                $roleModel = Auth::role()->findWhere(['name' => $roleName]);
 
                 if (!$roleModel) {
                     throw (new ModelNotFoundException())->setModel(config('fintech.auth.role_model'), $roleName);
@@ -36,7 +36,7 @@ class CountryObserver
 
                 $userFullName = "{$country->name} {$roleName}";
 
-                if (!Auth::user()->list(['name' => $userFullName])->first()) {
+                if (!Auth::user()->findWhere(['name' => $userFullName])) {
 
                     $user = [
                         'user' => [
@@ -88,11 +88,11 @@ class CountryObserver
                         ]
                     ];
 
-                    if ($state = MetaData::state()->list(['country_id' => $country->getKey()])->first()) {
+                    if ($state = MetaData::state()->findWhere(['country_id' => $country->getKey()])) {
                         $user['profile']['permanent_state_id'] = $state->getKey();
                         $user['profile']['present_state_id'] = $state->getKey();
 
-                        if ($city = MetaData::city()->list(['country_id' => $country->getKey(), 'state_id' => $state->getKey()])->first()) {
+                        if ($city = MetaData::city()->findWhere(['country_id' => $country->getKey(), 'state_id' => $state->getKey()])) {
                             $user['profile']['permanent_city_id'] = $city->getKey();
                             $user['profile']['present_city_id'] = $city->getKey();
                         }
