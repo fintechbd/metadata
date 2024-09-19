@@ -2,6 +2,7 @@
 
 namespace Fintech\MetaData\Seeders;
 
+use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Database\Seeder;
 
@@ -13,6 +14,7 @@ class GenderSeeder extends Seeder
     public function run(): void
     {
         foreach ($this->data() as $entry) {
+            $entry['type'] = CatalogType::Gender->value;
             MetaData::catalog()->create($entry);
         }
     }

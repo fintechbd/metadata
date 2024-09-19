@@ -32,12 +32,13 @@ class CatalogRepository extends EloquentRepository implements InterfacesCatalogR
         $query = $this->model->newQuery();
 
         if (!empty($filters['search'])) {
-            if (is_numeric($filters['search'])) {
-                $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%");
-            } else {
-                $query->where('name', 'like', "%{$filters['search']}%");
-                $query->orWhere('catalog_data', 'like', "%{$filters['search']}%");
-            }
+            $query->where(function (Builder $query) use ($filters) {
+                return $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%")
+                    ->orWhere('name', 'like', "%{$filters['search']}%")
+                    ->orWhere('type', 'like', "%{$filters['search']}%")
+                    ->orWhere('code', 'like', "%{$filters['search']}%")
+                    ->orWhere('catalog_data', 'like', "%{$filters['search']}%");
+            });
         }
 
         if (!empty($filters['name'])) {

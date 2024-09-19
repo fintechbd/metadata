@@ -15,7 +15,6 @@ class BloodGroupSeeder extends Seeder
     {
         foreach ($this->data() as $entry) {
             $entry['type'] = CatalogType::BloodGroup->value;
-            $entry['enabled'] = false;
             MetaData::catalog()->create($entry);
         }
     }
