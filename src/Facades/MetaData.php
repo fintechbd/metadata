@@ -18,19 +18,19 @@ use Fintech\MetaData\Services\SubregionService;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static RegionService region()
- * @method static SubregionService subregion()
- * @method static CountryService country()
- * @method static StateService state()
- * @method static CityService city()
- * @method static FundSourceService fundSource()
- * @method static OccupationService occupation()
- * @method static RelationService relation()
- * @method static RemittancePurposeService remittancePurpose()
- * @method static CatalogService catalog()
- * @method static LanguageService language()
- * @method static CurrencyService currency()
- * @method static IdDocTypeService idDocType()
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|RegionService region(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|SubregionService subregion(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|CountryService country(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|StateService state(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|CityService city(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|FundSourceService fundSource(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|OccupationService occupation(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|RelationService relation(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|RemittancePurposeService remittancePurpose(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|CatalogService catalog(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|LanguageService language(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|CurrencyService currency(array $filters = null)
+ * @method static \Illuminate\Contracts\Pagination\Paginator|\Illuminate\Support\Collection|IdDocTypeService idDocType(array $filters = null)
  * // Crud Service Method Point Do not Remove //
  *
  * @see \Fintech\MetaData\MetaData
