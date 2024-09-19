@@ -8,7 +8,7 @@ use Fintech\MetaData\Interfaces\CityRepository;
  * Class CityService
  *
  */
-class CityService
+class CityService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * CityService constructor.

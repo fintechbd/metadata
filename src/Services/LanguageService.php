@@ -9,7 +9,7 @@ use Fintech\MetaData\Interfaces\CountryRepository;
  * @package Fintech\MetaData\Services
  *
  */
-class LanguageService
+class LanguageService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * LanguageService constructor.

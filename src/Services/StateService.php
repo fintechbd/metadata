@@ -8,7 +8,7 @@ use Fintech\MetaData\Interfaces\StateRepository;
  * Class StateService
  *
  */
-class StateService
+class StateService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * StateService constructor.

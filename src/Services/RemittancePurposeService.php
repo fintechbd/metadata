@@ -9,7 +9,7 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * Class RemittancePurposeService
  *
  */
-class RemittancePurposeService
+class RemittancePurposeService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * RemittancePurposeService constructor.

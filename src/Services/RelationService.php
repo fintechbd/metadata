@@ -9,7 +9,7 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * Class RelationService
  *
  */
-class RelationService
+class RelationService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * RelationService constructor.

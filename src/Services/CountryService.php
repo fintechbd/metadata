@@ -8,7 +8,7 @@ use Fintech\MetaData\Interfaces\CountryRepository;
  * Class CountryService
  *
  */
-class CountryService
+class CountryService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * CountryService constructor.

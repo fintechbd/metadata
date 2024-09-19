@@ -10,7 +10,7 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * @package Fintech\Auth\Services
  *
  */
-class IdDocTypeService
+class IdDocTypeService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * IdDocTypeService constructor.

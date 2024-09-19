@@ -9,7 +9,7 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * @package Fintech\MetaData\Services
  *
  */
-class CatalogService
+class CatalogService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * CatalogService constructor.

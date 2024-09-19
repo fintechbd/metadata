@@ -9,7 +9,7 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * Class FundSourceService
  *
  */
-class FundSourceService
+class FundSourceService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * FundSourceService constructor.

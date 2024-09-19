@@ -9,7 +9,7 @@ use Fintech\MetaData\Interfaces\CatalogRepository;
  * Class OccupationService
  *
  */
-class OccupationService
+class OccupationService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * OccupationService constructor.

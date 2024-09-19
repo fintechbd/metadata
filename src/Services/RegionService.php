@@ -8,7 +8,7 @@ use Fintech\MetaData\Interfaces\RegionRepository;
  * Class RegionService
  *
  */
-class RegionService
+class RegionService extends \Fintech\Core\Abstracts\Service
 {
     /**
      * RegionService constructor.
