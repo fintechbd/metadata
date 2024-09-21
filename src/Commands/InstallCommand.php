@@ -23,7 +23,7 @@ class InstallCommand extends Command
 {
     use HasCoreSetting;
 
-    public $signature = 'metadata:install';
+    public $signature = 'metadata:install {--states} {--cities}';
     public $description = 'Configure the system for the `fintech/metadata` module';
     private string $module = 'MetaData';
 
@@ -67,9 +67,18 @@ class InstallCommand extends Command
         }
     }
 
+    /**
+     * @throws \Throwable
+     */
     private function addStates(): void
     {
-        if ($this->components->confirm("<fg=white;bg=bright-blue;options=bold> {$this->module} </> Import all states data", true)) {
+        $allowed = $this->option('states');
+
+        if (!$allowed) {
+            $allowed = $this->components->confirm("<fg=white;bg=bright-blue;options=bold> {$this->module} </> Import all states data", true);
+        }
+
+        if ($allowed) {
             for ($i = 1; $i <= 4; $i++) {
                 $this->task("Populating states data progress: <fg=bright-blue;options=bold>" . $this->progress($i, 4) . "</>", function () use ($i) {
                     Artisan::call("db:seed --class=" . addslashes("Fintech\MetaData\Seeders\States\State{$i}Seeder") . " --quiet");
@@ -79,9 +88,18 @@ class InstallCommand extends Command
         }
     }
 
+    /**
+     * @throws \Throwable
+     */
     private function addCities(): void
     {
-        if ($this->components->confirm("<fg=white;bg=bright-blue;options=bold> {$this->module} </> Import all cities data", true)) {
+        $allowed = $this->option('states');
+
+        if (!$allowed) {
+            $allowed = $this->components->confirm("<fg=white;bg=bright-blue;options=bold> {$this->module} </> Import all cities data", true);
+        }
+
+        if ($allowed) {
             for ($i = 1; $i <= 99; $i++) {
                 $this->task("Populating cities data progress: <fg=bright-blue;options=bold>" . $this->progress($i, 99) . '</>', function () use ($i) {
                     Artisan::call("db:seed --class=" . addslashes("Fintech\MetaData\Seeders\Cities\City{$i}Seeder") . " --quiet");
