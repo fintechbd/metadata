@@ -24,7 +24,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 if (Config::get('fintech.metadata.enabled')) {
-    Route::prefix(config('fintech.metadata.root_prefix', 'api/'))->middleware(['api', 'http_log', 'encrypted'])->group(function () {
+    Route::prefix(config('fintech.metadata.root_prefix', 'api/'))->middleware(['api'])->group(function () {
         Route::prefix('metadata')->name('metadata.')
             ->middleware(config('fintech.auth.middleware'))
             ->group(function () {
