@@ -3,7 +3,6 @@
 namespace Fintech\MetaData\Models;
 
 use Fintech\Core\Abstracts\BaseModel;
-use Fintech\Core\Traits\AuditableTrait;
 use Fintech\Core\Traits\BlameableTrait;
 use Fintech\Core\Traits\HasVendorCode;
 use Illuminate\Database\Eloquent\Collection;
