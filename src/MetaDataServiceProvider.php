@@ -2,7 +2,7 @@
 
 namespace Fintech\MetaData;
 
-use Fintech\Core\Traits\RegisterPackageTrait;
+use Fintech\Core\Traits\Packages\RegisterPackageTrait;
 use Fintech\MetaData\Commands\InstallCommand;
 use Fintech\MetaData\Providers\ObserverServiceProvider;
 use Fintech\MetaData\Providers\RepositoryServiceProvider;
