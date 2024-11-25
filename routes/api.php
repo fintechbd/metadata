@@ -1,15 +1,15 @@
 <?php
 
-use Fintech\RestApi\Http\Controllers\MetaData\CatalogController;
-use Fintech\RestApi\Http\Controllers\MetaData\CityController;
-use Fintech\RestApi\Http\Controllers\MetaData\CountryController;
-use Fintech\RestApi\Http\Controllers\MetaData\CountryCurrencyController;
-use Fintech\RestApi\Http\Controllers\MetaData\CurrencyController;
-use Fintech\RestApi\Http\Controllers\MetaData\DropDownController;
-use Fintech\RestApi\Http\Controllers\MetaData\LanguageController;
-use Fintech\RestApi\Http\Controllers\MetaData\RegionController;
-use Fintech\RestApi\Http\Controllers\MetaData\StateController;
-use Fintech\RestApi\Http\Controllers\MetaData\SubRegionController;
+use Fintech\MetaData\Http\Controllers\CatalogController;
+use Fintech\MetaData\Http\Controllers\CityController;
+use Fintech\MetaData\Http\Controllers\CountryController;
+use Fintech\MetaData\Http\Controllers\CountryCurrencyController;
+use Fintech\MetaData\Http\Controllers\CurrencyController;
+use Fintech\MetaData\Http\Controllers\DropDownController;
+use Fintech\MetaData\Http\Controllers\LanguageController;
+use Fintech\MetaData\Http\Controllers\RegionController;
+use Fintech\MetaData\Http\Controllers\StateController;
+use Fintech\MetaData\Http\Controllers\SubRegionController;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 
