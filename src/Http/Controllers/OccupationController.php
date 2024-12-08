@@ -72,7 +72,7 @@ class OccupationController extends Controller
             }
 
             return response()->created([
-                'message' => __('restapi::messages.resource.created', ['model' => 'Occupation']),
+                'message' => __('core::messages.resource.created', ['model' => 'Occupation']),
                 'id' => $occupation->getKey(),
             ]);
 
@@ -140,7 +140,7 @@ class OccupationController extends Controller
                 throw (new UpdateOperationException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
-            return response()->updated(__('restapi::messages.resource.updated', ['model' => 'Occupation']));
+            return response()->updated(__('core::messages.resource.updated', ['model' => 'Occupation']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -178,7 +178,7 @@ class OccupationController extends Controller
                 throw (new DeleteOperationException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
-            return response()->deleted(__('restapi::messages.resource.deleted', ['model' => 'Occupation']));
+            return response()->deleted(__('core::messages.resource.deleted', ['model' => 'Occupation']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -214,7 +214,7 @@ class OccupationController extends Controller
                 throw (new RestoreOperationException())->setModel(config('fintech.metadata.occupation_model'), $id);
             }
 
-            return response()->restored(__('restapi::messages.resource.restored', ['model' => 'Occupation']));
+            return response()->restored(__('core::messages.resource.restored', ['model' => 'Occupation']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -240,7 +240,7 @@ class OccupationController extends Controller
 
             $occupationPaginate = MetaData::occupation()->export($inputs);
 
-            return response()->exported(__('restapi::messages.resource.exported', ['model' => 'Occupation']));
+            return response()->exported(__('core::messages.resource.exported', ['model' => 'Occupation']));
 
         } catch (Exception $exception) {
 

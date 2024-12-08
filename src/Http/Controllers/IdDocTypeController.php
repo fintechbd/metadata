@@ -72,7 +72,7 @@ class IdDocTypeController extends Controller
             }
 
             return response()->created([
-                'message' => __('restapi::messages.resource.created', ['model' => 'Id Doc Type']),
+                'message' => __('core::messages.resource.created', ['model' => 'Id Doc Type']),
                 'id' => $idDocType->getKey(),
             ]);
 
@@ -138,7 +138,7 @@ class IdDocTypeController extends Controller
                 throw (new UpdateOperationException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
             }
 
-            return response()->updated(__('restapi::messages.resource.updated', ['model' => 'Id Doc Type']));
+            return response()->updated(__('core::messages.resource.updated', ['model' => 'Id Doc Type']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -174,7 +174,7 @@ class IdDocTypeController extends Controller
                 throw (new DeleteOperationException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
             }
 
-            return response()->deleted(__('restapi::messages.resource.deleted', ['model' => 'Id Doc Type']));
+            return response()->deleted(__('core::messages.resource.deleted', ['model' => 'Id Doc Type']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -208,7 +208,7 @@ class IdDocTypeController extends Controller
                 throw (new RestoreOperationException())->setModel(config('fintech.auth.id_doc_type_model'), $id);
             }
 
-            return response()->restored(__('restapi::messages.resource.restored', ['model' => 'Id Doc Type']));
+            return response()->restored(__('core::messages.resource.restored', ['model' => 'Id Doc Type']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -234,7 +234,7 @@ class IdDocTypeController extends Controller
 
             $idDocTypePaginate = MetaData::idDocType()->export($inputs);
 
-            return response()->exported(__('restapi::messages.resource.exported', ['model' => 'Id Doc Type']));
+            return response()->exported(__('core::messages.resource.exported', ['model' => 'Id Doc Type']));
 
         } catch (Exception $exception) {
 

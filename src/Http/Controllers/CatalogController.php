@@ -72,7 +72,7 @@ class CatalogController extends Controller
             }
 
             return response()->created([
-                'message' => __('restapi::messages.resource.created', ['model' => 'Catalog']),
+                'message' => __('core::messages.resource.created', ['model' => 'Catalog']),
                 'id' => $catalog->id,
             ]);
 
@@ -138,7 +138,7 @@ class CatalogController extends Controller
                 throw (new UpdateOperationException())->setModel(config('fintech.metadata.catalog_model'), $id);
             }
 
-            return response()->updated(__('restapi::messages.resource.updated', ['model' => 'Catalog']));
+            return response()->updated(__('core::messages.resource.updated', ['model' => 'Catalog']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -176,7 +176,7 @@ class CatalogController extends Controller
                 throw (new DeleteOperationException())->setModel(config('fintech.metadata.catalog_model'), $id);
             }
 
-            return response()->deleted(__('restapi::messages.resource.deleted', ['model' => 'Catalog']));
+            return response()->deleted(__('core::messages.resource.deleted', ['model' => 'Catalog']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -212,7 +212,7 @@ class CatalogController extends Controller
                 throw (new RestoreOperationException())->setModel(config('fintech.metadata.catalog_model'), $id);
             }
 
-            return response()->restored(__('restapi::messages.resource.restored', ['model' => 'Catalog']));
+            return response()->restored(__('core::messages.resource.restored', ['model' => 'Catalog']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -238,7 +238,7 @@ class CatalogController extends Controller
 
             $catalogPaginate = MetaData::catalog()->export($inputs);
 
-            return response()->exported(__('restapi::messages.resource.exported', ['model' => 'Catalog']));
+            return response()->exported(__('core::messages.resource.exported', ['model' => 'Catalog']));
 
         } catch (Exception $exception) {
 

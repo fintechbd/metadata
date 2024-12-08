@@ -74,7 +74,7 @@ class SubRegionController extends Controller
             }
 
             return response()->created([
-                'message' => __('restapi::messages.resource.created', ['model' => 'Sub-Region']),
+                'message' => __('core::messages.resource.created', ['model' => 'Sub-Region']),
                 'id' => $subRegion->getKey(),
             ]);
 
@@ -142,7 +142,7 @@ class SubRegionController extends Controller
                 throw (new UpdateOperationException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
-            return response()->updated(__('restapi::messages.resource.updated', ['model' => 'Sub-Region']));
+            return response()->updated(__('core::messages.resource.updated', ['model' => 'Sub-Region']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -180,7 +180,7 @@ class SubRegionController extends Controller
                 throw (new DeleteOperationException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
-            return response()->deleted(__('restapi::messages.resource.deleted', ['model' => 'Sub-Region']));
+            return response()->deleted(__('core::messages.resource.deleted', ['model' => 'Sub-Region']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -216,7 +216,7 @@ class SubRegionController extends Controller
                 throw (new RestoreOperationException())->setModel(config('fintech.metadata.subregion_model'), $id);
             }
 
-            return response()->restored(__('restapi::messages.resource.restored', ['model' => 'Sub-Region']));
+            return response()->restored(__('core::messages.resource.restored', ['model' => 'Sub-Region']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -242,7 +242,7 @@ class SubRegionController extends Controller
 
             $subRegionPaginate = MetaData::subregion()->export($inputs);
 
-            return response()->exported(__('restapi::messages.resource.exported', ['model' => 'Sub-Region']));
+            return response()->exported(__('core::messages.resource.exported', ['model' => 'Sub-Region']));
 
         } catch (Exception $exception) {
 

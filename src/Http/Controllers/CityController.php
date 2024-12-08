@@ -74,7 +74,7 @@ class CityController extends Controller
             }
 
             return response()->created([
-                'message' => __('restapi::messages.resource.created', ['model' => 'City']),
+                'message' => __('core::messages.resource.created', ['model' => 'City']),
                 'id' => $city->getKey(),
             ]);
 
@@ -142,7 +142,7 @@ class CityController extends Controller
                 throw (new UpdateOperationException())->setModel(config('fintech.metadata.city_model'), $id);
             }
 
-            return response()->updated(__('restapi::messages.resource.updated', ['model' => 'City']));
+            return response()->updated(__('core::messages.resource.updated', ['model' => 'City']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -180,7 +180,7 @@ class CityController extends Controller
                 throw (new DeleteOperationException())->setModel(config('fintech.metadata.city_model'), $id);
             }
 
-            return response()->deleted(__('restapi::messages.resource.deleted', ['model' => 'City']));
+            return response()->deleted(__('core::messages.resource.deleted', ['model' => 'City']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -216,7 +216,7 @@ class CityController extends Controller
                 throw (new RestoreOperationException())->setModel(config('fintech.metadata.city_model'), $id);
             }
 
-            return response()->restored(__('restapi::messages.resource.restored', ['model' => 'City']));
+            return response()->restored(__('core::messages.resource.restored', ['model' => 'City']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -242,7 +242,7 @@ class CityController extends Controller
 
             $cityPaginate = MetaData::city()->export($inputs);
 
-            return response()->exported(__('restapi::messages.resource.exported', ['model' => 'City']));
+            return response()->exported(__('core::messages.resource.exported', ['model' => 'City']));
 
         } catch (Exception $exception) {
 

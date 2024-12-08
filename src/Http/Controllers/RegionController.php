@@ -74,7 +74,7 @@ class RegionController extends Controller
             }
 
             return response()->created([
-                'message' => __('restapi::messages.resource.created', ['model' => 'Region']),
+                'message' => __('core::messages.resource.created', ['model' => 'Region']),
                 'id' => $region->getKey(),
             ]);
 
@@ -142,7 +142,7 @@ class RegionController extends Controller
                 throw (new UpdateOperationException())->setModel(config('fintech.metadata.region_model'), $id);
             }
 
-            return response()->updated(__('restapi::messages.resource.updated', ['model' => 'Region']));
+            return response()->updated(__('core::messages.resource.updated', ['model' => 'Region']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -180,7 +180,7 @@ class RegionController extends Controller
                 throw (new DeleteOperationException())->setModel(config('fintech.metadata.region_model'), $id);
             }
 
-            return response()->deleted(__('restapi::messages.resource.deleted', ['model' => 'Region']));
+            return response()->deleted(__('core::messages.resource.deleted', ['model' => 'Region']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -216,7 +216,7 @@ class RegionController extends Controller
                 throw (new RestoreOperationException())->setModel(config('fintech.metadata.region_model'), $id);
             }
 
-            return response()->restored(__('restapi::messages.resource.restored', ['model' => 'Region']));
+            return response()->restored(__('core::messages.resource.restored', ['model' => 'Region']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -242,7 +242,7 @@ class RegionController extends Controller
 
             $regionPaginate = MetaData::region()->export($inputs);
 
-            return response()->exported(__('restapi::messages.resource.exported', ['model' => 'Region']));
+            return response()->exported(__('core::messages.resource.exported', ['model' => 'Region']));
 
         } catch (Exception $exception) {
 

@@ -72,7 +72,7 @@ class StateController extends Controller
             }
 
             return response()->created([
-                'message' => __('restapi::messages.resource.created', ['model' => 'State']),
+                'message' => __('core::messages.resource.created', ['model' => 'State']),
                 'id' => $state->getKey(),
             ]);
 
@@ -139,7 +139,7 @@ class StateController extends Controller
                 throw (new UpdateOperationException())->setModel(config('fintech.metadata.state_model'), $id);
             }
 
-            return response()->updated(__('restapi::messages.resource.updated', ['model' => 'State']));
+            return response()->updated(__('core::messages.resource.updated', ['model' => 'State']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -177,7 +177,7 @@ class StateController extends Controller
                 throw (new DeleteOperationException())->setModel(config('fintech.metadata.state_model'), $id);
             }
 
-            return response()->deleted(__('restapi::messages.resource.deleted', ['model' => 'State']));
+            return response()->deleted(__('core::messages.resource.deleted', ['model' => 'State']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -213,7 +213,7 @@ class StateController extends Controller
                 throw (new RestoreOperationException())->setModel(config('fintech.metadata.state_model'), $id);
             }
 
-            return response()->restored(__('restapi::messages.resource.restored', ['model' => 'State']));
+            return response()->restored(__('core::messages.resource.restored', ['model' => 'State']));
 
         } catch (ModelNotFoundException $exception) {
 
@@ -239,7 +239,7 @@ class StateController extends Controller
 
             $statePaginate = MetaData::state()->export($inputs);
 
-            return response()->exported(__('restapi::messages.resource.exported', ['model' => 'State']));
+            return response()->exported(__('core::messages.resource.exported', ['model' => 'State']));
 
         } catch (Exception $exception) {
 
