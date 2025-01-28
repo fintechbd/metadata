@@ -23,7 +23,7 @@ return [
     |--------------------------------------------------------------------------
     | this setting enable the api will be available or not
     */
-    'enabled' => env('PACKAGE_MEATADATA_ENABLED', true),
+    'enabled' => env('MEATADATA_ENABLED', true),
 
     /*
      |--------------------------------------------------------------------------
