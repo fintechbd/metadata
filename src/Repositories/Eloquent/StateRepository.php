@@ -33,7 +33,18 @@ class StateRepository extends EloquentRepository implements InterfacesStateRepos
                 $query->where($this->model->getKeyName(), 'like', "%{$filters['search']}%")
                 ->orWhere('name', 'like', "%{$filters['search']}%")
                 ->orWhere('type', 'like', "%{$filters['search']}%")
-                ->orWhere('state_data', 'like', "%{$filters['search']}%");
+                ->orWhere('state_data', 'like', "%{$filters['search']}%")
+                ->orWhereHas('country', function ($query) use ($filters) {
+                    return $query->where('name', 'like', "%{$filters['search']}%")
+                        ->orWhere('iso2', 'like', "%{$filters['search']}%")
+                        ->orWhere('iso3', 'like', "%{$filters['search']}%")
+                        ->orWhere('phone_code', 'like', "%{$filters['search']}%")
+                        ->orWhere('capital', 'like', "%{$filters['search']}%")
+                        ->orWhere('currency', 'like', "%{$filters['search']}%")
+                        ->orWhere('currency_name', 'like', "%{$filters['search']}%")
+                        ->orWhere('country_data', 'like', "%{$filters['search']}%")
+                        ->orWhere('nationality', 'like', "%{$filters['search']}%");
+                });
             });
         }
 
@@ -47,6 +58,11 @@ class StateRepository extends EloquentRepository implements InterfacesStateRepos
 
         if (!empty($filters['country_id'])) {
             $query->where('country_id', $filters['country_id']);
+        }
+
+
+        if (!empty($filters['enabled'])) {
+            $query->where('enabled', "=", $filters['enabled']);
         }
 
         //Display Trashed
