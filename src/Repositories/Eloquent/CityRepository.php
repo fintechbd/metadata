@@ -52,6 +52,10 @@ class CityRepository extends EloquentRepository implements InterfacesCityReposit
             $query->where('country_id', $filters['country_id']);
         }
 
+        if (!empty($filters['enabled'])) {
+            $query->where('enabled', "=", $filters['enabled']);
+        }
+
         //Display Trashed
         if (isset($filters['trashed']) && $filters['trashed'] === true) {
             $query->onlyTrashed();
