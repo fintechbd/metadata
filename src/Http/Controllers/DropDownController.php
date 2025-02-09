@@ -454,4 +454,42 @@ class DropDownController extends Controller
             return response()->failed($exception);
         }
     }
+
+    /**
+     * Handle the incoming request.
+     */
+    public function businessIndustry(DropDownRequest $request): DropDownCollection|JsonResponse
+    {
+        try {
+            $filters = $request->all();
+
+            $label = 'name';
+
+            $attribute = 'code';
+
+            if (! empty($filters['label'])) {
+                $label = $filters['label'];
+                unset($filters['label']);
+            }
+
+            if (! empty($filters['attribute'])) {
+                $attribute = $filters['attribute'];
+                unset($filters['attribute']);
+            }
+
+            $filters['type'] = CatalogType::BusinessIndustry->value;
+
+            $entries = MetaData::catalog()->list($filters)->map(function ($entry) use ($label, $attribute) {
+                return [
+                    'label' => $entry->{$label} ?? 'name',
+                    'attribute' => $entry->{$attribute} ?? 'id'
+                ];
+            });
+
+            return new DropDownCollection($entries);
+
+        } catch (Exception $exception) {
+            return response()->failed($exception);
+        }
+    }
 }

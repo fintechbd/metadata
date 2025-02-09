@@ -89,6 +89,7 @@ if (Config::get('fintech.metadata.enabled')) {
                 Route::get('blood-groups', 'bloodGroup')->name('blood-groups.dropdown');
                 Route::get('marital-statuses', 'maritalStatus')->name('marital-statuses.dropdown');
                 Route::get('proof-of-addresses', 'proofOfAddress')->name('proof-of-addresses.dropdown');
+                Route::get('business-industries', 'businessIndustry')->name('business-industries.dropdown');
             });
         });
     });
