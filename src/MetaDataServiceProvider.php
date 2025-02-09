@@ -40,7 +40,7 @@ class MetaDataServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../config/metadata.php' => config_path('fintech/metadata.php'),
-        ]);
+        ], 'fintech-metadata-config');
 
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
 
@@ -48,7 +48,7 @@ class MetaDataServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../lang' => $this->app->langPath('vendor/metadata'),
-        ]);
+        ], 'fintech-metadata-lang');
 
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'metadata');
 
@@ -56,7 +56,7 @@ class MetaDataServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../resources/views' => resource_path('views/vendor/metadata'),
-        ]);
+        ], 'fintech-metadata-views');
 
         if ($this->app->runningInConsole()) {
             $this->commands([
