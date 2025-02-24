@@ -102,11 +102,7 @@ class IdDocTypeController extends Controller
 
             return new IdDocTypeResource($idDocType);
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -140,11 +136,7 @@ class IdDocTypeController extends Controller
 
             return response()->updated(__('core::messages.resource.updated', ['model' => 'Id Doc Type']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -176,11 +168,7 @@ class IdDocTypeController extends Controller
 
             return response()->deleted(__('core::messages.resource.deleted', ['model' => 'Id Doc Type']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -210,11 +198,7 @@ class IdDocTypeController extends Controller
 
             return response()->restored(__('core::messages.resource.restored', ['model' => 'Id Doc Type']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }

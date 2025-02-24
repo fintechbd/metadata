@@ -69,11 +69,7 @@ class LanguageController extends Controller
 
             return new LanguageResource($language);
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -112,11 +108,7 @@ class LanguageController extends Controller
 
             return response()->updated(__('metadata::messages.country.status_changed', ['field' => 'Language']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -149,11 +141,7 @@ class LanguageController extends Controller
 
             return response()->updated(__('core::messages.resource.updated', ['model' => 'Language']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }

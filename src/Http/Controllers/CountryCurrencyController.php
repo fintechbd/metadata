@@ -37,11 +37,7 @@ class CountryCurrencyController extends Controller
 
             return new CountryCurrencyCollection(['availableCurrencies' => $availableCurrencies, 'enabledCurrencies' => $enabledCurrencies]);
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -72,11 +68,7 @@ class CountryCurrencyController extends Controller
 
             return response()->updated(__('metadata::messages.country.currency_assigned', ['country' => strtolower($country->name ?? 'N/A')]));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }

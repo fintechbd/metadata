@@ -106,11 +106,7 @@ class CityController extends Controller
 
             return new CityResource($city);
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -144,11 +140,7 @@ class CityController extends Controller
 
             return response()->updated(__('core::messages.resource.updated', ['model' => 'City']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -182,11 +174,7 @@ class CityController extends Controller
 
             return response()->deleted(__('core::messages.resource.deleted', ['model' => 'City']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -218,11 +206,7 @@ class CityController extends Controller
 
             return response()->restored(__('core::messages.resource.restored', ['model' => 'City']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }

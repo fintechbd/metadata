@@ -106,11 +106,7 @@ class RegionController extends Controller
 
             return new RegionResource($region);
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -144,11 +140,7 @@ class RegionController extends Controller
 
             return response()->updated(__('core::messages.resource.updated', ['model' => 'Region']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -182,11 +174,7 @@ class RegionController extends Controller
 
             return response()->deleted(__('core::messages.resource.deleted', ['model' => 'Region']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -218,11 +206,7 @@ class RegionController extends Controller
 
             return response()->restored(__('core::messages.resource.restored', ['model' => 'Region']));
 
-        } catch (ModelNotFoundException $exception) {
-
-            return response()->notfound($exception->getMessage());
-
-        } catch (Exception $exception) {
+        }  catch (Exception $exception) {
 
             return response()->failed($exception);
         }
