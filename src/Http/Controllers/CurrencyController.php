@@ -69,7 +69,7 @@ class CurrencyController extends Controller
 
             return new CurrencyResource($currency);
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -106,7 +106,7 @@ class CurrencyController extends Controller
 
             return response()->updated(__('metadata::messages.country.status_changed', ['field' => 'Currency']));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -139,7 +139,7 @@ class CurrencyController extends Controller
 
             return response()->updated(__('core::messages.resource.updated', ['model' => 'Currency']));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }

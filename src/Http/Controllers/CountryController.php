@@ -106,7 +106,7 @@ class CountryController extends Controller
 
             return new CountryResource($country);
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -140,7 +140,7 @@ class CountryController extends Controller
 
             return response()->deleted(__('core::messages.resource.deleted', ['model' => 'Country']));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -172,7 +172,7 @@ class CountryController extends Controller
 
             return response()->restored(__('core::messages.resource.restored', ['model' => 'Country']));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -292,7 +292,7 @@ class CountryController extends Controller
 
             return response()->updated(__('metadata::messages.country.status_changed', ['field' => 'Serving Country']));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -326,7 +326,7 @@ class CountryController extends Controller
 
             return response()->updated(__('core::messages.resource.updated', ['model' => 'Country']));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }

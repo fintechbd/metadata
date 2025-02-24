@@ -37,7 +37,7 @@ class CountryCurrencyController extends Controller
 
             return new CountryCurrencyCollection(['availableCurrencies' => $availableCurrencies, 'enabledCurrencies' => $enabledCurrencies]);
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -68,7 +68,7 @@ class CountryCurrencyController extends Controller
 
             return response()->updated(__('metadata::messages.country.currency_assigned', ['country' => strtolower($country->name ?? 'N/A')]));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }

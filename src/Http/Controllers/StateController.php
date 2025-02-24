@@ -104,7 +104,7 @@ class StateController extends Controller
 
             return new StateResource($state);
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -137,7 +137,7 @@ class StateController extends Controller
 
             return response()->updated(__('core::messages.resource.updated', ['model' => 'State']));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -171,7 +171,7 @@ class StateController extends Controller
 
             return response()->deleted(__('core::messages.resource.deleted', ['model' => 'State']));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
@@ -203,7 +203,7 @@ class StateController extends Controller
 
             return response()->restored(__('core::messages.resource.restored', ['model' => 'State']));
 
-        }  catch (Exception $exception) {
+        } catch (Exception $exception) {
 
             return response()->failed($exception);
         }
