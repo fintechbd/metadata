@@ -47,7 +47,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -81,7 +81,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -115,7 +115,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -149,7 +149,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -183,7 +183,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -217,7 +217,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -251,7 +251,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -285,7 +285,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -319,7 +319,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -353,7 +353,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -387,7 +387,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -421,7 +421,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -455,7 +455,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -489,7 +489,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -523,7 +523,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -557,7 +557,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -591,7 +591,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -625,7 +625,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -659,7 +659,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -693,7 +693,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -727,7 +727,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -761,7 +761,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -795,7 +795,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -829,7 +829,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -863,7 +863,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -897,7 +897,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -931,7 +931,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -965,7 +965,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -999,7 +999,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1033,7 +1033,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1067,7 +1067,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1101,7 +1101,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1135,7 +1135,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1169,7 +1169,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1203,7 +1203,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1237,7 +1237,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1271,7 +1271,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1305,7 +1305,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1339,7 +1339,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1373,7 +1373,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1407,7 +1407,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1441,7 +1441,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1475,7 +1475,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1509,7 +1509,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1543,7 +1543,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1577,7 +1577,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1611,7 +1611,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1645,7 +1645,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1679,7 +1679,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1713,7 +1713,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1747,7 +1747,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1781,7 +1781,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1815,7 +1815,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1849,7 +1849,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1883,7 +1883,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1917,7 +1917,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1951,7 +1951,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -1985,7 +1985,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2019,7 +2019,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2053,7 +2053,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2087,7 +2087,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2121,7 +2121,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2155,7 +2155,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2189,7 +2189,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2223,7 +2223,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2257,7 +2257,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2291,7 +2291,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2325,7 +2325,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2359,7 +2359,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2393,7 +2393,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2427,7 +2427,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2461,7 +2461,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2495,7 +2495,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2529,7 +2529,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2563,7 +2563,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2597,7 +2597,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2631,7 +2631,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2665,7 +2665,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2699,7 +2699,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2733,7 +2733,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2767,7 +2767,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2801,7 +2801,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2835,7 +2835,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2869,7 +2869,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2903,7 +2903,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2937,7 +2937,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -2971,7 +2971,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3005,7 +3005,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3039,7 +3039,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3073,7 +3073,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3107,7 +3107,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3141,7 +3141,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3175,7 +3175,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3209,7 +3209,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3243,7 +3243,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3277,7 +3277,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3311,7 +3311,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3345,7 +3345,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3379,7 +3379,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3413,7 +3413,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3447,7 +3447,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3481,7 +3481,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3515,7 +3515,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3549,7 +3549,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3583,7 +3583,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3617,7 +3617,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3651,7 +3651,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3685,7 +3685,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3719,7 +3719,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3753,7 +3753,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3787,7 +3787,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3821,7 +3821,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3855,7 +3855,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3889,7 +3889,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3923,7 +3923,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3957,7 +3957,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -3991,7 +3991,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4025,7 +4025,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4059,7 +4059,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4093,7 +4093,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4127,7 +4127,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4161,7 +4161,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4195,7 +4195,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4229,7 +4229,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4263,7 +4263,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4297,7 +4297,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4331,7 +4331,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4365,7 +4365,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4399,7 +4399,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4433,7 +4433,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4467,7 +4467,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4501,7 +4501,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4535,7 +4535,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4569,7 +4569,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4603,7 +4603,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4637,7 +4637,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4671,7 +4671,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4705,7 +4705,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4739,7 +4739,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4773,7 +4773,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4807,7 +4807,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4841,7 +4841,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4875,7 +4875,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4909,7 +4909,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4943,7 +4943,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -4977,7 +4977,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5011,7 +5011,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5045,7 +5045,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5079,7 +5079,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5113,7 +5113,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5147,7 +5147,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5181,7 +5181,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5215,7 +5215,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5249,7 +5249,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5283,7 +5283,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5317,7 +5317,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5351,7 +5351,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5385,7 +5385,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5419,7 +5419,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5453,7 +5453,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5487,7 +5487,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5521,7 +5521,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5555,7 +5555,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5589,7 +5589,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5623,7 +5623,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5657,7 +5657,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5691,7 +5691,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5725,7 +5725,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5759,7 +5759,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5793,7 +5793,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5827,7 +5827,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5861,7 +5861,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5895,7 +5895,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5929,7 +5929,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5963,7 +5963,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -5997,7 +5997,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6031,7 +6031,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6065,7 +6065,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6099,7 +6099,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6133,7 +6133,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6167,7 +6167,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6201,7 +6201,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6235,7 +6235,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6269,7 +6269,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6303,7 +6303,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6337,7 +6337,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6371,7 +6371,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6405,7 +6405,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6439,7 +6439,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6473,7 +6473,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6507,7 +6507,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6541,7 +6541,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6575,7 +6575,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6609,7 +6609,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6643,7 +6643,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6677,7 +6677,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6711,7 +6711,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6745,7 +6745,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6779,7 +6779,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6813,7 +6813,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6847,7 +6847,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6881,7 +6881,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6915,7 +6915,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6949,7 +6949,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -6983,7 +6983,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7017,7 +7017,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7051,7 +7051,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7085,7 +7085,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7119,7 +7119,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7153,7 +7153,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7187,7 +7187,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7221,7 +7221,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7255,7 +7255,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7289,7 +7289,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7323,7 +7323,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7357,7 +7357,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7391,7 +7391,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7425,7 +7425,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7459,7 +7459,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7493,7 +7493,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7527,7 +7527,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7561,7 +7561,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7595,7 +7595,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7629,7 +7629,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7663,7 +7663,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7697,7 +7697,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7731,7 +7731,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7765,7 +7765,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7799,7 +7799,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7833,7 +7833,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7867,7 +7867,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7901,7 +7901,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7935,7 +7935,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -7969,7 +7969,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8003,7 +8003,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8037,7 +8037,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8071,7 +8071,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8105,7 +8105,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8139,7 +8139,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8173,7 +8173,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8207,7 +8207,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8241,7 +8241,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8275,7 +8275,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8309,7 +8309,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8343,7 +8343,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8377,7 +8377,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8411,7 +8411,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8445,7 +8445,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8479,7 +8479,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
@@ -8513,7 +8513,7 @@ class CurrencySeeder extends Seeder
                         array(
                             'remit' =>
                                 array(
-                                    'agrani' => null,
+                                    'agranibank' => null,
                                     'citybank' => null,
                                     'emqapi' => null,
                                     'transfast' => null,
