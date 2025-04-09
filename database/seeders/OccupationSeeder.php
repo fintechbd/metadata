@@ -27,7 +27,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -51,7 +51,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -75,7 +75,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -99,7 +99,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -123,7 +123,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -147,7 +147,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -171,7 +171,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -195,7 +195,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -219,7 +219,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -243,7 +243,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -267,7 +267,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -291,7 +291,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -315,7 +315,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -339,7 +339,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -363,7 +363,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -387,7 +387,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -411,7 +411,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -435,7 +435,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -459,7 +459,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -483,7 +483,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -507,7 +507,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -531,7 +531,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -555,7 +555,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -579,7 +579,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -603,7 +603,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -627,7 +627,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -651,7 +651,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -675,7 +675,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -699,7 +699,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -723,7 +723,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -747,7 +747,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -771,7 +771,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -795,7 +795,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -819,7 +819,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -843,7 +843,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -867,7 +867,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -891,7 +891,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -915,7 +915,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -939,7 +939,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -963,7 +963,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -987,7 +987,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1011,7 +1011,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1035,7 +1035,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1059,7 +1059,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1083,7 +1083,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1107,7 +1107,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1131,7 +1131,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1155,7 +1155,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1179,7 +1179,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1203,7 +1203,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1227,7 +1227,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1251,7 +1251,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1275,7 +1275,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1299,7 +1299,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1323,7 +1323,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1347,7 +1347,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1371,7 +1371,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1395,7 +1395,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1419,7 +1419,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1443,7 +1443,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1467,7 +1467,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1491,7 +1491,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1515,7 +1515,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1539,7 +1539,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1563,7 +1563,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1587,7 +1587,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1611,7 +1611,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,
@@ -1635,7 +1635,7 @@ class OccupationSeeder extends Seeder
                     array(
                         'remit' =>
                             array(
-                                'argani' => null,
+                                'agranibank' => null,
                                 'citybank' => null,
                                 'emqapi' => null,
                                 'transfast' => null,

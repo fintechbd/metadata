@@ -26,7 +26,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '1',
                             'emqapi' => null,
                             'transfast' => 'passport',
@@ -52,7 +52,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '9',
                             'emqapi' => null,
                             'transfast' => 'driving_license',
@@ -78,7 +78,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '3',
                             'emqapi' => null,
                             'transfast' => 'id_card',
@@ -104,7 +104,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '5',
                             'emqapi' => null,
                             'transfast' => 'residence_permit',
@@ -130,7 +130,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '9',
                             'emqapi' => null,
                             'transfast' => 'voter_id',
@@ -156,7 +156,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '9',
                             'emqapi' => null,
                             'transfast' => 'tax_id',
@@ -182,7 +182,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '4',
                             'emqapi' => null,
                             'transfast' => 'social_security_card',
@@ -208,7 +208,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '9',
                             'emqapi' => null,
                             'transfast' => 'postal_identity_card',
@@ -234,7 +234,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '9',
                             'emqapi' => null,
                             'transfast' => 'professional_qualification_card',
@@ -260,7 +260,7 @@ class IdDocTypeSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '2',
                             'emqapi' => null,
                             'transfast' => 'work_permit',

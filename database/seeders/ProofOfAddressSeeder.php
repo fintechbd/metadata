@@ -28,7 +28,7 @@ class ProofOfAddressSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '1',
                             'emqapi' => null,
                             'transfast' => 'tenancy-contract',
@@ -53,7 +53,7 @@ class ProofOfAddressSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '9',
                             'emqapi' => null,
                             'transfast' => 'utility-bill',
@@ -78,7 +78,7 @@ class ProofOfAddressSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '3',
                             'emqapi' => null,
                             'transfast' => 'bank-statement',
@@ -103,7 +103,7 @@ class ProofOfAddressSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '5',
                             'emqapi' => null,
                             'transfast' => 'credit-card-statement',
@@ -129,7 +129,7 @@ class ProofOfAddressSeeder extends Seeder
                 'vendor_code' => array(
                     'remit' =>
                         array(
-                            'argani' => null,
+                            'agranibank' => null,
                             'citybank' => '9',
                             'emqapi' => null,
                             'transfast' => 'telephone-bill',

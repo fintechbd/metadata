@@ -27,7 +27,7 @@ class GenderSeeder extends Seeder
                 'code' => 'male',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -47,7 +47,7 @@ class GenderSeeder extends Seeder
                 'code' => 'female',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -67,7 +67,7 @@ class GenderSeeder extends Seeder
                 'code' => 'other',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,

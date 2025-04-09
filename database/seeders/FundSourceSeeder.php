@@ -25,7 +25,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'allowance-and-commission',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -45,7 +45,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'bonus',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -65,7 +65,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'borrow-from-friends',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -85,7 +85,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'business',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -105,7 +105,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'company-compensation',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -125,7 +125,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'gift',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -145,7 +145,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'insurance-claim',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -165,7 +165,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'loan-from-employer',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -185,7 +185,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'loan-from-financial-institution',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -205,7 +205,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'lottery',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -225,7 +225,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'pension',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -245,7 +245,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'salary',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -265,7 +265,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'salary-borrow-from-friends',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -285,7 +285,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'salary-loan-from-employer',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -305,7 +305,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'salary-saving-borrow-from-friends',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -325,7 +325,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'salary-saving-loan-from-employer',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -345,7 +345,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'saving-borrow-from-friends',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -369,7 +369,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'savings',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -389,7 +389,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'scholarship',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -409,7 +409,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'share-money-with-friends',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -429,7 +429,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'share-money-with-relative',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -449,7 +449,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'share-money-with-spouse',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -469,7 +469,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'bank-deposit',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -489,7 +489,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'grant-from-family-or-friends',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -509,7 +509,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'redemption-of-investment-products',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -529,7 +529,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'allowance-for-family-maintenance',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -549,7 +549,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'real-estate',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -569,7 +569,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'revenue',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -589,7 +589,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'borrow',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -609,7 +609,7 @@ class FundSourceSeeder extends Seeder
                 'code' => 'others',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,

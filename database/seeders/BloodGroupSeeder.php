@@ -27,7 +27,7 @@ class BloodGroupSeeder extends Seeder
                 'code' => 'a+',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -47,7 +47,7 @@ class BloodGroupSeeder extends Seeder
                 'code' => 'a-',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -67,7 +67,7 @@ class BloodGroupSeeder extends Seeder
                 'code' => 'b+',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -87,7 +87,7 @@ class BloodGroupSeeder extends Seeder
                 'code' => 'b-',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -107,7 +107,7 @@ class BloodGroupSeeder extends Seeder
                 'code' => 'o+',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -127,7 +127,7 @@ class BloodGroupSeeder extends Seeder
                 'code' => 'o-',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -147,7 +147,7 @@ class BloodGroupSeeder extends Seeder
                 'code' => 'ab+',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
@@ -167,7 +167,7 @@ class BloodGroupSeeder extends Seeder
                 'code' => 'ab-',
                 'vendor_code' => array(
                     'remit' => array(
-                        'argani' => null,
+                        'agranibank' => null,
                         'citybank' => null,
                         'emqapi' => null,
                         'transfast' => null,
