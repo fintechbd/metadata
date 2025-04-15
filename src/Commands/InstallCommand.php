@@ -84,7 +84,7 @@ class InstallCommand extends Command
                     Artisan::call("db:seed --class=" . addslashes("Fintech\MetaData\Seeders\States\State{$i}Seeder") . " --quiet");
                 });
             }
-            $this->components->twoColumnDetail("<fg=white;bg=bright-blue;options=bold> {$this->module} </> Populating states data progress: <fg=bright-blue;options=bold>100%</>", "<fg=green;options=bold>DONE</>");
+            $this->successMessage("Populating states data progress: <fg=bright-blue;options=bold>100%</>");
         }
     }
 
@@ -105,7 +105,7 @@ class InstallCommand extends Command
                     Artisan::call("db:seed --class=" . addslashes("Fintech\MetaData\Seeders\Cities\City{$i}Seeder") . " --quiet");
                 });
             }
-            $this->components->twoColumnDetail("<fg=white;bg=bright-blue;options=bold> {$this->module} </> Populating cities data progress: <fg=bright-blue;options=bold>100%</>", "<fg=green;options=bold>DONE</>");
+            $this->successMessage("Populating cities data progress: <fg=bright-blue;options=bold>100%</>");
         }
     }
 
