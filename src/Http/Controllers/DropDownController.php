@@ -3,12 +3,11 @@
 namespace Fintech\MetaData\Http\Controllers;
 
 use Exception;
-use Fintech\Business\Facades\Business;
 use Fintech\Core\Enums\MetaData\CatalogType;
 use Fintech\Core\Facades\Core;
-use Fintech\MetaData\Facades\MetaData;
 use Fintech\Core\Http\Requests\DropDownRequest;
 use Fintech\Core\Http\Resources\DropDownCollection;
+use Fintech\MetaData\Facades\MetaData;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 
@@ -337,7 +336,7 @@ class DropDownController extends Controller
         try {
             $filters = $request->all();
             if (Core::packageExists('Business')) {
-                $filters['in_array_country_id'] = Business::serviceStat()->list([
+                $filters['in_array_country_id'] = business()->serviceStat()->list([
                     'sort' => 'destination_country_id',
                     'dir' => 'asc',
                     'paginate' => false,
